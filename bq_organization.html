@@ -1063,7 +1063,7 @@
       </div>
     </div>
     <footer>
-    <div class="row text-center text-sm-start">
+      <div class="row text-center text-sm-start">
         <div class="col-12 col-sm-6 mb-2 mb-sm-0">
           &REG; 2024 BrightQuery, Inc. All rights reserved.
         </div>
@@ -1073,7 +1073,6 @@
           <a href="mailto:support@brightquery.com">support@brightquery.com</a>
           or 1-888-BQDATA1
         </div>
-      </div>
       </div>
     </footer>
     <script>
@@ -1089,16 +1088,39 @@
       let tableData = []; // Data from the API
 
       // Fetch data from the API
+      // async function fetchData() {
+      //   try {
+      //     const response = await fetch(apiUrl);
+      //     if (!response.ok) {
+      //       throw new Error(`HTTP error! status: ${response.status}`);
+      //     }
+      //     tableData = await response.json();
+      //     initializeTable();
+      //   } catch (error) {
+      //     console.error("Error fetching data:", error);
+      //   }
+      // }
+
       async function fetchData() {
         try {
+          console.log("Fetching data from:", apiUrl);
           const response = await fetch(apiUrl);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          tableData = await response.json();
+          const rawData = await response.text(); // Fetch as text first
+          console.log("Raw data received:", rawData);
+
+          try {
+            tableData = JSON.parse(rawData); // Parse manually for better error handling
+          } catch (jsonError) {
+            throw new Error("Invalid JSON format: " + jsonError.message);
+          }
+
+          console.log("Parsed data:", tableData);
           initializeTable();
         } catch (error) {
-          console.error("Error fetching data:", error);
+          console.error("Error fetching data:", error.message);
         }
       }
 
