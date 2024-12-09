@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Centers for Disease Control and Prevention",
+    "link": "https://www.cdc.gov/index.html"
+  },
+  {
+    "name": "Federal Financial Institutions Examination Council",
+    "link": "https://www.ffiec.gov/"
+  },
+  {
+    "name": "National Center for Science and Engineering Statistics",
+    "link": "https://ncses.nsf.gov/explore-data"
+  },
+  {
+    "name": "Economic Research Service",
+    "link": "https://www.ers.usda.gov/data-products/"
+  },
+  {
+    "name": "National Center for Education Statistics",
+    "link": "https://nces.ed.gov/datatools/"
+  },
+  {
+    "name": "Securities and Exchange Commission",
+    "link": "https://www.sec.gov/sec-data-resources"
+  },
+  {
+    "name": "IRS Statistics of Income Division",
+    "link": "https://www.irs.gov/statistics/soi-tax-stats-statistics-of-income"
+  },
+  {
+    "name": "Bureau of Economic Analysis",
+    "link": "https://www.bea.gov/data"
+  },
+  {
+    "name": "Occupational Safety and Health Administration",
+    "link": "https://www.osha.gov/data"
+  },
+  {
+    "name": "Federal Reserve System",
+    "link": "https://www.federalreserve.gov/data.htm"
+  },
+  {
+    "name": "Federal Deposit Insurance Corporation",
+    "link": "https://www.fdic.gov/bank/statistical/index.html"
+  },
+  {
+    "name": "Bureau of Transportation Statistics",
+    "link": "https://www.bts.gov/browse-statistical-products-and-data"
+  },
+  {
+    "name": "National Agricultural Statistics Service",
+    "link": "https://www.nass.usda.gov/Data_and_Statistics/"
+  },
+  {
+    "name": "Office of Research, Evaluation, and Statistics",
+    "link": "https://www.ssa.gov/policy/statistics.html?type=Statistics%20at%20a%20Glance"
+  },
+  {
+    "name": "National Association of Insurance Commissioners",
+    "link": "https://content.naic.org/industry/insdata"
+  },
+  {
+    "name": "U.S. Postal Service",
+    "link": "https://pe.usps.com/BusinessMail101/Index?ViewName=GetAnAddressList"
+  },
+  {
+    "name": "Census Bureau",
+    "link": "https://www.census.gov/data.html"
+  },
+  {
+    "name": "Energy Information Administration",
+    "link": "https://www.eia.gov/opendata/"
+  },
+  {
+    "name": "Small Business Administration",
+    "link": "https://data.sba.gov/"
+  },
+  {
+    "name": "Bureau of Labor Statistics",
+    "link": "https://www.bls.gov/data/home.htm"
+  },
+  {
+    "name": "Centers for Medicare and Medicaid Services",
+    "link": "https://www.cms.gov/data-research"
+  },
+  {
+    "name": "Bureau of Justice Statistics",
+    "link": "https://bjs.ojp.gov/data"
+  },
+  {
+    "name": "National Center for Health Statistics",
+    "link": "https://www.cdc.gov/nchs/index.htm"
+  }
+]

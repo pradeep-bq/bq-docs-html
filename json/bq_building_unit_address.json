@@ -1,0 +1,478 @@
+[
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_no_of_legal_entities",
+    "fielddes": "No. of legal entities associated with building unit address",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_city",
+    "fielddes": "City name of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,159,840",
+    "value": "99.27%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_zip5",
+    "fielddes": "5-digit zip code of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,096,130",
+    "value": "99.15%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_county_fips",
+    "fielddes": "County name of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,072,048",
+    "value": "99.10%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_latitude",
+    "fielddes": "Lattitude of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,105,052",
+    "value": "99.17%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_dpv_match_code",
+    "fielddes": "Indicator that states \"Yes\" if the building unit address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "52,146,307",
+    "value": "97.37%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the building unit address lies according to USPS.",
+    "Count": "37,464,538",
+    "value": "69.96%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the building unit address lies according to USPS.",
+    "Count": "37,464,538",
+    "value": "69.96%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_summary",
+    "fielddes": "Delivery Point Validation (DPV) Match Code of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_dpv_footnotes",
+    "fielddes": "Information related to the delivery point validation of this address.",
+    "Count": "52,835,423",
+    "value": "98.67%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_elot_sequence",
+    "fielddes": "Enhanced Line of Travel for the building unit address.",
+    "Count": "51,442,422",
+    "value": "96.06%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_urbanization",
+    "fielddes": "The neighborhood, or city subdivision; used with Puerto Rican addresses.",
+    "Count": "5,485",
+    "value": "0.01%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_street_postdirection",
+    "fielddes": "Directional information after a street name (N, SW, etc.) of building unit address.",
+    "Count": "3,496,537",
+    "value": "6.52%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_delivery_point_check_digit",
+    "fielddes": "Correction character, or check digit, for the 11-digit barcode",
+    "Count": "51,442,422",
+    "value": "96.06%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_information_present_indicator",
+    "fielddes": "Indicator that equals 1 if unit information present for all or for some of the Organization and 0 otherwise.",
+    "Count": "1=12,029,5120=41,520,703",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_country_code",
+    "fielddes": "Country name of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,521,790",
+    "value": "99.95%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which building unit address lies according to USPS.",
+    "Count": "37,464,538",
+    "value": "69.96%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_congressional_district",
+    "fielddes": "Congressional disctrict name of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "52,175,598",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the building unit address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "11,454,417",
+    "value": "21.39%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_precision",
+    "fielddes": "Indicates the precision of the latitude and longitude values.",
+    "Count": "52,835,423",
+    "value": "98.67%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_footnotes",
+    "fielddes": "Indicates which changes were made to the input address.",
+    "Count": "5,271,234",
+    "value": "9.83%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_utc_offset",
+    "fielddes": "Indicates the number of hours the time zone is offset from Universal Time Coordinated (UTC) for building unit address.",
+    "Count": "52,815,485",
+    "value": "98.62%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_dpv_vacant",
+    "fielddes": "Indicates that a delivery point was active in the past, but is currently vacant (in most cases, unoccupied over 90 days) and is not receiving deliveries.",
+    "Count": "51,564,732",
+    "value": "96.28%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_extra_secondary_designator",
+    "fielddes": "Description of the building unit address type within a campus",
+    "Count": "273,771",
+    "value": "0.51%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_default_city_name",
+    "fielddes": "The default city name for this 5-digit ZIP Code",
+    "Count": "52,816,420",
+    "value": "98.62%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_id",
+    "fielddes": "Unique ID given to the building unit.",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_id",
+    "fielddes": "Unique ID given to the building. (refering building address)",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_type",
+    "fielddes": "Type of the building associated with the building unit: Multi Unit or Single Unit",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_no_of_orgnizations",
+    "fielddes": "No. of organizations associated with building unit address",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_agent_indicator",
+    "fielddes": "Indicator that equals 1 if an agent active at building unit address and 0 otherwise.",
+    "Count": "1=2,135,8520=51,414,363",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_line_1",
+    "fielddes": "First line of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_zip9",
+    "fielddes": "9-digit zip code of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,089,343",
+    "value": "99.14%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_zip_type",
+    "fielddes": "Zip code classification of the building unit address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,072,117",
+    "value": "99.10%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_country_name",
+    "fielddes": "Country code of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,521,790",
+    "value": "99.95%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_rdi",
+    "fielddes": "RDI indicates whether the building unit address is Residential, Commercial, P.O. Box or Unknown based on USPS reporting.",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_longitude",
+    "fielddes": "Longitude of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,105,052",
+    "value": "99.17%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_elot_sort",
+    "fielddes": "Indicates if mailers can sort their mailings by line of travel sequence (A-Ascending, D-Descending).",
+    "Count": "51,442,422",
+    "value": "96.06%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_time_zone",
+    "fielddes": "Indicates the common name of the time zone associated with the building unit address.",
+    "Count": "52,835,423",
+    "value": "98.67%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_ews_match",
+    "fielddes": "Early warning system flag; a positive result indicates the street of the building unit address is not yet ready for mail delivery.",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_lacslink_indicator",
+    "fielddes": "Indicates whether there is a building unit address match in the LACSLink database.",
+    "Count": "445,342",
+    "value": "0.83%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_primary_number",
+    "fielddes": "The house, PO Box, or building number",
+    "Count": "52,423,751",
+    "value": "97.90%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_street_name",
+    "fielddes": "The name of the street",
+    "Count": "52,765,742",
+    "value": "98.53%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_street_predirection",
+    "fielddes": "Directional information before a street name (N, SW, etc.) of building unit address.",
+    "Count": "12,470,574",
+    "value": "23.28%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_secondary_designator",
+    "fielddes": "Describes building unit address within a complex/building (Ste, Apt, etc.)",
+    "Count": "11,415,069",
+    "value": "21.32%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_extra_secondary_number",
+    "fielddes": "Descriptive information about the building unit address of a building within a campus",
+    "Count": "274,161",
+    "value": "0.51%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_pmb_number",
+    "fielddes": "The private mailbox number, assigned by a CMRA",
+    "Count": "666,081",
+    "value": "1.24%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_plus4_code",
+    "fielddes": "The 4-digit add-on code (more specific than 5-digit ZIP)",
+    "Count": "51,890,561",
+    "value": "96.90%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_delivery_point",
+    "fielddes": "The last two digits of the house/box number, unless an \"H\" record is matched, in which case this is the secondary unit number representing the delivery point information to form the delivery point barcode (DPBC).",
+    "Count": "51,442,422",
+    "value": "96.06%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_last_line",
+    "fielddes": "City, state, and ZIP Code combined",
+    "Count": "52,835,423",
+    "value": "98.67%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_no_of_locations",
+    "fielddes": "No. of locations associated with building unit address",
+    "Count": "53,550,215",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_valid_indicator",
+    "fielddes": "Indicator that equals 1 if the building unit address is valid based on a match with the USPS address verification and 0 otherwise.",
+    "Count": "1=52,262,9210=1,287,294",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_line_2",
+    "fielddes": "Second line of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "12,029,512",
+    "value": "22.46%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_state",
+    "fielddes": "State's abbrivated name of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,121,475",
+    "value": "99.20%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_state_name",
+    "fielddes": "State name of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,114,143",
+    "value": "99.18%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_county_name",
+    "fielddes": "County-level Federal Information Processing Standard (FIPS) Code of the building unit address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,070,998",
+    "value": "99.10%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the building unit address is valid based on USPS address verification and 0 otherwise.",
+    "Count": "3,512,328",
+    "value": "6.55%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_addressee",
+    "fielddes": "The name of the person or company at this building unit address. Very rarely, this field might be filled automatically based on the USPS address record.",
+    "Count": "125",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_notes",
+    "fielddes": "Describes steps taken to verify and standardize the address and other information about it.",
+    "Count": "52,835,423",
+    "value": "98.67%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_enhanced_match",
+    "fielddes": "This field will contain additional information about the building unit address.",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_record_type",
+    "fielddes": "Indicates the type of record that was matched. Only given if a DPV match is made.",
+    "Count": "51,941,850",
+    "value": "97%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_carrier_route",
+    "fielddes": "The postal carrier route for the building unit address",
+    "Count": "51,941,850",
+    "value": "97%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_dst",
+    "fielddes": "Indicates if the time zone \"obeys,\" or, in other words, adjusts their clocks forward and back with the seasons. (True or Null).",
+    "Count": "51,237,999",
+    "value": "95.67%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_dpv_cmra",
+    "fielddes": "Indicates whether the building unit address is associated with a Commercial Mail Receiving Agency (CMRA), also known as a private mailbox (PMB) operator.",
+    "Count": "51,565,325",
+    "value": "96.28%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_lacslink_code",
+    "fielddes": "The reason code for the LACSLink indication for the building unit address.",
+    "Count": "445,342",
+    "value": "0.83%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_suitelink_match",
+    "fielddes": "Indicator indicates a match (or not) to the USPS SuiteLink data. SuiteLink attempts to provide secondary information such as \"suite\" or \"apartment\" whenever there is a match based on address and company name.",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_active_indicator",
+    "fielddes": "Indicator that equals 1 if the building unit address is active based on USPS address verification and 0 otherwise.",
+    "Count": "1=53,029,3850=520,830",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_street_suffix",
+    "fielddes": "Abbreviated value describing the street (St, Ave, Blvd, etc.) of building unit address.",
+    "Count": "46,753,285",
+    "value": "87.31%"
+  },
+  {
+    "tablename": "bq_building_unit_address",
+    "fieldname": "bq_building_unit_address_pmb_designator",
+    "fielddes": "Private mailbox unit designator, assigned by a CMRA",
+    "Count": "666,627",
+    "value": "1.24%"
+  }
+]

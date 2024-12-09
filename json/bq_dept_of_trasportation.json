@@ -1,0 +1,352 @@
+[
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_usdot_number",
+    "fielddes": "A DOT number is a number assigned to the Carrier by the FMCSA and is used for multiple different purposes in the fleet.",
+    "Count": "2,171,515",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_legal_name",
+    "fielddes": "Legal Name of the Carrier",
+    "Count": "2,171,514",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_dba_name",
+    "fielddes": "Name used by the Carrier to do business. Also called trade name.",
+    "Count": "583,834",
+    "value": "26.89%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_ein",
+    "fielddes": "EIN number of the Carrier.",
+    "Count": "1,490,911",
+    "value": "68.66%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_phone",
+    "fielddes": "Phone number of the Carrier",
+    "Count": "2,147,775",
+    "value": "98.91%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_entity_type",
+    "fielddes": "Type of classification of the Carrier based on its Legal Entity filing",
+    "Count": "2,171,508",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_allowed_to_operate",
+    "fielddes": "Indicator that markes Y if the Carrier is permitted to carry passenger, property, or household goods and N otherwise",
+    "Count": "1,992,461",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_status_code",
+    "fielddes": "Status Code indicates whether the Carrier is active or not. 'A' for Active and 'I' for inactive.",
+    "Count": "A=1,976,809I=15,652",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_operating_status",
+    "fielddes": "Status which shows whether the carrier is allowed to operate or not. '\"ACTIVE\"' and '\"AUTHORIZED' FOR PROPERTY\" mean that the operator is allowed to operate.",
+    "Count": "2,171,515",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_common_authority_status",
+    "fielddes": "Common authority status from the FMCSA means that a carrier is complying with the FMCSA's requirements. Common carriers provide for-hire truck transportation to the general public, and are required to file liability (BI&amp;PD) insurance. They are not required to file cargo insurance. 'A' Status means active and Authorized, N means denied, dissmissed or withdrawn and I mean inactive/revoked.",
+    "Count": "631,380",
+    "value": "29.08%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_contract_authority_status",
+    "fielddes": "The FMCSA  defines contract authority as for-hire transportation to specific shippers based on contracts. An \"Active\" status means that the carrier has complied with insurance regulations and is registered. An \"Inactive\" status means that the carrier's operating authority has been revoked, and for-hire interstate operations are illegal. A \"None\" status means that the carrier has not registered for that type of authority.",
+    "Count": "631,380",
+    "value": "29.08%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_operation_classification",
+    "fielddes": "Operation classification is based on the type of business the company is engaged in and will help determine the FMCSA regulations the company is subject to. ( Authorized For Hire or Exempt For Hire)",
+    "Count": "2,146,032",
+    "value": "98.83%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_total_drivers",
+    "fielddes": "Total number of drivers registered uin the Carrier's name as reported to the DOT",
+    "Count": "2,045,312",
+    "value": "94.19%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_total_power_units",
+    "fielddes": "Total number of Power Units registered under the Carrier's name as per the DOT records",
+    "Count": "2,151,634",
+    "value": "99.08%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_passenger_carrier_indicator",
+    "fielddes": "Indicator that marks Y if the Vehicle  registered can be classified as a Passanger Carrier and N otherwise",
+    "Count": "1,992,461",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_rating",
+    "fielddes": "Rating given the the Carrier by the DOT (Conditional etc)",
+    "Count": "58,863",
+    "value": "2.71%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_rating_date",
+    "fielddes": "The date on which the rating was registered at the DOT",
+    "Count": "58,863",
+    "value": "2.71%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_review_date",
+    "fielddes": "Date on which the rating was reviewed",
+    "Count": "115,179",
+    "value": "5.3%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_carrier_operation",
+    "fielddes": "Classification based on a registration that allows a carrier to move household goods for compensation between certain geographical areas. It also dictates the type of operation a company can run and the cargo it can carry",
+    "Count": "2,069,171",
+    "value": "95.29%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_inspections",
+    "fielddes": "Number of inspections the Carrier has filed with the DOT",
+    "Count": "2,171,515",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_crashes",
+    "fielddes": "Total number of Crashes the Carrier registered per the DOT records",
+    "Count": "2,171,515",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_out_of_service",
+    "fielddes": "This field indicates the number of inspections resulting in vehicles, drivers, hazmat, or intermodal equipment providers (IEP) operations being deemed non-compliant with safety regulations and subsequently prohibited from operating until violations are corrected.",
+    "Count": "2,171,515",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_out_of_service_perc",
+    "fielddes": "According to the Federal Motor Carrier Safety Administration (FMCSA), the vehicle out-of-service (OOS) rate threshold is 33.33%. To pass the safety rating process, the OOS rate must be less than 34%. The FMCSA calculates the OOS rate from vehicle inspections over the past 12 months. For example, if a motor carrier had 20 driver inspections and two of these resulted in an OOS condition, the driver OOS rate would be 0.10 (2  20 = 0.10 or 10%)",
+    "Count": "2,171,515",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_out_of_service_date",
+    "fielddes": "Date when Out of Service order was issused by FMCSA",
+    "Count": "16,298",
+    "value": "0.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_mc_mx_ff_numbers",
+    "fielddes": "Docket number assigned to the Vehicle. The FF number is assigned to freight forwarders; the MX number is assigned to carriers domiciled in Mexico; and the MC number is for all other carriers and brokers.",
+    "Count": "584,691",
+    "value": "26.93%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_mcs_150_mileage_year",
+    "fielddes": "Vehicle Miles travelled as listed on the MCS 150 form filing by the carrier",
+    "Count": "1,303,807",
+    "value": "60.04%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_mcs_150_form_date",
+    "fielddes": "Date when MCS 150 form was submitted to the DOT for botaining or renewing USDOT number",
+    "Count": "1,938,334",
+    "value": "89.26%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_cargo_carried",
+    "fielddes": "Classification of Commercial Vehicles that transport cargo in interstate commerce",
+    "Count": "1,961,713",
+    "value": "90.34%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_naics_codes_all",
+    "fielddes": "The NAICS industry code most commonly reported by the Carrier",
+    "Count": "1,862,016",
+    "value": "85.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_hazmat_oos_rate_national_average",
+    "fielddes": "The national average for Hazmat out-of-service (OOS) is 6.82%. The FMCSA calculates OOS rates for the top 30% of the national average by looking at all carriers in its census that had more than one crash during the previous two-years. The FMCSA may not issue a hazardous materials safety permit to a motor carrier that has an OOS rate in the top 30%.",
+    "Count": "1,992,461",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_vehicle_oos_rate_national_average",
+    "fielddes": "The national average for  Vehicle out-of-service (OOS) is 33.33%. The FMCSA calculates OOS rates for the top 30% of the national average by looking at all carriers in its census that had more than one crash during the previous two-years.",
+    "Count": "1,992,461",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_driver_oos_rate_national_average",
+    "fielddes": "The national average for driver out-of-service (OOS) is 5.5%. The FMCSA calculates OOS rates for the top 30% of the national average by looking at all carriers in its census that had more than one crash during the previous two-years. The FMCSA may not issue a hazardous materials safety permit to a motor carrier that has an OOS rate in the top 30%.",
+    "Count": "1,992,461",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_broker_authority_status",
+    "fielddes": "A Broker Authority is a license issued and granted by the FMCSA  that allows a company to arrange the transportation of cargo belonging to others by using for-hire carriers to provide the actual transportation of the cargo. The Authority status indicates if the Carrier has such a lisence.",
+    "Count": "631,380",
+    "value": "29.08%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_cargo_insurance_on_file",
+    "fielddes": "Cargo refers to motor carrier cargo liability insurance. On File indicates the dollar amount that is on file.",
+    "Count": "631,366",
+    "value": "29.07%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_cargo_insurance_required",
+    "fielddes": "Cargo refers to motor carrier cargo liability insurance. Required indicates Y if  the Carrier needs to carry the Insurance and N if otherwise",
+    "Count": "1,992,461",
+    "value": "91.75%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_bond_insurance_on_file",
+    "fielddes": "Bond refers to surety bonds or trust funds that must be maintained for the carrier by authorized brokers and freight forwarders. On File indicates the dollar amount that is on file.",
+    "Count": "631,366",
+    "value": "29.07%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_bond_insurance_required",
+    "fielddes": "Bond refers to surety bonds or trust funds that must be maintained for the carrier by authorized brokers and freight forwarders. Required indicates Y if  the Carrier needs to carry the Insurance and N if otherwise",
+    "Count": "631,366",
+    "value": "29.07%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_bipd_insurance_on_file",
+    "fielddes": "BIPD refers to bodily injury and property damage liability insurance. On File indicates the dollar amount that is on file.",
+    "Count": "631,366",
+    "value": "29.07%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_bipd_insurance_required",
+    "fielddes": "BIPD refers to bodily injury and property damage liability insurance. Required indicates Y if  the Carrier needs to carry the Insurance and N if otherwise",
+    "Count": "631,366",
+    "value": "29.07%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_bipd_required_amount",
+    "fielddes": "BIPD refers to bodily injury and property damage liability insurance. Required Amount indicates the dollar amount of Insurance that is Required to be carried by the Carrier",
+    "Count": "631,366",
+    "value": "29.07%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_line1",
+    "fielddes": "1st line of the business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_line2",
+    "fielddes": "2nd line of the business address of the carrier",
+    "Count": "736",
+    "value": "0.03%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_city",
+    "fielddes": "City of the business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_state",
+    "fielddes": "State of the business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_state_name",
+    "fielddes": "State name of the business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_county_fips",
+    "fielddes": "County-level FIPS code of business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_county_name",
+    "fielddes": "County name of business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_zip5",
+    "fielddes": "5-digit Zip Code of business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_zip9",
+    "fielddes": "9-digit Zip Code of business address of the carrier",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  },
+  {
+    "tablename": "bq_dept_of_transportation",
+    "fieldname": "bq_dot_address_ziptype",
+    "fielddes": "Zip code classification of the business address of the carrier stating whether it is a P.O. Box or not.",
+    "Count": "2,006,196",
+    "value": "92.39%"
+  }
+]

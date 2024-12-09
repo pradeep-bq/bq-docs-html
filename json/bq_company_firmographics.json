@@ -1,0 +1,611 @@
+[
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "77,278,516",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "77,278,516",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_legal_name",
+    "fielddes": "Legal name associated with the Organization.",
+    "Count": "74,103,362",
+    "value": "95.89%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_type",
+    "fielddes": "Classification system for the Organization based on whether it is an Employer, Non-Employer, Sole Proprietor, or a Holding Company. An Employer has full-time W-2 employees in the U.S. A Non-Employer is an operating business without full-time employees. A Sole Proprietor is a micro business without full-time employees that often operates from a residential address. A Holding Company is not engaged in economic activity, and is often used for real estate and financial transactions",
+    "Count": "77,278,516",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_structure",
+    "fielddes": "Classification system for the Organization based on whether it is a Single Entity or Multi Entity Organization. A Single Entity Organization has one legal entity associated with it, while a Multi Entity Organization consists of a family tree with a corporate parent and children entities.",
+    "Count": "77,278,516",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_lfo",
+    "fielddes": "Legal structure clasification based on whether the underlying legal entity of the Organization is a Corporation, Limited Liability Company, or Partnership.",
+    "Count": "77,278,472",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_cik",
+    "fielddes": "The Central Index Key (CIK) is a unique number issued by the SEC.",
+    "Count": "386,181",
+    "value": "0.5%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_ein",
+    "fielddes": "Unique number issued by the IRS given to the Organization which is used to identify the business and certain other related entities. An organization may have multiple EINs; this is the primary EIN.",
+    "Count": "10,709,718",
+    "value": "13.86%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_eins_related",
+    "fielddes": "EINs associated with the Organization, other than the primary EIN. These may relate to subsidiaries and/or legal entities that are part of the Organization.",
+    "Count": "719,102",
+    "value": "0.93%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_ein_formatted",
+    "fielddes": "EIN formatted as per the IRS standard.",
+    "Count": "10,709,718",
+    "value": "13.86%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_eins_related_formatted",
+    "fielddes": "All related EINs associated with the Organization formatted as per the IRS standard.",
+    "Count": "719,102",
+    "value": "0.93%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "5,329",
+    "value": "0.01%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_ticker_parent",
+    "fielddes": "TICKER of the Organization's parent holding company if the parent is publicly listed.",
+    "Count": "67,096",
+    "value": "0.09%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_tickers_related",
+    "fielddes": "All TICKERs associated with the Organization if it is publicly listed, such as arising due to stocks of various classes.",
+    "Count": "507",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "12,648,042",
+    "value": "16.37%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_linkedin_url",
+    "fielddes": "Link to the Organization's primary LinkedIn URL. A company's LinkedIn URL is not reported in regulatory filings; therefore, BQ scrapes the Internet to find such links, and consequently the process is subject to error.",
+    "Count": "7,510,592",
+    "value": "9.72%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_crunchbase_url",
+    "fielddes": "Link to the Organization's primary Crunchbase URL. A company's Crunchbase URL is not reported in regulatory filings; therefore, BQ scrapes the Internet to find such links, and consequently the process is subject to error.",
+    "Count": "1,169,995",
+    "value": "1.51%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_phone",
+    "fielddes": "Main phone number of the Organization, primarily obtained from regulatory filings.",
+    "Count": "1,482,081",
+    "value": "1.92%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_phone_formatted",
+    "fielddes": "Main phone number of the Organization, primarily obtained from regulatory filings, as formatted in standard fashion.",
+    "Count": "1,270,148",
+    "value": "1.64%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_active_indicator",
+    "fielddes": "An indicator that equals 1 if the Organization is Active and 0 if otherwise. An Organization is deemed Active if it has filed in the past 2 years with one or more regulatory agencies, with preference given to the IRS.",
+    "Count": "1=49,102,8470=28,175,669",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_legal_active_indicator",
+    "fielddes": "This indicator is derived from the Legal status of the state registered entities that make up the Organization. If one or more Legal Entity in the Organization is active within its state of jurisdiction, then the Organization is declared legally active.",
+    "Count": "1=38,484,2730=34,374,053",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_operational_active_indicator",
+    "fielddes": "This indicator is derived from Federal filings and online economic activity. An Organization is declared Operationally inactive if it has not filed with the IRS or other federal agencies in the last two years, or if it no longer has an active online presence.",
+    "Count": "1=43,319,9410=33,958,531",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_legal_entity_indicator",
+    "fielddes": "An indicator that equals 1 if there is one or more Legal Entities associated with the Organization and 0 otherwise. The indicator being 0 means no Legal Entity can be found associated with the Organization, despite the fact that there is evidence suggesting the Organization exists and is economically active.",
+    "Count": "1=68,398,4350=4,428,755",
+    "value": "94.24%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_public_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is publicly listed and 0 otherwise.",
+    "Count": "1=5,3050=77,273,189",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_public_reit_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is publicly listed and is a Real Estate Investment Trust, and 0 otherwise.",
+    "Count": "1=1790=77,278,337",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_public_spac_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is publicly listed and is a Special Purpose Acquisition Company, and 0 otherwise",
+    "Count": "1=1850=77,278,331",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_capital_markets_universe_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is a part of BQ's capital markets universe, and 0 otherwise. The capital markets universe refers to the set of companies that are commonly of interest to capital markets participants, such as asset managers, hedge funds, private equity, and venture capital. Examples of conditions for membership include: being public, having venture capital or private equity investors, and having been issued a CIK or LEI, among others.",
+    "Count": "1=3,480,0760=73,798,440",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_no_benefits_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization does not provide employee benefits and 0 otherwise.",
+    "Count": "1=74,899,3600=1,466,251",
+    "value": "98.82%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_non_profit_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is a Non-Profit and 0 otherwise.",
+    "Count": "1=1,942,1420=73,006,441",
+    "value": "96.99%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_non_company_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is a trade association, labor union, etc. and 0 otherwise.",
+    "Count": "1=127,4790=71,787,240",
+    "value": "93.06%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_us_only_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization has no legal parent or child legal entity outside the U.S., and 0 otherwise.",
+    "Count": "1=73,029,0350=4,249,481",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sp500_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is a member of the S&amp;P 500 and 0 otherwise.",
+    "Count": "1=4700=71,914,285",
+    "value": "93.06%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_delaware_stock_filings_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization submits stock-related filings to the State of Delaware, typically in the form of Articles of Incorporation and related documents, and 0 otherwise. Large and sophisticated Organizations will commonly have a legal parent incorporated in the State of Delaware.",
+    "Count": "1=904,8380=75,460,773",
+    "value": "98.82%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_sba_ppp_loan_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization received a PPP loan from the SBA, and 0 otherwise.",
+    "Count": "1=4,616,8140=69,418,864",
+    "value": "95.8%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_sba_7a_loan_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization currently has or has had in the past an SBA 7(a) loan, and 0 otherwise.",
+    "Count": "1=1,584,6440=74,780,967",
+    "value": "98.82%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_sba_504_loan_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization currently has or has had in the past an SBA 504 loan, and 0 otherwise.",
+    "Count": "1=245,5240=76,120,087",
+    "value": "98.82%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_ofac_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization is on the OFAC watchlist of U.S. Treasury, and 0 otherwise. U.S. Treasury publishes the OFAC watchlist which contains names of people and companies that are sanctioned; these are matched to Contacts, Legal Entities, and Organizations.",
+    "Count": "1=670=76,365,544",
+    "value": "98.82%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_irs_taxlien_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization has a tax lien issued by the IRS, and 0 otherwise.",
+    "Count": "1=453,9840=73,581,694",
+    "value": "95.8%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_confidence_score",
+    "fielddes": "Score given to an Organization that measures BQ's confidence in the veracity of the Organization's record, taking into account the volume and frequency of its filings. The score ranges from 0 to 100.",
+    "Count": "71,864,465",
+    "value": "92.99%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_credit_score",
+    "fielddes": "Score given to an Organization that measures its financial health based on its current and historical financial performance. The calculation is based on traditional financial statement analysis, and incorporates industry benchmarks to assess whether the Organization is outperforming or underperforming relative to its industry peers. The score ranges from 0 to 1000.",
+    "Count": "74,035,678",
+    "value": "95.8%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_industry_code",
+    "fielddes": "The IRS industry code most commonly selected by the company in its IRS filings.",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_industry_name",
+    "fielddes": "Description of the IRS industry most commonly selected by the company in its IRS filings.",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_industry_codes_all",
+    "fielddes": "List of all IRS industry codes which a company selects. Relevant for companies in multiple IRS industries.",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_industry_names_all",
+    "fielddes": "The descriptions of all distinct IRS industries the company has submitted to the IRS since 2010.",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_subsector_code",
+    "fielddes": "The IRS sub-sector code corresponding to the IRS industry code most commonly selected by the company in its IRS filings (industries aggregate up to sub-sectors).",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_subsector_name",
+    "fielddes": "Description of the IRS sub-sector corresponding to the IRS industry most commonly selected by the company in its IRS filings (industries aggregate up to sub-sectors).",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_sector_code",
+    "fielddes": "The IRS sector code corresponding to the IRS industry code most commonly selected by the company in its IRS filings (industries aggregate up to sub-sectors, and sub-sectors aggregate up to sectors).",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_irs_sector_name",
+    "fielddes": "Description of the IRS sector corresponding to the IRS industry most commonly selected by the company in its IRS filings (industries aggregate up to sub-sectors, and sub-sectors aggregate up to sectors).",
+    "Count": "72,913,936",
+    "value": "94.35%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_naics_code",
+    "fielddes": "The NAICS industry code most commonly reported by the Organization in regulatory filings.",
+    "Count": "77,278,516",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_naics_name",
+    "fielddes": "The NAICS industry name most commonly reported by the Organization in regulatory filings.",
+    "Count": "72,855,090",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_naics_codes_all",
+    "fielddes": "All NAICS industry codes reported by the Organization in regulatory filings.",
+    "Count": "72,855,090",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_naics_names_all",
+    "fielddes": "All NAICS industry names reported by the Organization in regulatory filings.",
+    "Count": "72,854,417",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_naics_sector_code",
+    "fielddes": "The NAICS sector code most commonly reported by the Organization in regulatory filings. Industries roll up to sectors.",
+    "Count": "72,894,517",
+    "value": "94.33%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_naics_sector_name",
+    "fielddes": "The NAICS sector name most commonly reported by the Organization in regulatory filings. Industries roll up to sectors.",
+    "Count": "72,894,517",
+    "value": "94.33%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_code",
+    "fielddes": "The SIC industry code most commonly reported by the Organization in regulatory filings. SIC codes are derived from NAICS using the Census concordance.",
+    "Count": "72,854,421",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_name",
+    "fielddes": "The SIC industry name most commonly reported by the Organization in regulatory filings. SIC names are derived from NAICS using the Census concordance.",
+    "Count": "72,854,421",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_codes_all",
+    "fielddes": "All SIC industry codes reported by the Organization in regulatory filings. SIC codes are derived from NAICS using the Census concordance.",
+    "Count": "72,854,732",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_names_all",
+    "fielddes": "All SIC industry names reported by the Organization in regulatory filings. SIC names are derived from NAICS using the Census concordance.",
+    "Count": "72,854,732",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_sector_code",
+    "fielddes": "The SIC sector code most commonly reported by the Organization in regulatory filings. SIC codes are derived from NAICS using the Census concordance. Industries roll up to sectors.",
+    "Count": "72,854,421",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_sector_name",
+    "fielddes": "The SIC sector name most commonly reported by the Organization in regulatory filings. SIC names are derived from NAICS using the Census concordance. Industries roll up to sectors.",
+    "Count": "72,854,421",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_sector_codes_all",
+    "fielddes": "All SIC sector codes reported by the Organization in regulatory filings. SIC codes are derived from NAICS using the Census concordance.",
+    "Count": "72,854,732",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_sic_sector_names_all",
+    "fielddes": "All SIC sector names reported by the Organization in regulatory filings. SIC codes are derived from NAICS using the Census concordance.",
+    "Count": "72,854,732",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_year_founded",
+    "fielddes": "Year in which the Organization was founded.",
+    "Count": "69,727,300",
+    "value": "90.23%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_date_dissoluted",
+    "fielddes": "Date in which the primary underlying Legal Entity of the Organization was dissolved.",
+    "Count": "16,436,623",
+    "value": "21.27%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_location_count",
+    "fielddes": "Count of the number of Locations in the Organization.",
+    "Count": "74,948,517",
+    "value": "96.98%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_line_1",
+    "fielddes": "1st line of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "70,729,485",
+    "value": "91.53%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_line_2",
+    "fielddes": "2nd line of the Organization's headquarters address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "1,079,331",
+    "value": "1.4%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_city",
+    "fielddes": "City of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "67,235,027",
+    "value": "87%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_state",
+    "fielddes": "State abbreviation of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "77,076,703",
+    "value": "99.74%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_state_name",
+    "fielddes": "State name of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "66,778,941",
+    "value": "86.41%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_county_fips",
+    "fielddes": "County-level FIPS code of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "65,882,737",
+    "value": "85.25%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_county_name",
+    "fielddes": "County name of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "65,876,596",
+    "value": "85.25%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_country",
+    "fielddes": "Country of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "77,074,653",
+    "value": "99.74%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_zip5",
+    "fielddes": "5-digit zip code of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "66,665,782",
+    "value": "86.27%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_zip9",
+    "fielddes": "9-digit zip code (ZIP + 4) of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "65,972,865",
+    "value": "85.37%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_zip_type",
+    "fielddes": "Zip code classification of the Organization's headquarters address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "65,876,261",
+    "value": "85.25%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_latitude",
+    "fielddes": "Latitude of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "71,758,501",
+    "value": "92.86%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_longitude",
+    "fielddes": "Longitude of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "71,758,501",
+    "value": "92.86%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_rdi",
+    "fielddes": "RDI indicates whether the Organizaton's headquarters address is Residential, Commercial, P.O. Box or unknown based on USPS reporting.",
+    "Count": "71,160,393",
+    "value": "92.08%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_summary",
+    "fielddes": "Classification that indicates whether the Organizaton's headquarters address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "69,002,214",
+    "value": "89.29%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Organization's headquarters address lies according to USPS.",
+    "Count": "75,702,769",
+    "value": "97.96%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Organization's headquarters address lies according to USPS.",
+    "Count": "60,707,916",
+    "value": "78.56%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Organization's headquarters address lies according to USPS.",
+    "Count": "60,707,916",
+    "value": "78.56%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the Organization's headquarters address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "15,664,583",
+    "value": "20.27%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_dpv_match_code",
+    "fielddes": "Indicator that is states \"\"Yes\"\" if the Organization's headquarters address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "62,729,058",
+    "value": "81.17%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Organization's headquarters address is the \"default\" address for a building ( i.e., the main lobby) and 0 otherwise. Addresses are cleaned and standardized using USPS.",
+    "Count": "1=419,9810=1,330,447",
+    "value": "2.27%"
+  },
+  {
+    "tablename": "bq_company_firmographics",
+    "fieldname": "bq_company_address1_congressional_district",
+    "fielddes": "Congressional District Code of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "58,420,620",
+    "value": "75.6%"
+  }
+]

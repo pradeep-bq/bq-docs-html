@@ -1,0 +1,366 @@
+[
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,386,531",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "1,386,531",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "326,375",
+    "value": "23.53%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "4,784",
+    "value": "0.34%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_bq_id",
+    "fielddes": "BQ ID of the legal entity mapped to BQ's financial dataset",
+    "Count": "1,293,904",
+    "value": "93.32%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_parent_id",
+    "fielddes": "Legal entity ID of the immediate parent (if this legal entity is a child)",
+    "Count": "92,747",
+    "value": "6.69%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_establishment_ids",
+    "fielddes": "IDs of the establishments operated by this legal entity; separated by semi-colon",
+    "Count": "669,338",
+    "value": "48.26%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_ultimate_parent_id",
+    "fielddes": "Legal entity ID of the ultimate parent",
+    "Count": "92,747",
+    "value": "6.69%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_company_number",
+    "fielddes": "Company number issued by the business register of that jurisdiction for the legal entity",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_name",
+    "fielddes": "Name of the legal entity",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_lfo",
+    "fielddes": "Legal form of organization (LFO) of the entity",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_cik",
+    "fielddes": "CIK of the legal entity issued by the SEC",
+    "Count": "324,517",
+    "value": "23.39%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_sec_ein",
+    "fielddes": "Tax ID (EIN) reported by the legal entity to the SEC (if public or funded)",
+    "Count": "211,375",
+    "value": "15.24%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_ticker",
+    "fielddes": "TICKER of the legal entity (if public)",
+    "Count": "5,957",
+    "value": "0.42%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_website",
+    "fielddes": "Legal entity associated websites",
+    "Count": "280,410",
+    "value": "20.21%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_irs_ein",
+    "fielddes": "Tax ID (EIN) issued to the legal entity by the IRS",
+    "Count": "294,715",
+    "value": "21.25%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_irs_industry_name",
+    "fielddes": "Legal entity associated IRS Industry Code",
+    "Count": "1,284,378",
+    "value": "92.62%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_irs_sector_name",
+    "fielddes": "Legal entity associated IRS Sector Code",
+    "Count": "1,284,378",
+    "value": "92.62%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_current_status",
+    "fielddes": "Corporate status of the legal entity",
+    "Count": "1,373,994",
+    "value": "99.09%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_parent_status",
+    "fielddes": "Ultimate Parent (not a child); Non-U.S. Parent; Child (not a parent); Parent and Child; or Sole (a legal entity is a sole entity if it has no parent or children)",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_jurisdiction_code",
+    "fielddes": "State of jurisdiction for the legal entity",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_establishment_count",
+    "fielddes": "Count of the number of establishments operated by this legal entity",
+    "Count": "669,338",
+    "value": "48.26%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_children_ids",
+    "fielddes": "Legal entity IDs of the immediate children (if this legal entity is a parent); separated by semi-colon",
+    "Count": "671,087",
+    "value": "48.39%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_children_count",
+    "fielddes": "Count of the number of immediate children legal entities (if this legal entity is a parent)",
+    "Count": "671,108",
+    "value": "48.39%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_active_indicator",
+    "fielddes": "Equals 1 if the legal entity is active, or 0 if the legal entity is inactive",
+    "Count": "1=1,276,7220=109,874",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_nonprofit_indicator",
+    "fielddes": "Equals 1 if the legal entity is a non-profit, or 0 otherwise",
+    "Count": "1=1,6990=1,384,897",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_corporation_indicator",
+    "fielddes": "Equals 1 if the legal entity is a corporation, or 0 otherwise; this field is relevant because corporations authorize and issue stock",
+    "Count": "1=391,4590=995,137",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_sec_company_name",
+    "fielddes": "Legal entity associated secondary name",
+    "Count": "1,371,075",
+    "value": "98.87%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_date_founded",
+    "fielddes": "Date of formation of the legal entity",
+    "Count": "1,385,730",
+    "value": "99.93%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_year_founded",
+    "fielddes": "Year founded, derived from the date of formation",
+    "Count": "1,385,730",
+    "value": "99.93%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_line_1",
+    "fielddes": "Legal Entity Address Line 1",
+    "Count": "1,314,315",
+    "value": "94.78%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_line_2",
+    "fielddes": "Legal Entity Address Line 2",
+    "Count": "4,881",
+    "value": "0.34%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_state",
+    "fielddes": "Legal Entity Address State",
+    "Count": "858,214",
+    "value": "61.89%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_state_name",
+    "fielddes": "Legal Entity Address State Name",
+    "Count": "858,004",
+    "value": "61.87%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_city",
+    "fielddes": "Legal Entity Address City",
+    "Count": "858,289",
+    "value": "61.89%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_county_name",
+    "fielddes": "Legal Entity Address County Name",
+    "Count": "857,347",
+    "value": "61.82%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_county_fips",
+    "fielddes": "Legal Entity Address County Federal Information Processing Standard (FIPS) Code",
+    "Count": "857,348",
+    "value": "61.82%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_zip5",
+    "fielddes": "Legal Entity Address 5-digit Zip Code",
+    "Count": "858,268",
+    "value": "61.89%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_zip9",
+    "fielddes": "Legal Entity Address 9-digit Zip Code",
+    "Count": "857,408",
+    "value": "61.83%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_zip_type",
+    "fielddes": "Legal Entity Address Zip Type",
+    "Count": "857,348",
+    "value": "61.82%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_fgn_address1_cntry",
+    "fielddes": "Legal Entity Address Country",
+    "Count": "1,386,596",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_valid_indicator",
+    "fielddes": "Equals 1 if the address is valid based on USPS address verification, or 0 if the address is not valid",
+    "Count": "1=636,9610=749,635",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_latitude",
+    "fielddes": "Legal Entity Address Latitude",
+    "Count": "1,315,389",
+    "value": "94.85%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_longitude",
+    "fielddes": "Legal Entity Address Longitude",
+    "Count": "1,315,389",
+    "value": "94.85%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_type",
+    "fielddes": "Registered address, non-registered address, or officer address",
+    "Count": "1,314,315",
+    "value": "94.78%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_rdi",
+    "fielddes": "Legal Entity Address Residential, Commercial, P.O. Box or Unknown Delivery Indicator (RDI)",
+    "Count": "1,315,389",
+    "value": "94.85%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_summary",
+    "fielddes": "Legal Entity Address Summary",
+    "Count": "1,315,389",
+    "value": "94.85%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_dpv_match_code",
+    "fielddes": "Legal Entity Address Delivery Point Validation (DPV) Match Code",
+    "Count": "637,215",
+    "value": "45.96%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_secondary_number",
+    "fielddes": "Legal Entity Address Secondary Number",
+    "Count": "283,751",
+    "value": "20.46%"
+  },
+  {
+    "tablename": "bq_stock_legal_entity",
+    "fieldname": "bq_legal_entity_address1_building_default_indicator",
+    "fielddes": "Legal Entity Address Building Default Indicator",
+    "Count": "1=45,6360=0",
+    "value": "3.29%"
+  }
+]

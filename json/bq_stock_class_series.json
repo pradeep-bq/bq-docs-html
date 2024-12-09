@@ -1,0 +1,79 @@
+[
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "422,987",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "5,489",
+    "value": "1.3%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "214,266",
+    "value": "50.65%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_stock_class_series_id",
+    "fielddes": "Example: BQ_US_DE_4779197_01",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_stock_class_series_member_ids",
+    "fielddes": "List of stock class IDs (bq_stock_class_id) in the series; separated by semi-column, in chronological order",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_stock_class_series_name",
+    "fielddes": "COMMON; PREFERRED; PREFERRED SERIES A; PREFERRED FF; etc.; Created as the amalgamation of stock class and stock class type",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_stock_class_series_coi_date",
+    "fielddes": "Certificate of Incorporation: Official date on which a company's COI is filed and accepted by the relevant SoS for the stock class series",
+    "Count": "423,015",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series",
+    "fieldname": "bq_stock_class_series_original_issue_price",
+    "fielddes": "Original Issue Price: The price at which shares are sold to investors during an issuance of the stock class series",
+    "Count": "0",
+    "value": "0%"
+  }
+]

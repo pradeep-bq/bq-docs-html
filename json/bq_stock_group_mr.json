@@ -1,0 +1,79 @@
+[
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "342,983",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "342,962",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "342,983",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "2,462",
+    "value": "0.72%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "129,774",
+    "value": "37.84%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_stock_group_mr_id",
+    "fielddes": "Most recent bq_stock_group_id",
+    "Count": "342,983",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_stock_group_mr_total_assets",
+    "fielddes": "Current total assets for the company (as reported to the State of Delaware); Most recent bq_stock_group_total_assets",
+    "Count": "39,713",
+    "value": "11.58%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_stock_group_mr_begin_date",
+    "fielddes": "Most recent bq_stock_group_begin_date",
+    "Count": "342,983",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_stock_group_mr_authorized_shares",
+    "fielddes": "Current total authorized shares for the company; Most recent bq_stock_group_authorized_shares",
+    "Count": "342,752",
+    "value": "99.93%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_stock_group_mr_issued_shares",
+    "fielddes": "Current total issued shares for the company; Most recent bq_stock_group_issued_shares",
+    "Count": "39,713",
+    "value": "11.58%"
+  },
+  {
+    "tablename": "bq_stock_group_mr",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "0",
+    "value": "0%"
+  }
+]

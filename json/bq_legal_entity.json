@@ -1,0 +1,527 @@
+[
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_id",
+    "fielddes": "Unique ID of the Legal Entity. A Legal Entity is part of an Organization and is registered with the Secretary of State of a jurisdiction.",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "97,858,968",
+    "value": "99.97%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "97,858,968",
+    "value": "99.97%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "65,093",
+    "value": "0.06%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "24,526,259",
+    "value": "25.05%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_name",
+    "fielddes": "Legal name of the Legal  Entity",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_lfo",
+    "fielddes": "Legal structure clasification based on whether the underlying Legal Entity of the Organization is a Corporation, Limited Liability Company, or Partnership.",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_company_number",
+    "fielddes": "Unique number issued by the jurisdiction with which the Legal Entity is registered.",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_current_status",
+    "fielddes": "Legal status of the Legal Entity as reported by the jurisdiction (e.g., Dissolved, Delinquent, etc.). There are 690 distinct possible values for legal status.",
+    "Count": "89,898,134",
+    "value": "91.84%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_jurisdiction_code",
+    "fielddes": "Jurisdiction code (2-digit state name) in which the Legal Entity is registered, typically with the Secretary of State.",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_ein",
+    "fielddes": "Identified primary EIN of the Legal Entity",
+    "Count": "23,372,257",
+    "value": "23.88%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_eins_related",
+    "fielddes": "All related EINS other than the primary EIN of the Legal Entity.",
+    "Count": "4,973,066",
+    "value": "5.08%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_ein_level",
+    "fielddes": "The level at which the EIN was obtained (Legal Entity; or inherited from the Organization it belongs to).",
+    "Count": "23,372,257",
+    "value": "23.88%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_year_founded",
+    "fielddes": "Year in which the Legal Entity was registered with the Secretary of State .",
+    "Count": "96,618,166",
+    "value": "98.71%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_date_founded",
+    "fielddes": "Date on which the Legal Entity was registered with the Secretary of State .",
+    "Count": "96,618,166",
+    "value": "98.71%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_parent_id",
+    "fielddes": "Legal entity ID of the immediate parent (if this legal entity is a child)",
+    "Count": "27,348,880",
+    "value": "27.93%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_ultimate_parent_id",
+    "fielddes": "Legal entity ID of the ultimate parent. Ultimate Parent is the ultimate controlling company within a corporate structure.",
+    "Count": "27,348,879",
+    "value": "27.93%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_parent_status",
+    "fielddes": "Ultimate Parent (not a child); Non-U.S. Parent; Child (not a parent); Parent and Child; or Sole (a legal entity is a sole entity if it has no parent or children)",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_children_ids",
+    "fielddes": "Legal entity IDs of the immediate children (if this legal entity is a parent)",
+    "Count": "10,466,911",
+    "value": "10.69%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_children_count",
+    "fielddes": "Count of the number of children legal entities (if this legal entity is a parent)",
+    "Count": "10,466,911",
+    "value": "10.69%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_children_ids",
+    "fielddes": "Legal entity IDs of the children (if this legal entity is a parent, and includes children of children, etc.).",
+    "Count": "10,425,828",
+    "value": "10.65%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_children_count",
+    "fielddes": "Count of the number of children (and grandchildren, etc.) legal entities (if this legal entity is a parent).",
+    "Count": "10,452,129",
+    "value": "10.68%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_establishment_ids",
+    "fielddes": "IDs of the immediate establishments operated by the Legal Entity.",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_establishment_count",
+    "fielddes": "Count of the number of immediate establishments operated by the Legal Entity.",
+    "Count": "97,877,044",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_establishment_ids",
+    "fielddes": "IDs of all the Establishments operated by the Legal Entity as well as the children of the Legal Entity",
+    "Count": "10,357,017",
+    "value": "10.58%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_establishment_count",
+    "fielddes": "Count of the number of establishments (including the establishments of the children, etc.) operated by this legal entity",
+    "Count": "10,357,017",
+    "value": "10.58%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_active_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is active and 0 otherwise. The active status of the legal entity is derived from its current status. If the current status is null, the most recent non-null value reported since 2017 is used to determine the entity's status.",
+    "Count": "1=48,841,4990=49,035,545",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_nonprofit_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is a Non-Profit and 0 otherwise.",
+    "Count": "1=5,796,2370=92,080,807",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_irs_taxlien_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity has a tax lien issued by the IRS, and 0 otherwise.",
+    "Count": "1=437,0750=97,439,969",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_corporation_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is a Corporation and 0 otherwise; this field is relevant because corporations authorize and issue stock.",
+    "Count": "1=45,339,8210=52,537,223",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_foreign_child_indicator",
+    "fielddes": "Indicator that marks 1 if the Legal Entity has a child within its family with foreign presence and 0 otherwise.",
+    "Count": "1=15,5210=96,895,745",
+    "value": "99.01%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_foreign_child_indicator",
+    "fielddes": "Indicator that marks 1 if the Legal Entity has an immediate child that has a foreign presence and 0 otherwise.",
+    "Count": "1=15,5820=96,895,684",
+    "value": "99.01%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_officerparent_indicator",
+    "fielddes": "Indicator that equals 1 if Legal Entity is an officer entity and is an officer of another legal entities and 0 otherwise.",
+    "Count": "1=843,5830=97,033,461",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_officer_signatory_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity has a Signatory Officer and 0 if otherwise.",
+    "Count": "1=71,185,3280=3,992,290",
+    "value": "76.81%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_agent_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is a registered Agent and 0 otherwise.",
+    "Count": "1=8,4340=97,868,610",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_minorityowned_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is Minority owned and 0 otherwise.",
+    "Count": "1=10,788,9430=87,088,101",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_veteranowned_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is Veteran owned and 0 otherwise. This is based on whether the Legal Entity reported this to an agency, or a majority of the Officers are Veterans.",
+    "Count": "1=70,8540=97,806,190",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_womenowned_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is Women owned and 0 otherwise. This is based on whether the Legal Entity reported this to an agency, or a majority of the Officers are women.",
+    "Count": "1=14,828,7220=83,048,322",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_blackowned_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is Black owned and 0 otherwise.  This is based on whether the Legal Entity reported this to an agency, or a majority of the Officers are Black.",
+    "Count": "1=2,249,1640=95,627,880",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_hispanicowned_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity is Hispanic owned and 0 otherwise. This is based on whether the Legal Entity reported this to an agency, or a majority of the Officers are Hispanic.",
+    "Count": "1=4,791,6470=93,085,397",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_minority_in_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity has one or more Minority officers and 0 otherwise.",
+    "Count": "1=14,344,4830=83,532,561",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_women_in_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity has one or more Women officers and 0 otherwise.",
+    "Count": "1=25,047,7880=72,829,256",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_black_in_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity has one or more Black officers and 0 otherwise.",
+    "Count": "1=3,608,6310=94,268,413",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_hispanic_in_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity has one or more Hispanic officers and 0 otherwise.",
+    "Count": "1=6,424,6910=91,452,353",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_officer_parent_id",
+    "fielddes": "Legal Entity ID of the parent officer entity.",
+    "Count": "1,631,801",
+    "value": "1.66%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_officer_parent_children_ids",
+    "fielddes": "Legal Entity IDs of all children belonging to the underlying Legal Entity who is the Parent Officer.",
+    "Count": "843,583",
+    "value": "0.85%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_officer_parent_children_count",
+    "fielddes": "Count of the Legal Entity IDs of all children belonging to the underlying Legal Entity who is the Parent Officer.",
+    "Count": "93,961,374",
+    "value": "96%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_congressional_district",
+    "fielddes": "Congressional District Code of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "77,794,755",
+    "value": "79.47%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_foreign_child_count",
+    "fielddes": "Count that denotes the number of foreign entities associated with this Legal Entity and/or within its family",
+    "Count": "15,521",
+    "value": "0.02%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_foreign_child_ids",
+    "fielddes": "Legal Entity IDs of each foreign entities associated with this Legal Entity and/or within its family",
+    "Count": "15,521",
+    "value": "0.02%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_foreign_child_count",
+    "fielddes": "Count that denotes the number of immediate children of the Legal Entity that has a foreign presence.",
+    "Count": "15,582",
+    "value": "0.02%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_immediate_foreign_child_ids",
+    "fielddes": "Legal Entity IDs of each immediate children of the Legal Entity that has a foreign presence.",
+    "Count": "15,582",
+    "value": "0.02%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_valid_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal address of the Legal Entity is valid based on USPS address verification and 0 otherwise.",
+    "Count": "1=80,119,2700=17,757,774",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_type",
+    "fielddes": "Classification system for the Legal Entity address based on whether it is a Registered address, non-registered address, or officer address",
+    "Count": "91,095,655",
+    "value": "93.07%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_line_1",
+    "fielddes": "1st line the Legal Entity's address. Address of the Legal Entity should match what the entity has filed with the state in its organizational documents. Addresses are cleaned and standardized using USPS.",
+    "Count": "90,741,450",
+    "value": "92.71%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_line_2",
+    "fielddes": "2nd line of the Legal Entity's address. Address of the Legal Entity should match what the entity has filed with the state in its organizational documents. Addresses are cleaned and standardized using USPS.",
+    "Count": "3,827,527",
+    "value": "3.91%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_city",
+    "fielddes": "City of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "85,196,238",
+    "value": "87.03%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_state",
+    "fielddes": "State of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "85,162,247",
+    "value": "87.01%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_state_name",
+    "fielddes": "State name of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "85,016,637",
+    "value": "86.85%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_county_fips",
+    "fielddes": "County-level FIPS code of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "83,861,084",
+    "value": "85.67%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_county_name",
+    "fielddes": "County name of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "83,860,498",
+    "value": "85.67%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_fgn_address1_cntry",
+    "fielddes": "Country of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "97,420,474",
+    "value": "99.53%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_zip5",
+    "fielddes": "5-digit Zip Code of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "85,063,578",
+    "value": "86.90%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_zip9",
+    "fielddes": "9-digit Zip Code of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "84,325,446",
+    "value": "86.15%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_zip_type",
+    "fielddes": "Zip code classification of the Legal Entity's address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "83,861,028",
+    "value": "85.67%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_latitude",
+    "fielddes": "Latitude of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "91,456,938",
+    "value": "93.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_longitude",
+    "fielddes": "Longitude of the Legal Entity's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "91,456,938",
+    "value": "93.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_summary",
+    "fielddes": "Classification that indicates whether the Legal Entity address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "91,456,938",
+    "value": "93.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_rdi",
+    "fielddes": "RDI indicates whether the Legal Entity address is Residential, Commercial, P.O. Box or unknown based on USPS reporting.",
+    "Count": "91,456,938",
+    "value": "93.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Legal Entity addressfalls under according to USPS.",
+    "Count": "78,535,849",
+    "value": "80.23%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the legal  address of the Legal Entity lies according to USPS.",
+    "Count": "78,535,849",
+    "value": "80.23%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Legal Entity address falls under according to USPS.",
+    "Count": "78,535,849",
+    "value": "80.23%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the Legal Entity's address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "21,649,764",
+    "value": "22.11%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_dpv_match_code",
+    "fielddes": "Indicator that  states \"Yes\" if the Legal Entity's address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "80,347,502",
+    "value": "82.09%"
+  },
+  {
+    "tablename": "bq_legal_entity_tbl",
+    "fieldname": "bq_legal_entity_address1_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer's address is the \"default\" address for a building ( i.e., the main lobby) and 0 otherwise. Addresses are cleaned and standardized using USPS.",
+    "Count": "1=8,509,2520=0",
+    "value": "10%"
+  }
+]

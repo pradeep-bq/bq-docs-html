@@ -1,0 +1,282 @@
+[
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_id",
+    "fielddes": "Unique ID assigned to a Location. A Location is a physical address associated with an Organization, which may be used for legal and/or business purposes.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_id",
+    "fielddes": "ID of the Organization associated with the Location.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "1,705,202",
+    "value": "0.57%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "131,911,873",
+    "value": "44.29%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_name",
+    "fielddes": "Name of the Location, often a DBA.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_type",
+    "fielddes": "This refers to whether the Location is a Headquarters, Ultimate Parent Legal Entity, Child Legal Entity, Officer, Independent, or Branch.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_class",
+    "fielddes": "This refers to whether the Location is a Business, Legal, Officer Person, or Officer Company address.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_line_1",
+    "fielddes": "1st line of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "291,379,959",
+    "value": "97.84%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_line_2",
+    "fielddes": "2nd line of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "77,191,748",
+    "value": "25.92%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_city",
+    "fielddes": "City of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "284,773,938",
+    "value": "95.62%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_state",
+    "fielddes": "State abbreviation of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "284,425,076",
+    "value": "95.5%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_state_name",
+    "fielddes": "State name of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "283,822,808",
+    "value": "95.3%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_zip5",
+    "fielddes": "5-digit zip code of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "283,774,003",
+    "value": "95.29%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_zip9",
+    "fielddes": "9-digit zip code (ZIP + 4) of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "283,118,464",
+    "value": "95.07%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_zip_type",
+    "fielddes": "Zip code classification of the Location's address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "280,128,586",
+    "value": "94.06%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_county_name",
+    "fielddes": "County name of the Location's saddress. Addresses are cleaned and standardized using USPS.",
+    "Count": "280,127,569",
+    "value": "94.06%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_county_fips",
+    "fielddes": "County-level FIPS code of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "280,130,207",
+    "value": "94.06%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_country_name",
+    "fielddes": "Country of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "297,233,331",
+    "value": "99.81%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_country_code",
+    "fielddes": "",
+    "Count": "297,233,331",
+    "value": "99.81%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_rdi",
+    "fielddes": "RDI indicates whether the Location's address is Residential, Commercial, P.O. Box or Unknown based on USPS reporting.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_latitude",
+    "fielddes": "Latitude of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "280,141,047",
+    "value": "94.07%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_longitude",
+    "fielddes": "Longitude of the Location's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "280,141,047",
+    "value": "94.07%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_dpv_match_code",
+    "fielddes": "Indicator that states \"Yes\" if the Location's address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "256,914,952",
+    "value": "86.27%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Location's address is the \"default\" address for a building ( i.e., the main lobby) and 0 otherwise. Addresses are cleaned and standardized using USPS.",
+    "Count": "1=30,817,0590=4,024,357",
+    "value": "12.63%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Location's address lies according to USPS.",
+    "Count": "252,731,430",
+    "value": "84.86%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Location's address lies according to USPS.",
+    "Count": "257,238,744",
+    "value": "86.38%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Location's address lies according to USPS.",
+    "Count": "257,238,744",
+    "value": "86.38%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address_summary",
+    "fielddes": "Classification that indicates whether the Location's address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_phone_number",
+    "fielddes": "Phone number associated with the Location.",
+    "Count": "16,269,628",
+    "value": "5.46%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_category",
+    "fielddes": "The primary industry category of the Location, often very specific (e.g., food truck, nail salon), typically as submitted by the business owner in online review sites.",
+    "Count": "11,638,850",
+    "value": "3.91%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_confidence_score",
+    "fielddes": "A score that denotes the aggregate quality and veracity of filings and online review site information associated with this Location.",
+    "Count": "297,812,417",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_category_all",
+    "fielddes": "All industry categories of the Location, often very specific (e.g., food truck, nail salon), typically as submitted by the business owner in online review sites.",
+    "Count": "11,645,528",
+    "value": "3.91%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_address1_congressional_district",
+    "fielddes": "Congressional disctrict name associated with the Location Address.",
+    "Count": "150,432,607",
+    "value": "50.51%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_online_reviews_count",
+    "fielddes": "Count of the number of reviews for that Location in online review sites.",
+    "Count": "9,661,986",
+    "value": "3.24%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_avg_online_score",
+    "fielddes": "Average score of reviews for that Location in online review sites.",
+    "Count": "9,661,986",
+    "value": "3.24%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_website",
+    "fielddes": "Website of the Location in online review sites, typically as submitted by the business owner.",
+    "Count": "145,823,559",
+    "value": "48.96%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_website_domain",
+    "fielddes": "Domain of the Location in online review sites, typically as submitted by the business owner.",
+    "Count": "145,823,559",
+    "value": "48.96%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_active_indicator",
+    "fielddes": "Indicator that equals 1 if the Location is active and 0 otherwise.",
+    "Count": "1=150,899,7770=139,938,511",
+    "value": "97.66%"
+  },
+  {
+    "tablename": "bq_organization_locations",
+    "fieldname": "bq_location_headquarter_indicator",
+    "fielddes": "Indicator that equals 1 if the Location is a Headquarter addresss and 0 otherwise.",
+    "Count": "1=122,626,6850=168,211,603",
+    "value": "97.66%"
+  }
+]

@@ -1,0 +1,2132 @@
+[
+  {
+    "code": "111210",
+    "name": "Vegetable &amp; Melon Farming (including potatoes &amp; yams)",
+    "count": "13,805"
+  },
+  {
+    "code": "111300",
+    "name": "Fruit &amp; Tree Nut Farming",
+    "count": "57,280"
+  },
+  {
+    "code": "111400",
+    "name": "Greenhouse, Nursery, &amp; Floriculture Production",
+    "count": "31,401"
+  },
+  {
+    "code": "111900",
+    "name": "Other Crop Farming (including tobacco, cotton, sugarcane, hay, peanut, sugar beet, &amp; all other crop farming)",
+    "count": "53,776"
+  },
+  {
+    "code": "112111",
+    "name": "Beef Cattle Ranching &amp; Farming",
+    "count": "195,583"
+  },
+  {
+    "code": "112112",
+    "name": "Cattle Feedlots",
+    "count": "5,174"
+  },
+  {
+    "code": "112120",
+    "name": "Dairy Cattle &amp; Milk Production",
+    "count": "45,057"
+  },
+  {
+    "code": "112210",
+    "name": "Hog &amp; Pig Farming",
+    "count": "13,522"
+  },
+  {
+    "code": "112300",
+    "name": "Poultry &amp; Egg Production",
+    "count": "79,155"
+  },
+  {
+    "code": "112400",
+    "name": "Sheep &amp; Goat Farming",
+    "count": "663"
+  },
+  {
+    "code": "112510",
+    "name": "Aquaculture (including shellfish &amp; finfish farms &amp; hatcheries)",
+    "count": "4,615"
+  },
+  {
+    "code": "112900",
+    "name": "Other Animal Production",
+    "count": "43,329"
+  },
+  {
+    "code": "113110",
+    "name": "Timber Tract Operations",
+    "count": "16,493"
+  },
+  {
+    "code": "113210",
+    "name": "Forest Nurseries &amp; Gathering of Forest Products",
+    "count": "903"
+  },
+  {
+    "code": "113310",
+    "name": "Logging",
+    "count": "44,764"
+  },
+  {
+    "code": "114110",
+    "name": "Fishing",
+    "count": "36,690"
+  },
+  {
+    "code": "114210",
+    "name": "Hunting &amp; Trapping",
+    "count": "4,939"
+  },
+  {
+    "code": "115110",
+    "name": "Support Activities for Crop Production (including cotton ginning, soil preparation, planting, &amp; cultivating)",
+    "count": "48,145"
+  },
+  {
+    "code": "115210",
+    "name": "Support Activities for Animal Production",
+    "count": "22,117"
+  },
+  {
+    "code": "115310",
+    "name": "Support Activities For Forestry",
+    "count": "47,490"
+  },
+  {
+    "code": "211120",
+    "name": "Crude Petroleum Extraction",
+    "count": "24,408"
+  },
+  {
+    "code": "211130",
+    "name": "Natural Gas Extraction",
+    "count": "26,032"
+  },
+  {
+    "code": "212110",
+    "name": "Coal Mining",
+    "count": "23,421"
+  },
+  {
+    "code": "212200",
+    "name": "Metal Ore Mining",
+    "count": "4,600"
+  },
+  {
+    "code": "212310",
+    "name": "Stone Mining &amp; Quarrying",
+    "count": "2,682"
+  },
+  {
+    "code": "212320",
+    "name": "Sand, Gravel, Clay, &amp; Ceramic &amp; Refractory Minerals Mining &amp; Quarrying",
+    "count": "18,035"
+  },
+  {
+    "code": "212390",
+    "name": "Other Nonmetallic Mineral Mining &amp; Quarrying",
+    "count": "887"
+  },
+  {
+    "code": "213110",
+    "name": "Support Activities for Mining",
+    "count": "144,606"
+  },
+  {
+    "code": "221100",
+    "name": "Electric Power Generation, Transmission &amp; Distribution",
+    "count": "181,938"
+  },
+  {
+    "code": "221210",
+    "name": "Natural Gas Distribution",
+    "count": "9,304"
+  },
+  {
+    "code": "221300",
+    "name": "Water, Sewage, &amp; Other Systems",
+    "count": "65,247"
+  },
+  {
+    "code": "221500",
+    "name": "Combination Gas &amp; Electric",
+    "count": "1,238"
+  },
+  {
+    "code": "236110",
+    "name": "Residential Building Construction",
+    "count": "1,567,780"
+  },
+  {
+    "code": "236200",
+    "name": "Nonresidential Building Construction",
+    "count": "761,044"
+  },
+  {
+    "code": "237100",
+    "name": "Utility System Construction",
+    "count": "71,819"
+  },
+  {
+    "code": "237210",
+    "name": "Land Subdivision",
+    "count": "17,091"
+  },
+  {
+    "code": "237310",
+    "name": "Highway, Street, &amp; Bridge Construction",
+    "count": "42,728"
+  },
+  {
+    "code": "237990",
+    "name": "Other Heavy &amp; Civil Engineering Construction",
+    "count": "14,863"
+  },
+  {
+    "code": "238100",
+    "name": "Foundation, Structure, &amp; Building Exterior Contractors (including framing carpentry, masonry, glass, roofing, &amp; siding)",
+    "count": "420,040"
+  },
+  {
+    "code": "238210",
+    "name": "Electrical Contractors",
+    "count": "372,255"
+  },
+  {
+    "code": "238220",
+    "name": "Plumbing, Heating, &amp; Air-Conditioning Contractors",
+    "count": "651,438"
+  },
+  {
+    "code": "238290",
+    "name": "Other Building Equipment Contractors",
+    "count": "23,714"
+  },
+  {
+    "code": "238300",
+    "name": "Building Finishing Contractors (including drywall, insulation, painting, wallcovering, flooring, tile, &amp; finish carpentry)",
+    "count": "589,591"
+  },
+  {
+    "code": "238900",
+    "name": "Other Specialty Trade Contractors (including site preparation)",
+    "count": "747,663"
+  },
+  {
+    "code": "311110",
+    "name": "Animal Food Manufacturing",
+    "count": "5,063"
+  },
+  {
+    "code": "311200",
+    "name": "Grain &amp; Oilseed Milling",
+    "count": "4,413"
+  },
+  {
+    "code": "311300",
+    "name": "Sugar &amp; Confectionery Product Manufacturing",
+    "count": "6,434"
+  },
+  {
+    "code": "311400",
+    "name": "Fruit &amp; Vegetable Preserving &amp; Specialty Food Manufacturing",
+    "count": "11,181"
+  },
+  {
+    "code": "311500",
+    "name": "Dairy Product Manufacturing",
+    "count": "7,846"
+  },
+  {
+    "code": "311610",
+    "name": "Animal Slaughtering and Processing",
+    "count": "17,308"
+  },
+  {
+    "code": "311710",
+    "name": "Seafood Product Preparation &amp; Packaging",
+    "count": "1,233"
+  },
+  {
+    "code": "311800",
+    "name": "Bakeries, Tortilla &amp; Dry Pasta Manufacturing",
+    "count": "100,676"
+  },
+  {
+    "code": "311900",
+    "name": "Other Food Manufacturing (including coffee, tea, flavorings &amp; seasonings)",
+    "count": "36,697"
+  },
+  {
+    "code": "312110",
+    "name": "Soft Drink &amp; Ice Manufacturing",
+    "count": "23,501"
+  },
+  {
+    "code": "312120",
+    "name": "Breweries",
+    "count": "37,497"
+  },
+  {
+    "code": "312130",
+    "name": "Wineries",
+    "count": "66,790"
+  },
+  {
+    "code": "312140",
+    "name": "Distilleries",
+    "count": "8,566"
+  },
+  {
+    "code": "312200",
+    "name": "Tobacco Manufacturing",
+    "count": "1,636"
+  },
+  {
+    "code": "313000",
+    "name": "Textile Mills",
+    "count": "21,013"
+  },
+  {
+    "code": "314000",
+    "name": "Textile Product Mills",
+    "count": "14,761"
+  },
+  {
+    "code": "315100",
+    "name": "Apparel Knitting Mills",
+    "count": "1,200"
+  },
+  {
+    "code": "315210",
+    "name": "Cut &amp; Sew Apparel Contractors",
+    "count": "3,358"
+  },
+  {
+    "code": "315220",
+    "name": "Men's &amp; Boys' Cut &amp; Sew Apparel Manufacturing",
+    "count": "1,631"
+  },
+  {
+    "code": "315240",
+    "name": "Women's &amp; Girls' and Infants' Cut &amp; Sew Apparel Manufacturing",
+    "count": "1,648"
+  },
+  {
+    "code": "315280",
+    "name": "Other Cut &amp; Sew Apparel Manufacturing",
+    "count": "3,622"
+  },
+  {
+    "code": "315990",
+    "name": "Apparel Accessories &amp; Other Apparel Manufacturing",
+    "count": "19,548"
+  },
+  {
+    "code": "316110",
+    "name": "Leather &amp; Hide Tanning &amp; Finishing",
+    "count": "377"
+  },
+  {
+    "code": "316210",
+    "name": "Footwear Manufacturing (including rubber &amp; plastics)",
+    "count": "960"
+  },
+  {
+    "code": "316990",
+    "name": "Other Leather &amp; Allied Product Manufacturing",
+    "count": "7,408"
+  },
+  {
+    "code": "321110",
+    "name": "Sawmills &amp; Wood Preservation",
+    "count": "8,438"
+  },
+  {
+    "code": "321210",
+    "name": "Veneer, Plywood, &amp; Engineered Wood Product Manufacturing",
+    "count": "5,866"
+  },
+  {
+    "code": "321900",
+    "name": "Other Wood Product Manufacturing",
+    "count": "65,999"
+  },
+  {
+    "code": "322100",
+    "name": "Pulp, Paper, &amp; Paperboard Mills",
+    "count": "1,085"
+  },
+  {
+    "code": "322200",
+    "name": "Converted Paper Product Manufacturing",
+    "count": "14,999"
+  },
+  {
+    "code": "323100",
+    "name": "Printing &amp; Related Support Activities",
+    "count": "167,748"
+  },
+  {
+    "code": "324110",
+    "name": "Petroleum Refineries (including integrated)",
+    "count": "505"
+  },
+  {
+    "code": "324120",
+    "name": "Asphalt Paving, Roofing, &amp; Saturated Materials Manufacturing",
+    "count": "6,990"
+  },
+  {
+    "code": "324190",
+    "name": "Other Petroleum &amp; Coal Products Manufacturing",
+    "count": "2,570"
+  },
+  {
+    "code": "325100",
+    "name": "Basic Chemical Manufacturing",
+    "count": "5,626"
+  },
+  {
+    "code": "325200",
+    "name": "Resin, Synthetic Rubber, &amp; Artificial &amp; Synthetic Fibers &amp; Filaments Manufacturing",
+    "count": "2,563"
+  },
+  {
+    "code": "325300",
+    "name": "Pesticide, Fertilizer, &amp; Other Agricultural Chemical Manufacturing",
+    "count": "2,558"
+  },
+  {
+    "code": "325410",
+    "name": "Pharmaceutical &amp; Medicine Manufacturing",
+    "count": "10,953"
+  },
+  {
+    "code": "325500",
+    "name": "Paint, Coating, &amp; Adhesive Manufacturing",
+    "count": "11,419"
+  },
+  {
+    "code": "325600",
+    "name": "Soap, Cleaning Compound, &amp; Toilet Preparation Manufacturing",
+    "count": "7,143"
+  },
+  {
+    "code": "325900",
+    "name": "Other Chemical Product &amp; Preparation Manufacturing",
+    "count": "9,745"
+  },
+  {
+    "code": "326100",
+    "name": "Plastics Product Manufacturing",
+    "count": "34,363"
+  },
+  {
+    "code": "326200",
+    "name": "Rubber Product Manufacturing",
+    "count": "9,020"
+  },
+  {
+    "code": "327100",
+    "name": "Clay Product &amp; Refractory Manufacturing",
+    "count": "4,135"
+  },
+  {
+    "code": "327210",
+    "name": "Glass &amp; Glass Product Manufacturing",
+    "count": "6,456"
+  },
+  {
+    "code": "327300",
+    "name": "Cement &amp; Concrete Product Manufacturing",
+    "count": "27,684"
+  },
+  {
+    "code": "327400",
+    "name": "Lime &amp; Gypsum Product Manufacturing",
+    "count": "147"
+  },
+  {
+    "code": "327900",
+    "name": "Other Nonmetallic Mineral Product Manufacturing",
+    "count": "75,667"
+  },
+  {
+    "code": "331110",
+    "name": "Iron &amp; Steel Mills &amp; Ferroalloy Manufacturing",
+    "count": "1,614"
+  },
+  {
+    "code": "331200",
+    "name": "Steel Product Manufacturing from Purchased Steel",
+    "count": "6,639"
+  },
+  {
+    "code": "331310",
+    "name": "Alumina &amp; Aluminum Production &amp; Processing",
+    "count": "1,880"
+  },
+  {
+    "code": "331400",
+    "name": "Nonferrous Metal (except Aluminum) Production &amp; Processing",
+    "count": "1,793"
+  },
+  {
+    "code": "331500",
+    "name": "Foundries",
+    "count": "8,299"
+  },
+  {
+    "code": "332110",
+    "name": "Forging &amp; Stamping",
+    "count": "7,664"
+  },
+  {
+    "code": "332210",
+    "name": "Cutlery &amp; Handtool Manufacturing",
+    "count": "2,597"
+  },
+  {
+    "code": "332300",
+    "name": "Architectural &amp; Structural Metals Manufacturing",
+    "count": "80,782"
+  },
+  {
+    "code": "332400",
+    "name": "Boiler, Tank, &amp; Shipping Container Manufacturing",
+    "count": "4,823"
+  },
+  {
+    "code": "332510",
+    "name": "Hardware Manufacturing",
+    "count": "1,410"
+  },
+  {
+    "code": "332610",
+    "name": "Spring &amp; Wire Product Manufacturing",
+    "count": "6,388"
+  },
+  {
+    "code": "332700",
+    "name": "Machine Shops; Turned Product; &amp; Screw, Nut, &amp; Bolt Manufacturing",
+    "count": "241,826"
+  },
+  {
+    "code": "332810",
+    "name": "Coating, Engraving, Heat Treating, &amp; Allied Activities",
+    "count": "26,739"
+  },
+  {
+    "code": "332900",
+    "name": "Other Fabricated Metal Product Manufacturing",
+    "count": "93,491"
+  },
+  {
+    "code": "333100",
+    "name": "Agriculture, Construction, &amp; Mining Machinery Manufacturing",
+    "count": "33,289"
+  },
+  {
+    "code": "333200",
+    "name": "Industrial Machinery Manufacturing",
+    "count": "9,134"
+  },
+  {
+    "code": "333310",
+    "name": "Commercial &amp; Service Industry Machinery Manufacturing",
+    "count": "8,323"
+  },
+  {
+    "code": "333410",
+    "name": "Ventilation, Heating, Air-Conditioning, &amp; Commercial Refrigeration Equipment Manufacturing",
+    "count": "3,985"
+  },
+  {
+    "code": "333510",
+    "name": "Metalworking Machinery Manufacturing",
+    "count": "19,228"
+  },
+  {
+    "code": "333610",
+    "name": "Engine, Turbine &amp; Power Transmission Equipment Manufacturing",
+    "count": "2,526"
+  },
+  {
+    "code": "333900",
+    "name": "Other General Purpose Machinery Manufacturing",
+    "count": "23,145"
+  },
+  {
+    "code": "334110",
+    "name": "Computer &amp; Peripheral Equipment Manufacturing",
+    "count": "5,604"
+  },
+  {
+    "code": "334200",
+    "name": "Communications Equipment Manufacturing",
+    "count": "4,501"
+  },
+  {
+    "code": "334310",
+    "name": "Audio &amp; Video Equipment Manufacturing",
+    "count": "23,782"
+  },
+  {
+    "code": "334410",
+    "name": "Semiconductor &amp; Other Electronic Component Manufacturing",
+    "count": "10,768"
+  },
+  {
+    "code": "334500",
+    "name": "Navigational, Measuring, Electromedical, &amp; Control Instruments Manufacturing",
+    "count": "11,199"
+  },
+  {
+    "code": "334610",
+    "name": "Manufacturing &amp; Reproducing Magnetic &amp; Optical Media",
+    "count": "2,287"
+  },
+  {
+    "code": "335100",
+    "name": "Electric Lighting Equipment Manufacturing",
+    "count": "5,547"
+  },
+  {
+    "code": "335200",
+    "name": "Household Appliance Manufacturing",
+    "count": "966"
+  },
+  {
+    "code": "335310",
+    "name": "Electrical Equipment Manufacturing",
+    "count": "4,121"
+  },
+  {
+    "code": "335900",
+    "name": "Other Electrical Equipment &amp; Component Manufacturing",
+    "count": "17,982"
+  },
+  {
+    "code": "336100",
+    "name": "Motor Vehicle Manufacturing",
+    "count": "1,034"
+  },
+  {
+    "code": "336210",
+    "name": "Motor Vehicle Body &amp; Trailer Manufacturing",
+    "count": "9,426"
+  },
+  {
+    "code": "336300",
+    "name": "Motor Vehicle Parts Manufacturing",
+    "count": "5,519"
+  },
+  {
+    "code": "336410",
+    "name": "Aerospace Product &amp; Parts Manufacturing",
+    "count": "14,498"
+  },
+  {
+    "code": "336510",
+    "name": "Railroad Rolling Stock Manufacturing",
+    "count": "613"
+  },
+  {
+    "code": "336610",
+    "name": "Ship &amp; Boat Building",
+    "count": "11,259"
+  },
+  {
+    "code": "336990",
+    "name": "Other Transportation Equipment Manufacturing",
+    "count": "4,928"
+  },
+  {
+    "code": "337000",
+    "name": "Furniture &amp; Related Product Manufacturing",
+    "count": "84,915"
+  },
+  {
+    "code": "339110",
+    "name": "Medical Equipment &amp; Supplies Manufacturing",
+    "count": "49,413"
+  },
+  {
+    "code": "339900",
+    "name": "Other Miscellaneous Manufacturing",
+    "count": "165,515"
+  },
+  {
+    "code": "423100",
+    "name": "Motor Vehicle &amp; Motor Vehicle Parts &amp; Supplies",
+    "count": "22,900"
+  },
+  {
+    "code": "423200",
+    "name": "Furniture &amp; Home Furnishings",
+    "count": "11,553"
+  },
+  {
+    "code": "423300",
+    "name": "Lumber &amp; Other Construction Materials",
+    "count": "51,363"
+  },
+  {
+    "code": "423400",
+    "name": "Professional &amp; Commercial Equipment &amp; Supplies",
+    "count": "65,825"
+  },
+  {
+    "code": "423500",
+    "name": "Metals &amp; Minerals (except Petroleum)",
+    "count": "29,847"
+  },
+  {
+    "code": "423600",
+    "name": "Household Appliances and Electrical &amp; Electronic Goods",
+    "count": "60,012"
+  },
+  {
+    "code": "423700",
+    "name": "Hardware, Plumbing &amp; Heating Equipment &amp; Supplies",
+    "count": "22,811"
+  },
+  {
+    "code": "423800",
+    "name": "Machinery, Equipment, &amp; Supplies",
+    "count": "164,766"
+  },
+  {
+    "code": "423910",
+    "name": "Sporting &amp; Recreational Goods &amp; Supplies",
+    "count": "33,147"
+  },
+  {
+    "code": "423920",
+    "name": "Toy &amp; Hobby Goods &amp; Supplies",
+    "count": "5,302"
+  },
+  {
+    "code": "423930",
+    "name": "Recyclable Materials",
+    "count": "26,895"
+  },
+  {
+    "code": "423940",
+    "name": "Jewelry, Watches, Precious Stones, &amp; Precious Metals",
+    "count": "50,832"
+  },
+  {
+    "code": "423990",
+    "name": "Other Miscellaneous Durable Goods",
+    "count": "447,484"
+  },
+  {
+    "code": "424100",
+    "name": "Paper &amp; Paper Products",
+    "count": "14,649"
+  },
+  {
+    "code": "424210",
+    "name": "Drugs &amp; Druggists' Sundries",
+    "count": "5,951"
+  },
+  {
+    "code": "424300",
+    "name": "Apparel, Piece Goods, &amp; Notions",
+    "count": "73,227"
+  },
+  {
+    "code": "424400",
+    "name": "Grocery &amp; Related Products",
+    "count": "204,624"
+  },
+  {
+    "code": "424500",
+    "name": "Farm Product Raw Materials",
+    "count": "14,915"
+  },
+  {
+    "code": "424600",
+    "name": "Chemical &amp; Allied Products",
+    "count": "23,538"
+  },
+  {
+    "code": "424700",
+    "name": "Petroleum &amp; Petroleum Products",
+    "count": "20,069"
+  },
+  {
+    "code": "424800",
+    "name": "Beer, Wine, &amp; Distilled Alcoholic Beverages",
+    "count": "17,093"
+  },
+  {
+    "code": "424910",
+    "name": "Farm Supplies",
+    "count": "29,331"
+  },
+  {
+    "code": "424920",
+    "name": "Books, Periodicals, &amp; Newspapers",
+    "count": "9,391"
+  },
+  {
+    "code": "424930",
+    "name": "Flower, Nursery Stock, &amp; Florists' Supplies",
+    "count": "31,074"
+  },
+  {
+    "code": "424940",
+    "name": "Tobacco &amp; Tobacco Products",
+    "count": "2,245"
+  },
+  {
+    "code": "424950",
+    "name": "Paint, Varnish, &amp; Supplies",
+    "count": "1,133"
+  },
+  {
+    "code": "424990",
+    "name": "Other Miscellaneous Nondurable Goods",
+    "count": "304,688"
+  },
+  {
+    "code": "425110",
+    "name": "Business to Business Electronic Markets",
+    "count": "2,284"
+  },
+  {
+    "code": "425120",
+    "name": "Wholesale Trade Agents &amp; Brokers",
+    "count": "95,661"
+  },
+  {
+    "code": "441110",
+    "name": "New Car Dealers",
+    "count": "357,703"
+  },
+  {
+    "code": "441120",
+    "name": "Used Car Dealers",
+    "count": "241,709"
+  },
+  {
+    "code": "441210",
+    "name": "Recreational Vehicle Dealers",
+    "count": "20,360"
+  },
+  {
+    "code": "441222",
+    "name": "Boat Dealers",
+    "count": "65,333"
+  },
+  {
+    "code": "441228",
+    "name": "Motorcycle, ATV, and All Other Motor Vehicle Dealers",
+    "count": "40,061"
+  },
+  {
+    "code": "441300",
+    "name": "Automotive Parts, Accessories, &amp; Tire Stores",
+    "count": "147,200"
+  },
+  {
+    "code": "442110",
+    "name": "Furniture Stores",
+    "count": "118,429"
+  },
+  {
+    "code": "442210",
+    "name": "Floor Covering Stores",
+    "count": "76,098"
+  },
+  {
+    "code": "442291",
+    "name": "Window Treatment Stores",
+    "count": "27,294"
+  },
+  {
+    "code": "442299",
+    "name": "All Other Home Furnishings Stores",
+    "count": "298,854"
+  },
+  {
+    "code": "443141",
+    "name": "Household Appliance Stores",
+    "count": "24,898"
+  },
+  {
+    "code": "443142",
+    "name": "Electronics Stores (including Audio, Video, Computer, and Camera Stores)",
+    "count": "201,743"
+  },
+  {
+    "code": "444110",
+    "name": "Home Centers",
+    "count": "3,517"
+  },
+  {
+    "code": "444120",
+    "name": "Paint &amp; Wallpaper Stores",
+    "count": "10,019"
+  },
+  {
+    "code": "444130",
+    "name": "Hardware Stores",
+    "count": "59,385"
+  },
+  {
+    "code": "444190",
+    "name": "Other Building Material Dealers",
+    "count": "103,754"
+  },
+  {
+    "code": "444200",
+    "name": "Lawn &amp; Garden Equipment &amp; Supplies Stores",
+    "count": "75,538"
+  },
+  {
+    "code": "445110",
+    "name": "Supermarkets and Other Grocery (except Convenience) Stores",
+    "count": "275,873"
+  },
+  {
+    "code": "445120",
+    "name": "Convenience Stores",
+    "count": "127,976"
+  },
+  {
+    "code": "445210",
+    "name": "Meat Markets",
+    "count": "22,312"
+  },
+  {
+    "code": "445220",
+    "name": "Fish &amp; Seafood Markets",
+    "count": "5,643"
+  },
+  {
+    "code": "445230",
+    "name": "Fruit &amp; Vegetable Markets",
+    "count": "8,520"
+  },
+  {
+    "code": "445291",
+    "name": "Baked Goods Stores",
+    "count": "15,934"
+  },
+  {
+    "code": "445292",
+    "name": "Confectionery &amp; Nut Stores",
+    "count": "26,104"
+  },
+  {
+    "code": "445299",
+    "name": "All Other Specialty Food Stores",
+    "count": "43,498"
+  },
+  {
+    "code": "445310",
+    "name": "Beer, Wine, &amp; Liquor Stores",
+    "count": "140,848"
+  },
+  {
+    "code": "446110",
+    "name": "Pharmacies &amp; Drug Stores",
+    "count": "138,944"
+  },
+  {
+    "code": "446120",
+    "name": "Cosmetics, Beauty Supplies, &amp; Perfume Stores",
+    "count": "91,200"
+  },
+  {
+    "code": "446130",
+    "name": "Optical Goods Stores",
+    "count": "20,424"
+  },
+  {
+    "code": "446190",
+    "name": "Other Health &amp; Personal Care Stores",
+    "count": "69,782"
+  },
+  {
+    "code": "447100",
+    "name": "Gasoline Stations (including convenience stores with gas)",
+    "count": "459,648"
+  },
+  {
+    "code": "448110",
+    "name": "Men's Clothing Stores",
+    "count": "12,472"
+  },
+  {
+    "code": "448120",
+    "name": "Women's Clothing Stores",
+    "count": "220,657"
+  },
+  {
+    "code": "448130",
+    "name": "Children's &amp; Infants' Clothing Stores",
+    "count": "19,902"
+  },
+  {
+    "code": "448140",
+    "name": "Family Clothing Stores",
+    "count": "72,078"
+  },
+  {
+    "code": "448150",
+    "name": "Clothing Accessories Stores",
+    "count": "65,518"
+  },
+  {
+    "code": "448190",
+    "name": "Other Clothing Stores",
+    "count": "46,234"
+  },
+  {
+    "code": "448210",
+    "name": "Shoe Stores",
+    "count": "52,256"
+  },
+  {
+    "code": "448310",
+    "name": "Jewelry Stores",
+    "count": "140,835"
+  },
+  {
+    "code": "448320",
+    "name": "Luggage &amp; Leather Goods Stores",
+    "count": "7,816"
+  },
+  {
+    "code": "451110",
+    "name": "Sporting Goods Stores",
+    "count": "187,597"
+  },
+  {
+    "code": "451120",
+    "name": "Hobby, Toy, &amp; Game Stores",
+    "count": "84,035"
+  },
+  {
+    "code": "451130",
+    "name": "Sewing, Needlework, &amp; Piece Goods Stores",
+    "count": "30,546"
+  },
+  {
+    "code": "451140",
+    "name": "Musical Instrument &amp; Supplies Stores",
+    "count": "102,670"
+  },
+  {
+    "code": "451211",
+    "name": "Book Stores",
+    "count": "154,611"
+  },
+  {
+    "code": "451212",
+    "name": "News Dealers &amp; Newsstands",
+    "count": "10,036"
+  },
+  {
+    "code": "452200",
+    "name": "Department Stores",
+    "count": "3,962"
+  },
+  {
+    "code": "452300",
+    "name": "General Merchandise Stores, incl. Warehouse Clubs &amp; Supercenters",
+    "count": "13,903"
+  },
+  {
+    "code": "453110",
+    "name": "Florists",
+    "count": "77,655"
+  },
+  {
+    "code": "453210",
+    "name": "Office Supplies &amp; Stationery Stores",
+    "count": "50,944"
+  },
+  {
+    "code": "453220",
+    "name": "Gift, Novelty, &amp; Souvenir Stores",
+    "count": "205,955"
+  },
+  {
+    "code": "453310",
+    "name": "Used Merchandise Stores",
+    "count": "85,498"
+  },
+  {
+    "code": "453910",
+    "name": "Pet &amp; Pet Supplies Stores",
+    "count": "50,514"
+  },
+  {
+    "code": "453920",
+    "name": "Art Dealers",
+    "count": "101,298"
+  },
+  {
+    "code": "453930",
+    "name": "Manufactured (Mobile) Home Dealers",
+    "count": "17,392"
+  },
+  {
+    "code": "453990",
+    "name": "All Other Miscellaneous Store Retailers (including tobacco, candle, &amp; trophy shops)",
+    "count": "484,995"
+  },
+  {
+    "code": "454110",
+    "name": "Electronic Shopping &amp; Mail-Order Houses",
+    "count": "68,328"
+  },
+  {
+    "code": "454210",
+    "name": "Vending Machine Operators",
+    "count": "53,020"
+  },
+  {
+    "code": "454310",
+    "name": "Fuel Dealers (including Heating Oil and Liquefied Petroleum)",
+    "count": "16,455"
+  },
+  {
+    "code": "454390",
+    "name": "Other Direct Selling Establishments (including door-to-door retailing, frozen food plan providers, party plan merchandisers, &amp; coffee-break service providers)",
+    "count": "72,408"
+  },
+  {
+    "code": "481000",
+    "name": "Air Transportation",
+    "count": "14,585"
+  },
+  {
+    "code": "482110",
+    "name": "Rail Transportation",
+    "count": "8,456"
+  },
+  {
+    "code": "483000",
+    "name": "Water Transportation",
+    "count": "9,351"
+  },
+  {
+    "code": "484110",
+    "name": "General Freight Trucking, Local",
+    "count": "745,988"
+  },
+  {
+    "code": "484120",
+    "name": "General Freight Trucking, Long-distance",
+    "count": "498,080"
+  },
+  {
+    "code": "484200",
+    "name": "Specialized Freight Trucking",
+    "count": "96,595"
+  },
+  {
+    "code": "485110",
+    "name": "Urban Transit Systems",
+    "count": "1,910"
+  },
+  {
+    "code": "485210",
+    "name": "Interurban &amp; Rural Bus Transportation",
+    "count": "358"
+  },
+  {
+    "code": "485310",
+    "name": "Taxi Service",
+    "count": "55,419"
+  },
+  {
+    "code": "485320",
+    "name": "Limousine Service",
+    "count": "86,060"
+  },
+  {
+    "code": "485410",
+    "name": "School &amp; Employee Bus Transportation",
+    "count": "13,497"
+  },
+  {
+    "code": "485510",
+    "name": "Charter Bus Industry",
+    "count": "12,649"
+  },
+  {
+    "code": "485990",
+    "name": "Other Transit &amp; Ground Passenger Transportation",
+    "count": "16,968"
+  },
+  {
+    "code": "486000",
+    "name": "Pipeline Transportation",
+    "count": "844"
+  },
+  {
+    "code": "487000",
+    "name": "Scenic &amp; Sightseeing Transportation",
+    "count": "13,618"
+  },
+  {
+    "code": "488100",
+    "name": "Support Activities for Air Transportation",
+    "count": "96,710"
+  },
+  {
+    "code": "488210",
+    "name": "Support Activities for Rail Transportation",
+    "count": "2,830"
+  },
+  {
+    "code": "488300",
+    "name": "Support Activities for Water Transportation",
+    "count": "6,646"
+  },
+  {
+    "code": "488410",
+    "name": "Motor Vehicle Towing",
+    "count": "78,799"
+  },
+  {
+    "code": "488490",
+    "name": "Other Support Activities for Road Transportation",
+    "count": "8,441"
+  },
+  {
+    "code": "488510",
+    "name": "Freight Transportation Arrangement",
+    "count": "244,039"
+  },
+  {
+    "code": "488990",
+    "name": "Other Support Activities for Transportation",
+    "count": "17,701"
+  },
+  {
+    "code": "492110",
+    "name": "Couriers",
+    "count": "49,038"
+  },
+  {
+    "code": "492210",
+    "name": "Local Messengers &amp; Local Delivery",
+    "count": "6,734"
+  },
+  {
+    "code": "493100",
+    "name": "Warehousing &amp; Storage (except lessors of miniwarehouses &amp; self-storage units)",
+    "count": "56,056"
+  },
+  {
+    "code": "511110",
+    "name": "Newspaper Publishers",
+    "count": "138,700"
+  },
+  {
+    "code": "511120",
+    "name": "Periodical Publishers",
+    "count": "30,790"
+  },
+  {
+    "code": "511130",
+    "name": "Book Publishers",
+    "count": "9,399"
+  },
+  {
+    "code": "511140",
+    "name": "Directory &amp; Mailing List Publishers",
+    "count": "3,228"
+  },
+  {
+    "code": "511190",
+    "name": "Other Publishers",
+    "count": "9,724"
+  },
+  {
+    "code": "511210",
+    "name": "Software Publishers",
+    "count": "45,873"
+  },
+  {
+    "code": "512100",
+    "name": "Motion Picture &amp; Video Industries (except video rental)",
+    "count": "537,477"
+  },
+  {
+    "code": "512200",
+    "name": "Sound Recording Industries",
+    "count": "14,703"
+  },
+  {
+    "code": "515100",
+    "name": "Radio &amp; Television Broadcasting",
+    "count": "55,380"
+  },
+  {
+    "code": "515210",
+    "name": "Cable &amp; Other Subscription Programming",
+    "count": "23,120"
+  },
+  {
+    "code": "517000",
+    "name": "Telecommunications (including paging, cellular, satellite, cable &amp; other program distribution, resellers, other telecommunications, &amp; internet service providers)",
+    "count": "156,963"
+  },
+  {
+    "code": "518210",
+    "name": "Data Processing, Hosting, &amp; Related Services",
+    "count": "48,382"
+  },
+  {
+    "code": "519100",
+    "name": "Other Information Services (including news syndicates, libraries, internet publishing &amp; broadcasting)",
+    "count": "86,038"
+  },
+  {
+    "code": "522110",
+    "name": "Commercial Banking",
+    "count": "43,162"
+  },
+  {
+    "code": "522120",
+    "name": "Savings Institutions",
+    "count": "9,058"
+  },
+  {
+    "code": "522130",
+    "name": "Credit Unions",
+    "count": "23,280"
+  },
+  {
+    "code": "522190",
+    "name": "Other Depository Credit Intermediation",
+    "count": "358"
+  },
+  {
+    "code": "522210",
+    "name": "Credit Card Issuing",
+    "count": "212"
+  },
+  {
+    "code": "522220",
+    "name": "Sales Financing",
+    "count": "6,524"
+  },
+  {
+    "code": "522291",
+    "name": "Consumer Lending",
+    "count": "65,610"
+  },
+  {
+    "code": "522292",
+    "name": "Real Estate Credit (including mortgage bankers &amp; originators)",
+    "count": "56,415"
+  },
+  {
+    "code": "522293",
+    "name": "International Trade Financing",
+    "count": "507"
+  },
+  {
+    "code": "522294",
+    "name": "Secondary Market Financing",
+    "count": "406"
+  },
+  {
+    "code": "522298",
+    "name": "All Other Nondepository Credit Intermediation",
+    "count": "13,303"
+  },
+  {
+    "code": "522300",
+    "name": "Activities Related to Credit Intermediation (including loan brokers, check clearing, &amp; money transmitting)",
+    "count": "191,902"
+  },
+  {
+    "code": "523110",
+    "name": "Investment Banking &amp; Securities Dealing",
+    "count": "5,125"
+  },
+  {
+    "code": "523120",
+    "name": "Securities Brokerage",
+    "count": "27,653"
+  },
+  {
+    "code": "523130",
+    "name": "Commodity Contracts Dealing",
+    "count": "5,718"
+  },
+  {
+    "code": "523140",
+    "name": "Commodity Contracts Brokerage",
+    "count": "6,817"
+  },
+  {
+    "code": "523210",
+    "name": "Securities &amp; Commodity Exchanges",
+    "count": "771"
+  },
+  {
+    "code": "523900",
+    "name": "Other Financial Investment Activities (including portfolio management &amp; investment advice)",
+    "count": "1,279,780"
+  },
+  {
+    "code": "524130",
+    "name": "Reinsurance Carriers",
+    "count": "182"
+  },
+  {
+    "code": "524140",
+    "name": "Direct Life, Health, &amp; Medical Insurance Carriers",
+    "count": "6,729"
+  },
+  {
+    "code": "524150",
+    "name": "Direct Insurance (except Life, Health &amp; Medical) Carriers",
+    "count": "6,318"
+  },
+  {
+    "code": "524210",
+    "name": "Insurance Agencies &amp; Brokerages",
+    "count": "717,157"
+  },
+  {
+    "code": "524290",
+    "name": "Other Insurance Related Activities (including third-party administration of insurance and pension funds)",
+    "count": "32,012"
+  },
+  {
+    "code": "525100",
+    "name": "Insurance &amp; Employee Benefit Funds",
+    "count": "4,554"
+  },
+  {
+    "code": "525910",
+    "name": "Open-End Investment Funds (Form 1120-RIC)",
+    "count": "3,514"
+  },
+  {
+    "code": "525920",
+    "name": "Trusts, Estates, &amp; Agency Accounts",
+    "count": "2,038"
+  },
+  {
+    "code": "525990",
+    "name": "Other Financial Vehicles (including mortgage REITs &amp; closed-end investment funds)",
+    "count": "5,863"
+  },
+  {
+    "code": "531110",
+    "name": "Lessors of Residential Buildings &amp; Dwellings (including equity REITs)",
+    "count": "603,662"
+  },
+  {
+    "code": "531120",
+    "name": "Lessors of Nonresidential Buildings (except Miniwarehouses) (including equity REITs)",
+    "count": "393,800"
+  },
+  {
+    "code": "531130",
+    "name": "Lessors of Miniwarehouses &amp; Self-Storage Units (including equity REITs)",
+    "count": "68,992"
+  },
+  {
+    "code": "531190",
+    "name": "Lessors of Other Real Estate Property (including equity REITs)",
+    "count": "41,347"
+  },
+  {
+    "code": "531210",
+    "name": "Offices of Real Estate Agents &amp; Brokers",
+    "count": "2,630,530"
+  },
+  {
+    "code": "531310",
+    "name": "Real Estate Property Managers",
+    "count": "517,012"
+  },
+  {
+    "code": "531320",
+    "name": "Offices of Real Estate Appraisers",
+    "count": "46,554"
+  },
+  {
+    "code": "531390",
+    "name": "Other Activities Related to Real Estate",
+    "count": "700,946"
+  },
+  {
+    "code": "532100",
+    "name": "Automotive Equipment Rental &amp; Leasing",
+    "count": "57,921"
+  },
+  {
+    "code": "532210",
+    "name": "Consumer Electronics &amp; Appliances Rental",
+    "count": "2,936"
+  },
+  {
+    "code": "532281",
+    "name": "Formal Wear &amp; Costume Rental",
+    "count": "2,465"
+  },
+  {
+    "code": "532282",
+    "name": "Video Tape &amp; Disc Rental",
+    "count": "209"
+  },
+  {
+    "code": "532283",
+    "name": "Home Health Equipment Rental",
+    "count": "349"
+  },
+  {
+    "code": "532284",
+    "name": "Recreational Goods Rental",
+    "count": "6,997"
+  },
+  {
+    "code": "532289",
+    "name": "All Other Consumer Goods Rental",
+    "count": "20,087"
+  },
+  {
+    "code": "532310",
+    "name": "General Rental Centers",
+    "count": "73,819"
+  },
+  {
+    "code": "532400",
+    "name": "Commercial &amp; Industrial Machinery &amp; Equipment Rental &amp; Leasing",
+    "count": "107,727"
+  },
+  {
+    "code": "533110",
+    "name": "Lessors of Nonfinancial Intangible Assets (except copyrighted works)",
+    "count": "7,403"
+  },
+  {
+    "code": "541110",
+    "name": "Offices of Lawyers",
+    "count": "1,890,717"
+  },
+  {
+    "code": "541190",
+    "name": "Other Legal Services",
+    "count": "85,647"
+  },
+  {
+    "code": "541211",
+    "name": "Offices of Certified Public Accountants",
+    "count": "711,691"
+  },
+  {
+    "code": "541213",
+    "name": "Tax Preparation Services",
+    "count": "106,506"
+  },
+  {
+    "code": "541214",
+    "name": "Payroll Services",
+    "count": "13,295"
+  },
+  {
+    "code": "541219",
+    "name": "Other Accounting Services",
+    "count": "206,396"
+  },
+  {
+    "code": "541310",
+    "name": "Architectural Services",
+    "count": "107,298"
+  },
+  {
+    "code": "541320",
+    "name": "Landscape Architecture Services",
+    "count": "17,630"
+  },
+  {
+    "code": "541330",
+    "name": "Engineering Services",
+    "count": "374,266"
+  },
+  {
+    "code": "541340",
+    "name": "Drafting Services",
+    "count": "6,490"
+  },
+  {
+    "code": "541350",
+    "name": "Building Inspection Services",
+    "count": "66,250"
+  },
+  {
+    "code": "541360",
+    "name": "Geophysical Surveying &amp; Mapping Services",
+    "count": "1,348"
+  },
+  {
+    "code": "541370",
+    "name": "Surveying &amp; Mapping (except Geophysical) Services",
+    "count": "23,062"
+  },
+  {
+    "code": "541380",
+    "name": "Testing Laboratories",
+    "count": "25,838"
+  },
+  {
+    "code": "541400",
+    "name": "Specialized Design Services (including interior, industrial, graphic, &amp; fashion design)",
+    "count": "581,398"
+  },
+  {
+    "code": "541511",
+    "name": "Custom Computer Programming Services",
+    "count": "496,799"
+  },
+  {
+    "code": "541512",
+    "name": "Computer Systems Design Services",
+    "count": "494,460"
+  },
+  {
+    "code": "541513",
+    "name": "Computer Facilities Management Services",
+    "count": "3,138"
+  },
+  {
+    "code": "541519",
+    "name": "Other Computer Related Services",
+    "count": "190,110"
+  },
+  {
+    "code": "541600",
+    "name": "Management, Scientific, &amp; Technical Consulting Services",
+    "count": "1,707,994"
+  },
+  {
+    "code": "541700",
+    "name": "Scientific Research &amp; Development Services",
+    "count": "76,643"
+  },
+  {
+    "code": "541800",
+    "name": "Advertising &amp; Related Services",
+    "count": "501,599"
+  },
+  {
+    "code": "541910",
+    "name": "Marketing Research &amp; Public Opinion Polling",
+    "count": "21,804"
+  },
+  {
+    "code": "541920",
+    "name": "Photographic Services",
+    "count": "224,871"
+  },
+  {
+    "code": "541930",
+    "name": "Translation &amp; Interpretation Services",
+    "count": "18,777"
+  },
+  {
+    "code": "541940",
+    "name": "Veterinary Services",
+    "count": "126,232"
+  },
+  {
+    "code": "541990",
+    "name": "All Other Professional, Scientific, &amp; Technical Services",
+    "count": "776,526"
+  },
+  {
+    "code": "551111",
+    "name": "Offices of Bank Holding Companies",
+    "count": "16,252"
+  },
+  {
+    "code": "551112",
+    "name": "Offices of Other Holding Companies",
+    "count": "56,360"
+  },
+  {
+    "code": "561110",
+    "name": "Office Administrative Services",
+    "count": "390,731"
+  },
+  {
+    "code": "561210",
+    "name": "Facilities Support Services",
+    "count": "3,740"
+  },
+  {
+    "code": "561300",
+    "name": "Employment Services",
+    "count": "156,892"
+  },
+  {
+    "code": "561410",
+    "name": "Document Preparation Services",
+    "count": "5,387"
+  },
+  {
+    "code": "561420",
+    "name": "Telephone Call Centers",
+    "count": "4,343"
+  },
+  {
+    "code": "561430",
+    "name": "Business Service Centers (including private mail centers &amp; copy shops)",
+    "count": "15,629"
+  },
+  {
+    "code": "561440",
+    "name": "Collection Agencies",
+    "count": "21,917"
+  },
+  {
+    "code": "561450",
+    "name": "Credit Bureaus",
+    "count": "3,255"
+  },
+  {
+    "code": "561490",
+    "name": "Other Business Support Services (including repossession services, court reporting, &amp; stenotype services)",
+    "count": "128,807"
+  },
+  {
+    "code": "561500",
+    "name": "Travel Arrangement &amp; Reservation Services",
+    "count": "208,085"
+  },
+  {
+    "code": "561600",
+    "name": "Investigation &amp; Security Services",
+    "count": "221,175"
+  },
+  {
+    "code": "561710",
+    "name": "Exterminating &amp; Pest Control Services",
+    "count": "66,078"
+  },
+  {
+    "code": "561720",
+    "name": "Janitorial Services",
+    "count": "557,167"
+  },
+  {
+    "code": "561730",
+    "name": "Landscaping Services",
+    "count": "1,001,530"
+  },
+  {
+    "code": "561740",
+    "name": "Carpet &amp; Upholstery Cleaning Services",
+    "count": "40,315"
+  },
+  {
+    "code": "561790",
+    "name": "Other Services to Buildings &amp; Dwellings",
+    "count": "101,506"
+  },
+  {
+    "code": "561900",
+    "name": "Other Support Services (including packaging &amp; labeling services, &amp; convention &amp; trade show organizers)",
+    "count": "86,902"
+  },
+  {
+    "code": "562000",
+    "name": "Waste Management &amp; Remediation Services",
+    "count": "95,217"
+  },
+  {
+    "code": "611000",
+    "name": "Educational Services (including schools, colleges, &amp; universities)",
+    "count": "821,658"
+  },
+  {
+    "code": "621111",
+    "name": "Offices of Physicians (except mental health specialists)",
+    "count": "1,903,496"
+  },
+  {
+    "code": "621112",
+    "name": "Offices of Physicians, Mental Health Specialists",
+    "count": "39,955"
+  },
+  {
+    "code": "621210",
+    "name": "Offices of Dentists",
+    "count": "475,242"
+  },
+  {
+    "code": "621310",
+    "name": "Offices of Chiropractors",
+    "count": "203,966"
+  },
+  {
+    "code": "621320",
+    "name": "Offices of Optometrists",
+    "count": "86,958"
+  },
+  {
+    "code": "621330",
+    "name": "Offices of Mental Health Practitioners (except Physicians)",
+    "count": "161,039"
+  },
+  {
+    "code": "621340",
+    "name": "Offices of Physical, Occupational &amp; Speech Therapists, &amp; Audiologists",
+    "count": "185,135"
+  },
+  {
+    "code": "621391",
+    "name": "Offices of Podiatrists",
+    "count": "25,689"
+  },
+  {
+    "code": "621399",
+    "name": "Offices of All Other Miscellaneous Health Practitioners",
+    "count": "142,147"
+  },
+  {
+    "code": "621410",
+    "name": "Family Planning Centers",
+    "count": "2,714"
+  },
+  {
+    "code": "621420",
+    "name": "Outpatient Mental Health &amp; Substance Abuse Centers",
+    "count": "19,759"
+  },
+  {
+    "code": "621491",
+    "name": "HMO Medical Centers",
+    "count": "1,962"
+  },
+  {
+    "code": "621492",
+    "name": "Kidney Dialysis Centers",
+    "count": "966"
+  },
+  {
+    "code": "621493",
+    "name": "Freestanding Ambulatory Surgical &amp; Emergency Centers",
+    "count": "13,088"
+  },
+  {
+    "code": "621498",
+    "name": "All Other Outpatient Care Centers",
+    "count": "11,571"
+  },
+  {
+    "code": "621510",
+    "name": "Medical &amp; Diagnostic Laboratories",
+    "count": "70,532"
+  },
+  {
+    "code": "621610",
+    "name": "Home Health Care Services",
+    "count": "306,843"
+  },
+  {
+    "code": "621900",
+    "name": "Other Ambulatory Health Care Services (including ambulance services &amp; blood &amp; organ banks)",
+    "count": "49,143"
+  },
+  {
+    "code": "622000",
+    "name": "Hospitals",
+    "count": "24,724"
+  },
+  {
+    "code": "623000",
+    "name": "Nursing &amp; Residential Care Facilities",
+    "count": "298,996"
+  },
+  {
+    "code": "624100",
+    "name": "Individual &amp; Family Services",
+    "count": "387,742"
+  },
+  {
+    "code": "624200",
+    "name": "Community Food &amp; Housing, &amp; Emergency &amp; Other Relief Services",
+    "count": "52,491"
+  },
+  {
+    "code": "624310",
+    "name": "Vocational Rehabilitation Services",
+    "count": "10,524"
+  },
+  {
+    "code": "624410",
+    "name": "Child Day Care Services",
+    "count": "544,055"
+  },
+  {
+    "code": "711100",
+    "name": "Performing Arts Companies",
+    "count": "74,617"
+  },
+  {
+    "code": "711210",
+    "name": "Spectator Sports (including sports clubs &amp; racetracks)",
+    "count": "93,939"
+  },
+  {
+    "code": "711300",
+    "name": "Promoters of Performing Arts, Sports, &amp; Similar Events",
+    "count": "43,991"
+  },
+  {
+    "code": "711410",
+    "name": "Agents &amp; Managers for Artists, Athletes, Entertainers, &amp; Other Public Figures",
+    "count": "40,761"
+  },
+  {
+    "code": "711510",
+    "name": "Independent Artists, Writers, &amp; Performers",
+    "count": "324,138"
+  },
+  {
+    "code": "712100",
+    "name": "Museums, Historical Sites, &amp; Similar Institutions",
+    "count": "88,480"
+  },
+  {
+    "code": "713100",
+    "name": "Amusement Parks &amp; Arcades",
+    "count": "15,367"
+  },
+  {
+    "code": "713200",
+    "name": "Gambling Industries",
+    "count": "19,304"
+  },
+  {
+    "code": "713900",
+    "name": "Other Amusement &amp; Recreation Industries (including golf courses, skiing facilities, marinas, fitness centers, &amp; bowling centers)",
+    "count": "966,896"
+  },
+  {
+    "code": "721110",
+    "name": "Hotels (except Casino Hotels) &amp; Motels",
+    "count": "981,013"
+  },
+  {
+    "code": "721120",
+    "name": "Casino Hotels",
+    "count": "991"
+  },
+  {
+    "code": "721191",
+    "name": "Bed &amp; Breakfast Inns",
+    "count": "21,293"
+  },
+  {
+    "code": "721199",
+    "name": "All Other Traveler Accommodation",
+    "count": "12,254"
+  },
+  {
+    "code": "721210",
+    "name": "RV (Recreational Vehicle) Parks &amp; Recreational Camps",
+    "count": "71,698"
+  },
+  {
+    "code": "721310",
+    "name": "Rooming &amp; Boarding Houses, Dormitories, and Workers' Camps",
+    "count": "2,929"
+  },
+  {
+    "code": "722300",
+    "name": "Special Food Services (including food service contractors &amp; caterers)",
+    "count": "143,816"
+  },
+  {
+    "code": "722410",
+    "name": "Drinking Places (Alcoholic Beverages)",
+    "count": "231,609"
+  },
+  {
+    "code": "722511",
+    "name": "Full-Service Restaurants",
+    "count": "16,559,947"
+  },
+  {
+    "code": "722513",
+    "name": "Limited-Service Restaurants",
+    "count": "857,614"
+  },
+  {
+    "code": "722514",
+    "name": "Cafeterias and Buffets",
+    "count": "3,072"
+  },
+  {
+    "code": "722515",
+    "name": "Snack and Non-alcoholic Beverage Bars",
+    "count": "231,069"
+  },
+  {
+    "code": "811110",
+    "name": "Automotive Mechanical &amp; Electrical Repair &amp; Maintenance",
+    "count": "671,923"
+  },
+  {
+    "code": "811120",
+    "name": "Automotive Body, Paint, Interior, &amp; Glass Repair",
+    "count": "144,096"
+  },
+  {
+    "code": "811190",
+    "name": "Other Automotive Repair &amp; Maintenance (including oil change &amp; lubrication shops &amp; car washes)",
+    "count": "194,625"
+  },
+  {
+    "code": "811210",
+    "name": "Electronic &amp; Precision Equipment Repair &amp; Maintenance",
+    "count": "73,658"
+  },
+  {
+    "code": "811310",
+    "name": "Commercial &amp; Industrial Machinery &amp; Equipment (except Automotive &amp; Electronic) Repair &amp; Maintenance",
+    "count": "120,346"
+  },
+  {
+    "code": "811410",
+    "name": "Home &amp; Garden Equipment &amp; Appliance Repair &amp; Maintenance",
+    "count": "25,925"
+  },
+  {
+    "code": "811420",
+    "name": "Reupholstery &amp; Furniture Repair",
+    "count": "11,918"
+  },
+  {
+    "code": "811430",
+    "name": "Footwear &amp; Leather Goods Repair",
+    "count": "1,491"
+  },
+  {
+    "code": "811490",
+    "name": "Other Personal &amp; Household Goods Repair &amp; Maintenance",
+    "count": "28,244"
+  },
+  {
+    "code": "812111",
+    "name": "Barber Shops",
+    "count": "75,769"
+  },
+  {
+    "code": "812112",
+    "name": "Beauty Salons",
+    "count": "703,113"
+  },
+  {
+    "code": "812113",
+    "name": "Nail Salons",
+    "count": "106,031"
+  },
+  {
+    "code": "812190",
+    "name": "Other Personal Care Services (including diet &amp; weight reducing centers)",
+    "count": "208,417"
+  },
+  {
+    "code": "812210",
+    "name": "Funeral Homes &amp; Funeral Services",
+    "count": "66,556"
+  },
+  {
+    "code": "812220",
+    "name": "Cemeteries &amp; Crematories",
+    "count": "58,907"
+  },
+  {
+    "code": "812310",
+    "name": "Coin-Operated Laundries &amp; Drycleaners",
+    "count": "52,263"
+  },
+  {
+    "code": "812320",
+    "name": "Drycleaning &amp; Laundry Services (except Coin-Operated)",
+    "count": "82,240"
+  },
+  {
+    "code": "812330",
+    "name": "Linen &amp; Uniform Supply",
+    "count": "3,743"
+  },
+  {
+    "code": "812910",
+    "name": "Pet Care (except Veterinary) Services",
+    "count": "199,330"
+  },
+  {
+    "code": "812920",
+    "name": "Photofinishing",
+    "count": "3,003"
+  },
+  {
+    "code": "812930",
+    "name": "Parking Lots &amp; Garages",
+    "count": "44,449"
+  },
+  {
+    "code": "812990",
+    "name": "All Other Personal Services",
+    "count": "298,973"
+  },
+  {
+    "code": "813000",
+    "name": "Religious, Grantmaking, Civic, Professional, &amp; Similar Organizations (including condominium and homeowners associations)",
+    "count": "3,491,010"
+  },
+  {
+    "code": "813930",
+    "name": "Labor Unions and Similar Labor Organizations",
+    "count": "55,411"
+  },
+  {
+    "code": "921000",
+    "name": "Governmental Instrumentality or Agency",
+    "count": "63,241"
+  },
+  {
+    "code": "999999",
+    "name": "No Classification",
+    "count": "16,510"
+  },
+  {
+    "code": "",
+    "name": "",
+    "count": "4,364,580"
+  },
+  {
+    "code": "Total Count",
+    "name": "&nbsp;",
+    "count": "77,278,516"
+  }
+]

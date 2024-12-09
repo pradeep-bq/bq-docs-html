@@ -1,0 +1,23 @@
+[
+  {
+    "tablename": "bq_building_unit_legal_entity_mapping",
+    "fieldname": "bq_building_unit_id",
+    "fielddes": "Unique ID given to the building unit.",
+    "Count": "138,642,279",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_legal_entity_mapping",
+    "fieldname": "bq_building_id",
+    "fielddes": "Unique ID given to the building.",
+    "Count": "138,642,279",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_legal_entity_mapping",
+    "fieldname": "bq_legal_entity_id",
+    "fielddes": "Unique ID of the Legal Entity. A Legal Entity is part of an Organization and is registered with the Secretary of State of a jurisdiction.",
+    "Count": "122,250,248",
+    "value": "88.17%"
+  }
+]

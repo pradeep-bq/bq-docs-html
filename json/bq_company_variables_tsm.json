@@ -1,0 +1,58 @@
+[
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,348,519,979",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "1,348,519,979",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "674,137",
+    "value": "0.05%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "788,843,903",
+    "value": "58.5%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_year",
+    "fielddes": "Calendar year for this record.",
+    "Count": "1,348,519,979",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_month",
+    "fielddes": "Calendar month for this record.",
+    "Count": "1,348,519,979",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_employment",
+    "fielddes": "Monthly time series based count of the number of full-time employees in the U.S. based on Dept. of Labor filings. For companies with employee benefit plans, the current number of employees is defined as those that are eligible for a retirement and/or welfare benefit plan, such as a 401(k) or health insurance.",
+    "Count": "1,348,519,859",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsm",
+    "fieldname": "bq_payroll",
+    "fielddes": "Monthly time series based payroll. Payroll is the sum of the IRS line items Compensation of officers and Salaries and wages, and is derived from IRS and Dept. of Labor filings.",
+    "Count": "1,310,492,791",
+    "value": "97.18%"
+  }
+]

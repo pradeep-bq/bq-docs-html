@@ -1,0 +1,310 @@
+[
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_id",
+    "fielddes": "Unique Identifier of the loan record",
+    "Count": "1,905,451",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_loan_program",
+    "fielddes": "Indicator of whether loan was approved under SBA's 7(a) or 504 loan program",
+    "Count": "1,905,455",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_name",
+    "fielddes": "Name of the third party lender",
+    "Count": "1,798,481",
+    "value": "94.39%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_fdic_number",
+    "fielddes": "The Federal Depository Insurance Corporation certificate ID of the lender",
+    "Count": "1,541,387",
+    "value": "80.89%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_ncua_number",
+    "fielddes": "The National Credit Union Association charter number of the lender",
+    "Count": "31,421",
+    "value": "1.65%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_line_1",
+    "fielddes": "Bank Address Line 1",
+    "Count": "1,699,187",
+    "value": "89.17%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_line_2",
+    "fielddes": "Bank Address Line 2",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_city",
+    "fielddes": "Bank Address City",
+    "Count": "1,796,423",
+    "value": "94.28%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_state",
+    "fielddes": "Bank Address State",
+    "Count": "1,796,327",
+    "value": "94.27%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_zip5",
+    "fielddes": "Bank Address 5-digit Zip Code",
+    "Count": "1,699,101",
+    "value": "89.17%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_zip9",
+    "fielddes": "Bank Address 9-digit Zip Code",
+    "Count": "1,699,101",
+    "value": "89.17%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_rdi",
+    "fielddes": "Bank Address Residential, Commercial, P.O Box or Unknown Delivery Indicator (RDI)",
+    "Count": "203,968",
+    "value": "10.7%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_latitude",
+    "fielddes": "Bank Address Latitude",
+    "Count": "203,968",
+    "value": "10.7%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_longitude",
+    "fielddes": "Bank Address Longitude",
+    "Count": "203,968",
+    "value": "10.7%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_county_name",
+    "fielddes": "Bank Address County Federal Information Processing Standard (FIPS) Code",
+    "Count": "203,968",
+    "value": "10.7%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_county_fips",
+    "fielddes": "Bank Address County Name",
+    "Count": "203,968",
+    "value": "10.7%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_zip_type",
+    "fielddes": "Bank Address Zip Type",
+    "Count": "203,968",
+    "value": "10.7%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_dpv_match_code",
+    "fielddes": "Bank Address Delivery Point Validation (DPV) Match Code",
+    "Count": "199,738",
+    "value": "10.48%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_building_default_indicator",
+    "fielddes": "Bank Address Building Default Indicator",
+    "Count": "1=00=0",
+    "value": "7.11%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_bank_address1_secondary_number",
+    "fielddes": "Bank Address Secondary Number",
+    "Count": "8,101",
+    "value": "0.43%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_gross_approval_amount",
+    "fielddes": "Total loan amount",
+    "Count": "1,905,420",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_guaranteed_approval",
+    "fielddes": "Amount of SBA's loan guaranty",
+    "Count": "1,701,189",
+    "value": "89.28%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_approval_date",
+    "fielddes": "Date on which the loan was approved",
+    "Count": "1,905,455",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_approval_fiscal_year",
+    "fielddes": "Fiscal year in which the loan was approved",
+    "Count": "1,905,455",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_first_disbursement_date",
+    "fielddes": "Date of first loan disbursement (if available)",
+    "Count": "1,653,212",
+    "value": "86.76%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_delivery_method",
+    "fielddes": "Specific delivery method loan was approved under. See SOP 50 10 5 for definitions and rules for each delivery method. 7(a) Delivery Methods: CA = Community Advantage CLP = Certified Lenders Program COMM EXPRS = Community Express (inactive) DFP = Dealer Floor Plan (inactive) DIRECT = Direct Loan (inactive) EWCP = Export Working Capital Program EXP CO GTY = Co-guaranty with Export-Import Bank (inactive) EXPRES EXP = Export Express GO LOANS = Gulf Opportunity Loan (inactive) INTER TRDE = International Trade OTH 7A = Other 7(a) Loan PATRIOT EX = Patriot Express (inactive) PLP = Preferred Lender Program RLA = Rural Lender Advantage (inactive) SBA EXPRES = SBA Express SLA = Small Loan Advantage USCAIP = US Community Adjustment and Investment Program Y2K = Y2K Loan (inactive)504 Delivery Methods: 504 = Regular 504 504REFI = 504 Refinance (inactive) ALP = Accredited Lenders Program PCLP = Premier Certified Lenders",
+    "Count": "1,905,420",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_subpgmdesc",
+    "fielddes": "Subprogram description - specific subprogram under which the  loan was aproved under. See SOP 50 10 5 for definitions and rules for each subprogram.",
+    "Count": "1,903,033",
+    "value": "99.87%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_initial_interest_rate",
+    "fielddes": "Initial interest rate - total interest rate (base rate plus spread) at the time the loan was approved",
+    "Count": "710,466",
+    "value": "37.29%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_term_in_months",
+    "fielddes": "Loan term length",
+    "Count": "1,905,455",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_naics_code",
+    "fielddes": "North American Industry Classification System (NAICS) code",
+    "Count": "1,680,078",
+    "value": "88.17%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_naics_name",
+    "fielddes": "North American Industry Classification System (NAICS) description",
+    "Count": "1,676,630",
+    "value": "87.99%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_franchise_code",
+    "fielddes": "Franchise Code",
+    "Count": "145,864",
+    "value": "7.66%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_franchise_name",
+    "fielddes": "Franchise Name (if applicable)",
+    "Count": "145,660",
+    "value": "7.64%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_project_county",
+    "fielddes": "County where project occurs",
+    "Count": "1,904,695",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_project_state",
+    "fielddes": "State where project occurs",
+    "Count": "1,905,394",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_district_office",
+    "fielddes": "SBA district office",
+    "Count": "1,905,429",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_business_type",
+    "fielddes": "Borrower's Business Type - Individual, Partnership, or Corporation",
+    "Count": "1,905,345",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_business_age",
+    "fielddes": "SBA began collecting the following business age information in fiscal year 2018:  Change of Ownership Existing or more than 2 years old New Business or 2 years or less Startup, Loan Funds will Open Business",
+    "Count": "275,475",
+    "value": "14.46%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_loan_status",
+    "fielddes": "Current status of loan:  COMMIT = Undisbursed PIF = Paid In Full CHGOFF = Charged Off CANCLD = Cancelled EXEMPT = The status of loans that have been disbursed but have not been cancelled, paid in full, or charged off are exempt from disclosure under FOIA Exemption 4",
+    "Count": "1,905,089",
+    "value": "99.98%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_paid_in_full_date",
+    "fielddes": "Date on which the loan was paid in full (if applicable)",
+    "Count": "1,112,511",
+    "value": "58.39%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_charge_off_date",
+    "fielddes": "Date on which the SBA charged off loan (if applicable)",
+    "Count": "220,698",
+    "value": "11.58%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_gross_charge_off_amount",
+    "fielddes": "Total Amount of SBA/CDC loan balance charged off(includes guaranteed and non-guaranteed portion of loan)",
+    "Count": "1,905,455",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_sba_revolver_status",
+    "fielddes": "Indicator of whether a loan is a term loan or revolving line of credit (0=Term, 1=Revolver)",
+    "Count": "1=428,5240=1,272,699",
+    "value": "89.28%"
+  },
+  {
+    "tablename": "bq_sba_7a_504",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,905,451",
+    "value": "100%"
+  }
+]

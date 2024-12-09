@@ -1,0 +1,23 @@
+[
+  {
+    "tablename": "bq_building_unit_location_mapping",
+    "fieldname": "bq_building_id",
+    "fielddes": "Unique ID given to the building.",
+    "Count": "262,460,854",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_location_mapping",
+    "fieldname": "bq_building_unit_id",
+    "fielddes": "Unique ID given to the building unit.",
+    "Count": "262,460,854",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_location_mapping",
+    "fieldname": "bq_location_id",
+    "fielddes": "Unique ID assigned to a Location. A Location is a physical address associated with an Organization, which may be used for legal and/or business purposes.",
+    "Count": "262,460,854",
+    "value": "100%"
+  }
+]

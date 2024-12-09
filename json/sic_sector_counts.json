@@ -1,0 +1,412 @@
+[
+  {
+    "code": "02",
+    "name": "Agricultural production- Livestock and Animal Specialties",
+    "count": "386,528"
+  },
+  {
+    "code": "07",
+    "name": "Agricultural services",
+    "count": "1,459,795"
+  },
+  {
+    "code": "08",
+    "name": "Forestry",
+    "count": "64,886"
+  },
+  {
+    "code": "09",
+    "name": "Fishing, hunting, and trapping",
+    "count": "41,629"
+  },
+  {
+    "code": "10",
+    "name": "Metal mining",
+    "count": "307,660"
+  },
+  {
+    "code": "12",
+    "name": "Coal mining",
+    "count": "24,060"
+  },
+  {
+    "code": "13",
+    "name": "Oil and gas extraction",
+    "count": "175,218"
+  },
+  {
+    "code": "14",
+    "name": "Nonmetallic minerals, except fuels",
+    "count": "44,687"
+  },
+  {
+    "code": "15",
+    "name": "General building contractors",
+    "count": "2,328,823"
+  },
+  {
+    "code": "16",
+    "name": "Heavy construction contractors",
+    "count": "125,384"
+  },
+  {
+    "code": "17",
+    "name": "Special trade contractors",
+    "count": "2,610,134"
+  },
+  {
+    "code": "20",
+    "name": "Food and kindred products",
+    "count": "242,272"
+  },
+  {
+    "code": "21",
+    "name": "Tobacco manufactures",
+    "count": "1,636"
+  },
+  {
+    "code": "22",
+    "name": "Textile mill products",
+    "count": "32,616"
+  },
+  {
+    "code": "23",
+    "name": "Apparel and other textile products",
+    "count": "51,754"
+  },
+  {
+    "code": "24",
+    "name": "Lumber and wood products",
+    "count": "264,503"
+  },
+  {
+    "code": "25",
+    "name": "Furniture and fixtures",
+    "count": "22,947"
+  },
+  {
+    "code": "26",
+    "name": "Paper and allied products",
+    "count": "30,163"
+  },
+  {
+    "code": "27",
+    "name": "Printing and publishing",
+    "count": "357,901"
+  },
+  {
+    "code": "28",
+    "name": "Chemicals and allied products",
+    "count": "50,763"
+  },
+  {
+    "code": "29",
+    "name": "Petroleum and coal products",
+    "count": "10,065"
+  },
+  {
+    "code": "30",
+    "name": "Rubber and miscellaneous plastics products",
+    "count": "46,288"
+  },
+  {
+    "code": "31",
+    "name": "Leather and leather products",
+    "count": "49,599"
+  },
+  {
+    "code": "32",
+    "name": "Stone, clay, glass, and concrete products",
+    "count": "154,102"
+  },
+  {
+    "code": "33",
+    "name": "Primary metal industries",
+    "count": "40,648"
+  },
+  {
+    "code": "34",
+    "name": "Fabricated metal products",
+    "count": "170,068"
+  },
+  {
+    "code": "35",
+    "name": "Industrial machinery and equipment",
+    "count": "337,635"
+  },
+  {
+    "code": "36",
+    "name": "Electrical and electronic equipment",
+    "count": "67,375"
+  },
+  {
+    "code": "37",
+    "name": "Transportation equipment",
+    "count": "87,376"
+  },
+  {
+    "code": "38",
+    "name": "Instruments and related products",
+    "count": "41,266"
+  },
+  {
+    "code": "39",
+    "name": "Miscellaneous manufacturing industries",
+    "count": "47,982"
+  },
+  {
+    "code": "40",
+    "name": "Transportation, communications, and utilities",
+    "count": "11,286"
+  },
+  {
+    "code": "41",
+    "name": "Local and interurban passenger transit",
+    "count": "225,798"
+  },
+  {
+    "code": "42",
+    "name": "Motor freight transportation and warehousing",
+    "count": "1,577,999"
+  },
+  {
+    "code": "43",
+    "name": "U.S. Postal Service",
+    "count": "1,931"
+  },
+  {
+    "code": "44",
+    "name": "Water transportation",
+    "count": "901,983"
+  },
+  {
+    "code": "45",
+    "name": "Transportation by air",
+    "count": "680,680"
+  },
+  {
+    "code": "46",
+    "name": "Pipelines, except natural gas",
+    "count": "699"
+  },
+  {
+    "code": "47",
+    "name": "Transportation services",
+    "count": "501,137"
+  },
+  {
+    "code": "48",
+    "name": "Communications",
+    "count": "534,436"
+  },
+  {
+    "code": "49",
+    "name": "Electric, gas, and sanitary services",
+    "count": "342,919"
+  },
+  {
+    "code": "50",
+    "name": "Wholesale trade--durable goods",
+    "count": "2,810,261"
+  },
+  {
+    "code": "51",
+    "name": "Wholesale trade--nondurable goods",
+    "count": "2,451,576"
+  },
+  {
+    "code": "52",
+    "name": "Building materials, hardware, garden supply, &amp; mobile home",
+    "count": "27,411"
+  },
+  {
+    "code": "53",
+    "name": "General merchandise stores",
+    "count": "17,865"
+  },
+  {
+    "code": "54",
+    "name": "Food stores",
+    "count": "980,347"
+  },
+  {
+    "code": "55",
+    "name": "Automotive dealers and gasoline service stations",
+    "count": "730,406"
+  },
+  {
+    "code": "56",
+    "name": "Apparel and accessory stores",
+    "count": "137,596"
+  },
+  {
+    "code": "57",
+    "name": "Furniture, home furnishings and equipment stores",
+    "count": "428,818"
+  },
+  {
+    "code": "58",
+    "name": "Eating and drinking places",
+    "count": "17,783,660"
+  },
+  {
+    "code": "59",
+    "name": "Miscellaneous retail",
+    "count": "460,606"
+  },
+  {
+    "code": "60",
+    "name": "Depository institutions",
+    "count": "174,190"
+  },
+  {
+    "code": "61",
+    "name": "Nondepository credit institutions",
+    "count": "1,151,732"
+  },
+  {
+    "code": "62",
+    "name": "Security, commodity brokers, and services",
+    "count": "397,377"
+  },
+  {
+    "code": "63",
+    "name": "Insurance carriers",
+    "count": "25,177"
+  },
+  {
+    "code": "64",
+    "name": "Insurance agents, brokers, and service",
+    "count": "747,639"
+  },
+  {
+    "code": "65",
+    "name": "Real estate",
+    "count": "5,378,175"
+  },
+  {
+    "code": "67",
+    "name": "Holding and other investment offices",
+    "count": "384,260"
+  },
+  {
+    "code": "70",
+    "name": "Hotels, rooming houses, camps, and other lodging places",
+    "count": "1,090,178"
+  },
+  {
+    "code": "72",
+    "name": "Personal services",
+    "count": "1,867,407"
+  },
+  {
+    "code": "73",
+    "name": "Business services",
+    "count": "3,657,520"
+  },
+  {
+    "code": "75",
+    "name": "Automotive repair, services, and parking",
+    "count": "1,147,619"
+  },
+  {
+    "code": "76",
+    "name": "Miscellaneous repair services",
+    "count": "192,103"
+  },
+  {
+    "code": "78",
+    "name": "Motion pictures",
+    "count": "572,289"
+  },
+  {
+    "code": "79",
+    "name": "Amusement and recreational services",
+    "count": "1,246,191"
+  },
+  {
+    "code": "80",
+    "name": "Health services",
+    "count": "3,856,492"
+  },
+  {
+    "code": "81",
+    "name": "Legal services",
+    "count": "1,889,326"
+  },
+  {
+    "code": "82",
+    "name": "Educational services",
+    "count": "617,541"
+  },
+  {
+    "code": "83",
+    "name": "Social services",
+    "count": "1,629,664"
+  },
+  {
+    "code": "84",
+    "name": "Museums, art galleries, botanical &amp; zoological gardens",
+    "count": "84,290"
+  },
+  {
+    "code": "86",
+    "name": "Membership organizations",
+    "count": "2,499,089"
+  },
+  {
+    "code": "87",
+    "name": "Engineering and management services",
+    "count": "3,494,367"
+  },
+  {
+    "code": "88",
+    "name": "Private households",
+    "count": "11"
+  },
+  {
+    "code": "89",
+    "name": "Miscellaneous services",
+    "count": "64,715"
+  },
+  {
+    "code": "91",
+    "name": "Executive, legislative, and general government",
+    "count": "950"
+  },
+  {
+    "code": "92",
+    "name": "Justice, public order, and safety",
+    "count": "11,171"
+  },
+  {
+    "code": "93",
+    "name": "Finance, taxation, and monetary policy",
+    "count": "554"
+  },
+  {
+    "code": "94",
+    "name": "Administration of human resources",
+    "count": "2,011"
+  },
+  {
+    "code": "95",
+    "name": "Environmental quality and housing",
+    "count": "1,272"
+  },
+  {
+    "code": "96",
+    "name": "Administration of economic programs",
+    "count": "3,578"
+  },
+  {
+    "code": "97",
+    "name": "National security and international affairs",
+    "count": "543"
+  },
+  {
+    "code": "Total Count",
+    "name": "&nbsp;",
+    "count": "72,854,421"
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "445,558,548",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "445,558,548",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "251,985",
+    "value": "0.06%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "260,606,195",
+    "value": "58.49%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_year",
+    "fielddes": "Calendar year for this record.",
+    "Count": "445,558,548",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_quarter",
+    "fielddes": "Calendar quarter for this record.",
+    "Count": "445,558,548",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_fiscal_year",
+    "fielddes": "Fiscal year of financials for this record.",
+    "Count": "194,075",
+    "value": "0.04%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_fiscal_quarter",
+    "fielddes": "Fiscal quarter in the year of financials for this record.",
+    "Count": "194,075",
+    "value": "0.04%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_fiscal_year_end",
+    "fielddes": "Fiscal Year End associated with the reporting period.",
+    "Count": "435,474,978",
+    "value": "97.74%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_fiscal_quarter_end",
+    "fielddes": "Fiscal Quarter End associated with the reporting period.",
+    "Count": "435,474,978",
+    "value": "97.74%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_employment",
+    "fielddes": "Quarterly time series based count of the number of full-time employees in the U.S. based on Dept. of Labor filings. For companies with employee benefit plans, the current number of employees is defined as those that are eligible for a retirement and/or welfare benefit plan, such as a 401(k) or health insurance.",
+    "Count": "445,527,382",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_payroll",
+    "fielddes": "Quarterly time series based payroll. Payroll is the sum of the IRS line items Compensation of officers and Salaries and wages, and is derived from IRS and Dept. of Labor filings.",
+    "Count": "434,028,899",
+    "value": "97.41%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_revenue",
+    "fielddes": "Quarterly time series based Revenue, calculated from the last 4 quarters. Revenue is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "434,093,840",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_ebitda",
+    "fielddes": "Quarterly time series based EBITDA, calculated from the last 4 quarters. EBITDA is an indicator of profitability, equal to net income with interest, taxes, depreciation, and amortization added back in. EBITDA is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,100,415",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_cor",
+    "fielddes": "Quarterly time series based Cost of Revenue, calculated from the last 4 quarters. Cost of revenue (COR) is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,080,989",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_net_income",
+    "fielddes": "Quarterly time series based Net Income, calculated from the last 4 quarters. Net income is an indicator of profitability, equal to revenue minus COR, SG&amp;A, operating expenses, depreciation, interest, taxes, and other expenses. Net income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD.",
+    "Count": "434,100,763",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_gross_profit",
+    "fielddes": "Quarterly time series based Gross Profit, calculated from the last 4 quarters. Gross profit is an indicator of profitability, equal to revenue minus COR. Gross profit is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,101,342",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_operating_expenses",
+    "fielddes": "Quarterly time series based operating expenses per employee. Operating expenses per employee is Operating expenses divided by the total numbe rof employees",
+    "Count": "434,075,133",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_operating_income",
+    "fielddes": "Quarterly time series based operating income. Operating income is an indicator of profitability, equal to revenue minus COR and operating expenses. Operating income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,078,783",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_tax_and_interest",
+    "fielddes": "Quarterly time series based tax and interest expenses. This line item includes all expenses related to taxes and interest payments. Note that net income equals operating income minus tax and interest expenses. Tax and interest expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private. For public companies, this equals Interest Expense plus estimated Income Taxes for the period.",
+    "Count": "434,048,456",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_total_assets",
+    "fielddes": "Quarterly time series based Total Assets, calculated from the last 4 quarters. Total assets is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "434,091,291",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_current_assets",
+    "fielddes": "Quarterly time series based Current Assets, which accounts for all company-owned assets that can be converted to cash within one year. Current assets include cash, cash equivalents, accounts receivable, stock inventory, marketable securities, pre-paid liabilities, and other liquid assets.",
+    "Count": "113,782,331",
+    "value": "25.54%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_cash",
+    "fielddes": "Quarterly time series based Cash on balance sheet, which is the amount of money a company currently has available, which includes cash, cash equivalents, short-term investments, and other assets that can be quickly converted to cash.",
+    "Count": "112,893,791",
+    "value": "25.34%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_trade_notes_and_accounts_receivable",
+    "fielddes": "Quarterly time series based Accounts Receivable (AR), which are an asset account on the balance sheet that represents money due to a company in the short term. For public companies, this equals Accounts Receivable.",
+    "Count": "112,845,765",
+    "value": "25.33%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_less_allowance_for_bad_debts",
+    "fielddes": "Quarterly time series based Allowance for bad debt, which is a valuation account used to estimate the amount of a firm's receivables that may ultimately be uncollectible.",
+    "Count": "112,693,779",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_inventories",
+    "fielddes": "Quarterly time series based Inventory, which is a current asset account found on the balance sheet, consisting of all raw materials, work-in-progress, and finished goods that a company has accumulated.",
+    "Count": "112,792,773",
+    "value": "25.31%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_us_government_obligations",
+    "fielddes": "Quarterly time series based amount of debt instruments, such as U.S. Treasury Notes or Bonds, which is guaranteed by the full faith and backing of the United States, that is owned by the corporation.",
+    "Count": "112,665,345",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_tax_exempt_securities",
+    "fielddes": "Quarterly time series based value of an investment in which the income produced is free from federal, state, and/or local taxes. Most tax-exempt securities come in the form of municipal bonds, which represent obligations of a state, territory or municipality.",
+    "Count": "112,665,733",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_other_current_assets",
+    "fielddes": "Quarterly time series based value of other current assets, which are liquid assets that are characterized as uncommon or insignificant. They are listed on the balance sheet alongside other assets and are convertible into cash within one year.",
+    "Count": "112,790,032",
+    "value": "25.31%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_non_current_assets",
+    "fielddes": "Quarterly time series based value of Non-currect asset, which includes include long-term investments, land, property, plant, and equipment (PP&amp;E), and trademarks. Non-current assets are reported on the balance sheet at the price a company paid for them, which is adjusted for depreciation and amortization. For public companies, this equals Total Assets minus Current Assets.",
+    "Count": "113,774,385",
+    "value": "25.54%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_loans_to_shareholders",
+    "fielddes": "Quarterly time series based value of Company loans to shareholders which are a recievable that the company expects the shareholder to pay back.",
+    "Count": "112,693,834",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_mortgage_and_real_estate_loans",
+    "fielddes": "Quarterly time series based value of a mortgage loan, which is a loan associated with the purchase of real estate.",
+    "Count": "112,683,921",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_other_investments",
+    "fielddes": "Quarterly time series based value of other investments, which refers to investments that are not included in other categories such as cash, accounts receivable, inventory, and other current assets. For public companies, this equals Total Investments listed on their balance sheet.",
+    "Count": "112,695,800",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_buildings_and_other_depreciable_assets",
+    "fielddes": "Quarterly time series based value of improvements made on owned real estate property such as buildings and Other Depreciable Assets such as computers and software, furniture and fixtures, machinery, and vehicles. For public companies, this equals Property, Plant, and Equipment.",
+    "Count": "112,871,917",
+    "value": "25.33%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_less_accumulated_depreciation",
+    "fielddes": "Quarterly time series based value of Buildings and other depreciable assets.",
+    "Count": "112,798,656",
+    "value": "25.32%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_depletable_assets",
+    "fielddes": "Quarterly time series based value of depletable assets which are typically natural resources that decrease in quantity or value over time, such as oil, gas, minerals, and timber",
+    "Count": "112,676,969",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_less_accumulated_depletion",
+    "fielddes": "Quarterly time series based Accumulated depletion value of depletable assets",
+    "Count": "112,677,881",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_land",
+    "fielddes": "Quarterly time series based value of the land portion of a real estate investment which can include natural and artificial land improvements. Land does not include building improvements.",
+    "Count": "112,694,321",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_intangible_assets_amortizable",
+    "fielddes": "Quarterly time series based value of intangible assets which are assets that are not physical in nature, but still have value for a business or an individual. They include things like patents, trademarks, copyrights, goodwill, software, and digital assets. For public companies, this equals Goodwill plus Intangible Assets Excluding Goodwill.",
+    "Count": "112,788,557",
+    "value": "25.31%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_less_accumulated_amortization",
+    "fielddes": "Quarterly time series based value of Intangible assets with accumulated amortization expensed over their expected uselife life.",
+    "Count": "112,694,750",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_other_non_current_assets",
+    "fielddes": "Quarterly time series based value of Non-current assets, which are assets and property owned by a business that are not easily converted to cash within a year. They are long-term investments that serve the company for more than a year.",
+    "Count": "112,658,883",
+    "value": "25.28%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_total_liabilities_and_equity",
+    "fielddes": "Quarterly time series based value of total liabilites, which are all of the companies obligations to third parties and shareholders equity, which is the residual interest in the assets of a company after deducting liabilities.The total liabilities and shareholders equity found on the right side of the balance sheet, equals total assets which is on the left side of the balance sheet.",
+    "Count": "112,846,637",
+    "value": "25.33%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_current_liabilities",
+    "fielddes": "Quarterly time series based value of Current liabilities on a balance sheet, which refer to the debts or obligations that a company owes and is required to settle within one fiscal year or its normal operating cycle. Examples of current liabilities include accounts payable, short-term debt, dividends, and notes payable as well as income taxes owed.",
+    "Count": "113,769,426",
+    "value": "25.53%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_accounts_payable",
+    "fielddes": "Quarterly time series based value of accounts payable, which is the amount of short-term debt or money owed to suppliers and creditors by a company.",
+    "Count": "112,866,492",
+    "value": "25.33%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_short_term_debt",
+    "fielddes": "Quarterly time series based amount of principal and interest of the debt obligations that are due to be paid within one year.",
+    "Count": "112,747,304",
+    "value": "25.3%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_other_current_liabilities",
+    "fielddes": "Quarterly time series based value of debts or obligations that are due within one year but are not catagorized as accounts payable, short-term debt, dividends, and notes payable as well as income taxes owed. For public companies, this equals Current Liabilities minus Accounts Payable minus Short Term Debt.",
+    "Count": "112,736,007",
+    "value": "25.3%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_non_current_liabilities",
+    "fielddes": "Quarterly time series based value of noncurrent liabilities, also known as long-term liabilities,which are obligations listed on the balance sheet not due for more than a year. Examples of noncurrent liabilities include long-term loans and lease obligations, bonds payable and deferred revenue. For public companies, this equals Total Liabilities minus Current Liabilities.",
+    "Count": "113,768,866",
+    "value": "25.53%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_loans_from_shareholders",
+    "fielddes": "Quarterly time series based value of a loan from shareholder, which is a debt-like financing provided from a shareholder to the company. Typically, shareholder loans are converted to equity and may be excluded in debt ratios for assessing financial risks.",
+    "Count": "112,693,976",
+    "value": "25.29%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_long_term_debt",
+    "fielddes": "Quarterly time series based value of mortgages, notes, and bonds payable in 1 year, which are classified as current liabilities on the balance sheet. They represent the amount of debt that the business must repay within the next 12 months.",
+    "Count": "112,835,259",
+    "value": "25.32%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_other_non_current_liabilities",
+    "fielddes": "Quarterly time series based value of debts or obligations that are due within one year but are not catagorized as accounts payable, short-term debt, dividends, and notes payable as well as income taxes owed.",
+    "Count": "112,793,485",
+    "value": "25.32%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_shareholders_equity",
+    "fielddes": "Quarterly time series based value of shareholders equity, which is the residual interest in the assets of a company after deducting liabilities. For public companies, this equals Total Assets minus Total Liabilities.",
+    "Count": "112,829,526",
+    "value": "25.32%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_total_debt",
+    "fielddes": "Total debt is the sum of short-term debt (due within a year) and long-term debt (due in over one year).",
+    "Count": "112,741,888",
+    "value": "25.3%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_gross_profit_margin",
+    "fielddes": "Quarterly time series based gross profit margin. Gross profit margin is gross profit divided by revenue. Gross profit is an indicator of profitability, equal to revenue minus COR. Gross profit is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,086,530",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_ebitda_margin",
+    "fielddes": "Quarterly time series based value of EBITDA margin is EBITDA divided by revenue. EBITDA is an indicator of profitability, equal to net income with interest, taxes, depreciation, and amortization added back in. EBITDA is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,085,650",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_asset_turnover",
+    "fielddes": "Quarterly time series based asset turnover. Asset turnover is revenue divided by total assets.",
+    "Count": "434,089,035",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_net_profit_margin",
+    "fielddes": "Quarterly time series based net profit margin. Net profit margin is net income divided by revenue.",
+    "Count": "434,086,392",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_return_on_assets",
+    "fielddes": "Quarterly time series based return on assets. Return on assets is net income divided by total assets.",
+    "Count": "434,094,951",
+    "value": "97.43%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_return_on_sales",
+    "fielddes": "Quarterly time series based return on sales. Return on sales is operating income divided by revenue.",
+    "Count": "434,061,901",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_current_ratio",
+    "fielddes": "The current ratio measures the ability of a business to meet its financial obligations that are due within a year. This is defined as current assets over current liabilities.",
+    "Count": "110,925,517",
+    "value": "24.9%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_quick_ratio",
+    "fielddes": "The quick ratio measures the ability of a business to pay its short-term liabilities (due within a year) using assets that are readily convertible into cash. This is defined as the sum of cash, marketable securities, and accounts receivable, divided by current liabilities.",
+    "Count": "110,897,116",
+    "value": "24.89%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_debt_to_equity_ratio",
+    "fielddes": "The debt to equity ratio calculates the extent to which a company's capital structure is reliant on debt versus equity financing. This is defined as the ratio of total liabilities divided by shareholders' equity.",
+    "Count": "110,885,075",
+    "value": "24.89%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_revenue_per_emp",
+    "fielddes": "Quarterly time series based Revenue per employee is revenue divided by the total number of employees. Revenue is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total. .",
+    "Count": "434,070,332",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_ebitda_per_emp",
+    "fielddes": "Quarterly time series based EBITDA per employee is EBITDA divided by the total number of employees. EBITDA is an indicator of profitability, equal to net income with interest, taxes, depreciation, and amortization added back in. EBITDA is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,069,873",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_cor_per_emp",
+    "fielddes": "Quarterly time series based Cost of revevue per employee is Total cost of Revenue divided by the total number of employees. Cost of revenue (COR) is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,069,568",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_net_income_per_emp",
+    "fielddes": "Quarterly time series based Net income per employee is the Net income divided by the total number of employees. Net income is an indicator of profitability, equal to revenue minus COR, SG&amp;A, operating expenses, depreciation, interest, taxes, and other expenses. Net income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,070,757",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_gross_profit_per_emp",
+    "fielddes": "Quarterly time series based Gross Profit per employee is Gross Profit divided by the total number of employees. Gross profit is an indicator of profitability, equal to revenue minus COR. Gross profit is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,070,778",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_total_assets_per_emp",
+    "fielddes": "Quarterly time series based Total Assets per employee is total assets divided by the total number of employees. Total assets is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "434,068,389",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_payroll_per_emp",
+    "fielddes": "Quarterly time series based Payroll per employee is Payroll divided by the total number of employees. Payroll is the sum of the IRS line items Compensation of officers and Salaries and wages, and is derived from IRS and Dept. of Labor filings.",
+    "Count": "434,023,697",
+    "value": "97.41%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_operating_expenses_per_emp",
+    "fielddes": "Quarterly time series based Operating expenses per employee is Operating expenses divided by the total number of employees. Operating expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,046,034",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_operating_income_per_emp",
+    "fielddes": "Quarterly time series based Operating incomes per employee is Operating income divided by the total number of employees. Operating income is an indicator of profitability, equal to revenue minus COR and operating expenses. Operating income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "434,046,149",
+    "value": "97.42%"
+  },
+  {
+    "tablename": "bq_company_variables_tsq",
+    "fieldname": "bq_tax_and_interest_per_emp",
+    "fielddes": "Quarterly time series based Tax and Interest per employee is Tax and interest divided by the total number of employees.This line item includes all expenses related to taxes and interest payments. Note that net income equals operating income minus tax and interest expenses. Tax and interest expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private. For public companies, this equals Interest Expense plus estimated Income Taxes for the period.",
+    "Count": "434,046,128",
+    "value": "97.42%"
+  }
+]

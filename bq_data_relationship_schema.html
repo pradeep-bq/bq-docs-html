@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BQ Documentation - BQ Data Relationship Schema</title>
+<meta charset="utf-8">
+<link rel="icon" type="image/svg+xml" href="images/favicon1.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+  /*  background-color: #666;*/
+  /*  padding: 30px;*/
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 100px;
+  }
+  
+  .nav_links{
+    color: #F2F2F2;
+    font-size: 16px;
+  }
+  .nav_sub_links{
+    color: white;
+    font-size: 16px;
+    margin:10px;
+  }
+  div.logo_left {
+    width: 18%;
+      float: left;
+      padding: 35px;
+      height: 130px;
+  /*    border: 2px solid red;*/
+  }
+  div.logo_right {
+    width: 82%;
+      float: left;
+      height: 130px;
+  }
+  
+  .page-title {
+    color: #002060;
+    font-size: 20px; 
+    float: left;    
+    text-align: left;
+    padding: 20px;
+}
+
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 18%;
+    /*height: 800px; /* only for demonstration, should be removed */
+    background: #002060;
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 2px;
+    width: 82%;
+    background-color: #FFFFFF;
+  /*  height: 300px; /* only for demonstration, should be removed */*/
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    height: 50px;
+  }
+  
+  table, th, td {
+    border: 1px solid grey;
+    color: #002060;
+    font-size: 16px;
+    text-align: left;
+  }
+  table {
+   border-collapse: collapse; 
+  }
+  td, a {
+    color: #002060;
+    
+  }
+  table td  a:hover {
+    font-weight: 900;
+  }
+  .noHover{
+      pointer-events: none;
+  }
+  nav ul li a:hover {
+    font-weight: 900;
+  }
+  .header{
+      color: #002060;
+      font-weight: bolder;
+      font-size: larger;
+      text-align: left;
+  }
+  
+  .mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  </style>
+<script>
+  function toggle(id) {    
+   var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  </script>
+<script src="function.js"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DKZL3HQTX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DKZL3HQTX');
+</script>
+<body onload="displayNumber()">
+<!-- <h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p> -->
+<header>
+  <div class="logo_left">
+  <a href="index.html"><img src="images/BQ-logo.png" style="width:230px"></a>
+</div>
+<div class="logo_right">
+    <span class="page-title" ><b style="font-size: 25px">Schema <br/></b> <ul style="font-size: 18px; margin-top: 5px;"><li>BQ Data Relationship</li><li>SEC financials for public companies, and imputed IRS financials for private companies.</li></ul></span>
+</span>
+</div>
+</header>
+
+<section>
+  <nav>
+  <ul>
+      <li><a href="index.html" onclick="toggle('product_family')" class="nav_links">Data Feeds</a>
+        <li><a href="javascript:void(0);" onclick="toggle('guides')" class="nav_links">Guides</a>
+          <ul id="guides">
+            <li><a href="overview.html" class="nav_sub_links">Overview</a></li>
+            <li><a href="business_identity_api.html" class="nav_sub_links">Business Identity API</a></li>
+            <li><a href="kyb_append_api.html" class="nav_sub_links">KYB Append API</a></li>
+          </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('use_cases')" class="nav_links">Use Cases & Products</a>
+        <ul id="use_cases">
+          <li><a href="capital_markets.html" class="nav_sub_links">Capital Markets</a></li>       
+          <li><a href="kyb_fraud_compliance.html" class="nav_sub_links">KYB, Fraud, and Compliance</a></li>          
+          <li><a href="bank_and_credit_unions.html" class="nav_sub_links">Banks and Credit Unions</a></li>
+          <li><a href="product_financial_services.html" class="nav_sub_links">Products Financial Services</a></li>
+          <li><a href="bulk_data_feed.html" class="nav_sub_links">Bulk Data Feed</a></li>
+          <li><a href="prospector.html" class="nav_sub_links">Prospector</a></li>
+          <li><a href="kyb_append_api_usecases.html" class="nav_sub_links">KYB Append API</a></li>   
+        </ul></li>
+        <li><a href="javascript:void(0);" onclick="toggle('juri_govt_offices')" class="nav_links">Government Data Sources</a>
+          <ul id="juri_govt_offices">
+            <li><a href="government_offices.html" class="nav_sub_links">Government Offices</a></li>
+            <li><a href="local_jurisdictions.html" class="nav_sub_links">Local Jurisdictions</a></li>          
+            <li><a href="federal_agencies.html" class="nav_sub_links">Federal Agencies</a></li>
+            <li><a href="secretary_of_state_jurisdiction.html" class="nav_sub_links">Secretary of State Jurisdictions</a></li>          
+          </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('fs')" class="nav_links">Financial Statements</a>
+      <ul id="fs">
+        <li><a href="financial_statement.html?tab=income_statement" class="nav_sub_links">Income Statement</a></li>
+        <li><a href="financial_statement.html?tab=balance_sheet" class="nav_sub_links">Balance Sheet</a></li>
+        <li><a href="financial_statement.html?tab=ratio_margins" class="nav_sub_links">Ratios & Margins</a></li>
+        <li><a href="financial_statement.html?tab=emp_payroll" class="nav_sub_links">Employment & Payroll</a></li>
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('schema')" class="nav_links">Schema</a>
+      <ul id="schema">
+        <li><a href="bq_data_relationship_schema.html" class="nav_sub_links">BQ Data Relationship Schema</a></li>
+        <li><a href="stock_filing_schema.html" class="nav_sub_links">Stock Filings Schema</a></li>
+        <li><a href="officers_legal_entity_id_explanation.html" class="nav_sub_links">Officer Legal Entity ID Explanation</a></li>
+        <li><a href="franchise_schema.html" class="nav_sub_links">Franchise Schema</a></li>
+        <li><a href="address_universe_schema.html" class="nav_sub_links">Address Universe Schema</a></li>
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('summary')" class="nav_links">Statistics</a>
+        <ul id="summary">
+          <li><a href="record_counts.html" class="nav_sub_links">Record Counts</a></li>
+          <li><a href="counts_revenue_range.html" class="nav_sub_links">Revenue Range Counts</a></li>
+          <li><a href="counts_employment_range.html" class="nav_sub_links">Employment Range Counts</a></li>
+          <li><a href="counts_bq_credit_score_range.html" class="nav_sub_links">BQ Credit Score Range Counts</a></li>
+          <li><a href="secretary_state_jurisdiction_summary.html" class="nav_sub_links">Secretary of State Jurisdictions</a></li>
+          <li><a href="org_summary.html" class="nav_sub_links">Organizations</a></li>
+          <li><a href="org_with_financials_summary.html" class="nav_sub_links">Organizations with Financials</a></li>          
+          <li><a href="legal_entity_summary.html" class="nav_sub_links">Legal Entities</a></li>          
+          <li><a href="officers_summary.html" class="nav_sub_links">Legal Entity Officers</a></li>
+          <li><a href="contacts_summary.html" class="nav_sub_links">Organization Contacts</a></li>
+          <li><a href="location_summary.html" class="nav_sub_links">Organization Locations</a></li>
+          <li><a href="sba_and_ppp_loans_summary.html" class="nav_sub_links">SBA/PPP Loans</a></li>
+          <li><a href="agent_summary.html" class="nav_sub_links">Agents</a></li>
+          <li><a href="confidence_score_summary.html" class="nav_sub_links">Confidence Score</a></li>
+          <li><a href="ein_summary.html" class="nav_sub_links">EIN Counts</a></li>          
+        </ul></li>
+        <li><a href="javascript:void(0);" onclick="toggle('category_counts')" class="nav_links">Categorical Field Values</a>
+          <ul id="category_counts">      
+            <li><a href="naics_industry_counts.html" class="nav_sub_links">NAICS Industry</a></li>
+            <li><a href="naics_sector_counts.html" class="nav_sub_links">NAICS Sector</a></li>
+            <li><a href="irs_industry_counts.html" class="nav_sub_links">IRS Industry</a></li>
+            <li><a href="irs_sector_counts.html" class="nav_sub_links">IRS Sector</a></li>
+            <li><a href="sic_industry_counts.html" class="nav_sub_links">SIC Industry</a></li>
+            <li><a href="sic_sector_counts.html" class="nav_sub_links">SIC Sector</a></li>
+            <li><a href="tickers_counts.html" class="nav_sub_links">Tickers</a></li>
+            <li><a href="parent_tickers_counts.html" class="nav_sub_links">Parent Tickers</a></li>   
+            </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('firmo')" class="nav_links">Firmographics</a>
+      <ul id="firmo">
+        <li><a href="bq_organization.html" class="nav_sub_links">bq_organization</a></li>
+        <li><a href="bq_organization_mapping.html" class="nav_sub_links">bq_organization_mapping</a></li>
+        <li><a href="bq_company_firmographics.html" class="nav_sub_links">bq_company_firmographics</a></li>        
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('financial')" class="nav_links">Financials & Employment</a>
+      <ul id="financial">
+        <li><a href="bq_company_variables_mr.html" class="nav_sub_links">bq_company_variables_mr</a></li>
+        <li><a href="bq_company_variables_ts.html" class="nav_sub_links">bq_company_variables_ts</a></li>
+        <li><a href="bq_company_variables_tsq.html" class="nav_sub_links">bq_company_variables_tsq</a></li>
+        <li><a href="bq_company_variables_tsm.html" class="nav_sub_links">bq_company_variables_tsm</a></li>
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('family_tree')" class="nav_links">Family Tree</a>
+      <ul id="family_tree">
+        <li><a href="bq_legal_entity.html" class="nav_sub_links">bq_legal_entity</a></li>
+        <li><a href="bq_legal_entity_establishments.html" class="nav_sub_links">bq_legal_entity_establishments</a></li>
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('dir_officers')" class="nav_links">Directors & Officers</a>
+      <ul id="dir_officers">
+        <li><a href="bq_legal_entity_officers.html" class="nav_sub_links">bq_legal_entity_officers</a></li>        
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('contacts')" class="nav_links">Contacts</a>
+      <ul id="contacts">
+        <li><a href="bq_organization_contacts.html" class="nav_sub_links">bq_organization_contacts</a></li>        
+        <li><a href="bq_organization_executives.html" class="nav_sub_links">bq_organization_executives</a></li>        
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('locations')" class="nav_links">Locations</a>
+      <ul id="locations">
+        <li><a href=" bq_organization_locations.html" class="nav_sub_links">  bq_organization_locations</a></li>        
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('stock_filings')" class="nav_links">Stock Filings</a>
+      <ul id="stock_filings">
+        <li><a href="bq_stock_legal_entity.html" class="nav_sub_links">bq_stock_legal_entity</a></li>
+        <li><a href="bq_stock_class_series.html" class="nav_sub_links">bq_stock_class_series</a></li>
+        <li><a href="bq_stock_class_series_daily.html" class="nav_sub_links">bq_stock_class_series_daily</a></li>
+        <li><a href="bq_stock_class_series_mr.html" class="nav_sub_links">bq_stock_class_series_mr</a></li>
+        <li><a href="bq_stock_class.html" class="nav_sub_links">bq_stock_class</a></li>
+        <li><a href="bq_stock_event.html" class="nav_sub_links">bq_stock_event</a></li>
+        <li><a href="bq_stock_group.html" class="nav_sub_links">bq_stock_group</a></li>
+        <li><a href="bq_stock_group_daily.html" class="nav_sub_links">bq_stock_group_daily</a></li>
+        <li><a href="bq_stock_group_mr.html" class="nav_sub_links">bq_stock_group_mr</a></li>
+        <li><a href="bq_stock_corp_status_fees.html" class="nav_sub_links">bq_stock_corp_status_fees</a></li>
+        <li><a href="bq_stock_event_timeline.html" class="nav_sub_links">bq_stock_event_timeline</a></li>        
+      </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('sba_loan')" class="nav_links">SBA Loans</a>
+        <ul id="sba_loan">      
+          <li><a href="bq_sba_7a_504.html" class="nav_sub_links">bq_sba_7a_504</a></li>        
+        </ul></li>
+      <li><a href="javascript:void(0);" onclick="toggle('transport')" class="nav_links">Dept. of Transportation</a>
+        <ul id="transport">      
+          <li><a href="bq_dept_of_transportation.html" class="nav_sub_links">bq_dept_of_transportation</a></li>        
+        </ul></li>        
+    </ul>
+  </nav>    
+  <article>    
+    <img src="images/BQ_Data_Relationship_Schema.jpg" style="width: 1400px;"/>
+  </article>
+</section>
+
+<footer>
+    ® 2024 BrightQuery, Inc. All rights reserved. Visit us at: <a href="http://www.brightquery.com" style="color:white;">http://www.brightquery.com</a>. Contact us at: <a href="mailto:sales@brightquery.com" style="color:white;" >sales@brightquery.com</a>, <a href="mailto:support@brightquery.com" style="color:white;" class="noHover">support@brightquery.com</a> or 1-888-BQDATA1
+  </footer>
+</body>
+</html>

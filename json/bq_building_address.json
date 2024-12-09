@@ -1,0 +1,170 @@
+[
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_id",
+    "fielddes": "Unique ID given to the building.",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_agent_indicator",
+    "fielddes": "Indicator that equals 1 if an agent active at building and address 0 otherwise.",
+    "Count": "1=1,702,6730=41,640,762",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_zip_type",
+    "fielddes": "Zip code classification of the building address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "42,965,321",
+    "value": "99.12%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_no_of_orgnizations",
+    "fielddes": "No. of organizations associated with building address",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_line_1",
+    "fielddes": "First line of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_state_name",
+    "fielddes": "State name of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "42,994,429",
+    "value": "99.18%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_county_name",
+    "fielddes": "County name of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "42,964,163",
+    "value": "99.12%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_summary_all",
+    "fielddes": "All classification's list that indicates whether the building address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_rdi_multiple_type_indicator",
+    "fielddes": "Indicator that equals 1 if the building address has multiple RDI assiciated based on USPS address verification and 0 otherwise.",
+    "Count": "1=76,3200=43,267,115",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_rdi_all",
+    "fielddes": "All RDI's list associated with the building address based on USPS reporting.",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_type",
+    "fielddes": "Type of the building: Multi Unit or Single Unit",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_active_indicator",
+    "fielddes": "Indicator that equals 1 if the building address is active based on USPS address verification and 0 otherwise.",
+    "Count": "1=42,927,1960=416,239",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_no_of_units",
+    "fielddes": "No. of units/suites/line2 associated with building address",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_state",
+    "fielddes": "State's abbrivated name of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "43,000,817",
+    "value": "99.21%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_county_fips",
+    "fielddes": "County-level Federal Information Processing Standard (FIPS) Code of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "42,965,213",
+    "value": "99.12%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_country_name",
+    "fielddes": "Country name of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "43,320,428",
+    "value": "99.95%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_zip5",
+    "fielddes": "5-digit zip code of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "42,987,318",
+    "value": "99.17%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_rdi",
+    "fielddes": "RDI indicates whether the building address is Residential, Commercial, P.O. Box or Unknown based on USPS reporting.",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_no_of_legal_entities",
+    "fielddes": "No. of legal entities associated with building address",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_no_of_locations",
+    "fielddes": "No. of locations associated with building address",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_city",
+    "fielddes": "City name of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "43,031,654",
+    "value": "99.28%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_country_code",
+    "fielddes": "Country code of the building address. Addresses are cleaned and standardized using USPS.",
+    "Count": "43,320,428",
+    "value": "99.95%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_summary",
+    "fielddes": "Classification that indicates whether the building address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "43,343,435",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_address",
+    "fieldname": "bq_building_address_rdi_type",
+    "fielddes": "RDI type indicates whether the building address is Residential, Commercial, P.O. Box, Unknown or both Residential and Commercial based on USPS reporting.",
+    "Count": "43,343,435",
+    "value": "100%"
+  }
+]

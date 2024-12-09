@@ -1,0 +1,72 @@
+[
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_id",
+    "fielddes": "Unique ID of the Organization. An Organization is the concept of a company, which is constructed as a collection of Legal Entities (child and parent entities) and Locations (e.g., offices, stores).",
+    "Count": "74,948,539",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_name",
+    "fielddes": "Primary, most common name of the Organization, which equals the name of the ultimate parent or sole entity that comprises the Organization",
+    "Count": "74,948,539",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_business_name",
+    "fielddes": "Business name of the Organization, sometimes a DBA",
+    "Count": "9,309,442",
+    "value": "12.42%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_legal_name",
+    "fielddes": "Legal name of the Organization",
+    "Count": "74,103,356",
+    "value": "98.87%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_commonly_known_as_name",
+    "fielddes": "DBA of the Organization, not always reported",
+    "Count": "5,669,666",
+    "value": "7.56%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_company_type",
+    "fielddes": "Classification system for the Organization based on whether it is an Employer, Non-Employer, Sole Proprietor, or a Holding Company. An Employer has full-time W-2 employees in the U.S. A Non-Employer is an operating business without full-time employees. A Sole Proprietor is a micro business without full-time employees that often operates from a residential address. A Holding Company is not engaged in economic activity, and is often used for real estate and financial transactions",
+    "Count": "74,948,539",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_structure",
+    "fielddes": "Multi-entity U.S. organization (a collection of legal entities with an ultimate parent in the U.S.); Multi-entity non-U.S. organization (a collection of legal entities with an ultimate parent outside the U.S.); or Single-entity organization (consists of a sole entity)",
+    "Count": "74,948,539",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_lfo",
+    "fielddes": "Clasification of the Legal form of the Organization of the Ultimate parent or Sole entity that comprises the Organizaation based on whether it is a Corporation, Limited Liability Company, Partnership, Non-Profit Corporation or Non-Profit Organization.",
+    "Count": "74,948,539",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_ein",
+    "fielddes": "Unique number issued by the IRS given to the Organization which is used to identify the business and certain other related entities. An organization may have multiple EINs; this is the primary EIN.",
+    "Count": "10,709,717",
+    "value": "14.29%"
+  },
+  {
+    "tablename": "bq_organization",
+    "fieldname": "bq_organization_cik",
+    "fielddes": "The Central Index Key (CIK) is a unique number issued by the SEC.",
+    "Count": "367,947",
+    "value": "0.49%"
+  }
+]

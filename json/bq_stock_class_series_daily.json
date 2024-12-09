@@ -1,0 +1,107 @@
+[
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,383,409,118",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "36,549,810",
+    "value": "2.64%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "786,012,025",
+    "value": "56.81%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_id",
+    "fielddes": "Example: BQ_US_DE_4779197_01",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_name",
+    "fielddes": "COMMON; PREFERRED; PREFERRED SERIES A; PREFERRED FF; etc.",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_daily_issued_shares_estimate",
+    "fielddes": "Daily tracker of issued shares of the stock class series: Estimated",
+    "Count": "333,611,066",
+    "value": "24.11%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_daily_par_value",
+    "fielddes": "Daily tracker of par value of the stock class series",
+    "Count": "1,381,432,943",
+    "value": "99.85%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_daily_authorized_shares",
+    "fielddes": "Daily tracker of authorized shares of the stock class series",
+    "Count": "1,382,820,713",
+    "value": "99.95%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_daily_issued_shares",
+    "fielddes": "Daily tracker of issued shares of the stock class series",
+    "Count": "333,611,066",
+    "value": "24.11%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_date",
+    "fielddes": "Specific day of the week",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_original_issue_price",
+    "fielddes": "Original Issue Price: The price at which shares are sold to investors during an issuance of the stock class series",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_stock_class_series_daily",
+    "fieldname": "bq_stock_class_series_coi_date",
+    "fielddes": "Certificate of Incorporation: Official date on which a company's COI is filed and accepted by the relevant SoS for the stock class series",
+    "Count": "1,383,534,404",
+    "value": "100%"
+  }
+]

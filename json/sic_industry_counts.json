@@ -1,0 +1,3752 @@
+[
+  {
+    "code": "0112",
+    "name": "Rice",
+    "count": "465"
+  },
+  {
+    "code": "0115",
+    "name": "Corn",
+    "count": "178,152"
+  },
+  {
+    "code": "0116",
+    "name": "Soybeans",
+    "count": "26,952"
+  },
+  {
+    "code": "0119",
+    "name": "Cash Grains, Nec",
+    "count": "12,107"
+  },
+  {
+    "code": "0131",
+    "name": "Cotton",
+    "count": "10,268"
+  },
+  {
+    "code": "0132",
+    "name": "Tobacco",
+    "count": "14,363"
+  },
+  {
+    "code": "0133",
+    "name": "Sugarcane and Sugar Beets",
+    "count": "1,870"
+  },
+  {
+    "code": "0134",
+    "name": "Irish Potatoes",
+    "count": "3,074"
+  },
+  {
+    "code": "0139",
+    "name": "Field Crops, Except Cash Grain",
+    "count": "38,576"
+  },
+  {
+    "code": "0171",
+    "name": "Berry Crops",
+    "count": "4,418"
+  },
+  {
+    "code": "0172",
+    "name": "Grapes",
+    "count": "1,427"
+  },
+  {
+    "code": "0173",
+    "name": "Tree Nuts",
+    "count": "2,945"
+  },
+  {
+    "code": "0174",
+    "name": "Citrus Fruits",
+    "count": "33,220"
+  },
+  {
+    "code": "0175",
+    "name": "Deciduous Tree Fruits",
+    "count": "14,595"
+  },
+  {
+    "code": "0179",
+    "name": "Fruits and Tree Nuts, Nec",
+    "count": "675"
+  },
+  {
+    "code": "0181",
+    "name": "Ornamental Nursery Products",
+    "count": "22,780"
+  },
+  {
+    "code": "0182",
+    "name": "Food Crops Grown Under Cover",
+    "count": "8,621"
+  },
+  {
+    "code": "0211",
+    "name": "Beef Cattle Feedlots",
+    "count": "5,174"
+  },
+  {
+    "code": "0212",
+    "name": "Beef Cattle, Except Feedlots",
+    "count": "195,583"
+  },
+  {
+    "code": "0213",
+    "name": "Hogs",
+    "count": "13,522"
+  },
+  {
+    "code": "0214",
+    "name": "Sheep and Goats",
+    "count": "663"
+  },
+  {
+    "code": "0219",
+    "name": "General Livestock, Nec",
+    "count": "5,339"
+  },
+  {
+    "code": "0241",
+    "name": "Dairy Farms",
+    "count": "45,057"
+  },
+  {
+    "code": "0251",
+    "name": "Broiler, Fryer, and Roaster Chickens",
+    "count": "73,747"
+  },
+  {
+    "code": "0252",
+    "name": "Chicken Eggs",
+    "count": "2,928"
+  },
+  {
+    "code": "0253",
+    "name": "Turkeys and Turkey Eggs",
+    "count": "408"
+  },
+  {
+    "code": "0254",
+    "name": "Poultry Hatcheries",
+    "count": "353"
+  },
+  {
+    "code": "0259",
+    "name": "Poultry and Eggs, Nec",
+    "count": "1,719"
+  },
+  {
+    "code": "0271",
+    "name": "Fur-bearing Animals and Rabbits",
+    "count": "146"
+  },
+  {
+    "code": "0272",
+    "name": "Horses and Other Equines",
+    "count": "23,983"
+  },
+  {
+    "code": "0273",
+    "name": "Animal Aquaculture",
+    "count": "4,045"
+  },
+  {
+    "code": "0279",
+    "name": "Animal Specialties, Nec",
+    "count": "13,861"
+  },
+  {
+    "code": "0711",
+    "name": "Soil Preparation Services",
+    "count": "16,520"
+  },
+  {
+    "code": "0722",
+    "name": "Crop Harvesting",
+    "count": "4,224"
+  },
+  {
+    "code": "0723",
+    "name": "Crop Preparation Services For Market",
+    "count": "7,289"
+  },
+  {
+    "code": "0724",
+    "name": "Cotton Ginning",
+    "count": "15,868"
+  },
+  {
+    "code": "0741",
+    "name": "Veterinary Services For Livestock",
+    "count": "126,232"
+  },
+  {
+    "code": "0751",
+    "name": "Livestock Services, Except Veterinary",
+    "count": "26,925"
+  },
+  {
+    "code": "0752",
+    "name": "Animal Specialty Services",
+    "count": "199,330"
+  },
+  {
+    "code": "0761",
+    "name": "Farm Labor Contractors",
+    "count": "1,764"
+  },
+  {
+    "code": "0762",
+    "name": "Farm Management Services",
+    "count": "4,054"
+  },
+  {
+    "code": "0781",
+    "name": "Landscape Counseling and Planning",
+    "count": "56,059"
+  },
+  {
+    "code": "0782",
+    "name": "Lawn and Garden Services",
+    "count": "1,001,530"
+  },
+  {
+    "code": "0811",
+    "name": "Timber Tracts",
+    "count": "16,493"
+  },
+  {
+    "code": "0831",
+    "name": "Forest Products",
+    "count": "903"
+  },
+  {
+    "code": "0851",
+    "name": "Forestry Services",
+    "count": "47,490"
+  },
+  {
+    "code": "0912",
+    "name": "Finfish",
+    "count": "12,689"
+  },
+  {
+    "code": "0913",
+    "name": "Shellfish",
+    "count": "17,175"
+  },
+  {
+    "code": "0919",
+    "name": "Miscellaneous Marine Products",
+    "count": "6,826"
+  },
+  {
+    "code": "0971",
+    "name": "Hunting, Trapping, Game Propagation",
+    "count": "4,939"
+  },
+  {
+    "code": "1011",
+    "name": "Iron Ores",
+    "count": "643"
+  },
+  {
+    "code": "1021",
+    "name": "Copper Ores",
+    "count": "32"
+  },
+  {
+    "code": "1041",
+    "name": "Gold Ores",
+    "count": "3,823"
+  },
+  {
+    "code": "1044",
+    "name": "Silver Ores",
+    "count": "3"
+  },
+  {
+    "code": "1061",
+    "name": "Ferroalloy Ores, Except Vanadium",
+    "count": "78"
+  },
+  {
+    "code": "1081",
+    "name": "Metal Mining Services",
+    "count": "303,060"
+  },
+  {
+    "code": "1094",
+    "name": "Uranium-radium-vanadium Ores",
+    "count": "21"
+  },
+  {
+    "code": "1221",
+    "name": "Bituminous Coal and Lignite-surface Mining",
+    "count": "20,734"
+  },
+  {
+    "code": "1222",
+    "name": "Bituminous Coal-underground Mining",
+    "count": "2,424"
+  },
+  {
+    "code": "1231",
+    "name": "Anthracite Mining",
+    "count": "263"
+  },
+  {
+    "code": "1241",
+    "name": "Coal Mining Services",
+    "count": "639"
+  },
+  {
+    "code": "1311",
+    "name": "Crude Petroleum and Natural Gas",
+    "count": "24,408"
+  },
+  {
+    "code": "1321",
+    "name": "Natural Gas Liquids",
+    "count": "26,032"
+  },
+  {
+    "code": "1381",
+    "name": "Drilling Oil and Gas Wells",
+    "count": "16,500"
+  },
+  {
+    "code": "1382",
+    "name": "Oil and Gas Exploration Services",
+    "count": "104,252"
+  },
+  {
+    "code": "1389",
+    "name": "Oil and Gas Field Services, NEC",
+    "count": "2"
+  },
+  {
+    "code": "1389",
+    "name": "Oil and Gas Field Services, Nec",
+    "count": "4,024"
+  },
+  {
+    "code": "1411",
+    "name": "Dimension Stone",
+    "count": "2,100"
+  },
+  {
+    "code": "1422",
+    "name": "Crushed and Broken Limestone",
+    "count": "265"
+  },
+  {
+    "code": "1423",
+    "name": "Crushed and Broken Granite",
+    "count": "59"
+  },
+  {
+    "code": "1429",
+    "name": "Crushed and Broken Stone, Nec",
+    "count": "258"
+  },
+  {
+    "code": "1442",
+    "name": "Construction Sand and Gravel",
+    "count": "17,900"
+  },
+  {
+    "code": "1446",
+    "name": "Industrial Sand",
+    "count": "76"
+  },
+  {
+    "code": "1455",
+    "name": "Kaolin and Ball Clay",
+    "count": "13"
+  },
+  {
+    "code": "1459",
+    "name": "Clay and Related Minerals, Nec",
+    "count": "46"
+  },
+  {
+    "code": "1474",
+    "name": "Potash, Soda, and Borate Minerals",
+    "count": "673"
+  },
+  {
+    "code": "1475",
+    "name": "Phosphate Rock",
+    "count": "16"
+  },
+  {
+    "code": "1479",
+    "name": "Chemical and Fertilizer Mining",
+    "count": "53"
+  },
+  {
+    "code": "1481",
+    "name": "Nonmetallic Mineral Services",
+    "count": "23,083"
+  },
+  {
+    "code": "1499",
+    "name": "Miscellaneous Nonmetallic Mining",
+    "count": "145"
+  },
+  {
+    "code": "1521",
+    "name": "General Contractors - Single-Family Houses",
+    "count": "14"
+  },
+  {
+    "code": "1521",
+    "name": "Single-family Housing Construction",
+    "count": "1,549,008"
+  },
+  {
+    "code": "1522",
+    "name": "General Contractors - Residential Buildings Other Than Single-Family",
+    "count": "4"
+  },
+  {
+    "code": "1522",
+    "name": "Residential Construction, Nec",
+    "count": "710,456"
+  },
+  {
+    "code": "1531",
+    "name": "Operative Builders",
+    "count": "69,341"
+  },
+  {
+    "code": "1611",
+    "name": "Highway and Street Construction",
+    "count": "42,728"
+  },
+  {
+    "code": "1622",
+    "name": "Bridge, Tunnel, and Elevated Highway",
+    "count": "14,863"
+  },
+  {
+    "code": "1623",
+    "name": "Water, Sewer, and Utility Lines",
+    "count": "67,793"
+  },
+  {
+    "code": "1711",
+    "name": "Plumbing, Heating, Air-conditioning",
+    "count": "1,023,693"
+  },
+  {
+    "code": "1721",
+    "name": "Painting and Paper Hanging",
+    "count": "232,522"
+  },
+  {
+    "code": "1741",
+    "name": "Masonry and Other Stonework",
+    "count": "73,491"
+  },
+  {
+    "code": "1742",
+    "name": "Plastering, Drywall, and Insulation",
+    "count": "95,751"
+  },
+  {
+    "code": "1743",
+    "name": "Terrazzo, Tile, Marble, Mosaic Work",
+    "count": "38,772"
+  },
+  {
+    "code": "1751",
+    "name": "Carpentry Work",
+    "count": "100,378"
+  },
+  {
+    "code": "1752",
+    "name": "Floor Laying and Floor Work, Nec",
+    "count": "129,728"
+  },
+  {
+    "code": "1761",
+    "name": "Roofing, Siding, and Sheetmetal Work",
+    "count": "164,064"
+  },
+  {
+    "code": "1771",
+    "name": "Concrete Work",
+    "count": "550,777"
+  },
+  {
+    "code": "1791",
+    "name": "Structural Steel Erection",
+    "count": "23,344"
+  },
+  {
+    "code": "1793",
+    "name": "Glass and Glazing Work",
+    "count": "46,887"
+  },
+  {
+    "code": "1796",
+    "name": "Installing Building Equipment",
+    "count": "23,714"
+  },
+  {
+    "code": "1799",
+    "name": "Special Trade Contractors, Nec",
+    "count": "107,013"
+  },
+  {
+    "code": "2013",
+    "name": "Sausages and Other Prepared Meats",
+    "count": "11,748"
+  },
+  {
+    "code": "2015",
+    "name": "Poultry Slaughtering and Processing",
+    "count": "10,799"
+  },
+  {
+    "code": "2021",
+    "name": "Creamery Butter",
+    "count": "111"
+  },
+  {
+    "code": "2022",
+    "name": "Cheese; Natural and Processed",
+    "count": "3,169"
+  },
+  {
+    "code": "2023",
+    "name": "Dry, Condensed, Evaporated Products",
+    "count": "3,067"
+  },
+  {
+    "code": "2024",
+    "name": "Ice Cream and Frozen Desserts",
+    "count": "1,499"
+  },
+  {
+    "code": "2032",
+    "name": "Canned Specialties",
+    "count": "108"
+  },
+  {
+    "code": "2033",
+    "name": "Canned Fruits and Specialties",
+    "count": "637"
+  },
+  {
+    "code": "2034",
+    "name": "Dehydrated Fruits, Vegetables, Soups",
+    "count": "9,442"
+  },
+  {
+    "code": "2035",
+    "name": "Pickles, Sauces, and Salad Dressings",
+    "count": "560"
+  },
+  {
+    "code": "2037",
+    "name": "Frozen Fruits and Vegetables",
+    "count": "3,524"
+  },
+  {
+    "code": "2038",
+    "name": "Frozen Specialties, Nec",
+    "count": "1,239"
+  },
+  {
+    "code": "2043",
+    "name": "Cereal Breakfast Foods",
+    "count": "3,369"
+  },
+  {
+    "code": "2044",
+    "name": "Rice Milling",
+    "count": "64"
+  },
+  {
+    "code": "2045",
+    "name": "Prepared Flour Mixes and Doughs",
+    "count": "329"
+  },
+  {
+    "code": "2046",
+    "name": "Wet Corn Milling",
+    "count": "285"
+  },
+  {
+    "code": "2047",
+    "name": "Dog and Cat Food",
+    "count": "3,489"
+  },
+  {
+    "code": "2051",
+    "name": "Bread, Cake, and Related Products",
+    "count": "18,859"
+  },
+  {
+    "code": "2052",
+    "name": "Cookies and Crackers",
+    "count": "10,422"
+  },
+  {
+    "code": "2053",
+    "name": "Frozen Bakery Products, Except Bread",
+    "count": "316"
+  },
+  {
+    "code": "2061",
+    "name": "Raw Cane Sugar",
+    "count": "34"
+  },
+  {
+    "code": "2063",
+    "name": "Beet Sugar",
+    "count": "1,434"
+  },
+  {
+    "code": "2064",
+    "name": "Candy and Other Confectionery Products",
+    "count": "2,545"
+  },
+  {
+    "code": "2066",
+    "name": "Chocolate and Cocoa Products",
+    "count": "2,421"
+  },
+  {
+    "code": "2068",
+    "name": "Salted and Roasted Nuts and Seeds",
+    "count": "11,452"
+  },
+  {
+    "code": "2074",
+    "name": "Cottonseed Oil Mills",
+    "count": "131"
+  },
+  {
+    "code": "2077",
+    "name": "Animal and Marine Fats and Oils",
+    "count": "1,233"
+  },
+  {
+    "code": "2082",
+    "name": "Malt Beverages",
+    "count": "38,798"
+  },
+  {
+    "code": "2083",
+    "name": "Malt",
+    "count": "98"
+  },
+  {
+    "code": "2084",
+    "name": "Wines, Brandy, and Brandy Spirits",
+    "count": "66,790"
+  },
+  {
+    "code": "2085",
+    "name": "Distilled and Blended Liquors",
+    "count": "8,566"
+  },
+  {
+    "code": "2086",
+    "name": "Bottled and Canned Soft Drinks",
+    "count": "9,561"
+  },
+  {
+    "code": "2087",
+    "name": "Flavoring Extracts and Syrups, Nec",
+    "count": "193"
+  },
+  {
+    "code": "2097",
+    "name": "Manufactured Ice",
+    "count": "13,940"
+  },
+  {
+    "code": "2099",
+    "name": "Food Preparations, Nec",
+    "count": "2,040"
+  },
+  {
+    "code": "2111",
+    "name": "Cigarettes",
+    "count": "1,636"
+  },
+  {
+    "code": "2211",
+    "name": "Broadwoven Fabric Mills, Cotton",
+    "count": "8,607"
+  },
+  {
+    "code": "2231",
+    "name": "Broadwoven Fabric Mills, Wool",
+    "count": "1,186"
+  },
+  {
+    "code": "2241",
+    "name": "Narrow Fabric Mills",
+    "count": "421"
+  },
+  {
+    "code": "2251",
+    "name": "Women's Hosiery, Except Socks",
+    "count": "1,008"
+  },
+  {
+    "code": "2253",
+    "name": "Knit Outerwear Mills",
+    "count": "192"
+  },
+  {
+    "code": "2257",
+    "name": "Weft Knit Fabric Mills",
+    "count": "85"
+  },
+  {
+    "code": "2273",
+    "name": "Carpets and Rugs",
+    "count": "4,546"
+  },
+  {
+    "code": "2281",
+    "name": "Yarn Spinning Mills",
+    "count": "10,566"
+  },
+  {
+    "code": "2295",
+    "name": "Coated Fabrics, Not Rubberized",
+    "count": "89"
+  },
+  {
+    "code": "2296",
+    "name": "Tire Cord and Fabrics",
+    "count": "298"
+  },
+  {
+    "code": "2297",
+    "name": "Nonwoven Fabrics",
+    "count": "59"
+  },
+  {
+    "code": "2299",
+    "name": "Textile Goods, Nec",
+    "count": "5,559"
+  },
+  {
+    "code": "2311",
+    "name": "Men's and Boy's Suits and Coats",
+    "count": "4,989"
+  },
+  {
+    "code": "2323",
+    "name": "Men's and Boy's Neckwear",
+    "count": "19,548"
+  },
+  {
+    "code": "2329",
+    "name": "Men's and Boy's Clothing, Nec",
+    "count": "3,622"
+  },
+  {
+    "code": "2331",
+    "name": "Women's and Misses' Blouses and Shirts",
+    "count": "1,648"
+  },
+  {
+    "code": "2391",
+    "name": "Curtains and Draperies",
+    "count": "448"
+  },
+  {
+    "code": "2392",
+    "name": "Household Furnishings, Nec",
+    "count": "4,578"
+  },
+  {
+    "code": "2396",
+    "name": "Automotive and Apparel Trimmings",
+    "count": "16,921"
+  },
+  {
+    "code": "2411",
+    "name": "Logging",
+    "count": "44,764"
+  },
+  {
+    "code": "2421",
+    "name": "Sawmills and Planing Mills, General",
+    "count": "54,104"
+  },
+  {
+    "code": "2426",
+    "name": "Hardwood Dimension and Flooring Mills",
+    "count": "1,381"
+  },
+  {
+    "code": "2431",
+    "name": "Millwork",
+    "count": "16,907"
+  },
+  {
+    "code": "2434",
+    "name": "Wood Kitchen Cabinets",
+    "count": "67,122"
+  },
+  {
+    "code": "2435",
+    "name": "Hardwood Veneer and Plywood",
+    "count": "3,101"
+  },
+  {
+    "code": "2436",
+    "name": "Softwood Veneer and Plywood",
+    "count": "26"
+  },
+  {
+    "code": "2439",
+    "name": "Structural Wood Members, Nec",
+    "count": "2,640"
+  },
+  {
+    "code": "2451",
+    "name": "Mobile Homes",
+    "count": "1,066"
+  },
+  {
+    "code": "2452",
+    "name": "Prefabricated Wood Buildings",
+    "count": "1,411"
+  },
+  {
+    "code": "2491",
+    "name": "Wood Preserving",
+    "count": "949"
+  },
+  {
+    "code": "2493",
+    "name": "Reconstituted Wood Products",
+    "count": "99"
+  },
+  {
+    "code": "2499",
+    "name": "Wood Products, Nec",
+    "count": "70,933"
+  },
+  {
+    "code": "2511",
+    "name": "Wood Household Furniture",
+    "count": "2,631"
+  },
+  {
+    "code": "2512",
+    "name": "Upholstered Household Furniture",
+    "count": "1,518"
+  },
+  {
+    "code": "2514",
+    "name": "Metal Household Furniture",
+    "count": "156"
+  },
+  {
+    "code": "2515",
+    "name": "Mattresses and Bedsprings",
+    "count": "452"
+  },
+  {
+    "code": "2521",
+    "name": "Wood Office Furniture",
+    "count": "685"
+  },
+  {
+    "code": "2522",
+    "name": "Office Furniture, Except Wood",
+    "count": "371"
+  },
+  {
+    "code": "2531",
+    "name": "Public Building and Related Furniture",
+    "count": "1,470"
+  },
+  {
+    "code": "2541",
+    "name": "Wood Partitions and Fixtures",
+    "count": "9,046"
+  },
+  {
+    "code": "2591",
+    "name": "Drapery Hardware and Blinds and Shades",
+    "count": "525"
+  },
+  {
+    "code": "2599",
+    "name": "Furniture and Fixtures, Nec",
+    "count": "6,093"
+  },
+  {
+    "code": "2611",
+    "name": "Pulp Mills",
+    "count": "1,085"
+  },
+  {
+    "code": "2652",
+    "name": "Setup Paperboard Boxes",
+    "count": "243"
+  },
+  {
+    "code": "2653",
+    "name": "Corrugated and Solid Fiber Boxes",
+    "count": "13,349"
+  },
+  {
+    "code": "2657",
+    "name": "Folding Paperboard Boxes",
+    "count": "300"
+  },
+  {
+    "code": "2671",
+    "name": "Packaging Paper and Plastics Film, Coated and Laminated",
+    "count": "1"
+  },
+  {
+    "code": "2671",
+    "name": "Paper; Coated and Laminated Packaging",
+    "count": "738"
+  },
+  {
+    "code": "2673",
+    "name": "Bags: Plastic, Laminated, and Coated",
+    "count": "13,652"
+  },
+  {
+    "code": "2675",
+    "name": "Die-cut Paper and Board",
+    "count": "675"
+  },
+  {
+    "code": "2676",
+    "name": "Sanitary Paper Products",
+    "count": "120"
+  },
+  {
+    "code": "2711",
+    "name": "Newspapers",
+    "count": "146,453"
+  },
+  {
+    "code": "2721",
+    "name": "Periodicals",
+    "count": "30,790"
+  },
+  {
+    "code": "2731",
+    "name": "Book Publishing",
+    "count": "16,130"
+  },
+  {
+    "code": "2732",
+    "name": "Book Printing",
+    "count": "673"
+  },
+  {
+    "code": "2741",
+    "name": "Miscellaneous Publishing",
+    "count": "7,331"
+  },
+  {
+    "code": "2752",
+    "name": "Commercial Printing, Lithographic",
+    "count": "147,796"
+  },
+  {
+    "code": "2771",
+    "name": "Greeting Cards",
+    "count": "5,621"
+  },
+  {
+    "code": "2789",
+    "name": "Bookbinding and Related Work",
+    "count": "3,107"
+  },
+  {
+    "code": "2812",
+    "name": "Alkalies and Chlorine",
+    "count": "1,485"
+  },
+  {
+    "code": "2813",
+    "name": "Industrial Gases",
+    "count": "117"
+  },
+  {
+    "code": "2816",
+    "name": "Inorganic Pigments",
+    "count": "39"
+  },
+  {
+    "code": "2819",
+    "name": "Industrial Inorganic Chemicals, Nec",
+    "count": "3,214"
+  },
+  {
+    "code": "2821",
+    "name": "Plastics Materials and Resins",
+    "count": "2,433"
+  },
+  {
+    "code": "2822",
+    "name": "Synthetic Rubber",
+    "count": "63"
+  },
+  {
+    "code": "2823",
+    "name": "Cellulosic Manmade Fibers",
+    "count": "67"
+  },
+  {
+    "code": "2833",
+    "name": "Medicinal Chemicals and Botanical Products",
+    "count": "1"
+  },
+  {
+    "code": "2833",
+    "name": "Medicinals and Botanicals",
+    "count": "6,829"
+  },
+  {
+    "code": "2834",
+    "name": "Pharmaceutical Preparations",
+    "count": "2,966"
+  },
+  {
+    "code": "2835",
+    "name": "Diagnostic Substances",
+    "count": "62"
+  },
+  {
+    "code": "2836",
+    "name": "Biological Products, Except Diagnostic",
+    "count": "1,095"
+  },
+  {
+    "code": "2841",
+    "name": "Soap and Other Detergents",
+    "count": "5,260"
+  },
+  {
+    "code": "2842",
+    "name": "Polishes and Sanitation Goods",
+    "count": "584"
+  },
+  {
+    "code": "2843",
+    "name": "Surface Active Agents",
+    "count": "40"
+  },
+  {
+    "code": "2844",
+    "name": "Toilet Preparations",
+    "count": "1,259"
+  },
+  {
+    "code": "2851",
+    "name": "Paints and Allied Products",
+    "count": "11,121"
+  },
+  {
+    "code": "2861",
+    "name": "Gum and Wood Chemicals",
+    "count": "15"
+  },
+  {
+    "code": "2865",
+    "name": "Cyclic Crudes and Intermediates",
+    "count": "3,351"
+  },
+  {
+    "code": "2869",
+    "name": "Industrial Organic Chemicals, Nec",
+    "count": "619"
+  },
+  {
+    "code": "2873",
+    "name": "Nitrogenous Fertilizers",
+    "count": "1,605"
+  },
+  {
+    "code": "2874",
+    "name": "Phosphatic Fertilizers",
+    "count": "16"
+  },
+  {
+    "code": "2875",
+    "name": "Fertilizers, Mixing Only",
+    "count": "618"
+  },
+  {
+    "code": "2879",
+    "name": "Agricultural Chemicals, Nec",
+    "count": "319"
+  },
+  {
+    "code": "2891",
+    "name": "Adhesives and Sealants",
+    "count": "298"
+  },
+  {
+    "code": "2892",
+    "name": "Explosives",
+    "count": "26"
+  },
+  {
+    "code": "2893",
+    "name": "Printing Ink",
+    "count": "7,261"
+  },
+  {
+    "code": "2911",
+    "name": "Petroleum Refining",
+    "count": "505"
+  },
+  {
+    "code": "2951",
+    "name": "Asphalt Paving Mixtures and Blocks",
+    "count": "6,828"
+  },
+  {
+    "code": "2952",
+    "name": "Asphalt Felts and Coatings",
+    "count": "162"
+  },
+  {
+    "code": "2992",
+    "name": "Lubricating Oils and Greases",
+    "count": "2,443"
+  },
+  {
+    "code": "2999",
+    "name": "Petroleum and Coal Products, Nec",
+    "count": "127"
+  },
+  {
+    "code": "3011",
+    "name": "Tires and Inner Tubes",
+    "count": "4,745"
+  },
+  {
+    "code": "3021",
+    "name": "Rubber and Plastics Footwear",
+    "count": "960"
+  },
+  {
+    "code": "3052",
+    "name": "Rubber and Plastics Hose and Beltings",
+    "count": "615"
+  },
+  {
+    "code": "3053",
+    "name": "Gaskets; Packing and Sealing Devices",
+    "count": "2,868"
+  },
+  {
+    "code": "3061",
+    "name": "Mechanical Rubber Goods",
+    "count": "3,405"
+  },
+  {
+    "code": "3069",
+    "name": "Fabricated Rubber Products, Nec",
+    "count": "30,776"
+  },
+  {
+    "code": "3081",
+    "name": "Unsupported Plastics Film and Sheet",
+    "count": "127"
+  },
+  {
+    "code": "3082",
+    "name": "Unsupported Plastics Profile Shapes",
+    "count": "142"
+  },
+  {
+    "code": "3083",
+    "name": "Laminated Plastics Plate and Sheet",
+    "count": "160"
+  },
+  {
+    "code": "3084",
+    "name": "Plastics Pipe",
+    "count": "232"
+  },
+  {
+    "code": "3085",
+    "name": "Plastics Bottles",
+    "count": "126"
+  },
+  {
+    "code": "3086",
+    "name": "Plastics Foam Products",
+    "count": "1,526"
+  },
+  {
+    "code": "3087",
+    "name": "Custom Compound Purchased Resins",
+    "count": "266"
+  },
+  {
+    "code": "3088",
+    "name": "Plastics Plumbing Fixtures",
+    "count": "340"
+  },
+  {
+    "code": "3111",
+    "name": "Leather Tanning and Finishing",
+    "count": "377"
+  },
+  {
+    "code": "3131",
+    "name": "Footwear Cut Stock",
+    "count": "7,625"
+  },
+  {
+    "code": "3171",
+    "name": "Women's Handbags and Purses",
+    "count": "1,365"
+  },
+  {
+    "code": "3172",
+    "name": "Personal Leather Goods, Nec",
+    "count": "40,232"
+  },
+  {
+    "code": "3211",
+    "name": "Flat Glass",
+    "count": "3,292"
+  },
+  {
+    "code": "3221",
+    "name": "Glass Containers",
+    "count": "74"
+  },
+  {
+    "code": "3229",
+    "name": "Pressed and Blown Glass, Nec",
+    "count": "1,457"
+  },
+  {
+    "code": "3231",
+    "name": "Products of Purchased Glass",
+    "count": "1,633"
+  },
+  {
+    "code": "3241",
+    "name": "Cement, Hydraulic",
+    "count": "4,982"
+  },
+  {
+    "code": "3251",
+    "name": "Brick and Structural Clay Tile",
+    "count": "9,409"
+  },
+  {
+    "code": "3261",
+    "name": "Vitreous Plumbing Fixtures",
+    "count": "2,799"
+  },
+  {
+    "code": "3272",
+    "name": "Concrete Products, Nec",
+    "count": "15,750"
+  },
+  {
+    "code": "3273",
+    "name": "Ready-mixed Concrete",
+    "count": "9,482"
+  },
+  {
+    "code": "3274",
+    "name": "Lime",
+    "count": "73"
+  },
+  {
+    "code": "3275",
+    "name": "Gypsum Products",
+    "count": "74"
+  },
+  {
+    "code": "3281",
+    "name": "Cut Stone and Stone Products",
+    "count": "63,045"
+  },
+  {
+    "code": "3291",
+    "name": "Abrasive Products",
+    "count": "41,616"
+  },
+  {
+    "code": "3292",
+    "name": "Asbestos Products",
+    "count": "308"
+  },
+  {
+    "code": "3295",
+    "name": "Minerals, Ground or Treated",
+    "count": "56"
+  },
+  {
+    "code": "3296",
+    "name": "Mineral Wool",
+    "count": "52"
+  },
+  {
+    "code": "3312",
+    "name": "Blast Furnaces and Steel Mills",
+    "count": "1,991"
+  },
+  {
+    "code": "3315",
+    "name": "Steel Wire and Related Products",
+    "count": "4,237"
+  },
+  {
+    "code": "3317",
+    "name": "Steel Pipe and Tubes",
+    "count": "6,069"
+  },
+  {
+    "code": "3321",
+    "name": "Gray and Ductile Iron Foundries",
+    "count": "4,494"
+  },
+  {
+    "code": "3324",
+    "name": "Steel Investment Foundries",
+    "count": "30"
+  },
+  {
+    "code": "3325",
+    "name": "Steel Foundries, Nec",
+    "count": "757"
+  },
+  {
+    "code": "3331",
+    "name": "Primary Copper",
+    "count": "1,439"
+  },
+  {
+    "code": "3341",
+    "name": "Secondary Nonferrous Metals",
+    "count": "278"
+  },
+  {
+    "code": "3353",
+    "name": "Aluminum Sheet, Plate, and Foil",
+    "count": "548"
+  },
+  {
+    "code": "3354",
+    "name": "Aluminum Extruded Products",
+    "count": "98"
+  },
+  {
+    "code": "3356",
+    "name": "Nonferrous Rolling and Drawing, Nec",
+    "count": "153"
+  },
+  {
+    "code": "3357",
+    "name": "Nonferrous Wiredrawing and Insulating",
+    "count": "369"
+  },
+  {
+    "code": "3363",
+    "name": "Aluminum Die-castings",
+    "count": "1,280"
+  },
+  {
+    "code": "3365",
+    "name": "Aluminum Foundries",
+    "count": "1,170"
+  },
+  {
+    "code": "3366",
+    "name": "Copper Foundries",
+    "count": "568"
+  },
+  {
+    "code": "3398",
+    "name": "Metal Heat Treating",
+    "count": "4,844"
+  },
+  {
+    "code": "3399",
+    "name": "Primary Metal Products",
+    "count": "12,323"
+  },
+  {
+    "code": "3411",
+    "name": "Metal Cans",
+    "count": "68"
+  },
+  {
+    "code": "3412",
+    "name": "Metal Barrels, Drums, and Pails",
+    "count": "708"
+  },
+  {
+    "code": "3421",
+    "name": "Cutlery",
+    "count": "2,597"
+  },
+  {
+    "code": "3429",
+    "name": "Hardware, NEC",
+    "count": "2"
+  },
+  {
+    "code": "3429",
+    "name": "Hardware, Nec",
+    "count": "6,374"
+  },
+  {
+    "code": "3432",
+    "name": "Plumbing Fixture Fittings and Trim",
+    "count": "225"
+  },
+  {
+    "code": "3433",
+    "name": "Heating Equipment, Except Electric",
+    "count": "339"
+  },
+  {
+    "code": "3441",
+    "name": "Fabricated Structural Metal",
+    "count": "32,101"
+  },
+  {
+    "code": "3442",
+    "name": "Metal Doors, Sash, and Trim",
+    "count": "10,156"
+  },
+  {
+    "code": "3443",
+    "name": "Fabricated Plate Work (boiler Shop)",
+    "count": "5,253"
+  },
+  {
+    "code": "3444",
+    "name": "Sheet Metalwork",
+    "count": "12,111"
+  },
+  {
+    "code": "3446",
+    "name": "Architectural Metalwork",
+    "count": "17,708"
+  },
+  {
+    "code": "3448",
+    "name": "Prefabricated Metal Buildings",
+    "count": "7,500"
+  },
+  {
+    "code": "3449",
+    "name": "Miscellaneous Metalwork",
+    "count": "137"
+  },
+  {
+    "code": "3451",
+    "name": "Screw Machine Products",
+    "count": "2,110"
+  },
+  {
+    "code": "3462",
+    "name": "Iron and Steel Forgings",
+    "count": "6,928"
+  },
+  {
+    "code": "3463",
+    "name": "Nonferrous Forgings",
+    "count": "29"
+  },
+  {
+    "code": "3465",
+    "name": "Automotive Stampings",
+    "count": "140"
+  },
+  {
+    "code": "3466",
+    "name": "Crowns and Closures",
+    "count": "440"
+  },
+  {
+    "code": "3479",
+    "name": "Metal Coating and Allied Services",
+    "count": "9,572"
+  },
+  {
+    "code": "3482",
+    "name": "Small Arms Ammunition",
+    "count": "110"
+  },
+  {
+    "code": "3483",
+    "name": "Ammunition, Except For Small Arms, Nec",
+    "count": "41"
+  },
+  {
+    "code": "3484",
+    "name": "Small Arms",
+    "count": "4,746"
+  },
+  {
+    "code": "3491",
+    "name": "Industrial Valves",
+    "count": "44,258"
+  },
+  {
+    "code": "3492",
+    "name": "Fluid Power Valves and Hose Fittings",
+    "count": "733"
+  },
+  {
+    "code": "3493",
+    "name": "Steel Springs, Except Wire",
+    "count": "2,344"
+  },
+  {
+    "code": "3496",
+    "name": "Miscellaneous Fabricated Wire Products",
+    "count": "438"
+  },
+  {
+    "code": "3498",
+    "name": "Fabricated Pipe and Fittings",
+    "count": "2,770"
+  },
+  {
+    "code": "3499",
+    "name": "Fabricated Metal Products, Nec",
+    "count": "130"
+  },
+  {
+    "code": "3511",
+    "name": "Turbines and Turbine Generator Sets",
+    "count": "1,001"
+  },
+  {
+    "code": "3519",
+    "name": "Internal Combustion Engines, Nec",
+    "count": "360"
+  },
+  {
+    "code": "3523",
+    "name": "Farm Machinery and Equipment",
+    "count": "8,280"
+  },
+  {
+    "code": "3524",
+    "name": "Lawn and Garden Equipment",
+    "count": "809"
+  },
+  {
+    "code": "3531",
+    "name": "Construction Machinery",
+    "count": "1,478"
+  },
+  {
+    "code": "3532",
+    "name": "Mining Machinery",
+    "count": "219"
+  },
+  {
+    "code": "3533",
+    "name": "Oil and Gas Field Machinery",
+    "count": "24,901"
+  },
+  {
+    "code": "3534",
+    "name": "Elevators and Moving Stairways",
+    "count": "616"
+  },
+  {
+    "code": "3541",
+    "name": "Machine Tools, Metal Cutting Type",
+    "count": "5,673"
+  },
+  {
+    "code": "3544",
+    "name": "Special Dies, Tools, Jigs, and Fixtures",
+    "count": "12,005"
+  },
+  {
+    "code": "3545",
+    "name": "Machine Tool Accessories",
+    "count": "1,241"
+  },
+  {
+    "code": "3546",
+    "name": "Power-driven Handtools",
+    "count": "381"
+  },
+  {
+    "code": "3547",
+    "name": "Rolling Mill Machinery",
+    "count": "309"
+  },
+  {
+    "code": "3548",
+    "name": "Welding Apparatus",
+    "count": "8,645"
+  },
+  {
+    "code": "3553",
+    "name": "Woodworking Machinery",
+    "count": "603"
+  },
+  {
+    "code": "3555",
+    "name": "Printing Trades Machinery",
+    "count": "242"
+  },
+  {
+    "code": "3556",
+    "name": "Food Products Machinery",
+    "count": "6,295"
+  },
+  {
+    "code": "3559",
+    "name": "Special Industry Machinery, Nec",
+    "count": "1,941"
+  },
+  {
+    "code": "3561",
+    "name": "Pumps and Pumping Equipment",
+    "count": "226"
+  },
+  {
+    "code": "3562",
+    "name": "Ball and Roller Bearings",
+    "count": "592"
+  },
+  {
+    "code": "3563",
+    "name": "Air and Gas Compressors",
+    "count": "8,330"
+  },
+  {
+    "code": "3564",
+    "name": "Blowers and Fans",
+    "count": "2,357"
+  },
+  {
+    "code": "3565",
+    "name": "Packaging Machinery",
+    "count": "405"
+  },
+  {
+    "code": "3566",
+    "name": "Speed Changers, Drives, and Gears",
+    "count": "977"
+  },
+  {
+    "code": "3568",
+    "name": "Power Transmission Equipment, Nec",
+    "count": "188"
+  },
+  {
+    "code": "3571",
+    "name": "Electronic Computers",
+    "count": "4,982"
+  },
+  {
+    "code": "3572",
+    "name": "Computer Storage Devices",
+    "count": "286"
+  },
+  {
+    "code": "3575",
+    "name": "Computer Terminals",
+    "count": "336"
+  },
+  {
+    "code": "3577",
+    "name": "Computer Peripheral Equipment, Nec",
+    "count": "2,355"
+  },
+  {
+    "code": "3592",
+    "name": "Carburetors, Pistons, Rings, Valves",
+    "count": "2,906"
+  },
+  {
+    "code": "3593",
+    "name": "Fluid Power Cylinders and Actuators",
+    "count": "83"
+  },
+  {
+    "code": "3594",
+    "name": "Fluid Power Pumps and Motors",
+    "count": "136"
+  },
+  {
+    "code": "3599",
+    "name": "Industrial Machinery, Nec",
+    "count": "238,477"
+  },
+  {
+    "code": "3613",
+    "name": "Switchgear and Switchboard Apparatus",
+    "count": "186"
+  },
+  {
+    "code": "3621",
+    "name": "Motors and Generators",
+    "count": "429"
+  },
+  {
+    "code": "3624",
+    "name": "Carbon and Graphite Products",
+    "count": "164"
+  },
+  {
+    "code": "3625",
+    "name": "Relays and Industrial Controls",
+    "count": "387"
+  },
+  {
+    "code": "3629",
+    "name": "Electrical Industrial Apparatus",
+    "count": "1,825"
+  },
+  {
+    "code": "3631",
+    "name": "Household Cooking Equipment",
+    "count": "147"
+  },
+  {
+    "code": "3634",
+    "name": "Electric Housewares and Fans",
+    "count": "819"
+  },
+  {
+    "code": "3641",
+    "name": "Electric Lamps",
+    "count": "915"
+  },
+  {
+    "code": "3643",
+    "name": "Current-carrying Wiring Devices",
+    "count": "162"
+  },
+  {
+    "code": "3644",
+    "name": "Noncurrent-carrying Wiring Devices",
+    "count": "46"
+  },
+  {
+    "code": "3645",
+    "name": "Residential Lighting Fixtures",
+    "count": "1,520"
+  },
+  {
+    "code": "3646",
+    "name": "Commercial, Industrial, and Institutional Electric Lighting Fixtures",
+    "count": "2,659"
+  },
+  {
+    "code": "3647",
+    "name": "Vehicular Lighting Equipment",
+    "count": "262"
+  },
+  {
+    "code": "3648",
+    "name": "Lighting Equipment, Nec",
+    "count": "453"
+  },
+  {
+    "code": "3651",
+    "name": "Household Audio and Video Equipment",
+    "count": "23,782"
+  },
+  {
+    "code": "3652",
+    "name": "Prerecorded Records and Tapes",
+    "count": "3,026"
+  },
+  {
+    "code": "3661",
+    "name": "Telephone and Telegraph Apparatus",
+    "count": "1,961"
+  },
+  {
+    "code": "3663",
+    "name": "Radio and T.v. Communications Equipment",
+    "count": "2,059"
+  },
+  {
+    "code": "3669",
+    "name": "Communications Equipment, Nec",
+    "count": "1,010"
+  },
+  {
+    "code": "3671",
+    "name": "Electron Tubes",
+    "count": "1,478"
+  },
+  {
+    "code": "3672",
+    "name": "Printed Circuit Boards",
+    "count": "6,664"
+  },
+  {
+    "code": "3674",
+    "name": "Semiconductors and Related Devices",
+    "count": "1,685"
+  },
+  {
+    "code": "3675",
+    "name": "Electronic Capacitors",
+    "count": "165"
+  },
+  {
+    "code": "3678",
+    "name": "Electronic Connectors",
+    "count": "155"
+  },
+  {
+    "code": "3691",
+    "name": "Storage Batteries",
+    "count": "15,353"
+  },
+  {
+    "code": "3692",
+    "name": "Primary Batteries, Dry and Wet",
+    "count": "63"
+  },
+  {
+    "code": "3711",
+    "name": "Motor Vehicles and Car Bodies",
+    "count": "2,701"
+  },
+  {
+    "code": "3714",
+    "name": "Motor Vehicle Parts and Accessories",
+    "count": "125"
+  },
+  {
+    "code": "3715",
+    "name": "Truck Trailers",
+    "count": "6,615"
+  },
+  {
+    "code": "3716",
+    "name": "Motor Homes",
+    "count": "32"
+  },
+  {
+    "code": "3721",
+    "name": "Aircraft",
+    "count": "30,682"
+  },
+  {
+    "code": "3724",
+    "name": "Aircraft Engines and Engine Parts",
+    "count": "495"
+  },
+  {
+    "code": "3728",
+    "name": "Aircraft Parts and Equipment, Nec",
+    "count": "8,461"
+  },
+  {
+    "code": "3731",
+    "name": "Shipbuilding and Repairing",
+    "count": "3,931"
+  },
+  {
+    "code": "3732",
+    "name": "Boatbuilding and Repairing",
+    "count": "28,244"
+  },
+  {
+    "code": "3751",
+    "name": "Motorcycles, Bicycles, and Parts",
+    "count": "3,671"
+  },
+  {
+    "code": "3761",
+    "name": "Guided Missiles and Space Vehicles",
+    "count": "26"
+  },
+  {
+    "code": "3764",
+    "name": "Space Propulsion Units and Parts",
+    "count": "10"
+  },
+  {
+    "code": "3769",
+    "name": "Space Vehicle Equipment, Nec",
+    "count": "14"
+  },
+  {
+    "code": "3792",
+    "name": "Travel Trailers and Campers",
+    "count": "1,158"
+  },
+  {
+    "code": "3799",
+    "name": "Transportation Equipment, Nec",
+    "count": "1,211"
+  },
+  {
+    "code": "3812",
+    "name": "Search and Navigation Equipment",
+    "count": "537"
+  },
+  {
+    "code": "3822",
+    "name": "Environmental Controls",
+    "count": "543"
+  },
+  {
+    "code": "3823",
+    "name": "Process Control Instruments",
+    "count": "2,398"
+  },
+  {
+    "code": "3824",
+    "name": "Fluid Meters and Counting Devices",
+    "count": "88"
+  },
+  {
+    "code": "3826",
+    "name": "Analytical Instruments",
+    "count": "3,266"
+  },
+  {
+    "code": "3827",
+    "name": "Optical Instruments and Lenses",
+    "count": "6,267"
+  },
+  {
+    "code": "3829",
+    "name": "Measuring and Controlling Devices, Nec",
+    "count": "24,605"
+  },
+  {
+    "code": "3842",
+    "name": "Surgical Appliances and Supplies",
+    "count": "2,386"
+  },
+  {
+    "code": "3843",
+    "name": "Dental Equipment and Supplies",
+    "count": "586"
+  },
+  {
+    "code": "3844",
+    "name": "X-ray Apparatus and Tubes",
+    "count": "94"
+  },
+  {
+    "code": "3851",
+    "name": "Ophthalmic Goods",
+    "count": "361"
+  },
+  {
+    "code": "3861",
+    "name": "Photographic Equipment and Supplies",
+    "count": "135"
+  },
+  {
+    "code": "3931",
+    "name": "Musical Instruments",
+    "count": "2,447"
+  },
+  {
+    "code": "3993",
+    "name": "Signs and Advertising Specialties",
+    "count": "45,369"
+  },
+  {
+    "code": "3995",
+    "name": "Burial Caskets",
+    "count": "166"
+  },
+  {
+    "code": "4011",
+    "name": "Railroads, Line-haul Operating",
+    "count": "7,648"
+  },
+  {
+    "code": "4013",
+    "name": "Switching and Terminal Services",
+    "count": "3,638"
+  },
+  {
+    "code": "4111",
+    "name": "Local and Suburban Transit",
+    "count": "7,997"
+  },
+  {
+    "code": "4119",
+    "name": "Local Passenger Transportation, Nec",
+    "count": "140,934"
+  },
+  {
+    "code": "4121",
+    "name": "Taxicabs",
+    "count": "55,419"
+  },
+  {
+    "code": "4131",
+    "name": "Intercity and Rural Bus Transportation",
+    "count": "358"
+  },
+  {
+    "code": "4141",
+    "name": "Local Bus Charter Service",
+    "count": "12,649"
+  },
+  {
+    "code": "4173",
+    "name": "Bus Terminal and Service Facilities",
+    "count": "8,441"
+  },
+  {
+    "code": "4212",
+    "name": "Local Trucking, Without Storage",
+    "count": "891,858"
+  },
+  {
+    "code": "4213",
+    "name": "Trucking, Except Local",
+    "count": "507,252"
+  },
+  {
+    "code": "4215",
+    "name": "Courier Services, Except By Air",
+    "count": "53,841"
+  },
+  {
+    "code": "4221",
+    "name": "Farm Product Warehousing and Storage",
+    "count": "1,501"
+  },
+  {
+    "code": "4222",
+    "name": "Refrigerated Warehousing and Storage",
+    "count": "4,183"
+  },
+  {
+    "code": "4225",
+    "name": "General Warehousing and Storage",
+    "count": "117,130"
+  },
+  {
+    "code": "4226",
+    "name": "Special Warehousing and Storage, Nec",
+    "count": "2,234"
+  },
+  {
+    "code": "4311",
+    "name": "U.S. Postal Service",
+    "count": "1,931"
+  },
+  {
+    "code": "4412",
+    "name": "Deep Sea Foreign Transportation of Freight",
+    "count": "6,012"
+  },
+  {
+    "code": "4424",
+    "name": "Deep Sea Domestic Transportation of Freight",
+    "count": "299"
+  },
+  {
+    "code": "4449",
+    "name": "Water Transportation of Freight",
+    "count": "758"
+  },
+  {
+    "code": "4481",
+    "name": "Deep Sea Passenger Transportation, Except Ferry",
+    "count": "343"
+  },
+  {
+    "code": "4482",
+    "name": "Ferries",
+    "count": "1,939"
+  },
+  {
+    "code": "4489",
+    "name": "Water Passenger Transportation",
+    "count": "9,478"
+  },
+  {
+    "code": "4491",
+    "name": "Marine Cargo Handling",
+    "count": "2,115"
+  },
+  {
+    "code": "4492",
+    "name": "Towing and Tugboat Service",
+    "count": "3,713"
+  },
+  {
+    "code": "4493",
+    "name": "Marinas",
+    "count": "93,758"
+  },
+  {
+    "code": "4499",
+    "name": "Water Transportation Services, Nec",
+    "count": "783,568"
+  },
+  {
+    "code": "4512",
+    "name": "Air Transportation, Scheduled",
+    "count": "9,687"
+  },
+  {
+    "code": "4522",
+    "name": "Air Transportation, Nonscheduled",
+    "count": "5,198"
+  },
+  {
+    "code": "4581",
+    "name": "Airports, Flying Fields, and Airport Terminal Services",
+    "count": "1"
+  },
+  {
+    "code": "4581",
+    "name": "Airports, Flying Fields, and Services",
+    "count": "665,794"
+  },
+  {
+    "code": "4612",
+    "name": "Crude Petroleum Pipelines",
+    "count": "348"
+  },
+  {
+    "code": "4613",
+    "name": "Refined Petroleum Pipelines",
+    "count": "146"
+  },
+  {
+    "code": "4619",
+    "name": "Pipelines, Nec",
+    "count": "205"
+  },
+  {
+    "code": "4724",
+    "name": "Travel Agencies",
+    "count": "169,513"
+  },
+  {
+    "code": "4725",
+    "name": "Tour Operators",
+    "count": "32,036"
+  },
+  {
+    "code": "4729",
+    "name": "Passenger Transportation Arrangement",
+    "count": "10,831"
+  },
+  {
+    "code": "4731",
+    "name": "Freight Transportation Arrangement",
+    "count": "251,335"
+  },
+  {
+    "code": "4783",
+    "name": "Packing and Crating",
+    "count": "9,292"
+  },
+  {
+    "code": "4789",
+    "name": "Transportation Services, Nec",
+    "count": "28,130"
+  },
+  {
+    "code": "4812",
+    "name": "Radiotelephone Communication",
+    "count": "8,693"
+  },
+  {
+    "code": "4812",
+    "name": "Radiotelephone Communications",
+    "count": "1"
+  },
+  {
+    "code": "4813",
+    "name": "Telephone Communications, Except Radiotelephone",
+    "count": "30,194"
+  },
+  {
+    "code": "4832",
+    "name": "Radio Broadcasting Stations",
+    "count": "41,814"
+  },
+  {
+    "code": "4833",
+    "name": "Television Broadcasting Stations",
+    "count": "13,566"
+  },
+  {
+    "code": "4841",
+    "name": "Cable and Other Pay Television Services",
+    "count": "23,120"
+  },
+  {
+    "code": "4899",
+    "name": "Communication Services, Nec",
+    "count": "417,048"
+  },
+  {
+    "code": "4911",
+    "name": "Electric Services",
+    "count": "183,176"
+  },
+  {
+    "code": "4922",
+    "name": "Natural Gas Transmission",
+    "count": "145"
+  },
+  {
+    "code": "4923",
+    "name": "Gas Transmission and Distribution",
+    "count": "9,304"
+  },
+  {
+    "code": "4941",
+    "name": "Water Supply",
+    "count": "64,306"
+  },
+  {
+    "code": "4952",
+    "name": "Sewerage Systems",
+    "count": "356"
+  },
+  {
+    "code": "4953",
+    "name": "Refuse Systems",
+    "count": "16,215"
+  },
+  {
+    "code": "4959",
+    "name": "Sanitary Services, Nec",
+    "count": "68,832"
+  },
+  {
+    "code": "4961",
+    "name": "Steam and Air-conditioning Supply",
+    "count": "585"
+  },
+  {
+    "code": "5012",
+    "name": "Automobiles and Other Motor Vehicles",
+    "count": "109,734"
+  },
+  {
+    "code": "5013",
+    "name": "Motor Vehicle Supplies and New Parts",
+    "count": "105,693"
+  },
+  {
+    "code": "5014",
+    "name": "Tires and Tubes",
+    "count": "51,232"
+  },
+  {
+    "code": "5015",
+    "name": "Motor Vehicle Parts, Used",
+    "count": "1,386"
+  },
+  {
+    "code": "5021",
+    "name": "Furniture",
+    "count": "126,532"
+  },
+  {
+    "code": "5023",
+    "name": "Homefurnishings",
+    "count": "79,548"
+  },
+  {
+    "code": "5031",
+    "name": "Lumber, Plywood, and Millwork",
+    "count": "24,715"
+  },
+  {
+    "code": "5032",
+    "name": "Brick, Stone, and Related Material",
+    "count": "108,778"
+  },
+  {
+    "code": "5033",
+    "name": "Roofing, Siding, and Insulation",
+    "count": "1,195"
+  },
+  {
+    "code": "5039",
+    "name": "Construction Materials, Nec",
+    "count": "23,946"
+  },
+  {
+    "code": "5043",
+    "name": "Photographic Equipment and Supplies",
+    "count": "8,423"
+  },
+  {
+    "code": "5044",
+    "name": "Office Equipment",
+    "count": "60,449"
+  },
+  {
+    "code": "5045",
+    "name": "Computers, Peripherals, and Software",
+    "count": "207,377"
+  },
+  {
+    "code": "5046",
+    "name": "Commercial Equipment, Nec",
+    "count": "6,937"
+  },
+  {
+    "code": "5047",
+    "name": "Medical and Hospital Equipment",
+    "count": "46,364"
+  },
+  {
+    "code": "5047",
+    "name": "Medical, Dental, and Hospital Equipment and Supplies",
+    "count": "2"
+  },
+  {
+    "code": "5048",
+    "name": "Ophthalmic Goods",
+    "count": "442"
+  },
+  {
+    "code": "5049",
+    "name": "Professional Equipment, Nec",
+    "count": "1,736"
+  },
+  {
+    "code": "5051",
+    "name": "Metals Service Centers and Offices",
+    "count": "29,481"
+  },
+  {
+    "code": "5052",
+    "name": "Coal and Other Minerals and Ores",
+    "count": "366"
+  },
+  {
+    "code": "5063",
+    "name": "Electrical Apparatus and Equipment",
+    "count": "47,432"
+  },
+  {
+    "code": "5064",
+    "name": "Electrical Appliances, Television and Radio",
+    "count": "32,450"
+  },
+  {
+    "code": "5065",
+    "name": "Electronic Parts and Equipment, Nec",
+    "count": "10,472"
+  },
+  {
+    "code": "5072",
+    "name": "Hardware",
+    "count": "72,329"
+  },
+  {
+    "code": "5075",
+    "name": "Warm Air Heating and Air Conditioning",
+    "count": "3,449"
+  },
+  {
+    "code": "5078",
+    "name": "Refrigeration Equipment and Supplies",
+    "count": "974"
+  },
+  {
+    "code": "5082",
+    "name": "Construction and Mining Machinery",
+    "count": "32,785"
+  },
+  {
+    "code": "5082",
+    "name": "Construction and Mining Machinery and Equipment",
+    "count": "1"
+  },
+  {
+    "code": "5083",
+    "name": "Farm and Garden Machinery",
+    "count": "24,989"
+  },
+  {
+    "code": "5084",
+    "name": "Industrial Machinery and Equipment",
+    "count": "93,068"
+  },
+  {
+    "code": "5085",
+    "name": "Industrial Supplies",
+    "count": "419,371"
+  },
+  {
+    "code": "5087",
+    "name": "Service Establishment Equipment",
+    "count": "95,849"
+  },
+  {
+    "code": "5088",
+    "name": "Transportation Equipment and Supplies",
+    "count": "6,628"
+  },
+  {
+    "code": "5091",
+    "name": "Sporting and Recreation Goods",
+    "count": "220,744"
+  },
+  {
+    "code": "5092",
+    "name": "Toys and Hobby Goods and Supplies",
+    "count": "89,337"
+  },
+  {
+    "code": "5093",
+    "name": "Scrap and Waste Materials",
+    "count": "26,895"
+  },
+  {
+    "code": "5094",
+    "name": "Jewelry and Precious Stones",
+    "count": "191,667"
+  },
+  {
+    "code": "5099",
+    "name": "Durable Goods, NEC",
+    "count": "1"
+  },
+  {
+    "code": "5099",
+    "name": "Durable Goods, Nec",
+    "count": "447,484"
+  },
+  {
+    "code": "5111",
+    "name": "Printing and Writing Paper",
+    "count": "3,901"
+  },
+  {
+    "code": "5112",
+    "name": "Stationery and Office Supplies",
+    "count": "1,664"
+  },
+  {
+    "code": "5113",
+    "name": "Industrial and Personal Service Paper",
+    "count": "9,084"
+  },
+  {
+    "code": "5122",
+    "name": "Drugs, Proprietaries, and Sundries",
+    "count": "201,459"
+  },
+  {
+    "code": "5131",
+    "name": "Piece Goods and Notions",
+    "count": "56,939"
+  },
+  {
+    "code": "5136",
+    "name": "Men's and Boy's Clothing",
+    "count": "61,041"
+  },
+  {
+    "code": "5137",
+    "name": "Women's and Children's Clothing",
+    "count": "283,605"
+  },
+  {
+    "code": "5139",
+    "name": "Footwear",
+    "count": "53,709"
+  },
+  {
+    "code": "5141",
+    "name": "Groceries, General Line",
+    "count": "317,184"
+  },
+  {
+    "code": "5142",
+    "name": "Packaged Frozen Goods",
+    "count": "1,324"
+  },
+  {
+    "code": "5143",
+    "name": "Dairy Products, Except Dried or Canned",
+    "count": "47,494"
+  },
+  {
+    "code": "5144",
+    "name": "Poultry and Poultry Products",
+    "count": "23,360"
+  },
+  {
+    "code": "5145",
+    "name": "Confectionery",
+    "count": "28,653"
+  },
+  {
+    "code": "5146",
+    "name": "Fish and Seafoods",
+    "count": "39,685"
+  },
+  {
+    "code": "5147",
+    "name": "Meats and Meat Products",
+    "count": "12,871"
+  },
+  {
+    "code": "5148",
+    "name": "Fresh Fruits and Vegetables",
+    "count": "35,432"
+  },
+  {
+    "code": "5149",
+    "name": "Groceries and Related Products, Nec",
+    "count": "131,085"
+  },
+  {
+    "code": "5153",
+    "name": "Grain and Field Beans",
+    "count": "74,713"
+  },
+  {
+    "code": "5154",
+    "name": "Livestock",
+    "count": "4,020"
+  },
+  {
+    "code": "5159",
+    "name": "Farm-product Raw Materials, Nec",
+    "count": "969"
+  },
+  {
+    "code": "5162",
+    "name": "Plastics Materials and Basic Shapes",
+    "count": "5,829"
+  },
+  {
+    "code": "5169",
+    "name": "Chemicals and Allied Products, Nec",
+    "count": "17,709"
+  },
+  {
+    "code": "5171",
+    "name": "Petroleum Bulk Stations and Terminals",
+    "count": "22,581"
+  },
+  {
+    "code": "5172",
+    "name": "Petroleum Products, Nec",
+    "count": "13,943"
+  },
+  {
+    "code": "5181",
+    "name": "Beer and Ale",
+    "count": "148,223"
+  },
+  {
+    "code": "5182",
+    "name": "Wine and Distilled Beverages",
+    "count": "9,718"
+  },
+  {
+    "code": "5191",
+    "name": "Farm Supplies",
+    "count": "29,331"
+  },
+  {
+    "code": "5192",
+    "name": "Books, Periodicals, and Newspapers",
+    "count": "164,002"
+  },
+  {
+    "code": "5193",
+    "name": "Flowers and Florists Supplies",
+    "count": "31,074"
+  },
+  {
+    "code": "5194",
+    "name": "Tobacco and Tobacco Products",
+    "count": "81,266"
+  },
+  {
+    "code": "5198",
+    "name": "Paints, Varnishes, and Supplies",
+    "count": "1,133"
+  },
+  {
+    "code": "5199",
+    "name": "Nondurable Goods, Nec",
+    "count": "538,575"
+  },
+  {
+    "code": "5231",
+    "name": "Paint, Glass, and Wallpaper Stores",
+    "count": "10,019"
+  },
+  {
+    "code": "5271",
+    "name": "Mobile Home Dealers",
+    "count": "17,392"
+  },
+  {
+    "code": "5311",
+    "name": "Department Stores",
+    "count": "12,492"
+  },
+  {
+    "code": "5331",
+    "name": "Variety Stores",
+    "count": "5,373"
+  },
+  {
+    "code": "5411",
+    "name": "Grocery Stores",
+    "count": "582,384"
+  },
+  {
+    "code": "5421",
+    "name": "Meat and Fish Markets",
+    "count": "72,408"
+  },
+  {
+    "code": "5461",
+    "name": "Retail Bakeries",
+    "count": "325,555"
+  },
+  {
+    "code": "5511",
+    "name": "New and Used Car Dealers",
+    "count": "357,703"
+  },
+  {
+    "code": "5521",
+    "name": "Used Car Dealers",
+    "count": "241,709"
+  },
+  {
+    "code": "5541",
+    "name": "Gasoline Service Stations",
+    "count": "5,240"
+  },
+  {
+    "code": "5551",
+    "name": "Boat Dealers",
+    "count": "65,333"
+  },
+  {
+    "code": "5561",
+    "name": "Recreational Vehicle Dealers",
+    "count": "20,360"
+  },
+  {
+    "code": "5571",
+    "name": "Motorcycle Dealers",
+    "count": "40,061"
+  },
+  {
+    "code": "5611",
+    "name": "Men's and Boys' Clothing Stores",
+    "count": "65,518"
+  },
+  {
+    "code": "5651",
+    "name": "Family Clothing Stores",
+    "count": "72,078"
+  },
+  {
+    "code": "5714",
+    "name": "Drapery and Upholstery Stores",
+    "count": "27,294"
+  },
+  {
+    "code": "5719",
+    "name": "Miscellaneous Homefurnishings",
+    "count": "298,854"
+  },
+  {
+    "code": "5736",
+    "name": "Musical Instrument Stores",
+    "count": "102,670"
+  },
+  {
+    "code": "5812",
+    "name": "Eating Places",
+    "count": "17,552,051"
+  },
+  {
+    "code": "5813",
+    "name": "Drinking Places",
+    "count": "231,609"
+  },
+  {
+    "code": "5932",
+    "name": "Used Merchandise Stores",
+    "count": "98,801"
+  },
+  {
+    "code": "5948",
+    "name": "Luggage and Leather Goods Stores",
+    "count": "7,816"
+  },
+  {
+    "code": "5961",
+    "name": "Catalog and Mail-order Houses",
+    "count": "68,328"
+  },
+  {
+    "code": "5962",
+    "name": "Merchandising Machine Operators",
+    "count": "53,020"
+  },
+  {
+    "code": "5963",
+    "name": "Direct Selling Establishments",
+    "count": "23,228"
+  },
+  {
+    "code": "5992",
+    "name": "Florists",
+    "count": "77,655"
+  },
+  {
+    "code": "5994",
+    "name": "News Dealers and Newsstands",
+    "count": "10,036"
+  },
+  {
+    "code": "5995",
+    "name": "Optical Goods Stores",
+    "count": "20,424"
+  },
+  {
+    "code": "5999",
+    "name": "Miscellaneous Retail Stores, Nec",
+    "count": "101,298"
+  },
+  {
+    "code": "6021",
+    "name": "National Commercial Banks",
+    "count": "43,374"
+  },
+  {
+    "code": "6022",
+    "name": "State Commercial Banks",
+    "count": "358"
+  },
+  {
+    "code": "6035",
+    "name": "Federal Savings Institutions",
+    "count": "9,058"
+  },
+  {
+    "code": "6061",
+    "name": "Federal Credit Unions",
+    "count": "23,280"
+  },
+  {
+    "code": "6081",
+    "name": "Foreign Bank and Branches and Agencies",
+    "count": "507"
+  },
+  {
+    "code": "6091",
+    "name": "Nondeposit Trust Facilities",
+    "count": "50,701"
+  },
+  {
+    "code": "6099",
+    "name": "Functions Related To Depository Banking",
+    "count": "46,911"
+  },
+  {
+    "code": "6099",
+    "name": "Functions Related to Depository Banking, NEC",
+    "count": "1"
+  },
+  {
+    "code": "6111",
+    "name": "Federal and Federally Sponsored Credit",
+    "count": "56,821"
+  },
+  {
+    "code": "6141",
+    "name": "Personal Credit Institutions",
+    "count": "72,134"
+  },
+  {
+    "code": "6153",
+    "name": "Short-term Business Credit",
+    "count": "872,069"
+  },
+  {
+    "code": "6163",
+    "name": "Loan Brokers",
+    "count": "150,708"
+  },
+  {
+    "code": "6211",
+    "name": "Security Brokers and Dealers",
+    "count": "37,482"
+  },
+  {
+    "code": "6221",
+    "name": "Commodity Contracts Brokers, Dealers",
+    "count": "6,817"
+  },
+  {
+    "code": "6231",
+    "name": "Security and Commodity Exchanges",
+    "count": "771"
+  },
+  {
+    "code": "6282",
+    "name": "Investment Advice",
+    "count": "352,306"
+  },
+  {
+    "code": "6289",
+    "name": "Services Allied With the Exchange of Securities or Commodities,",
+    "count": "1"
+  },
+  {
+    "code": "6311",
+    "name": "Life Insurance",
+    "count": "5,777"
+  },
+  {
+    "code": "6321",
+    "name": "Accident and Health Insurance",
+    "count": "2,630"
+  },
+  {
+    "code": "6331",
+    "name": "Fire, Marine, and Casualty Insurance",
+    "count": "4,543"
+  },
+  {
+    "code": "6361",
+    "name": "Title Insurance",
+    "count": "924"
+  },
+  {
+    "code": "6371",
+    "name": "Pension, Health, and Welfare Funds",
+    "count": "11,303"
+  },
+  {
+    "code": "6411",
+    "name": "Insurance Agents, Brokers, and Service",
+    "count": "747,639"
+  },
+  {
+    "code": "6512",
+    "name": "Nonresidential Building Operators",
+    "count": "421,117"
+  },
+  {
+    "code": "6513",
+    "name": "Apartment Building Operators",
+    "count": "603,662"
+  },
+  {
+    "code": "6515",
+    "name": "Mobile Home Site Operators",
+    "count": "41,347"
+  },
+  {
+    "code": "6531",
+    "name": "Real Estate Agents and Managers",
+    "count": "4,229,615"
+  },
+  {
+    "code": "6541",
+    "name": "Title abstract Offices",
+    "count": "65,343"
+  },
+  {
+    "code": "6552",
+    "name": "Subdividers and Developers, Nec",
+    "count": "17,091"
+  },
+  {
+    "code": "6712",
+    "name": "Bank Holding Companies",
+    "count": "16,252"
+  },
+  {
+    "code": "6719",
+    "name": "Holding Companies, Nec",
+    "count": "56,360"
+  },
+  {
+    "code": "6722",
+    "name": "Management Investment, Open-ended",
+    "count": "3,514"
+  },
+  {
+    "code": "6732",
+    "name": "Trusts: Educational, Religious, Etc.",
+    "count": "298,693"
+  },
+  {
+    "code": "6733",
+    "name": "Trusts, Nec",
+    "count": "2,038"
+  },
+  {
+    "code": "6792",
+    "name": "Oil Royalty Traders",
+    "count": "7,403"
+  },
+  {
+    "code": "7011",
+    "name": "Hotels and Motels",
+    "count": "1,015,551"
+  },
+  {
+    "code": "7021",
+    "name": "Rooming and Boarding Houses",
+    "count": "2,929"
+  },
+  {
+    "code": "7032",
+    "name": "Sporting and Recreational Camps",
+    "count": "26,105"
+  },
+  {
+    "code": "7033",
+    "name": "Trailer Parks and Campsites",
+    "count": "45,593"
+  },
+  {
+    "code": "7211",
+    "name": "Power Laundries, Family and Commercial",
+    "count": "82,240"
+  },
+  {
+    "code": "7213",
+    "name": "Linen Supply",
+    "count": "3,351"
+  },
+  {
+    "code": "7215",
+    "name": "Coin-operated Laundries and Cleaning",
+    "count": "52,263"
+  },
+  {
+    "code": "7217",
+    "name": "Carpet and Upholstery Cleaning",
+    "count": "40,315"
+  },
+  {
+    "code": "7218",
+    "name": "Industrial Launderers",
+    "count": "392"
+  },
+  {
+    "code": "7221",
+    "name": "Photographic Studios, Portrait",
+    "count": "218,769"
+  },
+  {
+    "code": "7231",
+    "name": "Beauty Shops",
+    "count": "815,662"
+  },
+  {
+    "code": "7241",
+    "name": "Barber Shops",
+    "count": "75,769"
+  },
+  {
+    "code": "7251",
+    "name": "Shoe Repair and Shoeshine Parlors",
+    "count": "1,491"
+  },
+  {
+    "code": "7261",
+    "name": "Funeral Service and Crematories",
+    "count": "66,556"
+  },
+  {
+    "code": "7291",
+    "name": "Tax Return Preparation Services",
+    "count": "106,506"
+  },
+  {
+    "code": "7299",
+    "name": "Miscellaneous Personal Services",
+    "count": "404,092"
+  },
+  {
+    "code": "7299",
+    "name": "Miscellaneous Personal Services, NEC",
+    "count": "1"
+  },
+  {
+    "code": "7311",
+    "name": "Advertising Agencies",
+    "count": "435,896"
+  },
+  {
+    "code": "7312",
+    "name": "Outdoor Advertising Services",
+    "count": "3,795"
+  },
+  {
+    "code": "7313",
+    "name": "Radio, Television, Publisher Representatives",
+    "count": "3,152"
+  },
+  {
+    "code": "7319",
+    "name": "Advertising, Nec",
+    "count": "2,707"
+  },
+  {
+    "code": "7322",
+    "name": "Adjustment and Collection Services",
+    "count": "21,917"
+  },
+  {
+    "code": "7323",
+    "name": "Credit Reporting Services",
+    "count": "3,255"
+  },
+  {
+    "code": "7331",
+    "name": "Direct Mail Advertising Services",
+    "count": "7,039"
+  },
+  {
+    "code": "7334",
+    "name": "Photocopying and Duplicating Services",
+    "count": "6,183"
+  },
+  {
+    "code": "7335",
+    "name": "Commercial Photography",
+    "count": "6,102"
+  },
+  {
+    "code": "7336",
+    "name": "Commercial Art and Graphic Design",
+    "count": "134,713"
+  },
+  {
+    "code": "7338",
+    "name": "Secretarial and Court Reporting",
+    "count": "43,628"
+  },
+  {
+    "code": "7352",
+    "name": "Medical Equipment Rental",
+    "count": "95,454"
+  },
+  {
+    "code": "7353",
+    "name": "Heavy Construction Equipment Rental",
+    "count": "3,794"
+  },
+  {
+    "code": "7359",
+    "name": "Equipment Rental and Leasing, Nec",
+    "count": "110,922"
+  },
+  {
+    "code": "7361",
+    "name": "Employment Agencies",
+    "count": "26,110"
+  },
+  {
+    "code": "7363",
+    "name": "Help Supply Services",
+    "count": "25,590"
+  },
+  {
+    "code": "7371",
+    "name": "Custom Computer Programming Services",
+    "count": "496,799"
+  },
+  {
+    "code": "7372",
+    "name": "Prepackaged Software",
+    "count": "45,873"
+  },
+  {
+    "code": "7373",
+    "name": "Computer Integrated Systems Design",
+    "count": "494,460"
+  },
+  {
+    "code": "7374",
+    "name": "Data Processing and Preparation",
+    "count": "48,382"
+  },
+  {
+    "code": "7376",
+    "name": "Computer Facilities Management",
+    "count": "3,138"
+  },
+  {
+    "code": "7378",
+    "name": "Computer Maintenance and Repair",
+    "count": "61,723"
+  },
+  {
+    "code": "7379",
+    "name": "Computer Related Services, Nec",
+    "count": "190,110"
+  },
+  {
+    "code": "7381",
+    "name": "Detective and Armored Car Services",
+    "count": "154,824"
+  },
+  {
+    "code": "7381",
+    "name": "Detective, Guard, and Armored Car Services",
+    "count": "1"
+  },
+  {
+    "code": "7382",
+    "name": "Security Systems Services",
+    "count": "32,453"
+  },
+  {
+    "code": "7383",
+    "name": "News Syndicates",
+    "count": "344,964"
+  },
+  {
+    "code": "7384",
+    "name": "Photofinish Laboratories",
+    "count": "3,003"
+  },
+  {
+    "code": "7389",
+    "name": "Business Services, Nec",
+    "count": "851,533"
+  },
+  {
+    "code": "7513",
+    "name": "Truck Rental and Leasing Without Drivers",
+    "count": "1"
+  },
+  {
+    "code": "7513",
+    "name": "Truck Rental and Leasing, Without Drivers",
+    "count": "17,877"
+  },
+  {
+    "code": "7514",
+    "name": "Passenger Car Rental",
+    "count": "21,018"
+  },
+  {
+    "code": "7515",
+    "name": "Passenger Car Leasing",
+    "count": "19,025"
+  },
+  {
+    "code": "7532",
+    "name": "Top and Body Repair and Paint Shops",
+    "count": "127,995"
+  },
+  {
+    "code": "7533",
+    "name": "Auto Exhaust System Repair Shops",
+    "count": "3,746"
+  },
+  {
+    "code": "7533",
+    "name": "Automotive Exhaust System Repair Shops",
+    "count": "2"
+  },
+  {
+    "code": "7534",
+    "name": "Tire Retreading and Repair Shops",
+    "count": "56,178"
+  },
+  {
+    "code": "7536",
+    "name": "Automotive Glass Replacement Shops",
+    "count": "16,101"
+  },
+  {
+    "code": "7537",
+    "name": "Automotive Transmission Repair Shops",
+    "count": "40,432"
+  },
+  {
+    "code": "7538",
+    "name": "General Automotive Repair Shops",
+    "count": "609,979"
+  },
+  {
+    "code": "7539",
+    "name": "Automotive Repair Shops, Nec",
+    "count": "17,764"
+  },
+  {
+    "code": "7542",
+    "name": "Carwashes",
+    "count": "118,355"
+  },
+  {
+    "code": "7549",
+    "name": "Automotive Services, Nec",
+    "count": "99,146"
+  },
+  {
+    "code": "7622",
+    "name": "Radio and Television Repair",
+    "count": "8,791"
+  },
+  {
+    "code": "7623",
+    "name": "Refrigeration Service and Repair",
+    "count": "137,271"
+  },
+  {
+    "code": "7629",
+    "name": "Electrical Repair Shops",
+    "count": "3,144"
+  },
+  {
+    "code": "7699",
+    "name": "Repair Services, Nec",
+    "count": "42,897"
+  },
+  {
+    "code": "7812",
+    "name": "Motion Picture and Video Production",
+    "count": "513,688"
+  },
+  {
+    "code": "7812",
+    "name": "Motion Picture and Video Tape Production",
+    "count": "6"
+  },
+  {
+    "code": "7819",
+    "name": "Services Allied To Motion Pictures",
+    "count": "16,585"
+  },
+  {
+    "code": "7822",
+    "name": "Motion Picture and Tape Distribution",
+    "count": "2,231"
+  },
+  {
+    "code": "7829",
+    "name": "Motion Picture Distribution Services",
+    "count": "21,308"
+  },
+  {
+    "code": "7832",
+    "name": "Motion Picture Theaters, Except Drive-in",
+    "count": "17,823"
+  },
+  {
+    "code": "7833",
+    "name": "Drive-in Motion Picture Theaters",
+    "count": "439"
+  },
+  {
+    "code": "7841",
+    "name": "Video Tape Rental",
+    "count": "209"
+  },
+  {
+    "code": "7911",
+    "name": "Dance Studios, Schools, and Halls",
+    "count": "310,402"
+  },
+  {
+    "code": "7922",
+    "name": "Theatrical Producers and Services",
+    "count": "4,321"
+  },
+  {
+    "code": "7929",
+    "name": "Entertainers and Entertainment Groups",
+    "count": "31,336"
+  },
+  {
+    "code": "7933",
+    "name": "Bowling Centers",
+    "count": "52,268"
+  },
+  {
+    "code": "7941",
+    "name": "Professional Sports Clubs and Promoters",
+    "count": "1"
+  },
+  {
+    "code": "7941",
+    "name": "Sports Clubs, Managers, and Promoters",
+    "count": "45,955"
+  },
+  {
+    "code": "7948",
+    "name": "Racing, Including Track Operation",
+    "count": "47,983"
+  },
+  {
+    "code": "7991",
+    "name": "Physical Fitness Facilities",
+    "count": "442,098"
+  },
+  {
+    "code": "7992",
+    "name": "Public Golf Courses",
+    "count": "138,040"
+  },
+  {
+    "code": "7993",
+    "name": "Coin-operated Amusement Devices",
+    "count": "17,683"
+  },
+  {
+    "code": "7996",
+    "name": "Amusement Parks",
+    "count": "9,632"
+  },
+  {
+    "code": "7999",
+    "name": "Amusement and Recreation, Nec",
+    "count": "146,472"
+  },
+  {
+    "code": "8011",
+    "name": "Offices and Clinics of Medical Doctors",
+    "count": "1,958,501"
+  },
+  {
+    "code": "8021",
+    "name": "Offices and Clinics of Dentists",
+    "count": "475,242"
+  },
+  {
+    "code": "8041",
+    "name": "Offices and Clinics of Chiropractors",
+    "count": "203,966"
+  },
+  {
+    "code": "8042",
+    "name": "Offices and Clinics of Optometrists",
+    "count": "86,958"
+  },
+  {
+    "code": "8043",
+    "name": "Offices and Clinics of Podiatrists",
+    "count": "25,689"
+  },
+  {
+    "code": "8049",
+    "name": "Offices of Health Practitioner",
+    "count": "488,321"
+  },
+  {
+    "code": "8051",
+    "name": "Skilled Nursing Care Facilities",
+    "count": "137,260"
+  },
+  {
+    "code": "8062",
+    "name": "General Medical and Surgical Hospitals",
+    "count": "21,970"
+  },
+  {
+    "code": "8063",
+    "name": "Psychiatric Hospitals",
+    "count": "614"
+  },
+  {
+    "code": "8069",
+    "name": "Specialty Hospitals, Except Psychiatric",
+    "count": "2,140"
+  },
+  {
+    "code": "8071",
+    "name": "Medical Laboratories",
+    "count": "70,532"
+  },
+  {
+    "code": "8072",
+    "name": "Dental Laboratories",
+    "count": "20,959"
+  },
+  {
+    "code": "8082",
+    "name": "Home Health Care Services",
+    "count": "306,843"
+  },
+  {
+    "code": "8092",
+    "name": "Kidney Dialysis Centers",
+    "count": "966"
+  },
+  {
+    "code": "8093",
+    "name": "Specialty Outpatient Clinics, Nec",
+    "count": "34,044"
+  },
+  {
+    "code": "8099",
+    "name": "Health and Allied Services, Nec",
+    "count": "22,487"
+  },
+  {
+    "code": "8111",
+    "name": "Legal Services",
+    "count": "1,889,326"
+  },
+  {
+    "code": "8211",
+    "name": "Elementary and Secondary Schools",
+    "count": "214,548"
+  },
+  {
+    "code": "8221",
+    "name": "Colleges and Universities",
+    "count": "60,262"
+  },
+  {
+    "code": "8222",
+    "name": "Junior Colleges",
+    "count": "143"
+  },
+  {
+    "code": "8243",
+    "name": "Data Processing Schools",
+    "count": "7,934"
+  },
+  {
+    "code": "8244",
+    "name": "Business and Secretarial Schools",
+    "count": "282"
+  },
+  {
+    "code": "8249",
+    "name": "Vocational Schools, Nec",
+    "count": "7,912"
+  },
+  {
+    "code": "8299",
+    "name": "Schools and Educational Services",
+    "count": "326,460"
+  },
+  {
+    "code": "8322",
+    "name": "Individual and Family Services",
+    "count": "440,293"
+  },
+  {
+    "code": "8322",
+    "name": "Individual and Family Social Services",
+    "count": "3"
+  },
+  {
+    "code": "8331",
+    "name": "Job Training and Related Services",
+    "count": "10,524"
+  },
+  {
+    "code": "8351",
+    "name": "Child Day Care Services",
+    "count": "544,055"
+  },
+  {
+    "code": "8361",
+    "name": "Residential Care",
+    "count": "161,736"
+  },
+  {
+    "code": "8399",
+    "name": "Social Services, Nec",
+    "count": "473,053"
+  },
+  {
+    "code": "8412",
+    "name": "Museums and Art Galleries",
+    "count": "83,396"
+  },
+  {
+    "code": "8422",
+    "name": "Botanical and Zoological Gardens",
+    "count": "894"
+  },
+  {
+    "code": "8611",
+    "name": "Business Associations",
+    "count": "721,842"
+  },
+  {
+    "code": "8621",
+    "name": "Professional Organizations",
+    "count": "38,124"
+  },
+  {
+    "code": "8631",
+    "name": "Labor Organizations",
+    "count": "55,411"
+  },
+  {
+    "code": "8641",
+    "name": "Civic and Social Associations",
+    "count": "406,765"
+  },
+  {
+    "code": "8651",
+    "name": "Political Organizations",
+    "count": "796"
+  },
+  {
+    "code": "8661",
+    "name": "Religious Organizations",
+    "count": "1,276,151"
+  },
+  {
+    "code": "8711",
+    "name": "Engineering Services",
+    "count": "374,266"
+  },
+  {
+    "code": "8712",
+    "name": "Architectural Services",
+    "count": "107,298"
+  },
+  {
+    "code": "8721",
+    "name": "Accounting, Auditing, and Bookkeeping",
+    "count": "918,087"
+  },
+  {
+    "code": "8731",
+    "name": "Commercial Physical Research",
+    "count": "21,992"
+  },
+  {
+    "code": "8732",
+    "name": "Commercial Nonphysical Research",
+    "count": "51,265"
+  },
+  {
+    "code": "8734",
+    "name": "Testing Laboratories",
+    "count": "25,838"
+  },
+  {
+    "code": "8741",
+    "name": "Management Services",
+    "count": "390,731"
+  },
+  {
+    "code": "8742",
+    "name": "Management Consulting Services",
+    "count": "1,231,525"
+  },
+  {
+    "code": "8743",
+    "name": "Public Relations Services",
+    "count": "21,078"
+  },
+  {
+    "code": "8744",
+    "name": "Facilities Support Services",
+    "count": "3,740"
+  },
+  {
+    "code": "8748",
+    "name": "Business Consulting, Nec",
+    "count": "348,547"
+  },
+  {
+    "code": "8811",
+    "name": "Private Households",
+    "count": "11"
+  },
+  {
+    "code": "8999",
+    "name": "Services, Nec",
+    "count": "64,715"
+  },
+  {
+    "code": "9111",
+    "name": "Executive Offices",
+    "count": "272"
+  },
+  {
+    "code": "9121",
+    "name": "Legislative Bodies",
+    "count": "141"
+  },
+  {
+    "code": "9131",
+    "name": "Executive and Legislative Combined",
+    "count": "29"
+  },
+  {
+    "code": "9199",
+    "name": "General Government, Nec",
+    "count": "508"
+  },
+  {
+    "code": "9211",
+    "name": "Courts",
+    "count": "78"
+  },
+  {
+    "code": "9221",
+    "name": "Police Protection",
+    "count": "160"
+  },
+  {
+    "code": "9222",
+    "name": "Legal Counsel and Prosecution",
+    "count": "3,544"
+  },
+  {
+    "code": "9223",
+    "name": "Correctional Institutions",
+    "count": "23"
+  },
+  {
+    "code": "9224",
+    "name": "Fire Protection",
+    "count": "6,548"
+  },
+  {
+    "code": "9229",
+    "name": "Public Order and Safety, Nec",
+    "count": "818"
+  },
+  {
+    "code": "9311",
+    "name": "Finance, Taxation, and Monetary Policy",
+    "count": "554"
+  },
+  {
+    "code": "9411",
+    "name": "Administration of Educational Programs",
+    "count": "1,061"
+  },
+  {
+    "code": "9431",
+    "name": "Administration of Public Health Programs",
+    "count": "406"
+  },
+  {
+    "code": "9441",
+    "name": "Administration of Social and Manpower Programs",
+    "count": "316"
+  },
+  {
+    "code": "9451",
+    "name": "Administration of Veterans' Affairs",
+    "count": "228"
+  },
+  {
+    "code": "9511",
+    "name": "Air, Water, and Solid Waste Management",
+    "count": "179"
+  },
+  {
+    "code": "9512",
+    "name": "Land, Mineral, and Wildlife Conservation",
+    "count": "159"
+  },
+  {
+    "code": "9531",
+    "name": "Housing Programs",
+    "count": "419"
+  },
+  {
+    "code": "9532",
+    "name": "Urban and Community Development",
+    "count": "515"
+  },
+  {
+    "code": "9611",
+    "name": "Administration of General Economic Programs",
+    "count": "2,611"
+  },
+  {
+    "code": "9621",
+    "name": "Regulation, Administration of Transportation",
+    "count": "218"
+  },
+  {
+    "code": "9631",
+    "name": "Regulation, Administration of Utilities",
+    "count": "205"
+  },
+  {
+    "code": "9641",
+    "name": "Regulation of Agricultural Marketing",
+    "count": "228"
+  },
+  {
+    "code": "9651",
+    "name": "Regulation, Miscellaneous Commercial Sectors",
+    "count": "255"
+  },
+  {
+    "code": "9661",
+    "name": "Space Research and Technology",
+    "count": "61"
+  },
+  {
+    "code": "9711",
+    "name": "National Security",
+    "count": "127"
+  },
+  {
+    "code": "9721",
+    "name": "International Affairs",
+    "count": "416"
+  },
+  {
+    "code": "",
+    "name": "",
+    "count": "4,424,095"
+  },
+  {
+    "code": "Total Count",
+    "name": "&nbsp;",
+    "count": "77,278,516"
+  }
+]

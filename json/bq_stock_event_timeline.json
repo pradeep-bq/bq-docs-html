@@ -1,0 +1,58 @@
+[
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "1,963,872",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,963,609",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_company_name",
+    "fielddes": "Company name",
+    "Count": "1,963,872",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "40,587",
+    "value": "2.07%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "1,024,532",
+    "value": "52.17%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_event_summary_id",
+    "fielddes": "Unique event timeline ID",
+    "Count": "1,963,872",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_event_summary_date",
+    "fielddes": "Date when an event happened in this company",
+    "Count": "1,963,872",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event_timeline",
+    "fieldname": "bq_event_summary_description",
+    "fielddes": "Description of an even that happened on that date",
+    "Count": "1,963,872",
+    "value": "100%"
+  }
+]

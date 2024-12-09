@@ -1,0 +1,366 @@
+[
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_id",
+    "fielddes": "Unique ID of an Executive.",
+    "Count": "70,948,178",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID of an Organization. An Organization is the concept of a company, which is constructed as a collection of Legal Entities (child and parent entities) and Locations (e.g., offices, stores).",
+    "Count": "70,948,178",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "70,948,178",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "1,702,152",
+    "value": "2.4%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "32,044,570",
+    "value": "45.17%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_name",
+    "fielddes": "Full name of the Executive.",
+    "Count": "70,948,178",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_first_name",
+    "fielddes": "First name of the Executive.",
+    "Count": "70,948,166",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_middle_initial",
+    "fielddes": "Middle name's Initial of the Executive.",
+    "Count": "3,489,697",
+    "value": "4.92%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_middle_name",
+    "fielddes": "Middle name of the Executive.",
+    "Count": "23,658,650",
+    "value": "33.35%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_last_name",
+    "fielddes": "Last name of the Executive.",
+    "Count": "70,617,365",
+    "value": "99.53%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_titles",
+    "fielddes": "List of all Titles held by the Executive within the Organization. There are 32 distinct Titles for Executives.",
+    "Count": "70,948,178",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_highest_title",
+    "fielddes": "Highest Title held by the Executive.",
+    "Count": "70,948,178",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_linkedin_url",
+    "fielddes": "Link to the Executive's primary LinkedIn URL. The LinkedIn URL is not reported in regulatory filings; therefore, BQ scrapes the Internet to find such links, and consequently the process is subject to error.",
+    "Count": "16,348,596",
+    "value": "23.04%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_signatory_indicator",
+    "fielddes": "Indicator that equals 1 if the Executive has signatory authority, and 0 otherwise. This is attributable from filings with the corresponding legal entity's jurisdiction.",
+    "Count": "1=54,970,3160=15,977,862",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_mobiles_direct",
+    "fielddes": "Mobile phone number directly associated with the Executive.",
+    "Count": "1,924,853",
+    "value": "2.71%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_landlines_direct",
+    "fielddes": "Landline phone number directly associated with the Executive.",
+    "Count": "3,256,070",
+    "value": "4.59%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_mobiles_direct_formatted",
+    "fielddes": "Mobile number directly associated with the Executive formatted per the US Standards.",
+    "Count": "1,924,853",
+    "value": "2.71%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_landlines_direct_formatted",
+    "fielddes": "Landline phone number directly associated with the Executive formatted per the US standards.",
+    "Count": "3,256,070",
+    "value": "4.59%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_mobiles_company",
+    "fielddes": "Mobile phone number indirectly associated with the Executive.",
+    "Count": "5,167,125",
+    "value": "7.28%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_landlines_company",
+    "fielddes": "Landline phone number indirectly associated with the Executive.",
+    "Count": "11,796,869",
+    "value": "16.63%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_mobile_company_formatted",
+    "fielddes": "Mobile number indirectly associated with the Executive formatted per the US Standards.",
+    "Count": "5,167,125",
+    "value": "7.28%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_landline_company_formatted",
+    "fielddes": "Landline phone number indirectly associated with the Executive formatted per the US standards.",
+    "Count": "11,796,869",
+    "value": "16.63%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_emails",
+    "fielddes": "All Emails of the Executive.",
+    "Count": "10,686,416",
+    "value": "15.06%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_emails_professional_history",
+    "fielddes": "All previously known email IDs of the Executive.",
+    "Count": "4,563,315",
+    "value": "6.43%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_emails_personal",
+    "fielddes": "Personal email IDs of the Executive.",
+    "Count": "4,593,460",
+    "value": "6.47%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_emails_professional_current",
+    "fielddes": "Current work email IDs of the Executive.",
+    "Count": "6,388,088",
+    "value": "9%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_direct_indicator",
+    "fielddes": "Indicator that equals 1 if the Executive address is&nbsp;directly associated with that Executive.",
+    "Count": "1=63,299,1650=7,649,013",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_valid_indicator",
+    "fielddes": "Indicator that equals 1 if the Executive address is valid based on a match with the USPS address verification and 0 otherwise.",
+    "Count": "1=49,248,8630=21,699,315",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_line_1",
+    "fielddes": "1st line of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "54,001,895",
+    "value": "76.11%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_line_2",
+    "fielddes": "2nd line of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "3,584,693",
+    "value": "5.05%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_city",
+    "fielddes": "City of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,724,757",
+    "value": "75.72%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_state",
+    "fielddes": "State abbreviation of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,690,838",
+    "value": "75.68%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_state_name",
+    "fielddes": "State name of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "66,382,071",
+    "value": "93.56%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_county_fips",
+    "fielddes": "County-level FIPS code of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,544,731",
+    "value": "75.47%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_county_name",
+    "fielddes": "County name of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,544,244",
+    "value": "75.47%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_country",
+    "fielddes": "Country of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "70,934,563",
+    "value": "99.98%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_zip5",
+    "fielddes": "5-digit zip code of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,716,792",
+    "value": "75.71%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_zip9",
+    "fielddes": "9-digit zip code (ZIP + 4) of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,716,791",
+    "value": "75.71%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_zip_type",
+    "fielddes": "Zip code classification of the Executive's address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "53,544,491",
+    "value": "75.47%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the Executive's address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "10,546,570",
+    "value": "14.87%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Executive's address is the \"default\" address for a building ( i.e., the main lobby) and 0 otherwise. Addresses are cleaned and standardized using USPS.",
+    "Count": "1=640,1950=0",
+    "value": "0.9%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_latitude",
+    "fielddes": "Latitude of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "67,744,721",
+    "value": "95.48%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_longitude",
+    "fielddes": "Longitude of the Executive's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "67,744,722",
+    "value": "95.48%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_summary",
+    "fielddes": "Classification that indicates whether the Executive's address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "68,135,368",
+    "value": "96.04%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_rdi",
+    "fielddes": "RDI indicates whether the Executive's address is Residential, Commercial, P.O. Box or Unknown based on USPS reporting.",
+    "Count": "68,135,369",
+    "value": "96.04%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_dpv_match_code",
+    "fielddes": "Indicator that states \"Yes\" if the Executive's address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "50,487,292",
+    "value": "71.16%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Executive's address lies according to USPS.",
+    "Count": "49,003,826",
+    "value": "69.07%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Executive's address lies according to USPS.",
+    "Count": "49,003,827",
+    "value": "69.07%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Executive's address lies according to USPS.",
+    "Count": "49,003,827",
+    "value": "69.07%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_address1_congressional_district",
+    "fielddes": "Congressional District Code of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "50,529,957",
+    "value": "71.22%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_phones",
+    "fielddes": "All Phones of the Executive.",
+    "Count": "16,964,027",
+    "value": "23.91%"
+  },
+  {
+    "tablename": "bq_organization_executives",
+    "fieldname": "bq_executive_phones_formatted",
+    "fielddes": "All  formated Phones of the Executive.",
+    "Count": "16,964,027",
+    "value": "23.91%"
+  }
+]

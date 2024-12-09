@@ -1,0 +1,121 @@
+[
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,141,689",
+    "value": "99.98%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "35,336",
+    "value": "3.09%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "728,796",
+    "value": "63.82%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_id",
+    "fielddes": "Unique ID of the event (amalgamation of the Delaware company number, date of event, trigger, and event type).",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_stock_class_series_ids_new",
+    "fielddes": "IDs of the new stock class series created by the event (bq_stock_class_series_id), if relevant; separated by semi-column",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_trigger",
+    "fielddes": "New stock group (typically associated with a new filing); or Change in tax year",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_type",
+    "fielddes": "Change in authorized shares of a stock class series; Change in total assets of a stock group; Change in issued shares of a stock group; Introduction of a new stock class series",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_type_code",
+    "fielddes": "Code for Change in authorized shares of a stock class series; Change in total assets of a stock group; Change in issued shares of a stock group; Introduction of a new stock class series",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_stock_class_series_ids",
+    "fielddes": "IDs of the stock class series being affected (bq_stock_class_series_id), if relevant; separated by semi-column",
+    "Count": "1,061,990",
+    "value": "93%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_pre_stock_class_ids",
+    "fielddes": "IDs of the most recent stock classes before the event, if relevant; separated by semi-column",
+    "Count": "1,061,990",
+    "value": "93%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_post_stock_class_ids",
+    "fielddes": "IDs of the stock classes created by the event, if relevant; separated by semi-column",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_pre_stock_group_id",
+    "fielddes": "ID of the most recent stock group before the event, if relevant",
+    "Count": "1,061,990",
+    "value": "93%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_post_stock_group_id",
+    "fielddes": "ID of the stock group created by the event, if relevant",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_event_date",
+    "fielddes": "New stock group date (in which case, the event date is set as bq_stock_group_begin_date of the new stock group); or Change in tax year (in which case, the event date is set as Jan 1 of that year)",
+    "Count": "1,141,937",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_event",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "1,141,937",
+    "value": "100%"
+  }
+]

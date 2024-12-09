@@ -1,0 +1,23 @@
+[
+  {
+    "tablename": "bq_building_unit_organization_mapping",
+    "fieldname": "bq_building_unit_id",
+    "fielddes": "Unique ID given to the building unit.",
+    "Count": "136,306,869",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_organization_mapping",
+    "fieldname": "bq_building_id",
+    "fielddes": "Unique ID given to the building.",
+    "Count": "136,306,869",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_building_unit_organization_mapping",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID of an Organization. An Organization is the concept of a company, which is constructed as a collection of Legal Entities (child and parent entities) and Locations (e.g., offices, stores).",
+    "Count": "136,306,869",
+    "value": "100%"
+  }
+]

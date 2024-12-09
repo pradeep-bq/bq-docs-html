@@ -1,0 +1,149 @@
+[
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "2,744,786",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "2,744,625",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "2,744,786",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "22,331",
+    "value": "0.81%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "1,016,424",
+    "value": "37.03%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_corporation_tax_type",
+    "fielddes": "Detailed tax structure of the company if a corporation (Delaware).",
+    "Count": "958,998",
+    "value": "34.94%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_corporation_status",
+    "fielddes": "Corporate standing of the company, e.g. Good Standing, Dissolved.",
+    "Count": "958,998",
+    "value": "34.94%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_december_assets",
+    "fielddes": "December total assets reported to Delaware; Often null.",
+    "Count": "33,073",
+    "value": "1.2%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_tax_type",
+    "fielddes": "Tax structure of the company (Delaware).",
+    "Count": "958,998",
+    "value": "34.94%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_ar_status",
+    "fielddes": "Annual report (AR) status of the company.",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_amount_of_capital",
+    "fielddes": "Amount of capital reported for tax purposes (Delaware).",
+    "Count": "958,998",
+    "value": "34.94%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_status_january_assets",
+    "fielddes": "January total assets reported to Delaware; Often null.",
+    "Count": "33,073",
+    "value": "1.2%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_penalty",
+    "fielddes": "Penalty associated with tax due (Delaware).",
+    "Count": "2,743,649",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_amount_paid",
+    "fielddes": "Amount paid in taxes (Delaware).",
+    "Count": "958,998",
+    "value": "34.94%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_franchise_tax",
+    "fielddes": "Franchise tax (Delaware).",
+    "Count": "2,743,649",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_interest",
+    "fielddes": "Interest fees associated with tax due (Delaware).",
+    "Count": "2,743,649",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_check_charge",
+    "fielddes": "Charge fees associated with tax due (Delaware).",
+    "Count": "958,998",
+    "value": "34.94%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_credit_or_prepaid",
+    "fielddes": "Credit or prepaid amount associated with tax due (Delaware).",
+    "Count": "2,744,786",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_corp_fees_amount_due",
+    "fielddes": "Amount due in taxes (Delaware).",
+    "Count": "2,743,649",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "2,744,786",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_corp_status_fees",
+    "fieldname": "bq_tax_year",
+    "fielddes": "Tax year pertaining to the Delaware filings and taxes due.",
+    "Count": "2,744,786",
+    "value": "100%"
+  }
+]

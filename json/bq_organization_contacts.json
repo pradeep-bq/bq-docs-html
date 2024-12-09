@@ -1,0 +1,317 @@
+[
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_id",
+    "fielddes": "Unique ID assigned to a Contact. A Contact is a person associated with an Organization, including employees, directors, officers, and executives.",
+    "Count": "230,091,269",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID of an Organization. An Organization is the concept of a company, which is constructed as a collection of Legal Entities (child and parent entities) and Locations (e.g., offices, stores).",
+    "Count": "230,091,269",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "230,091,269",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "6,182,304",
+    "value": "2.69%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "113,915,925",
+    "value": "49.51%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_name",
+    "fielddes": "Full name of the Contact.",
+    "Count": "230,091,269",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_first_name",
+    "fielddes": "First name of the Contact.",
+    "Count": "187,167,819",
+    "value": "81.35%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_last_name",
+    "fielddes": "Last name of the Contact.",
+    "Count": "185,986,268",
+    "value": "80.83%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_middle_name",
+    "fielddes": "Middle name of the Contact.",
+    "Count": "59,418,107",
+    "value": "25.82%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_middle_initial",
+    "fielddes": "Middle name's Initial of the Contact.",
+    "Count": "10,375,031",
+    "value": "4.51%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_type",
+    "fielddes": "Clasification that indicates whether the Contact is a Person or a Company.",
+    "Count": "230,091,269",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_signatory_indicator",
+    "fielddes": "Indicator that equals 1 if the Contact has a signatory authority and 0 otherwise.",
+    "Count": "1=150,857,0090=79,234,260",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_executive_or_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Contact is an Executive or an Officer and 0 otherwise.",
+    "Count": "1=167,740,0610=62,351,208",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_linkedin_url",
+    "fielddes": "Link to the Contact's primary LinkedIn URL. The LinkedIn URL is not reported in regulatory filings; therefore, BQ scrapes the Internet to find such links, and consequently the process is subject to error.",
+    "Count": "76,952,318",
+    "value": "33.44%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_titles",
+    "fielddes": "List of all Titles held by the Contact within the Organization. There are 32 distinct Titles for Contacts.",
+    "Count": "172,237,111",
+    "value": "74.86%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_highest_title",
+    "fielddes": "Highest Title held by the Contact.",
+    "Count": "172,237,111",
+    "value": "74.86%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_phones_mobile",
+    "fielddes": "Mobile phone number of the Contact.",
+    "Count": "31,999,148",
+    "value": "13.91%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_phones_landline",
+    "fielddes": "Landline phone number of the Contact.",
+    "Count": "113,497,644",
+    "value": "49.33%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_phones_mobile_formatted",
+    "fielddes": "Mobile number of the Contact formatted per the US Standards.",
+    "Count": "31,999,148",
+    "value": "13.91%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_phones_landline_formatted",
+    "fielddes": "Landline phone number of the Contact per the US standards.",
+    "Count": "113,497,644",
+    "value": "49.33%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_emails_personal",
+    "fielddes": "Personal email IDs of the Contact.",
+    "Count": "14,677,916",
+    "value": "6.38%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_emails_professional_current",
+    "fielddes": "Current work email IDs of the Contact.",
+    "Count": "19,585,278",
+    "value": "8.51%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_emails_professional_history",
+    "fielddes": "All previously known email IDs of the Contact.",
+    "Count": "12,589,114",
+    "value": "5.47%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_valid_indicator",
+    "fielddes": "Indicator that equals 1 if the Contact's address is valid based on USPS address verification and 0 otherwise.",
+    "Count": "1=135,616,4840=94,474,785",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_line_1",
+    "fielddes": "1st line of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "221,206,768",
+    "value": "96.14%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_line_2",
+    "fielddes": "2nd line of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "7,699,387",
+    "value": "3.35%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_city",
+    "fielddes": "City of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "220,649,499",
+    "value": "95.9%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_state",
+    "fielddes": "State abbreviation of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "220,535,665",
+    "value": "95.85%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_state_name",
+    "fielddes": "State name of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "221,333,774",
+    "value": "96.19%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_county_fips",
+    "fielddes": "County-level FIPS code of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "219,516,161",
+    "value": "95.4%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_county_name",
+    "fielddes": "County name of the Contact'saddress. Addresses are cleaned and standardized using USPS.",
+    "Count": "219,514,843",
+    "value": "95.4%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_country",
+    "fielddes": "Country of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "228,901,952",
+    "value": "99.48%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_zip5",
+    "fielddes": "5-digit zip code of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "220,535,148",
+    "value": "95.85%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_zip9",
+    "fielddes": "9-digit zip code (ZIP + 4) of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "220,509,947",
+    "value": "95.84%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_zip_type",
+    "fielddes": "Zip code classification of the Contact's address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "219,515,185",
+    "value": "95.4%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_latitude",
+    "fielddes": "Latitude of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "219,964,967",
+    "value": "95.6%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_longitude",
+    "fielddes": "Longitude of the Contact's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "219,964,966",
+    "value": "95.6%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_rdi",
+    "fielddes": "RDI indicates whether the Contact's address is Residential, Commercial, P.O. Box or Unknown based on USPS reporting.",
+    "Count": "225,408,161",
+    "value": "97.96%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_summary",
+    "fielddes": "Classification that indicates whether the Contact's address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "225,408,151",
+    "value": "97.96%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Contact's address lies according to USPS.",
+    "Count": "193,817,096",
+    "value": "84.23%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Contact's address lies according to USPS.",
+    "Count": "193,462,229",
+    "value": "84.08%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Contact's address lies according to USPS.",
+    "Count": "193,462,220",
+    "value": "84.08%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the Contact's address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "57,148,393",
+    "value": "24.84%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_dpv_match_code",
+    "fielddes": "Indicator that states \"Yes\" if the Contact's address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "206,470,767",
+    "value": "89.73%"
+  },
+  {
+    "tablename": "bq_organization_contacts",
+    "fieldname": "bq_contact_address1_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Contact's address is valid based on USPS address verification and 0 otherwise.",
+    "Count": "1=31,133,9970=5,029,479",
+    "value": "16.42%"
+  }
+]

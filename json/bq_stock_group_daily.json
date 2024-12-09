@@ -1,0 +1,79 @@
+[
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "2,806,578,274",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "2,806,421,961",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "2,806,578,274",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "37,158,046",
+    "value": "1.32%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "1,366,318,426",
+    "value": "48.68%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_stock_group_daily_id",
+    "fielddes": "Stock Group ID; One company can have multiple stock groups",
+    "Count": "2,806,578,274",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_stock_group_daily_authorized_shares",
+    "fielddes": "Daily tracker of total authorized shares for the company",
+    "Count": "2,805,591,466",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_stock_group_daily_issued_shares",
+    "fielddes": "Daily tracker of total issued shares for the company",
+    "Count": "303,978,042",
+    "value": "10.83%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_stock_group_daily_total_assets",
+    "fielddes": "Daily tracker of total assets for the company (as reported to the State of Delaware)",
+    "Count": "303,978,042",
+    "value": "10.83%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_date",
+    "fielddes": "Specific day of the week",
+    "Count": "2,806,578,274",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_group_daily",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "2,806,578,274",
+    "value": "100%"
+  }
+]

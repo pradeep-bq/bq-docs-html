@@ -1,0 +1,541 @@
+[
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_legal_entity_officer_id",
+    "fielddes": "Unique ID given to the Officer. An Officer is a person or company that has some form of control over a Legal Entity.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "150,857,009",
+    "value": "99.97%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "150,857,009",
+    "value": "99.97%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "286,200",
+    "value": "0.19%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "44,815,187",
+    "value": "29.69%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_legal_entity_id",
+    "fielddes": "ID of the Legal Entity over which the Officer has control.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_legal_entity_name",
+    "fielddes": "Name of the Legal Entity over which the Officer has control.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_legal_entity_company_number",
+    "fielddes": "Unique number issued by the jurisdiction with which the Legal Entity is registered.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_legal_entity_jurisdiction_code",
+    "fielddes": "Jurisdiction code (2-digit state name) in which the Legal Entity is registered, typically with the Secretary of State.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_legal_entity_id",
+    "fielddes": "ID of the Legal Entity that the Officer represents.",
+    "Count": "1,434,341",
+    "value": "0.94%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_legal_entity_agent_indicator",
+    "fielddes": "Indicator that equals 1 if the Legal Entity that the Officer controls is registered as an Agent and 0 otherwise.",
+    "Count": "1=20,8900=120,453,491",
+    "value": "79.84%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_organization_id",
+    "fielddes": "ID of the Organization associated with the Legal Entity that the Officer represents.",
+    "Count": "3,891,281",
+    "value": "2.58%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_full_name",
+    "fielddes": "Full name of the Officer.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_first_name",
+    "fielddes": "First name of the Officer.",
+    "Count": "122,380,870",
+    "value": "81.10%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_last_name",
+    "fielddes": "Last name of the Officer.",
+    "Count": "122,045,152",
+    "value": "80.87%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_middle_name",
+    "fielddes": "Middle name of the Officer.",
+    "Count": "55,642,584",
+    "value": "36.88%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_middle_initial",
+    "fielddes": "Middle initial of the Officer.",
+    "Count": "3,757,079",
+    "value": "2.48%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_1_rank",
+    "fielddes": "Rank of the Primary legal position held by the Officer.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_2_rank",
+    "fielddes": "Rank of the Secondary position held by the Officer.",
+    "Count": "38,552,682",
+    "value": "25.55%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_3_rank",
+    "fielddes": "Rank of the Tertiary position held by the Officer.",
+    "Count": "10,151,559",
+    "value": "6.72%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_rank_remainder",
+    "fielddes": "Remaining ranks of all other positions held by the Officer, in order of importance.",
+    "Count": "3,477,912",
+    "value": "2.29%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_1",
+    "fielddes": "Primary legal position held by the Officer. There are 24 distinct Officer positions.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_2",
+    "fielddes": "Secondary legal position held by the Officer. There are 24 distinct Officer positions.",
+    "Count": "38,557,770",
+    "value": "25.55%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_3",
+    "fielddes": "Tertiary legal position held by the Officer. There are 24 distinct Officer positions.",
+    "Count": "10,151,613",
+    "value": "6.72%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_remainder",
+    "fielddes": "Any other additional legal positions held by the Officer. There are 24 distinct Officer positions.",
+    "Count": "3,477,969",
+    "value": "2.29%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_count",
+    "fielddes": "Count of the number of distinct legal positions held by the Officer. There are 24 distinct Officer legal positions.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_chief_financial_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of CFO and 0 otherwise.",
+    "Count": "1=3,348,9710=147,541,363",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_assistant_chief_financial_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Assistant CFO and 0 otherwise.",
+    "Count": "1=4,1990=150,886,135",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Officer and 0 otherwise.",
+    "Count": "1=7890=150,889,545",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_partner_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Partner and 0 otherwise.",
+    "Count": "1=180,6910=150,709,643",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_real_property_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Real Property and 0 otherwise. Primarily aplicable in the context of real estate.",
+    "Count": "1=690,8850=150,199,449",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_incorporator_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Incorporator and 0 otherwise.",
+    "Count": "1=7,298,2770=143,592,057",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_other_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the position of any Other Position and 0 otherwise.",
+    "Count": "1=44,5870=150,845,747",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_applicant_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the position of Applicant and 0 otherwise.",
+    "Count": "1=1630=150,890,171",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_chairman_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Chairman and 0 otherwise.",
+    "Count": "1=839,5970=150,050,737",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_chief_executive_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of CEO and 0 otherwise.",
+    "Count": "1=8,091,5800=142,798,754",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_managing_member_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Managing member and 0 otherwise.",
+    "Count": "1=14,546,9400=136,343,394",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_treasurer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Treasurer and 0 otherwise.",
+    "Count": "1=5,680,2810=145,210,053",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_secretary_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Secretary and 0 otherwise.",
+    "Count": "1=10,636,7070=140,253,627",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_general_partner_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of General Partner and 0 otherwise.",
+    "Count": "1=489,6900=150,400,644",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_member_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Member and 0 otherwise.",
+    "Count": "1=6,962,3900=143,927,944",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_agent_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Agent and 0 otherwise.",
+    "Count": "1=83,716,0570=67,174,277",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_president_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of President and 0 otherwise.",
+    "Count": "1=13,669,5000=137,220,834",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_chief_operating_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of COO and 0 otherwise.",
+    "Count": "1=79,2500=150,811,084",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_manager_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the position of Manager and 0 otherwise.",
+    "Count": "1=2,914,8430=147,975,491",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_related_company_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer is the related company and 0 otherwise.",
+    "Count": "1=4,431,0290=146,459,305",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_executive_officer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Executive Officer and 0 otherwise.",
+    "Count": "1=557,9200=150,332,414",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_general_manager_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of GM and 0 otherwise.",
+    "Count": "1=12,9660=150,877,368",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_director_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Director and 0 otherwise.",
+    "Count": "1=35,467,2080=115,423,126",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_assistant_secretary_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Assistant Secretary and 0 otherwise.",
+    "Count": "1=10,3070=150,880,027",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_assistant_treasurer_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of Assistant Treasurer and 0 otherwise.",
+    "Count": "1=3,5060=150,886,828",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_vice_president_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer holds the legal position of VP and 0 otherwise.",
+    "Count": "1=4,790,9900=146,099,344",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_position_all",
+    "fielddes": "This lists all distinct legal positions held by the Officer.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_person_or_company",
+    "fielddes": "Classification system for the Officer based on whether the Officer is a person or a company.",
+    "Count": "150,890,334",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_valid_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer's address is valid based on USPS address verification and 0 otherwise.",
+    "Count": "1=114,184,4580=36,705,876",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_line_1",
+    "fielddes": "First line of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "128,298,452",
+    "value": "85.03%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_line_2",
+    "fielddes": "Second line of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "14,952,435",
+    "value": "9.91%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_city",
+    "fielddes": "City name of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,356,085",
+    "value": "84.40%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_state",
+    "fielddes": "State's abbrivated name of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,269,642",
+    "value": "84.34%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_state_name",
+    "fielddes": "State name of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,194,555",
+    "value": "84.29%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_county_fips",
+    "fielddes": "County-level Federal Information Processing Standard (FIPS) Code of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "126,678,494",
+    "value": "83.95%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_county_name",
+    "fielddes": "County name of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "126,677,459",
+    "value": "83.95%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_fgn_address1_cntry",
+    "fielddes": "County of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "150,814,270",
+    "value": "99.95%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_zip5",
+    "fielddes": "5-digit zip code of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,399,216",
+    "value": "84.42%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_zip9",
+    "fielddes": "9-Digit zip code of the Officer's. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,399,216",
+    "value": "84.42%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_zip_type",
+    "fielddes": "Zip code classification of the Officer's address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "126,678,398",
+    "value": "83.95%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_latitude",
+    "fielddes": "Latitute of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "132,843,415",
+    "value": "88.03%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_longitude",
+    "fielddes": "Longitude of the Organization's headquarters address. Addresses are cleaned and standardized using USPS.",
+    "Count": "132,843,415",
+    "value": "88.03%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_summary",
+    "fielddes": "Classification that indicates whether the Officer's address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "132,843,415",
+    "value": "88.03%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_rdi",
+    "fielddes": "RDI indicates whether the Officer's address is Residential, Commercial, P.O. Box or Unknown based on USPS reporting.",
+    "Count": "132,843,415",
+    "value": "88.03%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_cbsa_code",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Officer's address lies according to USPS.",
+    "Count": "118,066,690",
+    "value": "78.25%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_cbsa_name",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Officer's address lies according to USPS.",
+    "Count": "118,066,690",
+    "value": "78.25%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Officer's address lies according to USPS.",
+    "Count": "118,066,690",
+    "value": "78.25%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the Officer's address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "34,120,715",
+    "value": "22.60%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_dpv_match_code",
+    "fielddes": "Indicator that states \"Yes\" if the Officer's address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "116,093,604",
+    "value": "76.93%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Officer's address is the \"default\" address for a building ( i.e., the main lobby) and 0 otherwise. Addresses are cleaned and standardized using USPS.",
+    "Count": "1=12,705,5880=0",
+    "value": "9.79%"
+  },
+  {
+    "tablename": "bq_legal_entity_officers",
+    "fieldname": "bq_officer_address1_congressional_district",
+    "fielddes": "Congressional District Code of the Officer's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "117,203,774",
+    "value": "77.67%"
+  }
+]

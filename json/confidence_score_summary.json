@@ -1,0 +1,5827 @@
+[
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "111120",
+    "Score": "Oilseed (except Soybean) Farming"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "111130",
+    "Score": "Dry Pea and Bean Farming"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "111140",
+    "Score": "Wheat Farming"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "111150",
+    "Score": "Corn Farming"
+  },
+  {
+    "IndustryCode": "91",
+    "IndustryDescription": "111160",
+    "Score": "Rice Farming"
+  },
+  {
+    "IndustryCode": "98",
+    "IndustryDescription": "111191",
+    "Score": "Oilseed and Grain Combination Farming"
+  },
+  {
+    "IndustryCode": "96",
+    "IndustryDescription": "111199",
+    "Score": "All Other Grain Farming"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "111211",
+    "Score": "Potato Farming"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "111219",
+    "Score": "Other Vegetable (except Potato) and Melon Farming"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "111310",
+    "Score": "Orange Groves"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "111320",
+    "Score": "Citrus (except Orange) Groves"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "111331",
+    "Score": "Apple Orchards"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "111332",
+    "Score": "Grape Vineyards"
+  },
+  {
+    "IndustryCode": "96",
+    "IndustryDescription": "111333",
+    "Score": "Strawberry Farming"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "111334",
+    "Score": "Berry (except Strawberry) Farming"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "111335",
+    "Score": "Tree Nut Farming"
+  },
+  {
+    "IndustryCode": "90",
+    "IndustryDescription": "111336",
+    "Score": "Fruit and Tree Nut Combination Farming"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "111339",
+    "Score": "Other Noncitrus Fruit Farming"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "111411",
+    "Score": "Mushroom Production"
+  },
+  {
+    "IndustryCode": "93",
+    "IndustryDescription": "111419",
+    "Score": "Other Food Crops Grown Under Cover"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "111421",
+    "Score": "Nursery and Tree Production"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "111422",
+    "Score": "Floriculture Production"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "111910",
+    "Score": "Tobacco Farming"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "111920",
+    "Score": "Cotton Farming"
+  },
+  {
+    "IndustryCode": "98",
+    "IndustryDescription": "111930",
+    "Score": "Sugarcane Farming"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "111940",
+    "Score": "Hay Farming"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "111991",
+    "Score": "Sugar Beet Farming"
+  },
+  {
+    "IndustryCode": "98",
+    "IndustryDescription": "111992",
+    "Score": "Peanut Farming"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "111998",
+    "Score": "All Other Miscellaneous Crop Farming"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "112111",
+    "Score": "Beef Cattle Ranching and Farming"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "112112",
+    "Score": "Cattle Feedlots"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "112120",
+    "Score": "Dairy Cattle and Milk Production"
+  },
+  {
+    "IndustryCode": "93",
+    "IndustryDescription": "112130",
+    "Score": "Dual-Purpose Cattle Ranching and Farming"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "112210",
+    "Score": "Hog and Pig Farming"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "112310",
+    "Score": "Chicken Egg Production"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "112320",
+    "Score": "Broilers and Other Meat Type Chicken Production"
+  },
+  {
+    "IndustryCode": "98",
+    "IndustryDescription": "112330",
+    "Score": "Turkey Production"
+  },
+  {
+    "IndustryCode": "91",
+    "IndustryDescription": "112340",
+    "Score": "Poultry Hatcheries"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "112390",
+    "Score": "Other Poultry Production"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "112410",
+    "Score": "Sheep Farming"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "112420",
+    "Score": "Goat Farming"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "112511",
+    "Score": "Finfish Farming and Fish Hatcheries"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "112512",
+    "Score": "Shellfish Farming"
+  },
+  {
+    "IndustryCode": "90",
+    "IndustryDescription": "112519",
+    "Score": "Other Aquaculture"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "112910",
+    "Score": "Apiculture"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "112920",
+    "Score": "Horses and Other Equine Production"
+  },
+  {
+    "IndustryCode": "89",
+    "IndustryDescription": "112930",
+    "Score": "Fur-Bearing Animal and Rabbit Production"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "112990",
+    "Score": "All Other Animal Production"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "113110",
+    "Score": "Timber Tract Operations"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "113210",
+    "Score": "Forest Nurseries and Gathering of Forest Products"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "113310",
+    "Score": "Logging"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "114111",
+    "Score": "Finfish Fishing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "114112",
+    "Score": "Shellfish Fishing"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "114119",
+    "Score": "Other Marine Fishing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "114210",
+    "Score": "Hunting and Trapping"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "115111",
+    "Score": "Cotton Ginning"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "115112",
+    "Score": "Soil Preparation, Planting, and Cultivating"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "115113",
+    "Score": "Crop Harvesting, Primarily by Machine"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "115114",
+    "Score": "Postharvest Crop Activities (except Cotton Ginning)"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "115115",
+    "Score": "Farm Labor Contractors and Crew Leaders"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "115116",
+    "Score": "Farm Management Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "115210",
+    "Score": "Support Activities for Animal Production"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "115310",
+    "Score": "Support Activities for Forestry"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "211120",
+    "Score": "Crude Petroleum Extraction"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "211130",
+    "Score": "Natural Gas Extraction"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "212111",
+    "Score": "Bituminous Coal and Lignite Surface Mining"
+  },
+  {
+    "IndustryCode": "62",
+    "IndustryDescription": "212112",
+    "Score": "Bituminous Coal Underground Mining"
+  },
+  {
+    "IndustryCode": "62",
+    "IndustryDescription": "212113",
+    "Score": "Anthracite Mining"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "212210",
+    "Score": "Iron Ore Mining"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "212221",
+    "Score": "Gold Ore Mining"
+  },
+  {
+    "IndustryCode": "87",
+    "IndustryDescription": "212222",
+    "Score": "Silver Ore Mining"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "212230",
+    "Score": "Copper, Nickel, Lead, and Zinc Mining"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "212291",
+    "Score": "Uranium-Radium-Vanadium Ore Mining"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "212299",
+    "Score": "All Other Metal Ore Mining"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "212311",
+    "Score": "Dimension Stone Mining and Quarrying"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "212312",
+    "Score": "Crushed and Broken Limestone Mining and Quarrying"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "212313",
+    "Score": "Crushed and Broken Granite Mining and Quarrying"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "212319",
+    "Score": "Other Crushed and Broken Stone Mining and Quarrying"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "212321",
+    "Score": "Construction Sand and Gravel Mining"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "212322",
+    "Score": "Industrial Sand Mining"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "212324",
+    "Score": "Kaolin and Ball Clay Mining"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "212325",
+    "Score": "Clay and Ceramic and Refractory Minerals Mining"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "212391",
+    "Score": "Potash, Soda, and Borate Mineral Mining"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "212392",
+    "Score": "Phosphate Rock Mining"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "212393",
+    "Score": "Other Chemical and Fertilizer Mineral Mining"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "212399",
+    "Score": "All Other Nonmetallic Mineral Mining"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "213111",
+    "Score": "Drilling Oil and Gas Wells"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "213112",
+    "Score": "Support Activities for Oil and Gas Operations"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "213113",
+    "Score": "Support Activities for Coal Mining"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "213114",
+    "Score": "Support Activities for Metal Mining"
+  },
+  {
+    "IndustryCode": "57",
+    "IndustryDescription": "213115",
+    "Score": "Support Activities for Nonmetallic Minerals (except Fuels) Mining"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "221111",
+    "Score": "Hydroelectric Power Generation"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "221112",
+    "Score": "Fossil Fuel Electric Power Generation"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "221113",
+    "Score": "Nuclear Electric Power Generation"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "221114",
+    "Score": "Solar Electric Power Generation"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "221115",
+    "Score": "Wind Electric Power Generation"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "221116",
+    "Score": "Geothermal Electric Power Generation"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "221117",
+    "Score": "Biomass Electric Power Generation"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "221118",
+    "Score": "Other Electric Power Generation"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "221121",
+    "Score": "Electric Bulk Power Transmission and Control"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "221122",
+    "Score": "Electric Power Distribution"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "221210",
+    "Score": "Natural Gas Distribution"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "221310",
+    "Score": "Water Supply and Irrigation Systems"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "221320",
+    "Score": "Sewage Treatment Facilities"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "221330",
+    "Score": "Steam and Air-Conditioning Supply"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "236115",
+    "Score": "New Single-Family Housing Construction (except For-Sale Builders)"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "236116",
+    "Score": "New Multifamily Housing Construction (except For-Sale Builders)"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "236117",
+    "Score": "New Housing For-Sale Builders"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "236118",
+    "Score": "Residential Remodelers"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "236210",
+    "Score": "Industrial Building Construction"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "236220",
+    "Score": "Commercial and Institutional Building Construction"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "237110",
+    "Score": "Water and Sewer Line and Related Structures Construction"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "237120",
+    "Score": "Oil and Gas Pipeline and Related Structures Construction"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "237130",
+    "Score": "Power and Communication Line and Related Structures Construction"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "237210",
+    "Score": "Land Subdivision"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "237310",
+    "Score": "Highway, Street, and Bridge Construction"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "237990",
+    "Score": "Other Heavy and Civil Engineering Construction"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "238110",
+    "Score": "Poured Concrete Foundation and Structure Contractors"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "238120",
+    "Score": "Structural Steel and Precast Concrete Contractors"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "238130",
+    "Score": "Framing Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238140",
+    "Score": "Masonry Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238150",
+    "Score": "Glass and Glazing Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238160",
+    "Score": "Roofing Contractors"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "238170",
+    "Score": "Siding Contractors"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "238190",
+    "Score": "Other Foundation, Structure, and Building Exterior Contractors"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "238210",
+    "Score": "Electrical Contractors and Other Wiring Installation Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238220",
+    "Score": "Plumbing, Heating, and Air-Conditioning Contractors"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "238290",
+    "Score": "Other Building Equipment Contractors"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "238310",
+    "Score": "Drywall and Insulation Contractors"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "238320",
+    "Score": "Painting and Wall Covering Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238330",
+    "Score": "Flooring Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238340",
+    "Score": "Tile and Terrazzo Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238350",
+    "Score": "Finish Carpentry Contractors"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "238390",
+    "Score": "Other Building Finishing Contractors"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "238910",
+    "Score": "Site Preparation Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "238990",
+    "Score": "All Other Specialty Trade Contractors"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "311111",
+    "Score": "Dog and Cat Food Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "311119",
+    "Score": "Other Animal Food Manufacturing"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "311211",
+    "Score": "Flour Milling"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "311212",
+    "Score": "Rice Milling"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "311213",
+    "Score": "Malt Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "311221",
+    "Score": "Wet Corn Milling"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "311224",
+    "Score": "Soybean and Other Oilseed Processing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "311225",
+    "Score": "Fats and Oils Refining and Blending"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "311230",
+    "Score": "Breakfast Cereal Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "311313",
+    "Score": "Beet Sugar Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "311314",
+    "Score": "Cane Sugar Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "311340",
+    "Score": "Nonchocolate Confectionery Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "311351",
+    "Score": "Chocolate and Confectionery Manufacturing from Cacao Beans"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "311352",
+    "Score": "Confectionery Manufacturing from Purchased Chocolate"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "311411",
+    "Score": "Frozen Fruit, Juice, and Vegetable Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "311412",
+    "Score": "Frozen Specialty Food Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "311421",
+    "Score": "Fruit and Vegetable Canning"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "311422",
+    "Score": "Specialty Canning"
+  },
+  {
+    "IndustryCode": "54",
+    "IndustryDescription": "311423",
+    "Score": "Dried and Dehydrated Food Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "311511",
+    "Score": "Fluid Milk Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "311512",
+    "Score": "Creamery Butter Manufacturing"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "311513",
+    "Score": "Cheese Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "311514",
+    "Score": "Dry, Condensed, and Evaporated Dairy Product Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "311520",
+    "Score": "Ice Cream and Frozen Dessert Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "311611",
+    "Score": "Animal (except Poultry) Slaughtering"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "311612",
+    "Score": "Meat Processed from Carcasses"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "311613",
+    "Score": "Rendering and Meat Byproduct Processing"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "311615",
+    "Score": "Poultry Processing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "311710",
+    "Score": "Seafood Product Preparation and Packaging"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "311811",
+    "Score": "Retail Bakeries"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "311812",
+    "Score": "Commercial Bakeries"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "311813",
+    "Score": "Frozen Cakes, Pies, and Other Pastries Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "311821",
+    "Score": "Cookie and Cracker Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "311824",
+    "Score": "Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "311830",
+    "Score": "Tortilla Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "311911",
+    "Score": "Roasted Nuts and Peanut Butter Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "311919",
+    "Score": "Other Snack Food Manufacturing"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "311920",
+    "Score": "Coffee and Tea Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "311930",
+    "Score": "Flavoring Syrup and Concentrate Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "311941",
+    "Score": "Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "311942",
+    "Score": "Spice and Extract Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "311991",
+    "Score": "Perishable Prepared Food Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "311999",
+    "Score": "All Other Miscellaneous Food Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "312111",
+    "Score": "Soft Drink Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "312112",
+    "Score": "Bottled Water Manufacturing"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "312113",
+    "Score": "Ice Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "312120",
+    "Score": "Breweries"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "312130",
+    "Score": "Wineries"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "312140",
+    "Score": "Distilleries"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "312230",
+    "Score": "Tobacco Manufacturing"
+  },
+  {
+    "IndustryCode": "59",
+    "IndustryDescription": "313110",
+    "Score": "Fiber, Yarn, and Thread Mills"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "313210",
+    "Score": "Broadwoven Fabric Mills"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "313220",
+    "Score": "Narrow Fabric Mills and Schiffli Machine Embroidery"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "313230",
+    "Score": "Nonwoven Fabric Mills"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "313240",
+    "Score": "Knit Fabric Mills"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "313310",
+    "Score": "Textile and Fabric Finishing Mills"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "313320",
+    "Score": "Fabric Coating Mills"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "314110",
+    "Score": "Carpet and Rug Mills"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "314120",
+    "Score": "Curtain and Linen Mills"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "314910",
+    "Score": "Textile Bag and Canvas Mills"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "314994",
+    "Score": "Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "314999",
+    "Score": "All Other Miscellaneous Textile Product Mills"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "315110",
+    "Score": "Hosiery and Sock Mills"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "315190",
+    "Score": "Other Apparel Knitting Mills"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "315210",
+    "Score": "Cut and Sew Apparel Contractors"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "315220",
+    "Score": "Mens and Boys Cut and Sew Apparel Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "315240",
+    "Score": "Womens, Girls, and Infants Cut and Sew Apparel Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "315280",
+    "Score": "Other Cut and Sew Apparel Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "315990",
+    "Score": "Apparel Accessories and Other Apparel Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "316110",
+    "Score": "Leather and Hide Tanning and Finishing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "316210",
+    "Score": "Footwear Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "316992",
+    "Score": "Women's Handbag and Purse Manufacturing"
+  },
+  {
+    "IndustryCode": "55",
+    "IndustryDescription": "316998",
+    "Score": "All Other Leather Good and Allied Product Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "321113",
+    "Score": "Sawmills"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "321114",
+    "Score": "Wood Preservation"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "321211",
+    "Score": "Hardwood Veneer and Plywood Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "321212",
+    "Score": "Softwood Veneer and Plywood Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "321213",
+    "Score": "Engineered Wood Member (except Truss) Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "321214",
+    "Score": "Truss Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "321219",
+    "Score": "Reconstituted Wood Product Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "321911",
+    "Score": "Wood Window and Door Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "321912",
+    "Score": "Cut Stock, Resawing Lumber, and Planing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "321918",
+    "Score": "Other Millwork (including Flooring)"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "321920",
+    "Score": "Wood Container and Pallet Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "321991",
+    "Score": "Manufactured Home (Mobile Home) Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "321992",
+    "Score": "Prefabricated Wood Building Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "321999",
+    "Score": "All Other Miscellaneous Wood Product Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "322110",
+    "Score": "Pulp Mills"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "322121",
+    "Score": "Paper (except Newsprint) Mills"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "322122",
+    "Score": "Newsprint Mills"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "322130",
+    "Score": "Paperboard Mills"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "322211",
+    "Score": "Corrugated and Solid Fiber Box Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "322212",
+    "Score": "Folding Paperboard Box Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "322219",
+    "Score": "Other Paperboard Container Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "322220",
+    "Score": "Paper Bag and Coated and Treated Paper Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "322230",
+    "Score": "Stationery Product Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "322291",
+    "Score": "Sanitary Paper Product Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "322299",
+    "Score": "All Other Converted Paper Product Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "323111",
+    "Score": "Commercial Printing (except Screen and Books)"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "323113",
+    "Score": "Commercial Screen Printing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "323117",
+    "Score": "Books Printing"
+  },
+  {
+    "IndustryCode": "63",
+    "IndustryDescription": "323120",
+    "Score": "Support Activities for Printing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "324110",
+    "Score": "Petroleum Refineries"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "324121",
+    "Score": "Asphalt Paving Mixture and Block Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "324122",
+    "Score": "Asphalt Shingle and Coating Materials Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "324191",
+    "Score": "Petroleum Lubricating Oil and Grease Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "324199",
+    "Score": "All Other Petroleum and Coal Products Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "325110",
+    "Score": "Petrochemical Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "325120",
+    "Score": "Industrial Gas Manufacturing"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "325130",
+    "Score": "Synthetic Dye and Pigment Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "325180",
+    "Score": "Other Basic Inorganic Chemical Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "325193",
+    "Score": "Ethyl Alcohol Manufacturing"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "325194",
+    "Score": "Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "325199",
+    "Score": "All Other Basic Organic Chemical Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "325211",
+    "Score": "Plastics Material and Resin Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "325212",
+    "Score": "Synthetic Rubber Manufacturing"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "325220",
+    "Score": "Artificial and Synthetic Fibers and Filaments Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "325311",
+    "Score": "Nitrogenous Fertilizer Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "325312",
+    "Score": "Phosphatic Fertilizer Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "325314",
+    "Score": "Fertilizer (Mixing Only) Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "325320",
+    "Score": "Pesticide and Other Agricultural Chemical Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "325411",
+    "Score": "Medicinal and Botanical Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "325412",
+    "Score": "Pharmaceutical Preparation Manufacturing"
+  },
+  {
+    "IndustryCode": "89",
+    "IndustryDescription": "325413",
+    "Score": "In-Vitro Diagnostic Substance Manufacturing"
+  },
+  {
+    "IndustryCode": "58",
+    "IndustryDescription": "325414",
+    "Score": "Biological Product (except Diagnostic) Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "325510",
+    "Score": "Paint and Coating Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "325520",
+    "Score": "Adhesive Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "325611",
+    "Score": "Soap and Other Detergent Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "325612",
+    "Score": "Polish and Other Sanitation Good Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "325613",
+    "Score": "Surface Active Agent Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "325620",
+    "Score": "Toilet Preparation Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "325910",
+    "Score": "Printing Ink Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "325920",
+    "Score": "Explosives Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "325991",
+    "Score": "Custom Compounding of Purchased Resins"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "325992",
+    "Score": "Photographic Film, Paper, Plate, and Chemical Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "325998",
+    "Score": "All Other Miscellaneous Chemical Product and Preparation Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "326111",
+    "Score": "Plastics Bag and Pouch Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "326112",
+    "Score": "Plastics Packaging Film and Sheet (including Laminated) Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "326113",
+    "Score": "Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "326121",
+    "Score": "Unlaminated Plastics Profile Shape Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "326122",
+    "Score": "Plastics Pipe and Pipe Fitting Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "326130",
+    "Score": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "326140",
+    "Score": "Polystyrene Foam Product Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "326150",
+    "Score": "Urethane and Other Foam Product (except Polystyrene) Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "326160",
+    "Score": "Plastics Bottle Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "326191",
+    "Score": "Plastics Plumbing Fixture Manufacturing"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "326199",
+    "Score": "All Other Plastics Product Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "326211",
+    "Score": "Tire Manufacturing (except Retreading)"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "326212",
+    "Score": "Tire Retreading"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "326220",
+    "Score": "Rubber and Plastics Hoses and Belting Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "326291",
+    "Score": "Rubber Product Manufacturing for Mechanical Use"
+  },
+  {
+    "IndustryCode": "59",
+    "IndustryDescription": "326299",
+    "Score": "All Other Rubber Product Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "327110",
+    "Score": "Pottery, Ceramics, and Plumbing Fixture Manufacturing"
+  },
+  {
+    "IndustryCode": "62",
+    "IndustryDescription": "327120",
+    "Score": "Clay Building Material and Refractories Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "327211",
+    "Score": "Flat Glass Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "327212",
+    "Score": "Other Pressed and Blown Glass and Glassware Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "327213",
+    "Score": "Glass Container Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "327215",
+    "Score": "Glass Product Manufacturing Made of Purchased Glass"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "327310",
+    "Score": "Cement Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "327320",
+    "Score": "Ready-Mix Concrete Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "327331",
+    "Score": "Concrete Block and Brick Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "327332",
+    "Score": "Concrete Pipe Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "327390",
+    "Score": "Other Concrete Product Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "327410",
+    "Score": "Lime Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "327420",
+    "Score": "Gypsum Product Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "327910",
+    "Score": "Abrasive Product Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "327991",
+    "Score": "Cut Stone and Stone Product Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "327992",
+    "Score": "Ground or Treated Mineral and Earth Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "327993",
+    "Score": "Mineral Wool Manufacturing"
+  },
+  {
+    "IndustryCode": "56",
+    "IndustryDescription": "327999",
+    "Score": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "331110",
+    "Score": "Iron and Steel Mills and Ferroalloy Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "331210",
+    "Score": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "331221",
+    "Score": "Rolled Steel Shape Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "331222",
+    "Score": "Steel Wire Drawing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "331313",
+    "Score": "Alumina Refining and Primary Aluminum Production"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "331314",
+    "Score": "Secondary Smelting and Alloying of Aluminum"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "331315",
+    "Score": "Aluminum Sheet, Plate, and Foil Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "331318",
+    "Score": "Other Aluminum Rolling, Drawing, and Extruding"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "331410",
+    "Score": "Nonferrous Metal (except Aluminum) Smelting and Refining"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "331420",
+    "Score": "Copper Rolling, Drawing, Extruding, and Alloying"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "331491",
+    "Score": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "331492",
+    "Score": "Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "331511",
+    "Score": "Iron Foundries"
+  },
+  {
+    "IndustryCode": "87",
+    "IndustryDescription": "331512",
+    "Score": "Steel Investment Foundries"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "331513",
+    "Score": "Steel Foundries (except Investment)"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "331523",
+    "Score": "Nonferrous Metal Die-Casting Foundries"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "331524",
+    "Score": "Aluminum Foundries (except Die-Casting)"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "331529",
+    "Score": "Other Nonferrous Metal Foundries (except Die-Casting)"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "332111",
+    "Score": "Iron and Steel Forging"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "332112",
+    "Score": "Nonferrous Forging"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "332114",
+    "Score": "Custom Roll Forming"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "332117",
+    "Score": "Powder Metallurgy Part Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "332119",
+    "Score": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "332215",
+    "Score": "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "332216",
+    "Score": "Saw Blade and Handtool Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "332311",
+    "Score": "Prefabricated Metal Building and Component Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "332312",
+    "Score": "Fabricated Structural Metal Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "332313",
+    "Score": "Plate Work Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "332321",
+    "Score": "Metal Window and Door Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "332322",
+    "Score": "Sheet Metal Work Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "332323",
+    "Score": "Ornamental and Architectural Metal Work Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "332410",
+    "Score": "Power Boiler and Heat Exchanger Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "332420",
+    "Score": "Metal Tank (Heavy Gauge) Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "332431",
+    "Score": "Metal Can Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "332439",
+    "Score": "Other Metal Container Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "332510",
+    "Score": "Hardware Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "332613",
+    "Score": "Spring Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "332618",
+    "Score": "Other Fabricated Wire Product Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "332710",
+    "Score": "Machine Shops"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "332721",
+    "Score": "Precision Turned Product Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "332722",
+    "Score": "Bolt, Nut, Screw, Rivet, and Washer Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "332811",
+    "Score": "Metal Heat Treating"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "332812",
+    "Score": "Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "332813",
+    "Score": "Electroplating, Plating, Polishing, Anodizing, and Coloring"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "332911",
+    "Score": "Industrial Valve Manufacturing"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "332912",
+    "Score": "Fluid Power Valve and Hose Fitting Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "332913",
+    "Score": "Plumbing Fixture Fitting and Trim Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "332919",
+    "Score": "Other Metal Valve and Pipe Fitting Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "332991",
+    "Score": "Ball and Roller Bearing Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "332992",
+    "Score": "Small Arms Ammunition Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "332993",
+    "Score": "Ammunition (except Small Arms) Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "332994",
+    "Score": "Small Arms, Ordnance, and Ordnance Accessories Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "332996",
+    "Score": "Fabricated Pipe and Pipe Fitting Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "332999",
+    "Score": "All Other Miscellaneous Fabricated Metal Product Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "333111",
+    "Score": "Farm Machinery and Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "333112",
+    "Score": "Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "333120",
+    "Score": "Construction Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "333131",
+    "Score": "Mining Machinery and Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "62",
+    "IndustryDescription": "333132",
+    "Score": "Oil and Gas Field Machinery and Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "333241",
+    "Score": "Food Product Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "89",
+    "IndustryDescription": "333242",
+    "Score": "Semiconductor Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "333243",
+    "Score": "Sawmill, Woodworking, and Paper Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "333244",
+    "Score": "Printing Machinery and Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "333249",
+    "Score": "Other Industrial Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "333314",
+    "Score": "Optical Instrument and Lens Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "333316",
+    "Score": "Photographic and Photocopying Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "333318",
+    "Score": "Other Commercial and Service Industry Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "333413",
+    "Score": "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "333414",
+    "Score": "Heating Equipment (except Warm Air Furnaces) Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "333415",
+    "Score": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "333511",
+    "Score": "Industrial Mold Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "333514",
+    "Score": "Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "333515",
+    "Score": "Cutting Tool and Machine Tool Accessory Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "333517",
+    "Score": "Machine Tool Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "333519",
+    "Score": "Rolling Mill and Other Metalworking Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "333611",
+    "Score": "Turbine and Turbine Generator Set Units Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "333612",
+    "Score": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "333613",
+    "Score": "Mechanical Power Transmission Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "333618",
+    "Score": "Other Engine Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "333912",
+    "Score": "Air and Gas Compressor Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "333914",
+    "Score": "Measuring, Dispensing, and Other Pumping Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "333921",
+    "Score": "Elevator and Moving Stairway Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "333922",
+    "Score": "Conveyor and Conveying Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "333923",
+    "Score": "Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "333924",
+    "Score": "Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "333991",
+    "Score": "Power-Driven Handtool Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "333992",
+    "Score": "Welding and Soldering Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "333993",
+    "Score": "Packaging Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "333994",
+    "Score": "Industrial Process Furnace and Oven Manufacturing"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "333995",
+    "Score": "Fluid Power Cylinder and Actuator Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "333996",
+    "Score": "Fluid Power Pump and Motor Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "333997",
+    "Score": "Scale and Balance Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "333999",
+    "Score": "All Other Miscellaneous General Purpose Machinery Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "334111",
+    "Score": "Electronic Computer Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "334112",
+    "Score": "Computer Storage Device Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "334118",
+    "Score": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "334210",
+    "Score": "Telephone Apparatus Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "334220",
+    "Score": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "334290",
+    "Score": "Other Communications Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "334310",
+    "Score": "Audio and Video Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "334412",
+    "Score": "Bare Printed Circuit Board Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "334413",
+    "Score": "Semiconductor and Related Device Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "334416",
+    "Score": "Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "334417",
+    "Score": "Electronic Connector Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "334418",
+    "Score": "Printed Circuit Assembly (Electronic Assembly) Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "334419",
+    "Score": "Other Electronic Component Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "334510",
+    "Score": "Electromedical and Electrotherapeutic Apparatus Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "334511",
+    "Score": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "334512",
+    "Score": "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "334513",
+    "Score": "Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "334514",
+    "Score": "Totalizing Fluid Meter and Counting Device Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "334515",
+    "Score": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "334516",
+    "Score": "Analytical Laboratory Instrument Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "334517",
+    "Score": "Irradiation Apparatus Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "334519",
+    "Score": "Other Measuring and Controlling Device Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "334613",
+    "Score": "Blank Magnetic and Optical Recording Media Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "334614",
+    "Score": "Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "335110",
+    "Score": "Electric Lamp Bulb and Part Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "335121",
+    "Score": "Residential Electric Lighting Fixture Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "335122",
+    "Score": "Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "335129",
+    "Score": "Other Lighting Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "335210",
+    "Score": "Small Electrical Appliance Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "335220",
+    "Score": "Major Household Appliance Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "335311",
+    "Score": "Power, Distribution, and Specialty Transformer Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "335312",
+    "Score": "Motor and Generator Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "335313",
+    "Score": "Switchgear and Switchboard Apparatus Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "335314",
+    "Score": "Relay and Industrial Control Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "335911",
+    "Score": "Storage Battery Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "335912",
+    "Score": "Primary Battery Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "335921",
+    "Score": "Fiber Optic Cable Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "335929",
+    "Score": "Other Communication and Energy Wire Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "335931",
+    "Score": "Current-Carrying Wiring Device Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "335932",
+    "Score": "Noncurrent-Carrying Wiring Device Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "335991",
+    "Score": "Carbon and Graphite Product Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "335999",
+    "Score": "All Other Miscellaneous Electrical Equipment and Component Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "336111",
+    "Score": "Automobile Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "336112",
+    "Score": "Light Truck and Utility Vehicle Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "336120",
+    "Score": "Heavy Duty Truck Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "336211",
+    "Score": "Motor Vehicle Body Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "336212",
+    "Score": "Truck Trailer Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "336213",
+    "Score": "Motor Home Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "336214",
+    "Score": "Travel Trailer and Camper Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "336310",
+    "Score": "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "336320",
+    "Score": "Motor Vehicle Electrical and Electronic Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "336330",
+    "Score": "Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "336340",
+    "Score": "Motor Vehicle Brake System Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "336350",
+    "Score": "Motor Vehicle Transmission and Power Train Parts Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "336360",
+    "Score": "Motor Vehicle Seating and Interior Trim Manufacturing"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "336370",
+    "Score": "Motor Vehicle Metal Stamping"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "336390",
+    "Score": "Other Motor Vehicle Parts Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "336411",
+    "Score": "Aircraft Manufacturing"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "336412",
+    "Score": "Aircraft Engine and Engine Parts Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "336413",
+    "Score": "Other Aircraft Parts and Auxiliary Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "336414",
+    "Score": "Guided Missile and Space Vehicle Manufacturing"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "336415",
+    "Score": "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "336419",
+    "Score": "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "336510",
+    "Score": "Railroad Rolling Stock Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "336611",
+    "Score": "Ship Building and Repairing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "336612",
+    "Score": "Boat Building"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "336991",
+    "Score": "Motorcycle, Bicycle, and Parts Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "336992",
+    "Score": "Military Armored Vehicle, Tank, and Tank Component Manufacturing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "336999",
+    "Score": "All Other Transportation Equipment Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "337110",
+    "Score": "Wood Kitchen Cabinet and Countertop Manufacturing"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "337121",
+    "Score": "Upholstered Household Furniture Manufacturing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "337122",
+    "Score": "Nonupholstered Wood Household Furniture Manufacturing"
+  },
+  {
+    "IndustryCode": "84",
+    "IndustryDescription": "337124",
+    "Score": "Metal Household Furniture Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "337125",
+    "Score": "Household Furniture (except Wood and Metal) Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "337127",
+    "Score": "Institutional Furniture Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "337211",
+    "Score": "Wood Office Furniture Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "337212",
+    "Score": "Custom Architectural Woodwork and Millwork Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "337214",
+    "Score": "Office Furniture (except Wood) Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "337215",
+    "Score": "Showcase, Partition, Shelving, and Locker Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "337910",
+    "Score": "Mattress Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "337920",
+    "Score": "Blind and Shade Manufacturing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "339112",
+    "Score": "Surgical and Medical Instrument Manufacturing"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "339113",
+    "Score": "Surgical Appliance and Supplies Manufacturing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "339114",
+    "Score": "Dental Equipment and Supplies Manufacturing"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "339115",
+    "Score": "Ophthalmic Goods Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "339116",
+    "Score": "Dental Laboratories"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "339910",
+    "Score": "Jewelry and Silverware Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "339920",
+    "Score": "Sporting and Athletic Goods Manufacturing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "339930",
+    "Score": "Doll, Toy, and Game Manufacturing"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "339940",
+    "Score": "Office Supplies (except Paper) Manufacturing"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "339950",
+    "Score": "Sign Manufacturing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "339991",
+    "Score": "Gasket, Packing, and Sealing Device Manufacturing"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "339992",
+    "Score": "Musical Instrument Manufacturing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "339993",
+    "Score": "Fastener, Button, Needle, and Pin Manufacturing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "339994",
+    "Score": "Broom, Brush, and Mop Manufacturing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "339995",
+    "Score": "Burial Casket Manufacturing"
+  },
+  {
+    "IndustryCode": "63",
+    "IndustryDescription": "339999",
+    "Score": "All Other Miscellaneous Manufacturing"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "423110",
+    "Score": "Automobile and Other Motor Vehicle Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "423120",
+    "Score": "Motor Vehicle Supplies and New Parts Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "423130",
+    "Score": "Tire and Tube Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "423140",
+    "Score": "Motor Vehicle Parts (Used) Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "423210",
+    "Score": "Furniture Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "423220",
+    "Score": "Home Furnishing Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "423310",
+    "Score": "Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "423320",
+    "Score": "Brick, Stone, and Related Construction Material Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "423330",
+    "Score": "Roofing, Siding, and Insulation Material Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "57",
+    "IndustryDescription": "423390",
+    "Score": "Other Construction Material Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "423410",
+    "Score": "Photographic Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "423420",
+    "Score": "Office Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "423430",
+    "Score": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "423440",
+    "Score": "Other Commercial Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "423450",
+    "Score": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "423460",
+    "Score": "Ophthalmic Goods Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "423490",
+    "Score": "Other Professional Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "423510",
+    "Score": "Metal Service Centers and Other Metal Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "423520",
+    "Score": "Coal and Other Mineral and Ore Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "423610",
+    "Score": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "423620",
+    "Score": "Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "423690",
+    "Score": "Other Electronic Parts and Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "423710",
+    "Score": "Hardware Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "423720",
+    "Score": "Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "423730",
+    "Score": "Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "423740",
+    "Score": "Refrigeration Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "423810",
+    "Score": "Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "423820",
+    "Score": "Farm and Garden Machinery and Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "423830",
+    "Score": "Industrial Machinery and Equipment Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "423840",
+    "Score": "Industrial Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "423850",
+    "Score": "Service Establishment Equipment and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "423860",
+    "Score": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "423910",
+    "Score": "Sporting and Recreational Goods and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "423920",
+    "Score": "Toy and Hobby Goods and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "423930",
+    "Score": "Recyclable Material Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "423940",
+    "Score": "Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "423990",
+    "Score": "Other Miscellaneous Durable Goods Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "424110",
+    "Score": "Printing and Writing Paper Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "424120",
+    "Score": "Stationery and Office Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "59",
+    "IndustryDescription": "424130",
+    "Score": "Industrial and Personal Service Paper Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "424210",
+    "Score": "Drugs and Druggists' Sundries Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "424310",
+    "Score": "Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "424320",
+    "Score": "Men's and Boys' Clothing and Furnishings Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "424330",
+    "Score": "Women's, Children's, and Infants' Clothing and Accessories Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "424340",
+    "Score": "Footwear Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "424410",
+    "Score": "General Line Grocery Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "424420",
+    "Score": "Packaged Frozen Food Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "424430",
+    "Score": "Dairy Product (except Dried or Canned) Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "424440",
+    "Score": "Poultry and Poultry Product Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "424450",
+    "Score": "Confectionery Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "424460",
+    "Score": "Fish and Seafood Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "424470",
+    "Score": "Meat and Meat Product Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "424480",
+    "Score": "Fresh Fruit and Vegetable Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "424490",
+    "Score": "Other Grocery and Related Products Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "424510",
+    "Score": "Grain and Field Bean Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "424520",
+    "Score": "Livestock Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "424590",
+    "Score": "Other Farm Product Raw Material Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "424610",
+    "Score": "Plastics Materials and Basic Forms and Shapes Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "424690",
+    "Score": "Other Chemical and Allied Products Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "424710",
+    "Score": "Petroleum Bulk Stations and Terminals"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "424720",
+    "Score": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "424810",
+    "Score": "Beer and Ale Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "424820",
+    "Score": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "424910",
+    "Score": "Farm Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "424920",
+    "Score": "Book, Periodical, and Newspaper Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "424930",
+    "Score": "Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "424940",
+    "Score": "Tobacco and Tobacco Product Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "424950",
+    "Score": "Paint, Varnish, and Supplies Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "424990",
+    "Score": "Other Miscellaneous Nondurable Goods Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "425110",
+    "Score": "Business to Business Electronic Markets"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "425120",
+    "Score": "Wholesale Trade Agents and Brokers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "441110",
+    "Score": "New Car Dealers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "441120",
+    "Score": "Used Car Dealers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "441210",
+    "Score": "Recreational Vehicle Dealers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "441222",
+    "Score": "Boat Dealers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "441228",
+    "Score": "Motorcycle, ATV, and All Other Motor Vehicle Dealers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "441310",
+    "Score": "Automotive Parts and Accessories Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "441320",
+    "Score": "Tire Dealers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "442110",
+    "Score": "Furniture Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "442210",
+    "Score": "Floor Covering Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "442291",
+    "Score": "Window Treatment Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "442299",
+    "Score": "All Other Home Furnishings Stores"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "443141",
+    "Score": "Household Appliance Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "443142",
+    "Score": "Electronics Stores"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "444110",
+    "Score": "Home Centers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "444120",
+    "Score": "Paint and Wallpaper Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "444130",
+    "Score": "Hardware Stores"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "444190",
+    "Score": "Other Building Material Dealers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "444210",
+    "Score": "Outdoor Power Equipment Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "444220",
+    "Score": "Nursery, Garden Center, and Farm Supply Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "445110",
+    "Score": "Supermarkets and Other Grocery (except Convenience) Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "445120",
+    "Score": "Convenience Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "445210",
+    "Score": "Meat Markets"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "445220",
+    "Score": "Fish and Seafood Markets"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "445230",
+    "Score": "Fruit and Vegetable Markets"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "445291",
+    "Score": "Baked Goods Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "445292",
+    "Score": "Confectionery and Nut Stores"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "445299",
+    "Score": "All Other Specialty Food Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "445310",
+    "Score": "Beer, Wine, and Liquor Stores"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "446110",
+    "Score": "Pharmacies and Drug Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "446120",
+    "Score": "Cosmetics, Beauty Supplies, and Perfume Stores"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "446130",
+    "Score": "Optical Goods Stores"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "446191",
+    "Score": "Food (Health) Supplement Stores"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "446199",
+    "Score": "All Other Health and Personal Care Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "447110",
+    "Score": "Gasoline Stations with Convenience Stores"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "447190",
+    "Score": "Other Gasoline Stations"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "448110",
+    "Score": "Men's Clothing Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "448120",
+    "Score": "Women's Clothing Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "448130",
+    "Score": "Children's and Infants' Clothing Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "448140",
+    "Score": "Family Clothing Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "448150",
+    "Score": "Clothing Accessories Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "448190",
+    "Score": "Other Clothing Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "448210",
+    "Score": "Shoe Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "448310",
+    "Score": "Jewelry Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "448320",
+    "Score": "Luggage and Leather Goods Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "451110",
+    "Score": "Sporting Goods Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "451120",
+    "Score": "Hobby, Toy, and Game Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "451130",
+    "Score": "Sewing, Needlework, and Piece Goods Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "451140",
+    "Score": "Musical Instrument and Supplies Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "451211",
+    "Score": "Book Stores"
+  },
+  {
+    "IndustryCode": "55",
+    "IndustryDescription": "451212",
+    "Score": "News Dealers and Newsstands"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "452210",
+    "Score": "Department Stores"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "452311",
+    "Score": "Warehouse Clubs and Supercenters"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "452319",
+    "Score": "All Other General Merchandise Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "453110",
+    "Score": "Florists"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "453210",
+    "Score": "Office Supplies and Stationery Stores"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "453220",
+    "Score": "Gift, Novelty, and Souvenir Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "453310",
+    "Score": "Used Merchandise Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "453910",
+    "Score": "Pet and Pet Supplies Stores"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "453920",
+    "Score": "Art Dealers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "453930",
+    "Score": "Manufactured (Mobile) Home Dealers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "453991",
+    "Score": "Tobacco Stores"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "453998",
+    "Score": "All Other Miscellaneous Store Retailers (except Tobacco Stores)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "454110",
+    "Score": "Electronic Shopping and Mail-Order Houses"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "454210",
+    "Score": "Vending Machine Operators"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "454310",
+    "Score": "Fuel Dealers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "454390",
+    "Score": "Other Direct Selling Establishments"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "481111",
+    "Score": "Scheduled Passenger Air Transportation"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "481112",
+    "Score": "Scheduled Freight Air Transportation"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "481211",
+    "Score": "Nonscheduled Chartered Passenger Air Transportation"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "481212",
+    "Score": "Nonscheduled Chartered Freight Air Transportation"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "481219",
+    "Score": "Other Nonscheduled Air Transportation"
+  },
+  {
+    "IndustryCode": "62",
+    "IndustryDescription": "482111",
+    "Score": "Line-Haul Railroads"
+  },
+  {
+    "IndustryCode": "60",
+    "IndustryDescription": "482112",
+    "Score": "Short Line Railroads"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "483111",
+    "Score": "Deep Sea Freight Transportation"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "483112",
+    "Score": "Deep Sea Passenger Transportation"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "483113",
+    "Score": "Coastal and Great Lakes Freight Transportation"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "483114",
+    "Score": "Coastal and Great Lakes Passenger Transportation"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "483211",
+    "Score": "Inland Water Freight Transportation"
+  },
+  {
+    "IndustryCode": "56",
+    "IndustryDescription": "483212",
+    "Score": "Inland Water Passenger Transportation"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "484110",
+    "Score": "General Freight Trucking, Local"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "484121",
+    "Score": "General Freight Trucking, Long-Distance, Truckload"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "484122",
+    "Score": "General Freight Trucking, Long-Distance, Less Than Truckload"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "484210",
+    "Score": "Used Household and Office Goods Moving"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "484220",
+    "Score": "Specialized Freight (except Used Goods) Trucking, Local"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "484230",
+    "Score": "Specialized Freight (except Used Goods) Trucking, Long-Distance"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "485111",
+    "Score": "Mixed Mode Transit Systems"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "485112",
+    "Score": "Commuter Rail Systems"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "485113",
+    "Score": "Bus and Other Motor Vehicle Transit Systems"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "485119",
+    "Score": "Other Urban Transit Systems"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "485210",
+    "Score": "Interurban and Rural Bus Transportation"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "485310",
+    "Score": "Taxi Service"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "485320",
+    "Score": "Limousine Service"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "485410",
+    "Score": "School and Employee Bus Transportation"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "485510",
+    "Score": "Charter Bus Industry"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "485991",
+    "Score": "Special Needs Transportation"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "485999",
+    "Score": "All Other Transit and Ground Passenger Transportation"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "486110",
+    "Score": "Pipeline Transportation of Crude Oil"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "486210",
+    "Score": "Pipeline Transportation of Natural Gas"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "486910",
+    "Score": "Pipeline Transportation of Refined Petroleum Products"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "486990",
+    "Score": "All Other Pipeline Transportation"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "487110",
+    "Score": "Scenic and Sightseeing Transportation, Land"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "487210",
+    "Score": "Scenic and Sightseeing Transportation, Water"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "487990",
+    "Score": "Scenic and Sightseeing Transportation, Other"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "488111",
+    "Score": "Air Traffic Control"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "488119",
+    "Score": "Other Airport Operations"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "488190",
+    "Score": "Other Support Activities for Air Transportation"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "488210",
+    "Score": "Support Activities for Rail Transportation"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "488310",
+    "Score": "Port and Harbor Operations"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "488320",
+    "Score": "Marine Cargo Handling"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "488330",
+    "Score": "Navigational Services to Shipping"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "488390",
+    "Score": "Other Support Activities for Water Transportation"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "488410",
+    "Score": "Motor Vehicle Towing"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "488490",
+    "Score": "Other Support Activities for Road Transportation"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "488510",
+    "Score": "Freight Transportation Arrangement"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "488991",
+    "Score": "Packing and Crating"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "488999",
+    "Score": "All Other Support Activities for Transportation"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "491110",
+    "Score": "Postal Service"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "492110",
+    "Score": "Couriers and Express Delivery Services"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "492210",
+    "Score": "Local Messengers and Local Delivery"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "493110",
+    "Score": "General Warehousing and Storage"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "493120",
+    "Score": "Refrigerated Warehousing and Storage"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "493130",
+    "Score": "Farm Product Warehousing and Storage"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "493190",
+    "Score": "Other Warehousing and Storage"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "511110",
+    "Score": "Newspaper Publishers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "511120",
+    "Score": "Periodical Publishers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "511130",
+    "Score": "Book Publishers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "511140",
+    "Score": "Directory and Mailing List Publishers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "511191",
+    "Score": "Greeting Card Publishers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "511199",
+    "Score": "All Other Publishers"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "511210",
+    "Score": "Software Publishers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "512110",
+    "Score": "Motion Picture and Video Production"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "512120",
+    "Score": "Motion Picture and Video Distribution"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "512131",
+    "Score": "Motion Picture Theaters (except Drive-Ins)"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "512132",
+    "Score": "Drive-In Motion Picture Theaters"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "512191",
+    "Score": "Teleproduction and Other Postproduction Services"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "512199",
+    "Score": "Other Motion Picture and Video Industries"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "512230",
+    "Score": "Music Publishers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "512240",
+    "Score": "Sound Recording Studios"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "512250",
+    "Score": "Record Production and Distribution"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "512290",
+    "Score": "Other Sound Recording Industries"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "515111",
+    "Score": "Radio Networks"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "515112",
+    "Score": "Radio Stations"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "515120",
+    "Score": "Television Broadcasting"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "515210",
+    "Score": "Cable and Other Subscription Programming"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "517311",
+    "Score": "Wired Telecommunications Carriers"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "517312",
+    "Score": "Wireless Telecommunications Carriers (except Satellite)"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "517410",
+    "Score": "Satellite Telecommunications"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "517911",
+    "Score": "Telecommunications Resellers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "517919",
+    "Score": "All Other Telecommunications"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "518210",
+    "Score": "Data Processing, Hosting, and Related Services"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "519110",
+    "Score": "News Syndicates"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "519120",
+    "Score": "Libraries and Archives"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "519130",
+    "Score": "Internet Publishing and Broadcasting and Web Search Portals"
+  },
+  {
+    "IndustryCode": "58",
+    "IndustryDescription": "519190",
+    "Score": "All Other Information Services"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "521110",
+    "Score": "Commercial Banking"
+  },
+  {
+    "IndustryCode": "95",
+    "IndustryDescription": "521110",
+    "Score": "Credit Card Issuing"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "521110",
+    "Score": "Full-Service Restaurants"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "521110",
+    "Score": "Insurance Agencies and Brokerages"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "521110",
+    "Score": "Investment Banking and Securities Dealing"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "521110",
+    "Score": "Lessors of Nonresidential Buildings (except Miniwarehouses)"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "521110",
+    "Score": "Miscellaneous Intermediation"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "521110",
+    "Score": "Mortgage and Nonmortgage Loan Brokers"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "521110",
+    "Score": "Offices of Real Estate Agents and Brokers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "521110",
+    "Score": "Other Accounting Services"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "521110",
+    "Score": "Other Personal Care Services"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "521110",
+    "Score": "Other Personal and Household Goods Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "521110",
+    "Score": "Plumbing, Heating, and Air-Conditioning Contractors"
+  },
+  {
+    "IndustryCode": "87",
+    "IndustryDescription": "521110",
+    "Score": "Residential Mental Health and Substance Abuse Facilities"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "521110",
+    "Score": "Tax Preparation Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "522110",
+    "Score": "Commercial Banking"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "522120",
+    "Score": "Savings Institutions"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "522130",
+    "Score": "Credit Unions"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "522190",
+    "Score": "Other Depository Credit Intermediation"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "522210",
+    "Score": "Credit Card Issuing"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "522220",
+    "Score": "Sales Financing"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "522291",
+    "Score": "Consumer Lending"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "522292",
+    "Score": "Real Estate Credit"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "522293",
+    "Score": "International Trade Financing"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "522294",
+    "Score": "Secondary Market Financing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "522298",
+    "Score": "All Other Nondepository Credit Intermediation"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "522310",
+    "Score": "Mortgage and Nonmortgage Loan Brokers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "522320",
+    "Score": "Financial Transactions Processing, Reserve, and Clearinghouse Activities"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "522390",
+    "Score": "Other Activities Related to Credit Intermediation"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "523110",
+    "Score": "Investment Banking and Securities Dealing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "523120",
+    "Score": "Securities Brokerage"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "523130",
+    "Score": "Commodity Contracts Dealing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "523140",
+    "Score": "Commodity Contracts Brokerage"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "523210",
+    "Score": "Securities and Commodity Exchanges"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "523910",
+    "Score": "Miscellaneous Intermediation"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "523920",
+    "Score": "Portfolio Management"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "523930",
+    "Score": "Investment Advice"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "523991",
+    "Score": "Trust, Fiduciary, and Custody Activities"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "523999",
+    "Score": "Miscellaneous Financial Investment Activities"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "524113",
+    "Score": "Direct Life Insurance Carriers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "524114",
+    "Score": "Direct Health and Medical Insurance Carriers"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "524126",
+    "Score": "Direct Property and Casualty Insurance Carriers"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "524127",
+    "Score": "Direct Title Insurance Carriers"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "524128",
+    "Score": "Other Direct Insurance (except Life, Health, and Medical) Carriers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "524130",
+    "Score": "Reinsurance Carriers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "524210",
+    "Score": "Insurance Agencies and Brokerages"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "524291",
+    "Score": "Claims Adjusting"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "524292",
+    "Score": "Third Party Administration of Insurance and Pension Funds"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "524298",
+    "Score": "All Other Insurance Related Activities"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "525110",
+    "Score": "Pension Funds"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "525120",
+    "Score": "Health and Welfare Funds"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "525190",
+    "Score": "Other Insurance Funds"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "525910",
+    "Score": "Open-End Investment Funds"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "525920",
+    "Score": "Trusts, Estates, and Agency Accounts"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "525990",
+    "Score": "Other Financial Vehicles"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "531110",
+    "Score": "Lessors of Residential Buildings and Dwellings"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "531120",
+    "Score": "Lessors of Nonresidential Buildings (except Miniwarehouses)"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "531130",
+    "Score": "Lessors of Miniwarehouses and Self-Storage Units"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "531190",
+    "Score": "Lessors of Other Real Estate Property"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "531210",
+    "Score": "Offices of Real Estate Agents and Brokers"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "531311",
+    "Score": "Residential Property Managers"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "531312",
+    "Score": "Nonresidential Property Managers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "531320",
+    "Score": "Offices of Real Estate Appraisers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "531390",
+    "Score": "Other Activities Related to Real Estate"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "532111",
+    "Score": "Passenger Car Rental"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "532112",
+    "Score": "Passenger Car Leasing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "532120",
+    "Score": "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "532210",
+    "Score": "Consumer Electronics and Appliances Rental"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "532281",
+    "Score": "Formal Wear and Costume Rental"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "532282",
+    "Score": "Video Tape and Disc Rental"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "532283",
+    "Score": "Home Health Equipment Rental"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "532284",
+    "Score": "Recreational Goods Rental"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "532289",
+    "Score": "All Other Consumer Goods Rental"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "532310",
+    "Score": "General Rental Centers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "532411",
+    "Score": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "532412",
+    "Score": "Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "532420",
+    "Score": "Office Machinery and Equipment Rental and Leasing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "532490",
+    "Score": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "533110",
+    "Score": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541110",
+    "Score": "Offices of Lawyers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541120",
+    "Score": "Offices of Notaries"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541191",
+    "Score": "Title Abstract and Settlement Offices"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "541199",
+    "Score": "All Other Legal Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "541211",
+    "Score": "Offices of Certified Public Accountants"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541213",
+    "Score": "Tax Preparation Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "541214",
+    "Score": "Payroll Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541219",
+    "Score": "Other Accounting Services"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "541310",
+    "Score": "Architectural Services"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "541320",
+    "Score": "Landscape Architectural Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541330",
+    "Score": "Engineering Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541340",
+    "Score": "Drafting Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "541350",
+    "Score": "Building Inspection Services"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "541360",
+    "Score": "Geophysical Surveying and Mapping Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541370",
+    "Score": "Surveying and Mapping (except Geophysical) Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541380",
+    "Score": "Testing Laboratories"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541410",
+    "Score": "Interior Design Services"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "541420",
+    "Score": "Industrial Design Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "541430",
+    "Score": "Graphic Design Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "541490",
+    "Score": "Other Specialized Design Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "541511",
+    "Score": "Custom Computer Programming Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541512",
+    "Score": "Computer Systems Design Services"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "541513",
+    "Score": "Computer Facilities Management Services"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "541519",
+    "Score": "Other Computer Related Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541611",
+    "Score": "Administrative Management and General Management Consulting Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541612",
+    "Score": "Human Resources Consulting Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541613",
+    "Score": "Marketing Consulting Services"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "541614",
+    "Score": "Process, Physical Distribution, and Logistics Consulting Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "541618",
+    "Score": "Other Management Consulting Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "541620",
+    "Score": "Environmental Consulting Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "541690",
+    "Score": "Other Scientific and Technical Consulting Services"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "541713",
+    "Score": "Research and Development in Nanotechnology"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541714",
+    "Score": "Research and Development in Biotechnology (except Nanobiotechnology)"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "541715",
+    "Score": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)"
+  },
+  {
+    "IndustryCode": "60",
+    "IndustryDescription": "541720",
+    "Score": "Research and Development in the Social Sciences and Humanities"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "541810",
+    "Score": "Advertising Agencies"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "541820",
+    "Score": "Public Relations Agencies"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "541830",
+    "Score": "Media Buying Agencies"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "541840",
+    "Score": "Media Representatives"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "541850",
+    "Score": "Outdoor Advertising"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541860",
+    "Score": "Direct Mail Advertising"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "541870",
+    "Score": "Advertising Material Distribution Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541890",
+    "Score": "Other Services Related to Advertising"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "541910",
+    "Score": "Marketing Research and Public Opinion Polling"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "541921",
+    "Score": "Photography Studios, Portrait"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "541922",
+    "Score": "Commercial Photography"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "541930",
+    "Score": "Translation and Interpretation Services"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "541940",
+    "Score": "Veterinary Services"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "541990",
+    "Score": "All Other Professional, Scientific, and Technical Services"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "551111",
+    "Score": "Offices of Bank Holding Companies"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "551112",
+    "Score": "Offices of Other Holding Companies"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "551114",
+    "Score": "Corporate, Subsidiary, and Regional Managing Offices"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "561110",
+    "Score": "Office Administrative Services"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "561210",
+    "Score": "Facilities Support Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "561311",
+    "Score": "Employment Placement Agencies"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "561312",
+    "Score": "Executive Search Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "561320",
+    "Score": "Temporary Help Services"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "561330",
+    "Score": "Professional Employer Organizations"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "561410",
+    "Score": "Document Preparation Services"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "561421",
+    "Score": "Telephone Answering Services"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "561422",
+    "Score": "Telemarketing Bureaus and Other Contact Centers"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "561431",
+    "Score": "Private Mail Centers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "561439",
+    "Score": "Other Business Service Centers (including Copy Shops)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "561440",
+    "Score": "Collection Agencies"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "561450",
+    "Score": "Credit Bureaus"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "561491",
+    "Score": "Repossession Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "561492",
+    "Score": "Court Reporting and Stenotype Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "561499",
+    "Score": "All Other Business Support Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "561510",
+    "Score": "Travel Agencies"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "561520",
+    "Score": "Tour Operators"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "561591",
+    "Score": "Convention and Visitors Bureaus"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "561599",
+    "Score": "All Other Travel Arrangement and Reservation Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "561611",
+    "Score": "Investigation Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "561612",
+    "Score": "Security Guards and Patrol Services"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "561613",
+    "Score": "Armored Car Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "561621",
+    "Score": "Security Systems Services (except Locksmiths)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "561622",
+    "Score": "Locksmiths"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "561710",
+    "Score": "Exterminating and Pest Control Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "561720",
+    "Score": "Janitorial Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "561730",
+    "Score": "Landscaping Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "561740",
+    "Score": "Carpet and Upholstery Cleaning Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "561790",
+    "Score": "Other Services to Buildings and Dwellings"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "561910",
+    "Score": "Packaging and Labeling Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "561920",
+    "Score": "Convention and Trade Show Organizers"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "561990",
+    "Score": "All Other Support Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "562111",
+    "Score": "Solid Waste Collection"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "562112",
+    "Score": "Hazardous Waste Collection"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "562119",
+    "Score": "Other Waste Collection"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "562211",
+    "Score": "Hazardous Waste Treatment and Disposal"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "562212",
+    "Score": "Solid Waste Landfill"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "562213",
+    "Score": "Solid Waste Combustors and Incinerators"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "562219",
+    "Score": "Other Nonhazardous Waste Treatment and Disposal"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "562910",
+    "Score": "Remediation Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "562920",
+    "Score": "Materials Recovery Facilities"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "562991",
+    "Score": "Septic Tank and Related Services"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "562998",
+    "Score": "All Other Miscellaneous Waste Management Services"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "611110",
+    "Score": "Elementary and Secondary Schools"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "611210",
+    "Score": "Junior Colleges"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "611310",
+    "Score": "Colleges, Universities, and Professional Schools"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "611410",
+    "Score": "Business and Secretarial Schools"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "611420",
+    "Score": "Computer Training"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "611430",
+    "Score": "Professional and Management Development Training"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "611511",
+    "Score": "Cosmetology and Barber Schools"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "611512",
+    "Score": "Flight Training"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "611513",
+    "Score": "Apprenticeship Training"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "611519",
+    "Score": "Other Technical and Trade Schools"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "611610",
+    "Score": "Fine Arts Schools"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "611620",
+    "Score": "Sports and Recreation Instruction"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "611630",
+    "Score": "Language Schools"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "611691",
+    "Score": "Exam Preparation and Tutoring"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "611692",
+    "Score": "Automobile Driving Schools"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "611699",
+    "Score": "All Other Miscellaneous Schools and Instruction"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "611710",
+    "Score": "Educational Support Services"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "621111",
+    "Score": "Offices of Physicians (except Mental Health Specialists)"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "621112",
+    "Score": "Offices of Physicians, Mental Health Specialists"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "621210",
+    "Score": "Offices of Dentists"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "621310",
+    "Score": "Offices of Chiropractors"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "621320",
+    "Score": "Offices of Optometrists"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "621330",
+    "Score": "Offices of Mental Health Practitioners (except Physicians)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "621340",
+    "Score": "Offices of Physical, Occupational and Speech Therapists, and Audiologists"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "621391",
+    "Score": "Offices of Podiatrists"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "621399",
+    "Score": "Offices of All Other Miscellaneous Health Practitioners"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "621410",
+    "Score": "Family Planning Centers"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "621420",
+    "Score": "Outpatient Mental Health and Substance Abuse Centers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "621491",
+    "Score": "HMO Medical Centers"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "621492",
+    "Score": "Kidney Dialysis Centers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "621493",
+    "Score": "Freestanding Ambulatory Surgical and Emergency Centers"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "621498",
+    "Score": "All Other Outpatient Care Centers"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "621511",
+    "Score": "Medical Laboratories"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "621512",
+    "Score": "Diagnostic Imaging Centers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "621610",
+    "Score": "Home Health Care Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "621910",
+    "Score": "Ambulance Services"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "621991",
+    "Score": "Blood and Organ Banks"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "621999",
+    "Score": "All Other Miscellaneous Ambulatory Health Care Services"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "622110",
+    "Score": "General Medical and Surgical Hospitals"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "622210",
+    "Score": "Psychiatric and Substance Abuse Hospitals"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "622310",
+    "Score": "Specialty (except Psychiatric and Substance Abuse) Hospitals"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "623110",
+    "Score": "Nursing Care Facilities (Skilled Nursing Facilities)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "623210",
+    "Score": "Residential Intellectual and Developmental Disability Facilities"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "623220",
+    "Score": "Residential Mental Health and Substance Abuse Facilities"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "623311",
+    "Score": "Continuing Care Retirement Communities"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "623312",
+    "Score": "Assisted Living Facilities for the Elderly"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "623990",
+    "Score": "Other Residential Care Facilities"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "624110",
+    "Score": "Child and Youth Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "624120",
+    "Score": "Services for the Elderly and Persons with Disabilities"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "624190",
+    "Score": "Other Individual and Family Services"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "624210",
+    "Score": "Community Food Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "624221",
+    "Score": "Temporary Shelters"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "624229",
+    "Score": "Other Community Housing Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "624230",
+    "Score": "Emergency and Other Relief Services"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "624310",
+    "Score": "Vocational Rehabilitation Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "624410",
+    "Score": "Child Day Care Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "711110",
+    "Score": "Theater Companies and Dinner Theaters"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "711120",
+    "Score": "Dance Companies"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "711130",
+    "Score": "Musical Groups and Artists"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "711190",
+    "Score": "Other Performing Arts Companies"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "711211",
+    "Score": "Sports Teams and Clubs"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "711212",
+    "Score": "Racetracks"
+  },
+  {
+    "IndustryCode": "62",
+    "IndustryDescription": "711219",
+    "Score": "Other Spectator Sports"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "711310",
+    "Score": "Promoters of Performing Arts, Sports, and Similar Events with Facilities"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "711320",
+    "Score": "Promoters of Performing Arts, Sports, and Similar Events without Facilities"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "711410",
+    "Score": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "711510",
+    "Score": "Independent Artists, Writers, and Performers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "712110",
+    "Score": "Museums"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "712120",
+    "Score": "Historical Sites"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "712130",
+    "Score": "Zoos and Botanical Gardens"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "712190",
+    "Score": "Nature Parks and Other Similar Institutions"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "713110",
+    "Score": "Amusement and Theme Parks"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "713120",
+    "Score": "Amusement Arcades"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "713210",
+    "Score": "Casinos (except Casino Hotels)"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "713290",
+    "Score": "Other Gambling Industries"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "713910",
+    "Score": "Golf Courses and Country Clubs"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "713920",
+    "Score": "Skiing Facilities"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "713930",
+    "Score": "Marinas"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "713940",
+    "Score": "Fitness and Recreational Sports Centers"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "713950",
+    "Score": "Bowling Centers"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "713990",
+    "Score": "All Other Amusement and Recreation Industries"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "721110",
+    "Score": "Hotels (except Casino Hotels) and Motels"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "721120",
+    "Score": "Casino Hotels"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "721191",
+    "Score": "Bed-and-Breakfast Inns"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "721199",
+    "Score": "All Other Traveler Accommodation"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "721211",
+    "Score": "RV (Recreational Vehicle) Parks and Campgrounds"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "721214",
+    "Score": "Recreational and Vacation Camps (except Campgrounds)"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "721310",
+    "Score": "Rooming and Boarding Houses"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "722310",
+    "Score": "Food Service Contractors"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "722320",
+    "Score": "Caterers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "722330",
+    "Score": "Mobile Food Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "722410",
+    "Score": "Drinking Places (Alcoholic Beverages)"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "722511",
+    "Score": "Full-Service Restaurants"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "722513",
+    "Score": "Limited-Service Restaurants"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "722514",
+    "Score": "Cafeterias, Grill Buffets, and Buffets"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "722515",
+    "Score": "Snack and Nonalcoholic Beverage Bars"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "811111",
+    "Score": "General Automotive Repair"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "811112",
+    "Score": "Automotive Exhaust System Repair"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "811113",
+    "Score": "Automotive Transmission Repair"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "811118",
+    "Score": "Other Automotive Mechanical and Electrical Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "811121",
+    "Score": "Automotive Body, Paint, and Interior Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "811122",
+    "Score": "Automotive Glass Replacement Shops"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "811191",
+    "Score": "Automotive Oil Change and Lubrication Shops"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "811192",
+    "Score": "Car Washes"
+  },
+  {
+    "IndustryCode": "58",
+    "IndustryDescription": "811198",
+    "Score": "All Other Automotive Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "811211",
+    "Score": "Consumer Electronics Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "811212",
+    "Score": "Computer and Office Machine Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "811213",
+    "Score": "Communication Equipment Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "811219",
+    "Score": "Other Electronic and Precision Equipment Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "811310",
+    "Score": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "811411",
+    "Score": "Home and Garden Equipment Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "811412",
+    "Score": "Appliance Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "811420",
+    "Score": "Reupholstery and Furniture Repair"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "811430",
+    "Score": "Footwear and Leather Goods Repair"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "811490",
+    "Score": "Other Personal and Household Goods Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "812111",
+    "Score": "Barber Shops"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "812112",
+    "Score": "Beauty Salons"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "812113",
+    "Score": "Nail Salons"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "812191",
+    "Score": "Diet and Weight Reducing Centers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "812199",
+    "Score": "Other Personal Care Services"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "812210",
+    "Score": "Funeral Homes and Funeral Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "812220",
+    "Score": "Cemeteries and Crematories"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "812310",
+    "Score": "Coin-Operated Laundries and Drycleaners"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "812320",
+    "Score": "Drycleaning and Laundry Services (except Coin-Operated)"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "812331",
+    "Score": "Linen Supply"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "812332",
+    "Score": "Industrial Launderers"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "812910",
+    "Score": "Pet Care (except Veterinary) Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "812921",
+    "Score": "Photofinishing Laboratories (except One-Hour)"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "812922",
+    "Score": "One-Hour Photofinishing"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "812930",
+    "Score": "Parking Lots and Garages"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "812990",
+    "Score": "All Other Personal Services"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "813110",
+    "Score": "Religious Organizations"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "813211",
+    "Score": "Grantmaking Foundations"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "813212",
+    "Score": "Voluntary Health Organizations"
+  },
+  {
+    "IndustryCode": "87",
+    "IndustryDescription": "813219",
+    "Score": "Other Grantmaking and Giving Services"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "813311",
+    "Score": "Human Rights Organizations"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "813312",
+    "Score": "Environment, Conservation and Wildlife Organizations"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "813319",
+    "Score": "Other Social Advocacy Organizations"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "813410",
+    "Score": "Civic and Social Organizations"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "813910",
+    "Score": "Business Associations"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "813920",
+    "Score": "Professional Organizations"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "813930",
+    "Score": "Labor Unions and Similar Labor Organizations"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "813940",
+    "Score": "Political Organizations"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "813990",
+    "Score": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "814110",
+    "Score": "Administrative Management and General Management Consulting Services"
+  },
+  {
+    "IndustryCode": "74",
+    "IndustryDescription": "814110",
+    "Score": "Advertising Agencies"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "814110",
+    "Score": "All Other Amusement and Recreation Industries"
+  },
+  {
+    "IndustryCode": "91",
+    "IndustryDescription": "814110",
+    "Score": "All Other Automotive Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "814110",
+    "Score": "All Other Home Furnishings Stores"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "814110",
+    "Score": "All Other Miscellaneous Schools and Instruction"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "All Other Miscellaneous Store Retailers (except Tobacco Stores)"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "814110",
+    "Score": "All Other Personal Services"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "814110",
+    "Score": "All Other Professional, Scientific, and Technical Services"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "814110",
+    "Score": "All Other Specialty Trade Contractors"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "Assisted Living Facilities for the Elderly"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "814110",
+    "Score": "Automotive Body, Paint, and Interior Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "814110",
+    "Score": "Beauty Salons"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "814110",
+    "Score": "Beef Cattle Ranching and Farming"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "814110",
+    "Score": "Business Associations"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Car Washes"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "814110",
+    "Score": "Carpet and Upholstery Cleaning Services"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "814110",
+    "Score": "Child Day Care Services"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "814110",
+    "Score": "Child and Youth Services"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "814110",
+    "Score": "Coin-Operated Laundries and Drycleaners"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "814110",
+    "Score": "Commercial and Institutional Building Construction"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "814110",
+    "Score": "Computer Systems Design Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "814110",
+    "Score": "Drinking Places (Alcoholic Beverages)"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "814110",
+    "Score": "Drycleaning and Laundry Services (except Coin-Operated)"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "814110",
+    "Score": "Electroplating, Plating, Polishing, Anodizing, and Coloring"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Exterminating and Pest Control Services"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "814110",
+    "Score": "Fitness and Recreational Sports Centers"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "814110",
+    "Score": "Freight Transportation Arrangement"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Full-Service Restaurants"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "814110",
+    "Score": "Furniture Stores"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "814110",
+    "Score": "General Automotive Repair"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "814110",
+    "Score": "General Freight Trucking, Local"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "814110",
+    "Score": "General Freight Trucking, Long-Distance, Truckload"
+  },
+  {
+    "IndustryCode": "59",
+    "IndustryDescription": "814110",
+    "Score": "Gift, Novelty, and Souvenir Stores"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "814110",
+    "Score": "Grantmaking Foundations"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Graphic Design Services"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Hobby, Toy, and Game Stores"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "814110",
+    "Score": "Home Health Care Services"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "814110",
+    "Score": "Hotels (except Casino Hotels) and Motels"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "814110",
+    "Score": "Industrial Building Construction"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "814110",
+    "Score": "Insurance Agencies and Brokerages"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "814110",
+    "Score": "Interior Design Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Janitorial Services"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "Landscape Architectural Services"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Landscaping Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "814110",
+    "Score": "Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Marinas"
+  },
+  {
+    "IndustryCode": "64",
+    "IndustryDescription": "814110",
+    "Score": "Marketing Consulting Services"
+  },
+  {
+    "IndustryCode": "68",
+    "IndustryDescription": "814110",
+    "Score": "Miscellaneous Intermediation"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Motion Picture and Video Production"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "New Single-Family Housing Construction (except For-Sale Builders)"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Newspaper Publishers"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "814110",
+    "Score": "Nonresidential Property Managers"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "814110",
+    "Score": "Nursery, Garden Center, and Farm Supply Stores"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "Office Administrative Services"
+  },
+  {
+    "IndustryCode": "57",
+    "IndustryDescription": "814110",
+    "Score": "Offices of All Other Miscellaneous Health Practitioners"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Offices of Chiropractors"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "814110",
+    "Score": "Offices of Lawyers"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "814110",
+    "Score": "Offices of Mental Health Practitioners (except Physicians)"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "Offices of Physicians (except Mental Health Specialists)"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "814110",
+    "Score": "Offices of Real Estate Agents and Brokers"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "814110",
+    "Score": "Other Accounting Services"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "814110",
+    "Score": "Other Activities Related to Real Estate"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Other Building Equipment Contractors"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "814110",
+    "Score": "Other Direct Selling Establishments"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "814110",
+    "Score": "Other Individual and Family Services"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "814110",
+    "Score": "Other Management Consulting Services"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "814110",
+    "Score": "Other Miscellaneous Durable Goods Merchant Wholesalers"
+  },
+  {
+    "IndustryCode": "60",
+    "IndustryDescription": "814110",
+    "Score": "Other Personal and Household Goods Repair and Maintenance"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "814110",
+    "Score": "Other Services to Buildings and Dwellings"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Other Specialized Design Services"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "814110",
+    "Score": "Other Support Activities for Air Transportation"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Painting and Wall Covering Contractors"
+  },
+  {
+    "IndustryCode": "69",
+    "IndustryDescription": "814110",
+    "Score": "Pet and Pet Supplies Stores"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "814110",
+    "Score": "Plumbing, Heating, and Air-Conditioning Contractors"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "814110",
+    "Score": "Private Households"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "814110",
+    "Score": "Radio Stations"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "814110",
+    "Score": "Religious Organizations"
+  },
+  {
+    "IndustryCode": "67",
+    "IndustryDescription": "814110",
+    "Score": "Remediation Services"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "814110",
+    "Score": "Residential Remodelers"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "Security Systems Services (except Locksmiths)"
+  },
+  {
+    "IndustryCode": "43",
+    "IndustryDescription": "814110",
+    "Score": "Septic Tank and Related Services"
+  },
+  {
+    "IndustryCode": "86",
+    "IndustryDescription": "814110",
+    "Score": "Services for the Elderly and Persons with Disabilities"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "814110",
+    "Score": "Shellfish Fishing"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "814110",
+    "Score": "Site Preparation Contractors"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "814110",
+    "Score": "Snack and Nonalcoholic Beverage Bars"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "814110",
+    "Score": "Solar Electric Power Generation"
+  },
+  {
+    "IndustryCode": "66",
+    "IndustryDescription": "814110",
+    "Score": "Sporting Goods Stores"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Support Activities for Oil and Gas Operations"
+  },
+  {
+    "IndustryCode": "87",
+    "IndustryDescription": "814110",
+    "Score": "Tax Preparation Services"
+  },
+  {
+    "IndustryCode": "88",
+    "IndustryDescription": "814110",
+    "Score": "Taxi Service"
+  },
+  {
+    "IndustryCode": "63",
+    "IndustryDescription": "814110",
+    "Score": "Used Car Dealers"
+  },
+  {
+    "IndustryCode": "85",
+    "IndustryDescription": "814110",
+    "Score": "Used Household and Office Goods Moving"
+  },
+  {
+    "IndustryCode": "61",
+    "IndustryDescription": "814110",
+    "Score": "Women's Clothing Stores"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "921110",
+    "Score": "Executive Offices"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "921120",
+    "Score": "Legislative Bodies"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "921130",
+    "Score": "Public Finance Activities"
+  },
+  {
+    "IndustryCode": "71",
+    "IndustryDescription": "921140",
+    "Score": "Executive and Legislative Offices, Combined"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "921150",
+    "Score": "American Indian and Alaska Native Tribal Governments"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "921190",
+    "Score": "Other General Government Support"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "922110",
+    "Score": "Courts"
+  },
+  {
+    "IndustryCode": "75",
+    "IndustryDescription": "922120",
+    "Score": "Police Protection"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "922130",
+    "Score": "Legal Counsel and Prosecution"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "922140",
+    "Score": "Correctional Institutions"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "922150",
+    "Score": "Parole Offices and Probation Offices"
+  },
+  {
+    "IndustryCode": "70",
+    "IndustryDescription": "922160",
+    "Score": "Fire Protection"
+  },
+  {
+    "IndustryCode": "81",
+    "IndustryDescription": "922190",
+    "Score": "Other Justice, Public Order, and Safety Activities"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "923110",
+    "Score": "Administration of Education Programs"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "923120",
+    "Score": "Administration of Public Health Programs"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "923130",
+    "Score": "Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "923140",
+    "Score": "Administration of Veterans' Affairs"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "924110",
+    "Score": "Administration of Air and Water Resource and Solid Waste Management Programs"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "924120",
+    "Score": "Administration of Conservation Programs"
+  },
+  {
+    "IndustryCode": "72",
+    "IndustryDescription": "925110",
+    "Score": "Administration of Housing Programs"
+  },
+  {
+    "IndustryCode": "82",
+    "IndustryDescription": "925120",
+    "Score": "Administration of Urban Planning and Community and Rural Development"
+  },
+  {
+    "IndustryCode": "73",
+    "IndustryDescription": "926110",
+    "Score": "Administration of General Economic Programs"
+  },
+  {
+    "IndustryCode": "78",
+    "IndustryDescription": "926120",
+    "Score": "Regulation and Administration of Transportation Programs"
+  },
+  {
+    "IndustryCode": "80",
+    "IndustryDescription": "926130",
+    "Score": "Regulation and Administration of Communications, Electric, Gas, and Other Utilities"
+  },
+  {
+    "IndustryCode": "77",
+    "IndustryDescription": "926140",
+    "Score": "Regulation of Agricultural Marketing and Commodities"
+  },
+  {
+    "IndustryCode": "79",
+    "IndustryDescription": "926150",
+    "Score": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors"
+  },
+  {
+    "IndustryCode": "83",
+    "IndustryDescription": "927110",
+    "Score": "Space Research and Technology"
+  },
+  {
+    "IndustryCode": "IndustryCode",
+    "IndustryDescription": "928110",
+    "Score": "National Security"
+  },
+  {
+    "IndustryCode": "91",
+    "IndustryDescription": "928120",
+    "Score": "International Affairs"
+  },
+  {
+    "IndustryCode": "100",
+    "IndustryDescription": "999990",
+    "Score": "Unclassified Establishments"
+  },
+  {
+    "IndustryCode": "65",
+    "IndustryDescription": "",
+    "Score": ""
+  }
+]

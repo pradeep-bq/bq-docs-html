@@ -1,0 +1,121 @@
+[
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_company_number",
+    "fielddes": "Stock company number, which equals bq_legal_entity_id",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "405,964",
+    "value": "99.99%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "4,764",
+    "value": "1.17%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "200,787",
+    "value": "49.46%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_id",
+    "fielddes": "Stock class series that the stock class belongs to",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_mr_id",
+    "fielddes": "Most recent bq_stock_class_id",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_name",
+    "fielddes": "COMMON; PREFERRED; PREFERRED SERIES A; PREFERRED FF; etc.",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_group_mr_begin_date",
+    "fielddes": "Most recent bq_stock_group_begin_date of the stock class series",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_date_created",
+    "fielddes": "Date at which the stock class series was created",
+    "Count": "405,991",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_mr_issued_shares",
+    "fielddes": "Current issued shares of the stock class series; Most recent bq_stock_class_issued_shares; Often null",
+    "Count": "58,668",
+    "value": "14.45%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_mr_authorized_shares",
+    "fielddes": "Current authorized shares of the stock class series; Most recent bq_stock_class_authorized_shares",
+    "Count": "405,717",
+    "value": "99.93%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_mr_issued_shares_estimate",
+    "fielddes": "Current issued shares of the stock class series; Most recent bq_stock_class_issued_shares estimated",
+    "Count": "58,668",
+    "value": "14.45%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_mr_par_value",
+    "fielddes": "Current par value of the stock class series; Most recent bq_stock_class_par_value",
+    "Count": "404,341",
+    "value": "99.59%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_original_issue_price",
+    "fielddes": "Original Issue Price: The price at which shares are sold to investors during an issuance of the stock class series",
+    "Count": "0",
+    "value": "0%"
+  },
+  {
+    "tablename": "bq_stock_class_series_mr",
+    "fieldname": "bq_stock_class_series_coi_date",
+    "fielddes": "Certificate of Incorporation: Official date on which a company's COI is filed and accepted by the relevant SoS for the stock class series",
+    "Count": "405,991",
+    "value": "100%"
+  }
+]

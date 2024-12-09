@@ -1,0 +1,121 @@
+[
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_id",
+    "fielddes": "Example: BQ_US_DE_4779197_2021_20210301_01; One stock group can have multiple stock classes",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "1,478,615",
+    "value": "99.98%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_company_name",
+    "fielddes": "Delaware company name",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "40,338",
+    "value": "2.73%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "820,779",
+    "value": "55.5%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_series_id",
+    "fielddes": "Stock class series that the stock class belongs to",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_group_id",
+    "fielddes": "ID for the stock group that the stock class belongs to.",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class",
+    "fielddes": "COMMON; PREFERRED; etc.",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_type",
+    "fielddes": "SERIES A; SERIES B; FF; etc.",
+    "Count": "48,930",
+    "value": "3.31%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_par_value",
+    "fielddes": "Par value for the stock class.",
+    "Count": "1,475,435",
+    "value": "99.77%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_series_name",
+    "fielddes": "COMMON; PREFERRED; PREFERRED SERIES A; PREFERRED FF; etc.",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_authorized_shares",
+    "fielddes": "Authorized shares for the stock class",
+    "Count": "1,478,251",
+    "value": "99.96%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_class_issued_shares",
+    "fielddes": "As reported issued shares; often null.",
+    "Count": "425,640",
+    "value": "28.78%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_group_end_date",
+    "fielddes": "The end date for the stock group, which is typically triggered by a new filing and thereby a new stock group; the end date is null if this is the current stock group.",
+    "Count": "390,091",
+    "value": "26.38%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_stock_group_begin_date",
+    "fielddes": "The begin date for the stock group, which is typically triggered by a filing (COI, Amendment, Restatement, etc.).",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_date_time_received",
+    "fielddes": "Date and time data was last received from the State of Delaware for this company",
+    "Count": "1,478,839",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_stock_class",
+    "fieldname": "bq_tax_year",
+    "fielddes": "Tax year pertaining to the Delaware filings and taxes due.",
+    "Count": "1,478,839",
+    "value": "100%"
+  }
+]

@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" href="images/favicon1.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/main.js"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <iframe id="my_iframe1" style="display: none"></iframe>
+    <div class="container-fluid">
+      <header class="row">
+        <div class="col-sm-3">
+          <img src="images/BQ-logo.png" class="img-fluid bqLogo" />
+        </div>
+        <div class="col-sm-5 searchField">
+          <input class="txtSearch" placeholder="Search here" /><img
+            src="images/icon_search.svg"
+          />
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+          <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Documentation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> -->
+        </div>
+      </header>
+      <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
+      <div class="divide"></div>
+      <div class="d-flex container borderTop">
+        <nav class="sidebar d-flex flex-column" id="sidebar">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header no-arrow">
+                <a
+                  href="index.html"
+                  aria-expanded="true"
+                  class="accordion-button"
+                  aria-controls="collapseOne"
+                  class="accordion-button nav_links"
+                  >Data Feeds</a
+                >
+              </h2>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <a
+                  href="javascript:void(0);"
+                  class="accordion-button collapsed nav_links"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                  class="nav_links"
+                  >Guides</a
+                >
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="guides">
+                    <li>
+                      <a href="overview.html" class="nav_sub_links">Overview</a>
+                    </li>
+                    <li>
+                      <a href="business_identity_api.html" class="nav_sub_links"
+                        >Business Identity API</a
+                      >
+                    </li>
+                    <li>
+                      <a href="kyb_append_api.html" class="nav_sub_links"
+                        >KYB Append API</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Use Cases &amp; Products
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="use_cases">
+                    <li>
+                      <a href="capital_markets.html" class="nav_sub_links"
+                        >Capital Markets</a
+                      >
+                    </li>
+                    <li>
+                      <a href="kyb_fraud_compliance.html" class="nav_sub_links"
+                        >KYB, Fraud, and Compliance</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bank_and_credit_unions.html"
+                        class="nav_sub_links"
+                        >Banks and Credit Unions</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="product_financial_services.html"
+                        class="nav_sub_links"
+                        >Products Financial Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bulk_data_feed.html" class="nav_sub_links"
+                        >Bulk Data Feeds</a
+                      >
+                    </li>
+                    <li>
+                      <a href="prospector.html" class="nav_sub_links"
+                        >Prospector</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="kyb_append_api_usecases.html"
+                        class="nav_sub_links"
+                        >KYB Append API</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="false"
+                  aria-controls="collapse4"
+                >
+                  Government Data Sources
+                </button>
+              </h2>
+              <div
+                id="collapse4"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="juri_govt_offices">
+                    <li>
+                      <a href="government_offices.html" class="nav_sub_links"
+                        >Government Offices</a
+                      >
+                    </li>
+                    <li>
+                      <a href="local_jurisdictions.html" class="nav_sub_links"
+                        >Local Jurisdictions</a
+                      >
+                    </li>
+                    <li>
+                      <a href="federal_agencies.html" class="nav_sub_links"
+                        >Federal Agencies</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="secretary_of_state_jurisdiction.html"
+                        class="nav_sub_links"
+                        >Secretary of State Jurisdictions</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="false"
+                  aria-controls="collapse5"
+                >
+                  Financial Statements
+                </button>
+              </h2>
+              <div
+                id="collapse5"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="fs">
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=income_statement"
+                        class="nav_sub_links"
+                        >Income Statement</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=balance_sheet"
+                        class="nav_sub_links"
+                        >Balance Sheet</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=ratio_margins"
+                        class="nav_sub_links"
+                        >Ratios &amp; Margins</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=emp_payroll"
+                        class="nav_sub_links"
+                        >Employment &amp; Payroll</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                  aria-expanded="false"
+                  aria-controls="collapse6"
+                >
+                  Schema
+                </button>
+              </h2>
+              <div
+                id="collapse6"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="schema">
+                    <li>
+                      <a
+                        href="universe_data_relationship_schema.html"
+                        class="nav_sub_links"
+                        >Universe Data Relationship Schema</a
+                      >
+                    </li>
+                    <li>
+                      <a href="stock_filing_schema.html" class="nav_sub_links"
+                        >Stock Filings Schema</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="officers_legal_entity_id_explanation.html"
+                        class="nav_sub_links"
+                        >Officer Legal Entity ID Explanation</a
+                      >
+                    </li>
+                    <li>
+                      <a href="franchise_schema.html" class="nav_sub_links"
+                        >Franchise Schema</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="address_universe_schema.html"
+                        class="nav_sub_links"
+                        >Address Universe Schema</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse7"
+                  aria-expanded="false"
+                  aria-controls="collapse7"
+                >
+                  Statistics
+                </button>
+              </h2>
+              <div
+                id="collapse7"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="summary">
+                    <li>
+                      <a href="record_counts.html" class="nav_sub_links"
+                        >Record Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="counts_revenue_range.html" class="nav_sub_links"
+                        >Revenue Range Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="counts_employment_range.html"
+                        class="nav_sub_links"
+                        >Employment Range Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="counts_bq_credit_score_range.html"
+                        class="nav_sub_links"
+                        >BQ Credit Score Range Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="secretary_state_jurisdiction_summary.html"
+                        class="nav_sub_links"
+                        >Secretary of State Jurisdictions</a
+                      >
+                    </li>
+                    <li>
+                      <a href="org_summary.html" class="nav_sub_links"
+                        >Organizations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="org_with_financials_summary.html"
+                        class="nav_sub_links"
+                        >Organizations with Financials</a
+                      >
+                    </li>
+                    <li>
+                      <a href="legal_entity_summary.html" class="nav_sub_links"
+                        >Legal Entities</a
+                      >
+                    </li>
+                    <li>
+                      <a href="officers_summary.html" class="nav_sub_links"
+                        >Legal Entity Officers</a
+                      >
+                    </li>
+                    <li>
+                      <a href="contacts_summary.html" class="nav_sub_links"
+                        >Organization Contacts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="location_summary.html" class="nav_sub_links"
+                        >Organization Locations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="sba_and_ppp_loans_summary.html"
+                        class="nav_sub_links"
+                        >SBA/PPP Loans</a
+                      >
+                    </li>
+                    <li>
+                      <a href="agent_summary.html" class="nav_sub_links"
+                        >Agents</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="confidence_score_summary.html"
+                        class="nav_sub_links"
+                        >Confidence Score</a
+                      >
+                    </li>
+                    <li>
+                      <a href="ein_summary.html" class="nav_sub_links"
+                        >EIN Counts</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse8"
+                  aria-expanded="false"
+                  aria-controls="collapse8"
+                >
+                  Categorical Field Values
+                </button>
+              </h2>
+              <div
+                id="collapse8"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="category_counts">
+                    <li>
+                      <a href="naics_industry_counts.html" class="nav_sub_links"
+                        >NAICS Industry</a
+                      >
+                    </li>
+                    <li>
+                      <a href="naics_sector_counts.html" class="nav_sub_links"
+                        >NAICS Sector</a
+                      >
+                    </li>
+                    <li>
+                      <a href="irs_industry_counts.html" class="nav_sub_links"
+                        >IRS Industry</a
+                      >
+                    </li>
+                    <li>
+                      <a href="irs_sector_counts.html" class="nav_sub_links"
+                        >IRS Sector</a
+                      >
+                    </li>
+                    <li>
+                      <a href="sic_industry_counts.html" class="nav_sub_links"
+                        >SIC Industry</a
+                      >
+                    </li>
+                    <li>
+                      <a href="sic_sector_counts.html" class="nav_sub_links"
+                        >SIC Sector</a
+                      >
+                    </li>
+                    <li>
+                      <a href="tickers_counts.html" class="nav_sub_links"
+                        >Tickers</a
+                      >
+                    </li>
+                    <li>
+                      <a href="parent_tickers_counts.html" class="nav_sub_links"
+                        >Parent Tickers</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse10"
+                  aria-expanded="false"
+                  aria-controls="collapse10"
+                >
+                  Firmographics
+                </button>
+              </h2>
+              <div
+                id="collapse10"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="firmo">
+                    <li>
+                      <a href="bq_organization.html" class="nav_sub_links"
+                        >bq_organization</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_organization_mapping.html"
+                        class="nav_sub_links"
+                        >bq_organization_mapping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_firmographics.html"
+                        class="nav_sub_links"
+                        >bq_company_firmographics</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse11"
+                  aria-expanded="false"
+                  aria-controls="collapse11"
+                >
+                  Financials & Employment
+                </button>
+              </h2>
+              <div
+                id="collapse11"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="financial">
+                    <li>
+                      <a
+                        href="bq_company_variables_mr.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_mr</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_variables_ts.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_ts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_variables_tsq.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_tsq</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_variables_tsm.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_tsm</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse12"
+                  aria-expanded="false"
+                  aria-controls="collapse12"
+                >
+                  Family Tree
+                </button>
+              </h2>
+              <div
+                id="collapse12"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="family_tree">
+                    <li>
+                      <a href="bq_legal_entity.html" class="nav_sub_links"
+                        >bq_legal_entity</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_legal_entity_establishments.html"
+                        class="nav_sub_links"
+                        >bq_legal_entity_establishments</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse13"
+                  aria-expanded="false"
+                  aria-controls="collapse13"
+                >
+                  Directors & Officers
+                </button>
+              </h2>
+              <div
+                id="collapse13"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="dir_officers">
+                    <li>
+                      <a
+                        href="bq_legal_entity_officers.html"
+                        class="nav_sub_links"
+                        >bq_legal_entity_officers</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse14"
+                  aria-expanded="false"
+                  aria-controls="collapse14"
+                >
+                  Contacts
+                </button>
+              </h2>
+              <div
+                id="collapse14"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="contacts">
+                    <li>
+                      <a
+                        href="bq_organization_contacts.html"
+                        class="nav_sub_links"
+                        >bq_organization_contacts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_organization_executives.html"
+                        class="nav_sub_links"
+                        >bq_organization_executives</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse15"
+                  aria-expanded="false"
+                  aria-controls="collapse15"
+                >
+                  Locations
+                </button>
+              </h2>
+              <div
+                id="collapse15"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="locations">
+                    <li>
+                      <a
+                        href=" bq_organization_locations.html"
+                        class="nav_sub_links"
+                      >
+                        bq_organization_locations</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse20"
+                  aria-expanded="false"
+                  aria-controls="collapse20"
+                >
+                  Stock Filings
+                </button>
+              </h2>
+              <div
+                id="collapse20"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="stock_filings">
+                    <li>
+                      <a href="bq_stock_legal_entity.html" class="nav_sub_links"
+                        >bq_stock_legal_entity</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_class_series.html" class="nav_sub_links"
+                        >bq_stock_class_series</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_class_series_daily.html"
+                        class="nav_sub_links"
+                        >bq_stock_class_series_daily</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_class_series_mr.html"
+                        class="nav_sub_links"
+                        >bq_stock_class_series_mr</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_class.html" class="nav_sub_links"
+                        >bq_stock_class</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_event.html" class="nav_sub_links"
+                        >bq_stock_event</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_group.html" class="nav_sub_links"
+                        >bq_stock_group</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_group_daily.html" class="nav_sub_links"
+                        >bq_stock_group_daily</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_group_mr.html" class="nav_sub_links"
+                        >bq_stock_group_mr</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_corp_status_fees.html"
+                        class="nav_sub_links"
+                        >bq_stock_corp_status_fees</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_event_timeline.html"
+                        class="nav_sub_links"
+                        >bq_stock_event_timeline</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse16"
+                  aria-expanded="false"
+                  aria-controls="collapse16"
+                >
+                  SBA Loans
+                </button>
+              </h2>
+              <div
+                id="collapse16"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="sba_loan">
+                    <li>
+                      <a href="bq_sba_7a_504.html" class="nav_sub_links"
+                        >bq_sba_7a_504</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse17"
+                  aria-expanded="false"
+                  aria-controls="collapse17"
+                >
+                  Dept. of Transportation
+                </button>
+              </h2>
+              <div
+                id="collapse17"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="transport">
+                    <li>
+                      <a
+                        href="bq_dept_of_transportation.html"
+                        class="nav_sub_links"
+                        >bq_dept_of_transportation</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse19"
+                  aria-expanded="false"
+                  aria-controls="collapse19"
+                >
+                  Address Universe
+                </button>
+              </h2>
+              <div
+                id="collapse19"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="address_universe">
+                    <li>
+                      <a
+                        href="bq_building_address.html"
+                        title="bq_building_address"
+                        class="nav_sub_links"
+                        >bq_building_address</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_address.html"
+                        title="bq_building_unit_address"
+                        class="nav_sub_links"
+                        >bq_building_unit_address</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_legal_entity_mapping.html"
+                        class="nav_sub_links"
+                        title="bq_building_unit_legal_entity_mapping"
+                        >bq_building_unit_legal_entity_mapping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_location_mapping.html"
+                        class="nav_sub_links"
+                        title="bq_building_unit_location_mapping"
+                        >bq_building_unit_location_mapping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_organization_mapping.html"
+                        class="nav_sub_links"
+                        title="bq_building_unit_organization_mapping"
+                        >bq_building_unit_organization_mapping</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="content">
+          <h4>SBA Loans</h4>
+          <p>
+            This contains information on SBA 7(a) and 504 loans linked to
+            Organizations.
+          </p>
+          <div class="d-flex justify-content-end">
+            <a
+              href="javascript:void(0);"
+              class="btnSample"
+              onclick="Download('sample_data.xlsx');"
+            >
+              <img src="images/download.svg" /><span
+                >Download Sample Data</span
+              ></a
+            >
+            <a
+              href="#"
+              class="btnSample"
+              data-bs-toggle="modal"
+              data-bs-target="#sampleModal"
+              onclick="loadHtmlPage('sample_view.html')"
+            >
+              <img src="images/eye.svg" /> <span>View Sample Data</span></a
+            >
+            <div
+              class="modal fade"
+              id="sampleModal"
+              tabindex="-1"
+              aria-labelledby="sampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="sampleModalLabel">
+                      Sample Data
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- The iframe will display the HTML page -->
+                    <iframe
+                      id="iframeContent"
+                      style="width: 100%; height: 90%; border: none"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class="table table-bordered my-3 my-md-5">
+            <thead>
+              <tr>
+                <th style="text-align: center">Table Name</th>
+                <th style="text-align: center">Field Name</th>
+                <th style="text-align: center">Field Description</th>
+                <th style="text-align: center">Count</th>
+                <th style="text-align: center">Fill Percentage</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+          <div class="d-flex justify-content-between">
+            <div class="container">
+              <label for="rowsPerPage" class="form-label showRecord"
+                >Show records:</label
+              >
+              <select
+                id="rowsPerPage"
+                class="form-select w-auto d-inline"
+                onchange="changeRowsPerPage()"
+              >
+                <option value="10" selected>10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <nav>
+              <ul
+                class="pagination justify-content-center"
+                id="pagination"
+              ></ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+    <div class="row text-center text-sm-start">
+        <div class="col-12 col-sm-6 mb-2 mb-sm-0">
+          &REG; 2024 BrightQuery, Inc. All rights reserved.
+        </div>
+        <div class="col-12 col-sm-6 text-end">
+          Contact us at:
+          <a href="mailto:sales@brightquery.com">sales@brightquery.com</a>,
+          <a href="mailto:support@brightquery.com">support@brightquery.com</a>
+          or 1-888-BQDATA1
+        </div>
+      </div>
+      </div>
+    </footer>
+    <script>
+      function toggleSidebar() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("show");
+      }
+    </script>
+    <script>
+      const apiUrl = "/json/bq_sba_7a_504.json"; // Replace with your actual JSON URL
+      let rowsPerPage = 10; // Default number of rows per page
+      let currentPage = 1; // Current active page
+      let tableData = []; // Data from the API
+
+      // Fetch data from the API
+      async function fetchData() {
+        try {
+          const response = await fetch(apiUrl);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          tableData = await response.json();
+          initializeTable();
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      }
+
+      // Function to render table rows dynamically
+      function renderTableRows(page) {
+        const start = (page - 1) * rowsPerPage;
+        const end = start + rowsPerPage;
+        const rows = tableData.slice(start, end);
+
+        const tableBody = document.getElementById("table-body");
+        tableBody.innerHTML = rows
+          .map(
+            (row) => `
+                <tr>
+                    <td>${row.tablename}</td>
+                    <td>${row.fieldname}</td>
+                    <td>${row.fielddes}</td>
+                    <td class='text-end'>${row.Count}</td>
+                    <td class='text-end'>${row.value}</td>
+
+                </tr>
+            `
+          )
+          .join("");
+      }
+
+      // Function to render pagination buttons dynamically
+      function renderPagination() {
+        const totalPages = Math.ceil(tableData.length / rowsPerPage);
+        const pagination = document.getElementById("pagination");
+        pagination.innerHTML = "";
+
+        // Add "Previous" button
+        const prevDisabled = currentPage === 1 ? "disabled" : "";
+        pagination.innerHTML += `
+        <li class="page-item ${prevDisabled}">
+            <button class="page-link" onclick="goToPage(currentPage - 1)">Previous</button>
+        </li>
+      `;
+
+        // Add numbered page buttons
+        for (let i = 1; i <= totalPages; i++) {
+          const isActive = i === currentPage ? "active" : "";
+          pagination.innerHTML += `
+          <li class="page-item ${isActive}">
+              <button class="page-link" onclick="goToPage(${i})">${i}</button>
+          </li>
+        `;
+        }
+
+        // Add "Next" button
+        const nextDisabled = currentPage === totalPages ? "disabled" : "";
+        pagination.innerHTML += `
+        <li class="page-item ${nextDisabled}">
+            <button class="page-link" onclick="goToPage(currentPage + 1)">Next</button>
+        </li>
+      `;
+      }
+
+      // Function to navigate to a specific page
+      function goToPage(page) {
+        const totalPages = Math.ceil(tableData.length / rowsPerPage);
+        if (page < 1 || page > totalPages) return; // Prevent navigation outside page limits
+        currentPage = page;
+        renderTableRows(page);
+        renderPagination();
+      }
+
+      // Function to handle rows per page selection
+      function handleRowsPerPageChange(event) {
+        rowsPerPage = parseInt(event.target.value, 10); // Get new rows per page value
+        currentPage = 1; // Reset to the first page
+        renderTableRows(currentPage);
+        renderPagination();
+      }
+
+      // Initialize table and pagination
+      function initializeTable() {
+        renderTableRows(currentPage);
+        renderPagination();
+      }
+      function changeRowsPerPage() {
+        const selectElement = document.getElementById("rowsPerPage");
+        rowsPerPage = parseInt(selectElement.value, 10);
+        currentPage = 1; // Reset to the first page
+        renderTableRows(currentPage);
+        renderPagination();
+      }
+      // Function to render pagination buttons dynamically (show 5 at a time)
+      function renderPagination() {
+        const totalPages = Math.ceil(tableData.length / rowsPerPage);
+        const pagination = document.getElementById("pagination");
+        pagination.innerHTML = "";
+
+        // Determine range of pages to show (5 at a time)
+        const maxVisiblePages = 5;
+        const startPage = Math.max(
+          1,
+          currentPage - Math.floor(maxVisiblePages / 2)
+        );
+        const endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+        // Adjust startPage if we're near the end
+        const adjustedStartPage = Math.max(1, endPage - maxVisiblePages + 1);
+
+        // Add "Previous" button
+        const prevDisabled = currentPage === 1 ? "disabled" : "";
+        pagination.innerHTML += `
+    <li class="page-item ${prevDisabled}">
+        <button class="page-link" onclick="goToPage(currentPage - 1)">Previous</button>
+    </li>
+  `;
+
+        // Add numbered page buttons
+        for (let i = adjustedStartPage; i <= endPage; i++) {
+          const isActive = i === currentPage ? "active" : "";
+          pagination.innerHTML += `
+      <li class="page-item ${isActive}">
+          <button class="page-link" onclick="goToPage(${i})">${i}</button>
+      </li>
+    `;
+        }
+
+        // Add "Next" button
+        const nextDisabled = currentPage === totalPages ? "disabled" : "";
+        pagination.innerHTML += `
+    <li class="page-item ${nextDisabled}">
+        <button class="page-link" onclick="goToPage(currentPage + 1)">Next</button>
+    </li>
+  `;
+      }
+
+      // Fetch data and initialize the table on page load
+      fetchData();
+
+      function loadHtmlPage(url) {
+        // Get the iframe element inside the modal
+        const iframe = document.getElementById("iframeContent");
+        // Set the source of the iframe to the desired URL
+        iframe.src = url;
+      }
+      function Download(url) {
+        document.getElementById("my_iframe1").src = url;
+      }
+    </script>
+  </body>
+</html>

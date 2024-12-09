@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" href="images/favicon1.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/main.js"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <div class="col-sm-3">
+          <img src="images/BQ-logo.png" class="img-fluid bqLogo" />
+        </div>
+        <div class="col-sm-5 searchField">
+          <input class="txtSearch" placeholder="Search here" /><img
+            src="images/icon_search.svg"
+          />
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+          <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Documentation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> -->
+        </div>
+      </header>
+      <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
+      <div class="divide"></div>
+      <div class="d-flex container borderTop">
+        <nav class="sidebar d-flex flex-column" id="sidebar">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header no-arrow">
+                <a
+                  href="index.html"
+                  aria-expanded="true"
+                  class="accordion-button"
+                  aria-controls="collapseOne"
+                  class="accordion-button nav_links"
+                  >Data Feeds</a
+                >
+              </h2>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <a
+                  href="javascript:void(0);"
+                  class="accordion-button collapsed nav_links"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                  class="nav_links"
+                  >Guides</a
+                >
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="guides">
+                    <li>
+                      <a href="overview.html" class="nav_sub_links">Overview</a>
+                    </li>
+                    <li>
+                      <a href="business_identity_api.html" class="nav_sub_links"
+                        >Business Identity API</a
+                      >
+                    </li>
+                    <li>
+                      <a href="kyb_append_api.html" class="nav_sub_links"
+                        >KYB Append API</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Use Cases &amp; Products
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="use_cases">
+                    <li>
+                      <a href="capital_markets.html" class="nav_sub_links"
+                        >Capital Markets</a
+                      >
+                    </li>
+                    <li>
+                      <a href="kyb_fraud_compliance.html" class="nav_sub_links"
+                        >KYB, Fraud, and Compliance</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bank_and_credit_unions.html"
+                        class="nav_sub_links"
+                        >Banks and Credit Unions</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="product_financial_services.html"
+                        class="nav_sub_links"
+                        >Products Financial Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bulk_data_feed.html" class="nav_sub_links"
+                        >Bulk Data Feeds</a
+                      >
+                    </li>
+                    <li>
+                      <a href="prospector.html" class="nav_sub_links"
+                        >Prospector</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="kyb_append_api_usecases.html"
+                        class="nav_sub_links"
+                        >KYB Append API</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="false"
+                  aria-controls="collapse4"
+                >
+                  Government Data Sources
+                </button>
+              </h2>
+              <div
+                id="collapse4"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="juri_govt_offices">
+                    <li>
+                      <a href="government_offices.html" class="nav_sub_links"
+                        >Government Offices</a
+                      >
+                    </li>
+                    <li>
+                      <a href="local_jurisdictions.html" class="nav_sub_links"
+                        >Local Jurisdictions</a
+                      >
+                    </li>
+                    <li>
+                      <a href="federal_agencies.html" class="nav_sub_links"
+                        >Federal Agencies</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="secretary_of_state_jurisdiction.html"
+                        class="nav_sub_links"
+                        >Secretary of State Jurisdictions</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="false"
+                  aria-controls="collapse5"
+                >
+                  Financial Statements
+                </button>
+              </h2>
+              <div
+                id="collapse5"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="fs">
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=income_statement"
+                        class="nav_sub_links"
+                        >Income Statement</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=balance_sheet"
+                        class="nav_sub_links"
+                        >Balance Sheet</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=ratio_margins"
+                        class="nav_sub_links"
+                        >Ratios &amp; Margins</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="financial_statement.html?tab=emp_payroll"
+                        class="nav_sub_links"
+                        >Employment &amp; Payroll</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                  aria-expanded="false"
+                  aria-controls="collapse6"
+                >
+                  Schema
+                </button>
+              </h2>
+              <div
+                id="collapse6"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="schema">
+                    <li>
+                      <a
+                        href="universe_data_relationship_schema.html"
+                        class="nav_sub_links"
+                        >Universe Data Relationship Schema</a
+                      >
+                    </li>
+                    <li>
+                      <a href="stock_filing_schema.html" class="nav_sub_links"
+                        >Stock Filings Schema</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="officers_legal_entity_id_explanation.html"
+                        class="nav_sub_links"
+                        >Officer Legal Entity ID Explanation</a
+                      >
+                    </li>
+                    <li>
+                      <a href="franchise_schema.html" class="nav_sub_links"
+                        >Franchise Schema</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="address_universe_schema.html"
+                        class="nav_sub_links"
+                        >Address Universe Schema</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse7"
+                  aria-expanded="false"
+                  aria-controls="collapse7"
+                >
+                  Statistics
+                </button>
+              </h2>
+              <div
+                id="collapse7"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="summary">
+                    <li>
+                      <a href="record_counts.html" class="nav_sub_links"
+                        >Record Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="counts_revenue_range.html" class="nav_sub_links"
+                        >Revenue Range Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="counts_employment_range.html"
+                        class="nav_sub_links"
+                        >Employment Range Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="counts_bq_credit_score_range.html"
+                        class="nav_sub_links"
+                        >BQ Credit Score Range Counts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="secretary_state_jurisdiction_summary.html"
+                        class="nav_sub_links"
+                        >Secretary of State Jurisdictions</a
+                      >
+                    </li>
+                    <li>
+                      <a href="org_summary.html" class="nav_sub_links"
+                        >Organizations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="org_with_financials_summary.html"
+                        class="nav_sub_links"
+                        >Organizations with Financials</a
+                      >
+                    </li>
+                    <li>
+                      <a href="legal_entity_summary.html" class="nav_sub_links"
+                        >Legal Entities</a
+                      >
+                    </li>
+                    <li>
+                      <a href="officers_summary.html" class="nav_sub_links"
+                        >Legal Entity Officers</a
+                      >
+                    </li>
+                    <li>
+                      <a href="contacts_summary.html" class="nav_sub_links"
+                        >Organization Contacts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="location_summary.html" class="nav_sub_links"
+                        >Organization Locations</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="sba_and_ppp_loans_summary.html"
+                        class="nav_sub_links"
+                        >SBA/PPP Loans</a
+                      >
+                    </li>
+                    <li>
+                      <a href="agent_summary.html" class="nav_sub_links"
+                        >Agents</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="confidence_score_summary.html"
+                        class="nav_sub_links"
+                        >Confidence Score</a
+                      >
+                    </li>
+                    <li>
+                      <a href="ein_summary.html" class="nav_sub_links"
+                        >EIN Counts</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse8"
+                  aria-expanded="false"
+                  aria-controls="collapse8"
+                >
+                  Categorical Field Values
+                </button>
+              </h2>
+              <div
+                id="collapse8"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="category_counts">
+                    <li>
+                      <a href="naics_industry_counts.html" class="nav_sub_links"
+                        >NAICS Industry</a
+                      >
+                    </li>
+                    <li>
+                      <a href="naics_sector_counts.html" class="nav_sub_links"
+                        >NAICS Sector</a
+                      >
+                    </li>
+                    <li>
+                      <a href="irs_industry_counts.html" class="nav_sub_links"
+                        >IRS Industry</a
+                      >
+                    </li>
+                    <li>
+                      <a href="irs_sector_counts.html" class="nav_sub_links"
+                        >IRS Sector</a
+                      >
+                    </li>
+                    <li>
+                      <a href="sic_industry_counts.html" class="nav_sub_links"
+                        >SIC Industry</a
+                      >
+                    </li>
+                    <li>
+                      <a href="sic_sector_counts.html" class="nav_sub_links"
+                        >SIC Sector</a
+                      >
+                    </li>
+                    <li>
+                      <a href="tickers_counts.html" class="nav_sub_links"
+                        >Tickers</a
+                      >
+                    </li>
+                    <li>
+                      <a href="parent_tickers_counts.html" class="nav_sub_links"
+                        >Parent Tickers</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse10"
+                  aria-expanded="false"
+                  aria-controls="collapse10"
+                >
+                  Firmographics
+                </button>
+              </h2>
+              <div
+                id="collapse10"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="firmo">
+                    <li>
+                      <a href="bq_organization.html" class="nav_sub_links"
+                        >bq_organization</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_organization_mapping.html"
+                        class="nav_sub_links"
+                        >bq_organization_mapping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_firmographics.html"
+                        class="nav_sub_links"
+                        >bq_company_firmographics</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse11"
+                  aria-expanded="false"
+                  aria-controls="collapse11"
+                >
+                  Financials & Employment
+                </button>
+              </h2>
+              <div
+                id="collapse11"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="financial">
+                    <li>
+                      <a
+                        href="bq_company_variables_mr.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_mr</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_variables_ts.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_ts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_variables_tsq.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_tsq</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_company_variables_tsm.html"
+                        class="nav_sub_links"
+                        >bq_company_variables_tsm</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse12"
+                  aria-expanded="false"
+                  aria-controls="collapse12"
+                >
+                  Family Tree
+                </button>
+              </h2>
+              <div
+                id="collapse12"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="family_tree">
+                    <li>
+                      <a href="bq_legal_entity.html" class="nav_sub_links"
+                        >bq_legal_entity</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_legal_entity_establishments.html"
+                        class="nav_sub_links"
+                        >bq_legal_entity_establishments</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse13"
+                  aria-expanded="false"
+                  aria-controls="collapse13"
+                >
+                  Directors & Officers
+                </button>
+              </h2>
+              <div
+                id="collapse13"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="dir_officers">
+                    <li>
+                      <a
+                        href="bq_legal_entity_officers.html"
+                        class="nav_sub_links"
+                        >bq_legal_entity_officers</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse14"
+                  aria-expanded="false"
+                  aria-controls="collapse14"
+                >
+                  Contacts
+                </button>
+              </h2>
+              <div
+                id="collapse14"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="contacts">
+                    <li>
+                      <a
+                        href="bq_organization_contacts.html"
+                        class="nav_sub_links"
+                        >bq_organization_contacts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_organization_executives.html"
+                        class="nav_sub_links"
+                        >bq_organization_executives</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse15"
+                  aria-expanded="false"
+                  aria-controls="collapse15"
+                >
+                  Locations
+                </button>
+              </h2>
+              <div
+                id="collapse15"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="locations">
+                    <li>
+                      <a
+                        href=" bq_organization_locations.html"
+                        class="nav_sub_links"
+                      >
+                        bq_organization_locations</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse20"
+                  aria-expanded="false"
+                  aria-controls="collapse20"
+                >
+                  Stock Filings
+                </button>
+              </h2>
+              <div
+                id="collapse20"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="stock_filings">
+                    <li>
+                      <a href="bq_stock_legal_entity.html" class="nav_sub_links"
+                        >bq_stock_legal_entity</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_class_series.html" class="nav_sub_links"
+                        >bq_stock_class_series</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_class_series_daily.html"
+                        class="nav_sub_links"
+                        >bq_stock_class_series_daily</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_class_series_mr.html"
+                        class="nav_sub_links"
+                        >bq_stock_class_series_mr</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_class.html" class="nav_sub_links"
+                        >bq_stock_class</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_event.html" class="nav_sub_links"
+                        >bq_stock_event</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_group.html" class="nav_sub_links"
+                        >bq_stock_group</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_group_daily.html" class="nav_sub_links"
+                        >bq_stock_group_daily</a
+                      >
+                    </li>
+                    <li>
+                      <a href="bq_stock_group_mr.html" class="nav_sub_links"
+                        >bq_stock_group_mr</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_corp_status_fees.html"
+                        class="nav_sub_links"
+                        >bq_stock_corp_status_fees</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_stock_event_timeline.html"
+                        class="nav_sub_links"
+                        >bq_stock_event_timeline</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse16"
+                  aria-expanded="false"
+                  aria-controls="collapse16"
+                >
+                  SBA Loans
+                </button>
+              </h2>
+              <div
+                id="collapse16"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="sba_loan">
+                    <li>
+                      <a href="bq_sba_7a_504.html" class="nav_sub_links"
+                        >bq_sba_7a_504</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse17"
+                  aria-expanded="false"
+                  aria-controls="collapse17"
+                >
+                  Dept. of Transportation
+                </button>
+              </h2>
+              <div
+                id="collapse17"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="transport">
+                    <li>
+                      <a
+                        href="bq_dept_of_transportation.html"
+                        class="nav_sub_links"
+                        >bq_dept_of_transportation</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed nav_links"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse19"
+                  aria-expanded="false"
+                  aria-controls="collapse19"
+                >
+                  Address Universe
+                </button>
+              </h2>
+              <div
+                id="collapse19"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul id="address_universe">
+                    <li>
+                      <a href="bq_building_address.html" class="nav_sub_links"
+                        >bq_building_address</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_address.html"
+                        class="nav_sub_links"
+                        >bq_building_unit_address</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_legal_entity_mapping.html"
+                        class="nav_sub_links"
+                        >bq_building_unit_legal_entity_mapping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_location_mapping.html"
+                        class="nav_sub_links"
+                        >bq_building_unit_location_mapping</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bq_building_unit_organization_mapping.html"
+                        class="nav_sub_links"
+                        >bq_building_unit_organization_mapping</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="content">
+          <h4>Counts by Employment Range</h4>
+          <p>
+            The company type Holding Company does not engage in economic
+            activities, and therefore has no revenue or employment.
+          </p>
+          <table class="table table-bordered my-3 my-md-5">
+            <thead>
+              <tr>
+                <th colspan="7" style="text-align: center">
+                  BQ Company Counts by Revenue Range and Company Type
+                </th>
+              </tr>
+              <tr>
+                <th style="width: 133px; text-align: center">Revenue Range</th>
+                <th style="width: 133px; text-align: center">
+                  Active Employers
+                </th>
+                <th style="width: 133px; text-align: center">
+                  Inactive Employers
+                </th>
+                <th style="width: 133px; text-align: center">
+                  Active Nonemployers
+                </th>
+                <th style="width: 133px; text-align: center">
+                  Inactive Nonemployers
+                </th>
+                <th style="width: 133px; text-align: center">
+                  Active Sole Prorietors
+                </th>
+                <th style="width: 133px; text-align: center">
+                  Inactive Sole Prorietors
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt; $500K</td>
+                <td style="text-align: right">6,165,448</td>
+                <td style="text-align: right">1,161,917</td>
+                <td style="text-align: right">2,742,607</td>
+                <td style="text-align: right">63,835</td>
+                <td style="text-align: right">26,107,728</td>
+                <td style="text-align: right">21,903,044</td>
+              </tr>
+              <tr>
+                <td>$500K - $1M</td>
+                <td style="text-align: right">1,139,147</td>
+                <td style="text-align: right">78,062</td>
+                <td style="text-align: right">66,797</td>
+                <td style="text-align: right">1,216</td>
+                <td style="text-align: right">505,027</td>
+                <td style="text-align: right">485,979</td>
+              </tr>
+              <tr>
+                <td>$1M - $5M</td>
+                <td style="text-align: right">1,386,387</td>
+                <td style="text-align: right">73,269</td>
+                <td style="text-align: right">44,585</td>
+                <td style="text-align: right">129</td>
+                <td style="text-align: right">198,737</td>
+                <td style="text-align: right">59,521</td>
+              </tr>
+              <tr>
+                <td>$5M - $10M</td>
+                <td style="text-align: right">236,168</td>
+                <td style="text-align: right">9,420</td>
+                <td style="text-align: right">8,682</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">35,867</td>
+                <td style="text-align: right">202</td>
+              </tr>
+              <tr>
+                <td>$10M - $25M</td>
+                <td style="text-align: right">158,628</td>
+                <td style="text-align: right">5,461</td>
+                <td style="text-align: right">7,010</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">28,047</td>
+                <td style="text-align: right">99</td>
+              </tr>
+              <tr>
+                <td>$25M - $50M</td>
+                <td style="text-align: right">57,018</td>
+                <td style="text-align: right">1,688</td>
+                <td style="text-align: right">3,195</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">11,657</td>
+                <td style="text-align: right">20</td>
+              </tr>
+              <tr>
+                <td>$50M - $100M</td>
+                <td style="text-align: right">25,996</td>
+                <td style="text-align: right">756</td>
+                <td style="text-align: right">1,982</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">7,100</td>
+                <td style="text-align: right">10</td>
+              </tr>
+              <tr>
+                <td>$100M+</td>
+                <td style="text-align: right">33,074</td>
+                <td style="text-align: right">542</td>
+                <td style="text-align: right">4,119</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">10,966</td>
+                <td style="text-align: right">23</td>
+              </tr>
+              <tr>
+                <td>No Revenue</td>
+                <td style="text-align: right">339,025</td>
+                <td style="text-align: right">59,677</td>
+                <td style="text-align: right">6,311</td>
+                <td style="text-align: right">9</td>
+                <td style="text-align: right">28,139</td>
+                <td style="text-align: right">16,992</td>
+              </tr>
+              <tr>
+                <th>Total Count</th>
+                <th style="text-align: right">9,540,891</th>
+                <th style="text-align: right">1,390,792</th>
+                <th style="text-align: right">2,885,288</th>
+                <th style="text-align: right">65,192</th>
+                <th style="text-align: right">26,933,268</th>
+                <th style="text-align: right">22,465,890</th>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-bordered mb-5">
+            <thead>
+              <tr>
+                <th colspan="11" style="text-align: center">
+                  BQ Active Company Counts by NAICS Sector, Revenue Range, and
+                  Company Type
+                </th>
+              </tr>
+              <tr>
+                <th
+                  colspan="11"
+                  style="text-align: center; background: #002060; color: white"
+                >
+                  Active Employer
+                </th>
+              </tr>
+              <tr>
+                <th style="width: 120px; text-align: center">
+                  NAICS Sector Code
+                </th>
+                <th style="width: 200px; text-align: center">
+                  NAICS Sector Name
+                </th>
+                <th style="width: 80px; text-align: center">&lt; $500K</th>
+                <th style="width: 80px; text-align: center">$500K - $1M</th>
+                <th style="width: 80px; text-align: center">$1M - $5M</th>
+                <th style="width: 80px; text-align: center">$5M - $10M</th>
+                <th style="width: 80px; text-align: center">$10M - $25M</th>
+                <th style="width: 80px; text-align: center">$25M - $50M</th>
+                <th style="width: 80px; text-align: center">$50M - $100M</th>
+                <th style="width: 80px; text-align: center">$100M+</th>
+                <th style="width: 80px; text-align: center">No Revenue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>11</td>
+                <td>Agriculture, Forestry, Fishing and Hunting</td>
+                <td style="text-align: right">10,766</td>
+                <td style="text-align: right">898</td>
+                <td style="text-align: right">960</td>
+                <td style="text-align: right">197</td>
+                <td style="text-align: right">159</td>
+                <td style="text-align: right">43</td>
+                <td style="text-align: right">25</td>
+                <td style="text-align: right">149</td>
+                <td style="text-align: right">136,749</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>Mining, Quarrying, and Oil and Gas Extraction</td>
+                <td style="text-align: right">25,266</td>
+                <td style="text-align: right">7,458</td>
+                <td style="text-align: right">10,214</td>
+                <td style="text-align: right">2,102</td>
+                <td style="text-align: right">1,578</td>
+                <td style="text-align: right">587</td>
+                <td style="text-align: right">327</td>
+                <td style="text-align: right">428</td>
+                <td style="text-align: right">848</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>Utilities</td>
+                <td style="text-align: right">9,843</td>
+                <td style="text-align: right">4,172</td>
+                <td style="text-align: right">6,598</td>
+                <td style="text-align: right">1,619</td>
+                <td style="text-align: right">1,152</td>
+                <td style="text-align: right">592</td>
+                <td style="text-align: right">303</td>
+                <td style="text-align: right">503</td>
+                <td style="text-align: right">1,523</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>Construction</td>
+                <td style="text-align: right">315,091</td>
+                <td style="text-align: right">172,820</td>
+                <td style="text-align: right">224,223</td>
+                <td style="text-align: right">36,864</td>
+                <td style="text-align: right">25,680</td>
+                <td style="text-align: right">7,789</td>
+                <td style="text-align: right">3,001</td>
+                <td style="text-align: right">2,563</td>
+                <td style="text-align: right">24,803</td>
+              </tr>
+              <tr>
+                <td>31-33</td>
+                <td>Manufacturing</td>
+                <td style="text-align: right">175,396</td>
+                <td style="text-align: right">87,161</td>
+                <td style="text-align: right">154,117</td>
+                <td style="text-align: right">39,710</td>
+                <td style="text-align: right">33,532</td>
+                <td style="text-align: right">15,539</td>
+                <td style="text-align: right">7,473</td>
+                <td style="text-align: right">9,037</td>
+                <td style="text-align: right">16,809</td>
+              </tr>
+              <tr>
+                <td>42</td>
+                <td>Wholesale Trade</td>
+                <td style="text-align: right">109,930</td>
+                <td style="text-align: right">66,913</td>
+                <td style="text-align: right">105,665</td>
+                <td style="text-align: right">24,402</td>
+                <td style="text-align: right">19,406</td>
+                <td style="text-align: right">6,224</td>
+                <td style="text-align: right">2,604</td>
+                <td style="text-align: right">2,904</td>
+                <td style="text-align: right">9,908</td>
+              </tr>
+              <tr>
+                <td>44-45</td>
+                <td>Retail Trade</td>
+                <td style="text-align: right">630,709</td>
+                <td style="text-align: right">50,950</td>
+                <td style="text-align: right">54,702</td>
+                <td style="text-align: right">6,765</td>
+                <td style="text-align: right">3,470</td>
+                <td style="text-align: right">1,071</td>
+                <td style="text-align: right">553</td>
+                <td style="text-align: right">1,209</td>
+                <td style="text-align: right">22,026</td>
+              </tr>
+              <tr>
+                <td>48-49</td>
+                <td>Transportation and Warehousing</td>
+                <td style="text-align: right">199,943</td>
+                <td style="text-align: right">20,067</td>
+                <td style="text-align: right">21,060</td>
+                <td style="text-align: right">3,314</td>
+                <td style="text-align: right">1,967</td>
+                <td style="text-align: right">619</td>
+                <td style="text-align: right">339</td>
+                <td style="text-align: right">746</td>
+                <td style="text-align: right">9,181</td>
+              </tr>
+              <tr>
+                <td>51</td>
+                <td>Information</td>
+                <td style="text-align: right">105,366</td>
+                <td style="text-align: right">31,505</td>
+                <td style="text-align: right">45,021</td>
+                <td style="text-align: right">9,347</td>
+                <td style="text-align: right">7,155</td>
+                <td style="text-align: right">2,795</td>
+                <td style="text-align: right">1,359</td>
+                <td style="text-align: right">1,571</td>
+                <td style="text-align: right">7,585</td>
+              </tr>
+              <tr>
+                <td>52</td>
+                <td>Finance and Insurance</td>
+                <td style="text-align: right">179,651</td>
+                <td style="text-align: right">73,461</td>
+                <td style="text-align: right">81,541</td>
+                <td style="text-align: right">16,072</td>
+                <td style="text-align: right">10,399</td>
+                <td style="text-align: right">3,745</td>
+                <td style="text-align: right">2,120</td>
+                <td style="text-align: right">2,899</td>
+                <td style="text-align: right">14,830</td>
+              </tr>
+              <tr>
+                <td>53</td>
+                <td>Real Estate and Rental and Leasing</td>
+                <td style="text-align: right">266,944</td>
+                <td style="text-align: right">60,491</td>
+                <td style="text-align: right">69,489</td>
+                <td style="text-align: right">11,927</td>
+                <td style="text-align: right">7,790</td>
+                <td style="text-align: right">2,740</td>
+                <td style="text-align: right">1,250</td>
+                <td style="text-align: right">1,592</td>
+                <td style="text-align: right">16,530</td>
+              </tr>
+              <tr>
+                <td>54</td>
+                <td>Professional, Scientific, and Technical Services</td>
+                <td style="text-align: right">1,348,237</td>
+                <td style="text-align: right">165,170</td>
+                <td style="text-align: right">170,536</td>
+                <td style="text-align: right">28,927</td>
+                <td style="text-align: right">15,284</td>
+                <td style="text-align: right">4,974</td>
+                <td style="text-align: right">2,037</td>
+                <td style="text-align: right">3,519</td>
+                <td style="text-align: right">54,923</td>
+              </tr>
+              <tr>
+                <td>55</td>
+                <td>Management of Companies and Enterprises</td>
+                <td style="text-align: right">2,659</td>
+                <td style="text-align: right">2,368</td>
+                <td style="text-align: right">3,538</td>
+                <td style="text-align: right">861</td>
+                <td style="text-align: right">834</td>
+                <td style="text-align: right">400</td>
+                <td style="text-align: right">267</td>
+                <td style="text-align: right">489</td>
+                <td style="text-align: right">593</td>
+              </tr>
+              <tr>
+                <td>56</td>
+                <td>
+                  Administrative and Support and Waste Management and
+                  Remediation Services
+                </td>
+                <td style="text-align: right">231,945</td>
+                <td style="text-align: right">35,435</td>
+                <td style="text-align: right">37,035</td>
+                <td style="text-align: right">5,749</td>
+                <td style="text-align: right">3,803</td>
+                <td style="text-align: right">1,161</td>
+                <td style="text-align: right">545</td>
+                <td style="text-align: right">942</td>
+                <td style="text-align: right">11,587</td>
+              </tr>
+              <tr>
+                <td>61</td>
+                <td>Educational Services</td>
+                <td style="text-align: right">162,361</td>
+                <td style="text-align: right">20,441</td>
+                <td style="text-align: right">23,391</td>
+                <td style="text-align: right">4,148</td>
+                <td style="text-align: right">3,024</td>
+                <td style="text-align: right">1,255</td>
+                <td style="text-align: right">592</td>
+                <td style="text-align: right">346</td>
+                <td style="text-align: right">22,376</td>
+              </tr>
+              <tr>
+                <td>62</td>
+                <td>Health Care and Social Assistance</td>
+                <td style="text-align: right">837,748</td>
+                <td style="text-align: right">113,395</td>
+                <td style="text-align: right">97,145</td>
+                <td style="text-align: right">9,968</td>
+                <td style="text-align: right">5,989</td>
+                <td style="text-align: right">1,904</td>
+                <td style="text-align: right">917</td>
+                <td style="text-align: right">1,216</td>
+                <td style="text-align: right">48,811</td>
+              </tr>
+              <tr>
+                <td>71</td>
+                <td>Arts, Entertainment, and Recreation</td>
+                <td style="text-align: right">174,373</td>
+                <td style="text-align: right">26,004</td>
+                <td style="text-align: right">36,187</td>
+                <td style="text-align: right">5,314</td>
+                <td style="text-align: right">2,894</td>
+                <td style="text-align: right">913</td>
+                <td style="text-align: right">462</td>
+                <td style="text-align: right">546</td>
+                <td style="text-align: right">12,035</td>
+              </tr>
+              <tr>
+                <td>72</td>
+                <td>Accommodation and Food Services</td>
+                <td style="text-align: right">424,543</td>
+                <td style="text-align: right">103,918</td>
+                <td style="text-align: right">154,657</td>
+                <td style="text-align: right">17,889</td>
+                <td style="text-align: right">8,331</td>
+                <td style="text-align: right">2,690</td>
+                <td style="text-align: right">940</td>
+                <td style="text-align: right">1,250</td>
+                <td style="text-align: right">44,668</td>
+              </tr>
+              <tr>
+                <td>81</td>
+                <td>Other Services (except Public Administration)</td>
+                <td style="text-align: right">925,255</td>
+                <td style="text-align: right">85,756</td>
+                <td style="text-align: right">73,561</td>
+                <td style="text-align: right">8,478</td>
+                <td style="text-align: right">4,756</td>
+                <td style="text-align: right">1,543</td>
+                <td style="text-align: right">703</td>
+                <td style="text-align: right">902</td>
+                <td style="text-align: right">82,678</td>
+              </tr>
+              <tr>
+                <td>92</td>
+                <td>Governmental Instrumentality or Agency</td>
+                <td style="text-align: right">3,179</td>
+                <td style="text-align: right">216</td>
+                <td style="text-align: right">159</td>
+                <td style="text-align: right">16</td>
+                <td style="text-align: right">9</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">261</td>
+              </tr>
+              <tr>
+                <td>92</td>
+                <td>Public Administration</td>
+                <td style="text-align: right">2,034</td>
+                <td style="text-align: right">150</td>
+                <td style="text-align: right">153</td>
+                <td style="text-align: right">28</td>
+                <td style="text-align: right">19</td>
+                <td style="text-align: right">6</td>
+                <td style="text-align: right">6</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">9,598</td>
+              </tr>
+              <tr>
+                <td>99</td>
+                <td>No Classification</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">218</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: right">24,208</td>
+                <td style="text-align: right">10,397</td>
+                <td style="text-align: right">16,433</td>
+                <td style="text-align: right">2,471</td>
+                <td style="text-align: right">1,397</td>
+                <td style="text-align: right">426</td>
+                <td style="text-align: right">172</td>
+                <td style="text-align: right">260</td>
+                <td style="text-align: right">284,730</td>
+              </tr>
+              <tr>
+                <th>Total Count</th>
+                <th>&nbsp;</th>
+                <th style="text-align: right">6,165,448</th>
+                <th style="text-align: right">1,139,147</th>
+                <th style="text-align: right">1,386,387</th>
+                <th style="text-align: right">236,168</th>
+                <th style="text-align: right">158,628</th>
+                <th style="text-align: right">57,018</th>
+                <th style="text-align: right">25,996</th>
+                <th style="text-align: right">33,074</th>
+                <th style="text-align: right">833,270</th>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-bordered mb-5">
+            <thead>
+              <tr>
+                <th
+                  colspan="11"
+                  style="text-align: center; background: #002060; color: white"
+                >
+                  Active Non Employer
+                </th>
+              </tr>
+              <tr>
+                <th style="width: 120px; text-align: center">
+                  NAICS Sector Code
+                </th>
+                <th style="width: 200px; text-align: center">
+                  NAICS Sector Name
+                </th>
+                <th style="width: 80px; text-align: center">&lt; $500K</th>
+                <th style="width: 80px; text-align: center">$500K - $1M</th>
+                <th style="width: 80px; text-align: center">$1M - $5M</th>
+                <th style="width: 80px; text-align: center">$5M - $10M</th>
+                <th style="width: 80px; text-align: center">$10M - $25M</th>
+                <th style="width: 80px; text-align: center">$25M - $50M</th>
+                <th style="width: 80px; text-align: center">$50M - $100M</th>
+                <th style="width: 80px; text-align: center">$100M+</th>
+                <th style="width: 80px; text-align: center">No Revenue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>11</td>
+                <td>Agriculture, Forestry, Fishing and Hunting</td>
+                <td style="text-align: right">40,426</td>
+                <td style="text-align: right">811</td>
+                <td style="text-align: right">75</td>
+                <td style="text-align: right">5</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">8,041</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>Mining, Quarrying, and Oil and Gas Extraction</td>
+                <td style="text-align: right">3,597</td>
+                <td style="text-align: right">775</td>
+                <td style="text-align: right">323</td>
+                <td style="text-align: right">66</td>
+                <td style="text-align: right">61</td>
+                <td style="text-align: right">21</td>
+                <td style="text-align: right">12</td>
+                <td style="text-align: right">50</td>
+                <td style="text-align: right">986</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>Utilities</td>
+                <td style="text-align: right">6,136</td>
+                <td style="text-align: right">1,713</td>
+                <td style="text-align: right">550</td>
+                <td style="text-align: right">110</td>
+                <td style="text-align: right">103</td>
+                <td style="text-align: right">41</td>
+                <td style="text-align: right">28</td>
+                <td style="text-align: right">58</td>
+                <td style="text-align: right">2,011</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>Construction</td>
+                <td style="text-align: right">238,875</td>
+                <td style="text-align: right">11,983</td>
+                <td style="text-align: right">4,835</td>
+                <td style="text-align: right">933</td>
+                <td style="text-align: right">686</td>
+                <td style="text-align: right">283</td>
+                <td style="text-align: right">142</td>
+                <td style="text-align: right">263</td>
+                <td style="text-align: right">47,350</td>
+              </tr>
+              <tr>
+                <td>31-33</td>
+                <td>Manufacturing</td>
+                <td style="text-align: right">69,391</td>
+                <td style="text-align: right">6,068</td>
+                <td style="text-align: right">1,936</td>
+                <td style="text-align: right">384</td>
+                <td style="text-align: right">305</td>
+                <td style="text-align: right">134</td>
+                <td style="text-align: right">81</td>
+                <td style="text-align: right">133</td>
+                <td style="text-align: right">10,047</td>
+              </tr>
+              <tr>
+                <td>42</td>
+                <td>Wholesale Trade</td>
+                <td style="text-align: right">35,119</td>
+                <td style="text-align: right">8,084</td>
+                <td style="text-align: right">2,725</td>
+                <td style="text-align: right">520</td>
+                <td style="text-align: right">446</td>
+                <td style="text-align: right">252</td>
+                <td style="text-align: right">155</td>
+                <td style="text-align: right">283</td>
+                <td style="text-align: right">8,117</td>
+              </tr>
+              <tr>
+                <td>44-45</td>
+                <td>Retail Trade</td>
+                <td style="text-align: right">289,986</td>
+                <td style="text-align: right">6,020</td>
+                <td style="text-align: right">3,530</td>
+                <td style="text-align: right">685</td>
+                <td style="text-align: right">575</td>
+                <td style="text-align: right">235</td>
+                <td style="text-align: right">136</td>
+                <td style="text-align: right">295</td>
+                <td style="text-align: right">41,417</td>
+              </tr>
+              <tr>
+                <td>48-49</td>
+                <td>Transportation and Warehousing</td>
+                <td style="text-align: right">69,559</td>
+                <td style="text-align: right">678</td>
+                <td style="text-align: right">940</td>
+                <td style="text-align: right">189</td>
+                <td style="text-align: right">128</td>
+                <td style="text-align: right">78</td>
+                <td style="text-align: right">43</td>
+                <td style="text-align: right">82</td>
+                <td style="text-align: right">14,648</td>
+              </tr>
+              <tr>
+                <td>51</td>
+                <td>Information</td>
+                <td style="text-align: right">25,104</td>
+                <td style="text-align: right">1,021</td>
+                <td style="text-align: right">970</td>
+                <td style="text-align: right">178</td>
+                <td style="text-align: right">143</td>
+                <td style="text-align: right">78</td>
+                <td style="text-align: right">32</td>
+                <td style="text-align: right">92</td>
+                <td style="text-align: right">5,387</td>
+              </tr>
+              <tr>
+                <td>52</td>
+                <td>Finance and Insurance</td>
+                <td style="text-align: right">51,331</td>
+                <td style="text-align: right">4,925</td>
+                <td style="text-align: right">3,494</td>
+                <td style="text-align: right">773</td>
+                <td style="text-align: right">566</td>
+                <td style="text-align: right">259</td>
+                <td style="text-align: right">194</td>
+                <td style="text-align: right">388</td>
+                <td style="text-align: right">13,489</td>
+              </tr>
+              <tr>
+                <td>53</td>
+                <td>Real Estate and Rental and Leasing</td>
+                <td style="text-align: right">128,724</td>
+                <td style="text-align: right">6,783</td>
+                <td style="text-align: right">3,583</td>
+                <td style="text-align: right">587</td>
+                <td style="text-align: right">433</td>
+                <td style="text-align: right">165</td>
+                <td style="text-align: right">101</td>
+                <td style="text-align: right">204</td>
+                <td style="text-align: right">27,941</td>
+              </tr>
+              <tr>
+                <td>54</td>
+                <td>Professional, Scientific, and Technical Services</td>
+                <td style="text-align: right">299,142</td>
+                <td style="text-align: right">5,010</td>
+                <td style="text-align: right">6,640</td>
+                <td style="text-align: right">1,222</td>
+                <td style="text-align: right">1,066</td>
+                <td style="text-align: right">486</td>
+                <td style="text-align: right">298</td>
+                <td style="text-align: right">571</td>
+                <td style="text-align: right">44,188</td>
+              </tr>
+              <tr>
+                <td>55</td>
+                <td>Management of Companies and Enterprises</td>
+                <td style="text-align: right">395</td>
+                <td style="text-align: right">39</td>
+                <td style="text-align: right">37</td>
+                <td style="text-align: right">14</td>
+                <td style="text-align: right">5</td>
+                <td style="text-align: right">4</td>
+                <td style="text-align: right">4</td>
+                <td style="text-align: right">12</td>
+                <td style="text-align: right">311</td>
+              </tr>
+              <tr>
+                <td>56</td>
+                <td>
+                  Administrative and Support and Waste Management and
+                  Remediation Services
+                </td>
+                <td style="text-align: right">145,789</td>
+                <td style="text-align: right">1,257</td>
+                <td style="text-align: right">1,485</td>
+                <td style="text-align: right">301</td>
+                <td style="text-align: right">218</td>
+                <td style="text-align: right">108</td>
+                <td style="text-align: right">85</td>
+                <td style="text-align: right">162</td>
+                <td style="text-align: right">27,143</td>
+              </tr>
+              <tr>
+                <td>61</td>
+                <td>Educational Services</td>
+                <td style="text-align: right">34,914</td>
+                <td style="text-align: right">502</td>
+                <td style="text-align: right">314</td>
+                <td style="text-align: right">63</td>
+                <td style="text-align: right">59</td>
+                <td style="text-align: right">33</td>
+                <td style="text-align: right">20</td>
+                <td style="text-align: right">29</td>
+                <td style="text-align: right">3,951</td>
+              </tr>
+              <tr>
+                <td>62</td>
+                <td>Health Care and Social Assistance</td>
+                <td style="text-align: right">279,222</td>
+                <td style="text-align: right">2,638</td>
+                <td style="text-align: right">2,952</td>
+                <td style="text-align: right">535</td>
+                <td style="text-align: right">449</td>
+                <td style="text-align: right">209</td>
+                <td style="text-align: right">132</td>
+                <td style="text-align: right">279</td>
+                <td style="text-align: right">28,083</td>
+              </tr>
+              <tr>
+                <td>71</td>
+                <td>Arts, Entertainment, and Recreation</td>
+                <td style="text-align: right">65,663</td>
+                <td style="text-align: right">821</td>
+                <td style="text-align: right">735</td>
+                <td style="text-align: right">87</td>
+                <td style="text-align: right">73</td>
+                <td style="text-align: right">22</td>
+                <td style="text-align: right">26</td>
+                <td style="text-align: right">34</td>
+                <td style="text-align: right">9,308</td>
+              </tr>
+              <tr>
+                <td>72</td>
+                <td>Accommodation and Food Services</td>
+                <td style="text-align: right">574,218</td>
+                <td style="text-align: right">5,209</td>
+                <td style="text-align: right">7,546</td>
+                <td style="text-align: right">1,753</td>
+                <td style="text-align: right">1,501</td>
+                <td style="text-align: right">706</td>
+                <td style="text-align: right">446</td>
+                <td style="text-align: right">1,092</td>
+                <td style="text-align: right">115,958</td>
+              </tr>
+              <tr>
+                <td>81</td>
+                <td>Other Services (except Public Administration)</td>
+                <td style="text-align: right">384,289</td>
+                <td style="text-align: right">2,363</td>
+                <td style="text-align: right">1,840</td>
+                <td style="text-align: right">269</td>
+                <td style="text-align: right">187</td>
+                <td style="text-align: right">79</td>
+                <td style="text-align: right">46</td>
+                <td style="text-align: right">86</td>
+                <td style="text-align: right">65,045</td>
+              </tr>
+              <tr>
+                <td>92</td>
+                <td>Governmental Instrumentality or Agency</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">2,345</td>
+              </tr>
+              <tr>
+                <td>92</td>
+                <td>Public Administration</td>
+                <td style="text-align: right">74</td>
+                <td style="text-align: right">6</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">904</td>
+              </tr>
+              <tr>
+                <td>99</td>
+                <td>No Classification</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: right">651</td>
+                <td style="text-align: right">91</td>
+                <td style="text-align: right">72</td>
+                <td style="text-align: right">8</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">687,579</td>
+              </tr>
+              <tr>
+                <th>Total Count</th>
+                <th>&nbsp;</th>
+                <th style="text-align: right">2,742,607</th>
+                <th style="text-align: right">66,797</th>
+                <th style="text-align: right">44,585</th>
+                <th style="text-align: right">8,682</th>
+                <th style="text-align: right">7,010</th>
+                <th style="text-align: right">3,195</th>
+                <th style="text-align: right">1,982</th>
+                <th style="text-align: right">4,119</th>
+                <th style="text-align: right">1,164,249</th>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-bordered mb-5">
+            <thead>
+              <tr>
+                <th
+                  colspan="11"
+                  style="text-align: center; background: #002060; color: white"
+                >
+                  Active Sole Proprietor
+                </th>
+              </tr>
+              <tr>
+                <th style="width: 120px; text-align: center">
+                  NAICS Sector Code
+                </th>
+                <th style="width: 200px; text-align: center">
+                  NAICS Sector Name
+                </th>
+                <th style="width: 80px; text-align: center">&lt; $500K</th>
+                <th style="width: 80px; text-align: center">$500K - $1M</th>
+                <th style="width: 80px; text-align: center">$1M - $5M</th>
+                <th style="width: 80px; text-align: center">$5M - $10M</th>
+                <th style="width: 80px; text-align: center">$10M - $25M</th>
+                <th style="width: 80px; text-align: center">$25M - $50M</th>
+                <th style="width: 80px; text-align: center">$50M - $100M</th>
+                <th style="width: 80px; text-align: center">$100M+</th>
+                <th style="width: 80px; text-align: center">No Revenue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>11</td>
+                <td>Agriculture, Forestry, Fishing and Hunting</td>
+                <td style="text-align: right">367,839</td>
+                <td style="text-align: right">6,948</td>
+                <td style="text-align: right">537</td>
+                <td style="text-align: right">12</td>
+                <td style="text-align: right">10</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">9,278</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>Mining, Quarrying, and Oil and Gas Extraction</td>
+                <td style="text-align: right">50,993</td>
+                <td style="text-align: right">6,794</td>
+                <td style="text-align: right">1,833</td>
+                <td style="text-align: right">308</td>
+                <td style="text-align: right">229</td>
+                <td style="text-align: right">111</td>
+                <td style="text-align: right">68</td>
+                <td style="text-align: right">104</td>
+                <td style="text-align: right">1,082</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>Utilities</td>
+                <td style="text-align: right">72,422</td>
+                <td style="text-align: right">15,943</td>
+                <td style="text-align: right">3,540</td>
+                <td style="text-align: right">452</td>
+                <td style="text-align: right">404</td>
+                <td style="text-align: right">174</td>
+                <td style="text-align: right">116</td>
+                <td style="text-align: right">171</td>
+                <td style="text-align: right">3,671</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>Construction</td>
+                <td style="text-align: right">1,659,522</td>
+                <td style="text-align: right">77,190</td>
+                <td style="text-align: right">19,739</td>
+                <td style="text-align: right">3,894</td>
+                <td style="text-align: right">2,993</td>
+                <td style="text-align: right">1,104</td>
+                <td style="text-align: right">606</td>
+                <td style="text-align: right">794</td>
+                <td style="text-align: right">67,881</td>
+              </tr>
+              <tr>
+                <td>31-33</td>
+                <td>Manufacturing</td>
+                <td style="text-align: right">460,638</td>
+                <td style="text-align: right">28,051</td>
+                <td style="text-align: right">7,295</td>
+                <td style="text-align: right">1,637</td>
+                <td style="text-align: right">1,325</td>
+                <td style="text-align: right">548</td>
+                <td style="text-align: right">283</td>
+                <td style="text-align: right">361</td>
+                <td style="text-align: right">11,793</td>
+              </tr>
+              <tr>
+                <td>42</td>
+                <td>Wholesale Trade</td>
+                <td style="text-align: right">423,039</td>
+                <td style="text-align: right">58,590</td>
+                <td style="text-align: right">14,971</td>
+                <td style="text-align: right">2,530</td>
+                <td style="text-align: right">2,436</td>
+                <td style="text-align: right">1,090</td>
+                <td style="text-align: right">717</td>
+                <td style="text-align: right">1,038</td>
+                <td style="text-align: right">5,867</td>
+              </tr>
+              <tr>
+                <td>44-45</td>
+                <td>Retail Trade</td>
+                <td style="text-align: right">1,851,054</td>
+                <td style="text-align: right">39,854</td>
+                <td style="text-align: right">13,238</td>
+                <td style="text-align: right">2,578</td>
+                <td style="text-align: right">2,121</td>
+                <td style="text-align: right">981</td>
+                <td style="text-align: right">584</td>
+                <td style="text-align: right">873</td>
+                <td style="text-align: right">58,430</td>
+              </tr>
+              <tr>
+                <td>48-49</td>
+                <td>Transportation and Warehousing</td>
+                <td style="text-align: right">812,740</td>
+                <td style="text-align: right">2,661</td>
+                <td style="text-align: right">4,328</td>
+                <td style="text-align: right">923</td>
+                <td style="text-align: right">656</td>
+                <td style="text-align: right">222</td>
+                <td style="text-align: right">187</td>
+                <td style="text-align: right">258</td>
+                <td style="text-align: right">15,635</td>
+              </tr>
+              <tr>
+                <td>51</td>
+                <td>Information</td>
+                <td style="text-align: right">365,633</td>
+                <td style="text-align: right">6,128</td>
+                <td style="text-align: right">4,967</td>
+                <td style="text-align: right">872</td>
+                <td style="text-align: right">701</td>
+                <td style="text-align: right">303</td>
+                <td style="text-align: right">158</td>
+                <td style="text-align: right">242</td>
+                <td style="text-align: right">8,218</td>
+              </tr>
+              <tr>
+                <td>52</td>
+                <td>Finance and Insurance</td>
+                <td style="text-align: right">776,355</td>
+                <td style="text-align: right">92,236</td>
+                <td style="text-align: right">22,835</td>
+                <td style="text-align: right">3,615</td>
+                <td style="text-align: right">2,656</td>
+                <td style="text-align: right">1,039</td>
+                <td style="text-align: right">581</td>
+                <td style="text-align: right">857</td>
+                <td style="text-align: right">20,118</td>
+              </tr>
+              <tr>
+                <td>53</td>
+                <td>Real Estate and Rental and Leasing</td>
+                <td style="text-align: right">2,139,687</td>
+                <td style="text-align: right">100,200</td>
+                <td style="text-align: right">22,538</td>
+                <td style="text-align: right">2,623</td>
+                <td style="text-align: right">1,850</td>
+                <td style="text-align: right">740</td>
+                <td style="text-align: right">393</td>
+                <td style="text-align: right">596</td>
+                <td style="text-align: right">41,219</td>
+              </tr>
+              <tr>
+                <td>54</td>
+                <td>Professional, Scientific, and Technical Services</td>
+                <td style="text-align: right">2,950,251</td>
+                <td style="text-align: right">21,140</td>
+                <td style="text-align: right">28,672</td>
+                <td style="text-align: right">6,013</td>
+                <td style="text-align: right">4,545</td>
+                <td style="text-align: right">1,840</td>
+                <td style="text-align: right">1,151</td>
+                <td style="text-align: right">1,707</td>
+                <td style="text-align: right">65,447</td>
+              </tr>
+              <tr>
+                <td>55</td>
+                <td>Management of Companies and Enterprises</td>
+                <td style="text-align: right">23,738</td>
+                <td style="text-align: right">717</td>
+                <td style="text-align: right">260</td>
+                <td style="text-align: right">65</td>
+                <td style="text-align: right">36</td>
+                <td style="text-align: right">16</td>
+                <td style="text-align: right">12</td>
+                <td style="text-align: right">15</td>
+                <td style="text-align: right">108</td>
+              </tr>
+              <tr>
+                <td>56</td>
+                <td>
+                  Administrative and Support and Waste Management and
+                  Remediation Services
+                </td>
+                <td style="text-align: right">1,163,521</td>
+                <td style="text-align: right">4,567</td>
+                <td style="text-align: right">5,668</td>
+                <td style="text-align: right">1,096</td>
+                <td style="text-align: right">861</td>
+                <td style="text-align: right">339</td>
+                <td style="text-align: right">221</td>
+                <td style="text-align: right">415</td>
+                <td style="text-align: right">61,853</td>
+              </tr>
+              <tr>
+                <td>61</td>
+                <td>Educational Services</td>
+                <td style="text-align: right">200,070</td>
+                <td style="text-align: right">1,223</td>
+                <td style="text-align: right">1,156</td>
+                <td style="text-align: right">215</td>
+                <td style="text-align: right">185</td>
+                <td style="text-align: right">80</td>
+                <td style="text-align: right">77</td>
+                <td style="text-align: right">93</td>
+                <td style="text-align: right">19,290</td>
+              </tr>
+              <tr>
+                <td>62</td>
+                <td>Health Care and Social Assistance</td>
+                <td style="text-align: right">1,531,336</td>
+                <td style="text-align: right">7,430</td>
+                <td style="text-align: right">9,345</td>
+                <td style="text-align: right">1,958</td>
+                <td style="text-align: right">1,532</td>
+                <td style="text-align: right">711</td>
+                <td style="text-align: right">436</td>
+                <td style="text-align: right">605</td>
+                <td style="text-align: right">50,154</td>
+              </tr>
+              <tr>
+                <td>71</td>
+                <td>Arts, Entertainment, and Recreation</td>
+                <td style="text-align: right">584,835</td>
+                <td style="text-align: right">4,309</td>
+                <td style="text-align: right">3,198</td>
+                <td style="text-align: right">437</td>
+                <td style="text-align: right">337</td>
+                <td style="text-align: right">106</td>
+                <td style="text-align: right">67</td>
+                <td style="text-align: right">104</td>
+                <td style="text-align: right">16,966</td>
+              </tr>
+              <tr>
+                <td>72</td>
+                <td>Accommodation and Food Services</td>
+                <td style="text-align: right">8,475,143</td>
+                <td style="text-align: right">21,007</td>
+                <td style="text-align: right">26,757</td>
+                <td style="text-align: right">5,555</td>
+                <td style="text-align: right">4,439</td>
+                <td style="text-align: right">1,959</td>
+                <td style="text-align: right">1,253</td>
+                <td style="text-align: right">2,484</td>
+                <td style="text-align: right">99,705</td>
+              </tr>
+              <tr>
+                <td>81</td>
+                <td>Other Services (except Public Administration)</td>
+                <td style="text-align: right">2,197,393</td>
+                <td style="text-align: right">9,150</td>
+                <td style="text-align: right">6,455</td>
+                <td style="text-align: right">941</td>
+                <td style="text-align: right">672</td>
+                <td style="text-align: right">281</td>
+                <td style="text-align: right">185</td>
+                <td style="text-align: right">242</td>
+                <td style="text-align: right">128,419</td>
+              </tr>
+              <tr>
+                <td>92</td>
+                <td>Governmental Instrumentality or Agency</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">2</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">1</td>
+                <td style="text-align: right">15,961</td>
+              </tr>
+              <tr>
+                <td>92</td>
+                <td>Public Administration</td>
+                <td style="text-align: right">314</td>
+                <td style="text-align: right">30</td>
+                <td style="text-align: right">13</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">2,283</td>
+              </tr>
+              <tr>
+                <td>99</td>
+                <td>No Classification</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+                <td style="text-align: right">0</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: right">1,204</td>
+                <td style="text-align: right">857</td>
+                <td style="text-align: right">1,390</td>
+                <td style="text-align: right">142</td>
+                <td style="text-align: right">56</td>
+                <td style="text-align: right">12</td>
+                <td style="text-align: right">3</td>
+                <td style="text-align: right">5</td>
+                <td style="text-align: right">1,638,753</td>
+              </tr>
+              <tr>
+                <th>Total Count</th>
+                <th>&nbsp;</th>
+                <th style="text-align: right">26,107,728</th>
+                <th style="text-align: right">505,027</th>
+                <th style="text-align: right">198,737</th>
+                <th style="text-align: right">35,867</th>
+                <th style="text-align: right">28,047</th>
+                <th style="text-align: right">11,657</th>
+                <th style="text-align: right">7,100</th>
+                <th style="text-align: right">10,966</th>
+                <th style="text-align: right">2,342,131</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer>
+    <div class="row text-center text-sm-start">
+        <div class="col-12 col-sm-6 mb-2 mb-sm-0">
+          &REG; 2024 BrightQuery, Inc. All rights reserved.
+        </div>
+        <div class="col-12 col-sm-6 text-end">
+          Contact us at:
+          <a href="mailto:sales@brightquery.com">sales@brightquery.com</a>,
+          <a href="mailto:support@brightquery.com">support@brightquery.com</a>
+          or 1-888-BQDATA1
+        </div>
+      </div>
+      </div>
+    </footer>
+    <script>
+      function toggleSidebar() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>

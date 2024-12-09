@@ -1,0 +1,521 @@
+[
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "63,616,402",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "63,616,402",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "5,138",
+    "value": "0.01%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "12,609,008",
+    "value": "19.82%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_report_date_mr",
+    "fielddes": "The fiscal year-end date for the most recent available year. If the most recent year is an ongoing year, we use Trailing Twelve Months (TTM) data as the annual data. In such cases, the fiscal quarter-end date is used",
+    "Count": "62,668,170",
+    "value": "98.51%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_employment_mr",
+    "fielddes": "The most recent (MR) count of the number of full-time employees in the U.S. based on Dept. of Labor filings. For companies with employee benefit plans, the current number of employees is defined as those that are eligible for a retirement and/or welfare benefit plan, such as a 401(k) or health insurance.",
+    "Count": "63,156,467",
+    "value": "99.28%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_revenue_mr",
+    "fielddes": "Trailing twelve months (TTM) of revenue, calculated from the last 4 quarters. Revenue is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "63,163,644",
+    "value": "99.29%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_ebitda_mr",
+    "fielddes": "Trailing twelve months (TTM) of EBITDA, calculated from the last 4 quarters. EBITDA is an indicator of profitability, equal to net income with interest, taxes, depreciation, and amortization added back in. EBITDA is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,947,047",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_cor_mr",
+    "fielddes": "Trailing twelve months (TTM) of cost of revenue, calculated from the last 4 quarters. Cost of revenue (COR) is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,719",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_net_income_mr",
+    "fielddes": "Trailing twelve months (TTM) of net income, calculated from the last 4 quarters. Net income is an indicator of profitability, equal to revenue minus COR, SG&amp;A, operating expenses, depreciation, interest, taxes, and other expenses. Net income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD.",
+    "Count": "63,163,019",
+    "value": "99.29%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_gross_profit_mr",
+    "fielddes": "Trailing twelve months (TTM) of gross profit, calculated from the last 4 quarters. Gross profit is an indicator of profitability, equal to revenue minus COR. Gross profit is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,947,062",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_total_assets_mr",
+    "fielddes": "Trailing twelve months (TTM) of total assets, calculated from the last 4 quarters. Total assets is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "63,153,946",
+    "value": "99.27%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_payroll_mr",
+    "fielddes": "Trailing twelve months (TTM) of payroll, calculated from the last 4 quarters. Payroll is the sum of the IRS line items Compensation of officers and Salaries and wages, and is derived from IRS and Dept. of Labor filings.",
+    "Count": "61,947,035",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_operating_expenses_mr",
+    "fielddes": "Trailing twelve months (TTM) of operating expenses, calculated from the last 4 quarters. Operating expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,821",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_operating_income_mr",
+    "fielddes": "Trailing twelve months (TTM) of operating income, calculated from the last 4 quarters. Operating income is an indicator of profitability, equal to revenue minus COR and operating expenses. Operating income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,985",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_tax_and_interest_mr",
+    "fielddes": "Trailing twelve months (TTM) of tax and interest expenses, calculated from the last 4 quarters. This line item includes all expenses related to taxes and interest payments. Note that net income equals operating income minus tax and interest expenses. Tax and interest expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.For public companies, this equals Interest Expense plus estimated Income Taxes for the period.",
+    "Count": "61,946,821",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_current_assets_mr",
+    "fielddes": "Current Assets value which accounts for all company-owned assets that can be converted to cash within one year. Current assets include cash, cash equivalents, accounts receivable, stock inventory, marketable securities, pre-paid liabilities, and other liquid assets.",
+    "Count": "6,110,733",
+    "value": "9.61%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_cash_mr",
+    "fielddes": "Cash on balance sheet is the amount of money a company currently has available, which includes cash, cash equivalents, short-term investments, and other assets that can be quickly converted to cash.",
+    "Count": "52,355,958",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_trade_notes_and_accounts_receivable_mr",
+    "fielddes": "Accounts Receivable (AR) are an asset account on the balance sheet that represents money due to a company in the short term.For public companies, this equals Accounts Receivable.",
+    "Count": "52,355,637",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_less_allowance_for_bad_debts_mr",
+    "fielddes": "An allowance for bad debt is a valuation account used to estimate the amount of a firm's receivables that may ultimately be uncollectible.",
+    "Count": "52,355,097",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_inventories_mr",
+    "fielddes": "Inventory is a current asset account found on the balance sheet, consisting of all raw materials, work-in-progress, and finished goods that a company has accumulated.",
+    "Count": "52,355,374",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_us_government_obligations_mr",
+    "fielddes": "A debt instrument, such as U.S. Treasury Notes or Bonds, that are guaranteed by the full faith and backing of the United States, that is owned by the corporation.",
+    "Count": "52,353,499",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_tax_exempt_securities_mr",
+    "fielddes": "A value of an investment in which the income produced is free from federal, state, and/or local taxes. Most tax-exempt securities come in the form of municipal bonds, which represent obligations of a state, territory or municipality.",
+    "Count": "52,353,522",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_other_current_assets_mr",
+    "fielddes": "Other current assets are liquid assets that are characterized as uncommon or insignificant. They are listed on the balance sheet alongside other assets and are convertible into cash within one year.",
+    "Count": "52,355,439",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_non_current_assets_mr",
+    "fielddes": "Non-Current Asset value which includes include long-term investments, land, property, plant, and equipment (PP&amp;E), and trademarks. Non-current assets are reported on the balance sheet at the price a company paid for them, which is adjusted for depreciation and amortization. For public companies, this equals Total Assets minus Current Assets.",
+    "Count": "6,110,731",
+    "value": "9.61%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_loans_to_shareholders_mr",
+    "fielddes": "Company loans to shareholders are a recievable that the company expects the shareholder to pay back.",
+    "Count": "52,355,102",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_mortgage_and_real_estate_loans_mr",
+    "fielddes": "A mortgage loan is a loan associated with the purchase of real estate.",
+    "Count": "52,354,539",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_other_investments_mr",
+    "fielddes": "Other investments refers to investments that are not included in other categories such as cash, accounts receivable, inventory, and other current assets. For public companies, this equals Total Investments listed on their balance sheet.",
+    "Count": "52,355,171",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_buildings_and_other_depreciable_assets_mr",
+    "fielddes": "Improvements on owned real estate property such as buildings and Other Depreciable Assets such as computers and software, furniture and fixtures, machinery, and vehicles. For public companies, this equals Property, Plant, and Equipment.",
+    "Count": "52,355,816",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_less_accumulated_depreciation_mr",
+    "fielddes": "Value of Buildings and other depreciable assets.",
+    "Count": "52,355,554",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_depletable_assets_mr",
+    "fielddes": "Depletable assets which are typically natural resources that decrease in quantity or value over time, such as oil, gas, minerals, and timber",
+    "Count": "52,354,158",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_less_accumulated_depletion_mr",
+    "fielddes": "Accumulated depletion value of depletable assets.",
+    "Count": "52,354,208",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_land_mr",
+    "fielddes": "Value of the land portion of a real estate investment which can include natural and artificial land improvements. Land does not include building improvements.",
+    "Count": "52,355,127",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_intangible_assets_amortizable_mr",
+    "fielddes": "Value of intangible assets which are assets that are not physical in nature, but still have value for a business or an individual. They include things like patents, trademarks, copyrights, goodwill, software, and digital assets. For public companies, this equals Goodwill plus Intangible Assets Excluding Goodwill.",
+    "Count": "52,355,408",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_less_accumulated_amortization_mr",
+    "fielddes": "Value of Intangible assets with accumulated amortization expensed over their expected uselife life.",
+    "Count": "52,355,151",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_other_non_current_assets_mr",
+    "fielddes": "Value of Non-current assets, which are assets and property owned by a business that are not easily converted to cash within a year. They are long-term investments that serve the company for more than a year.",
+    "Count": "5,967,531",
+    "value": "9.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_total_liabilities_and_equity_mr",
+    "fielddes": "Total liabilites are all of the companies obligations to third parties. Shareholders equity is the residual interest in the assets of a company after deducting liabilities.The total liabilities and shareholders equity found on the right side of the balance sheet, equals total assets which is on the left side of the balance sheet.",
+    "Count": "5,968,145",
+    "value": "9.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_current_liabilities_mr",
+    "fielddes": "Current liabilities on a balance sheet refer to the debts or obligations that a company owes and is required to settle within one fiscal year or its normal operating cycle. Examples of current liabilities include accounts payable, short-term debt, dividends, and notes payable as well as income taxes owed.",
+    "Count": "6,110,726",
+    "value": "9.61%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_accounts_payable_mr",
+    "fielddes": "Accounts payable is the amount of short-term debt or money owed to suppliers and creditors by a company.",
+    "Count": "52,355,876",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_short_term_debt_mr",
+    "fielddes": "Short-term debt represents mortgages, notes, and bonds payable in less than 1 year. They are classified as current liabilities on the balance sheet.",
+    "Count": "52,355,298",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_other_current_liabilities_mr",
+    "fielddes": "Debts or obligations that are due within one year but are not catagorized as accounts payable, short-term debt, dividends, and notes payable as well as income taxes owed. For public companies, this equals Current Liabilities minus Accounts Payable minus Short Term Debt.",
+    "Count": "52,355,313",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_non_current_liabilities_mr",
+    "fielddes": "Noncurrent liabilities, also known as long-term liabilities, are obligations listed on the balance sheet not due for more than a year. Examples of noncurrent liabilities include long-term loans and lease obligations, bonds payable and deferred revenue. For public companies, this equals Total Liabilities minus Current Liabilities.",
+    "Count": "6,110,718",
+    "value": "9.61%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_loans_from_shareholders_mr",
+    "fielddes": "A loan from shareholder is debt-like financing provided from a shareholder to the company. Typically, shareholder loans are converted to equity and may be excluded in debt ratios for assessing financial risks.",
+    "Count": "52,355,110",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_long_term_debt_mr",
+    "fielddes": "Long-term debt represents mortgages, notes, and bonds payable in 1 year or more. They are classified as non-current liabilities on the balance sheet.",
+    "Count": "52,355,596",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_other_non_current_liabilities_mr",
+    "fielddes": "Debts or obligations that are due within one year but are not catagorized as accounts payable, short-term debt, dividends, and notes payable as well as income taxes owed.",
+    "Count": "5,967,946",
+    "value": "9.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_shareholders_equity_mr",
+    "fielddes": "Shareholders equity is the residual interest in the assets of a company after deducting liabilities. For public companies, this equals Total Assets minus Total Liabilities.",
+    "Count": "5,968,189",
+    "value": "9.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_total_debt_mr",
+    "fielddes": "Total debt is the sum of short-term debt (due within a year) and long-term debt (due in over one year).",
+    "Count": "52,357,358",
+    "value": "82.3%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_gross_profit_margin_mr",
+    "fielddes": "Trailing twelve months (TTM) of gross profit margin, calculated from the last 4 quarters. Gross profit margin is gross profit divided by revenue. Gross profit is an indicator of profitability, equal to revenue minus COR. Gross profit is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,695",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_ebitda_margin_mr",
+    "fielddes": "Trailing twelve months (TTM) of EBITDA margin, calculated from the last 4 quarters. EBITDA margin is EBITDA divided by revenue. EBITDA is an indicator of profitability, equal to net income with interest, taxes, depreciation, and amortization added back in. EBITDA is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,677",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_asset_turnover_mr",
+    "fielddes": "Trailing twelve months (TTM) of asset turnover, calculated from the last 4 quarters. Asset turnover is revenue divided by total assets.",
+    "Count": "61,937,757",
+    "value": "97.36%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_net_profit_margin_mr",
+    "fielddes": "Trailing twelve months (TTM) of net profit margin, calculated from the last 4 quarters. Net profit margin is net income divided by revenue.",
+    "Count": "61,946,719",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_return_on_assets_mr",
+    "fielddes": "Trailing twelve months (TTM) of return on assets, calculated from the last 4 quarters. Return on assets is net income divided by total assets.",
+    "Count": "61,937,963",
+    "value": "97.36%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_return_on_sales_mr",
+    "fielddes": "Trailing twelve months (TTM) of return on sales, calculated from the last 4 quarters. Return on sales is operating income divided by revenue.",
+    "Count": "61,946,620",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_revenue_mr_per_emp",
+    "fielddes": "Trailing twelve months (TTM) of Revenue per employee is revenue divided by the total number of employees. Revenue is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "61,946,811",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_ebitda_mr_per_emp",
+    "fielddes": "Trailing twelve months (TTM) of EBITDA per employee is EBITDA divided by the total number of employees. EBITDA is an indicator of profitability, equal to net income with interest, taxes, depreciation, and amortization added back in. EBITDA is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,945",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_cor_mr_per_emp",
+    "fielddes": "Trailing twelve months (TTM) of Cost of revevue per employee is Total cost of Revenue divided by the total number of employees. Cost of revenue (COR) is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,725",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_net_income_mr_per_emp",
+    "fielddes": "Trailing Twelve months (TTM) of Net income per employee is the Net income divided by the total number of employees. Net income is an indicator of profitability, equal to revenue minus COR, SG&amp;A, operating expenses, depreciation, interest, taxes, and other expenses. Net income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,989",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_gross_profit_mr_per_emp",
+    "fielddes": "Trailing twelve months (TTM) of gross profit per employee is gross profit divided by the total number of employees.Gross profit is an indicator of profitability, equal to revenue minus COR. Gross profit is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,963",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_total_assets_mr_per_emp",
+    "fielddes": "Trailing Twelve months (TTM) of Total Assets per employee is total assets divided by the total number of employees. Total assets is based on SEC filings if the company is public, or imputed from IRS filings if the company is private, USD. For companies with multiple establishments, this number is based on the U.S. total.",
+    "Count": "61,937,913",
+    "value": "97.36%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_payroll_mr_per_emp",
+    "fielddes": "Trailing Twelve monts (TTM) of Payroll per employee is Payroll divided by the total number of employees. Payroll is the sum of the IRS line items Compensation of officers and Salaries and wages, and is derived from IRS and Dept. of Labor filings.",
+    "Count": "61,946,941",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_operating_expenses_mr_per_emp",
+    "fielddes": "Trailing Twelve months (TTM) of Operating expenses per employee is Operating expenses divided by the total number of employees. Operating expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,752",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_operating_income_mr_per_emp",
+    "fielddes": "Trailing Twelve months (TTM) of Operating incomes per employee is Operating income divided by the total number of employees. Operating income is an indicator of profitability, equal to revenue minus COR and operating expenses. Operating income is based on SEC filings if the company is public, or imputed from IRS filings if the company is private.",
+    "Count": "61,946,888",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_tax_and_interest_mr_per_emp",
+    "fielddes": "Trailing Twelve months (TTM) of Tax and Interest per employee is Tax and interest divided by the total number of employees.This line item includes all expenses related to taxes and interest payments. Note that net income equals operating income minus tax and interest expenses. Tax and interest expenses is based on SEC filings if the company is public, or imputed from IRS filings if the company is private. For public companies, this equals Interest Expense plus estimated Income Taxes for the period.",
+    "Count": "61,946,884",
+    "value": "97.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_current_ratio_mr",
+    "fielddes": "The current ratio measures the ability of a business to meet its financial obligations that are due within a year. This is defined as current assets over current liabilities.",
+    "Count": "5,970,584",
+    "value": "9.39%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_debt_to_equity_ratio_mr",
+    "fielddes": "The debt to equity ratio calculates the extent to which a company's capital structure is reliant on debt versus equity financing. This is defined as the ratio of total liabilities divided by shareholders' equity.",
+    "Count": "5,969,454",
+    "value": "9.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_quick_ratio_mr",
+    "fielddes": "The quick ratio measures the ability of a business to pay its short-term liabilities (due within a year) using assets that are readily convertible into cash. This is defined as the sum of cash, marketable securities, and accounts receivable, divided by current liabilities.",
+    "Count": "5,969,764",
+    "value": "9.38%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_revenue_growth_yoy_mr",
+    "fielddes": "Year over year (YoY) growth rate of revenue based on annual numbers, e.g. 2022 vs. 2021",
+    "Count": "56,565,926",
+    "value": "88.92%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_employment_growth_yoy_mr",
+    "fielddes": "Year over year (YoY) growth rate of employment based on annual numbers, e.g. 2022 vs. 2021",
+    "Count": "57,513,047",
+    "value": "90.41%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_revenue_growth_quarterly_yoy_mr",
+    "fielddes": "Year over year (YoY) growth rate of revenue based on the most recent quarterly numbers, e.g. Q2 2022 vs. Q2 2021",
+    "Count": "8,755,566",
+    "value": "13.76%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_employment_growth_quarterly_yoy_mr",
+    "fielddes": "Year over year (YoY) growth rate of employment based on the most recent quarterly numbers, e.g. Q2 2022 vs. Q2 2021",
+    "Count": "8,981,329",
+    "value": "14.12%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_employment_growth_monthly_yoy_mr",
+    "fielddes": "Year over year (YoY) growth rate of employment based on the most recent monthly numbers, e.g. M8 2022 vs. M8 2021",
+    "Count": "8,978,613",
+    "value": "14.11%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_revenue_growth_qoq_mr",
+    "fielddes": "Quarter over quarter (QoQ) growth rate of revenue based on quarterly numbers, e.g. Q2 2022 vs. Q1 2022",
+    "Count": "8,840,531",
+    "value": "13.9%"
+  },
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_employment_growth_qoq_mr",
+    "fielddes": "Quarter over quarter (QoQ) growth rate of employment based on quarterly numbers, e.g. Q2 2022 vs. Q1 2022",
+    "Count": "9,068,832",
+    "value": "14.26%"
+  },
+
+  {
+    "tablename": "bq_company_variables_mr",
+    "fieldname": "bq_employment_growth_mom_mr",
+    "fielddes": "Month over month (MoM) growth rate of employment based on monthly numbers, e.g. M8 2022 vs. M7 2022",
+    "Count": "9,068,849",
+    "value": "14.26%"
+  }
+]

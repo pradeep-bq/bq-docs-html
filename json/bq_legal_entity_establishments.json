@@ -1,0 +1,240 @@
+[
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_id",
+    "fielddes": "ID of the Establishment; an Establishment is distinct based on a combination of Legal Entity and USPS validated address.",
+    "Count": "182,113,377",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_id",
+    "fielddes": "Unique ID assigned by BQ to the Organization.",
+    "Count": "182,076,279",
+    "value": "99.97%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_company_name",
+    "fielddes": "Primary name of the Organization, derived from multiple sources including the IRS, Dept. of Labor, SEC, SBA, and local jurisdictions. A waterfall is in place to pick the Organization's primary name, with preference given to IRS related sources.",
+    "Count": "182,076,279",
+    "value": "99.97%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_ticker",
+    "fielddes": "TICKER of the Organization if it is publicly listed.",
+    "Count": "120,252",
+    "value": "0.06%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_website",
+    "fielddes": "Link to the Organization's primary website. A company's website is not usually included in the regulatory filings, but BQ uses alternative methods to identify these links, which may result in occasional inaccuracies.",
+    "Count": "47,352,174",
+    "value": "26%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_legal_entity_id",
+    "fielddes": "Unique ID of the Legal Entity. A Legal Entity is part of an Organization and is registered with the Secretary of State of a jurisdiction.",
+    "Count": "182,113,377",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_name",
+    "fielddes": "Name of the Legal Entity operating the Establishment",
+    "Count": "182,113,377",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_jurisdiction_code",
+    "fielddes": "Jurisdiction code (2-digit state name) in which the Legal Entity is registered, typically with the Secretary of State.",
+    "Count": "182,113,377",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_jurisdiction_company_number",
+    "fielddes": "Unique number issued by the jurisdiction with which the Legal Entity is registered.",
+    "Count": "182,113,377",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_parent_id",
+    "fielddes": "ID of the Immediate Parent if the Legal Entity is a child.",
+    "Count": "50,538,554",
+    "value": "27.75%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_type",
+    "fielddes": "Classification that indicates whether address of the Establishment is a registered address, non-registered address, or officer address",
+    "Count": "142,874,540",
+    "value": "78.45%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_valid_indicator",
+    "fielddes": "Indicator that equals 1 if the Establishment address is valid based on a match with the USPS address verification and 0 otherwise.",
+    "Count": "1=114,801,0890=67,312,288",
+    "value": "100%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_line_1",
+    "fielddes": "1st line of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "142,866,457",
+    "value": "78.45%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_line_2",
+    "fielddes": "2nd line of the Establishment's address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "7,377,541",
+    "value": "4.04%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_city",
+    "fielddes": "City of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "130,739,282",
+    "value": "71.78%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_state",
+    "fielddes": "State abbreviation of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "130,574,799",
+    "value": "71.70%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_state_name",
+    "fielddes": "State name of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "129,247,359",
+    "value": "70.96%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_county_fips",
+    "fielddes": "County-level FIPS code of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,105,976",
+    "value": "69.78%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_county_name",
+    "fielddes": "County name of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,104,578",
+    "value": "69.78%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_fgn_address1_cntry",
+    "fielddes": "Country of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "180,795,750",
+    "value": "99.28%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_zip5",
+    "fielddes": "5-digit zip code of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "129,871,323",
+    "value": "71.31%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_zip9",
+    "fielddes": "9-digit zip code (ZIP + 4) of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "129,216,017",
+    "value": "70.95%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_zip_type",
+    "fielddes": "Zip code classification of the Establishment's address stating whether it is a P.O. Box or not. Addresses are cleaned and standardized using USPS.",
+    "Count": "127,105,783",
+    "value": "69.78%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_latitude",
+    "fielddes": "Latitude of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "143,418,944",
+    "value": "78.75%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_longitude",
+    "fielddes": "Longitude of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "143,418,944",
+    "value": "78.75%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_summary",
+    "fielddes": "Classification that indicates whether the Establishment's address is Match-Mailable or Non-Mailable based on USPS reporting.",
+    "Count": "143,418,944",
+    "value": "78.75%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_rdi",
+    "fielddes": "RDI indicates whether the Establishment's address is Residential, Commercial, P.O. Box and Unknown based on USPS reporting.",
+    "Count": "143,418,944",
+    "value": "78.75%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_cbsa_code",
+    "fielddes": "The Core-Based Statistical Area (CBSA) is a 5-digit numeric code which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Establishment's address lies according to USPS.",
+    "Count": "117,349,269",
+    "value": "64.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_cbsa_name",
+    "fielddes": "Name of the Core-Based Statistical Area (CBSA) which identifies the Metropolitan Statistical Area or Micropolitan Statistical Area in which the Establishment's address lies according to USPS.",
+    "Count": "117,349,269",
+    "value": "64.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_cbsa_type",
+    "fielddes": "Metro or Micro Type classification of the Core-Based Statistical Area (CBSA) in which the Establihment's  address lies according to USPS.",
+    "Count": "117,349,269",
+    "value": "64.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_secondary_number",
+    "fielddes": "Numerical portion (if any) of the 2nd line of the Establishment's address, such as a unit or suite number. Addresses are cleaned and standardized using USPS.",
+    "Count": "32,940,092",
+    "value": "18.09%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_building_default_indicator",
+    "fielddes": "Indicator that equals 1 if the Establishment's address is the \"default\" address for a building ( i.e., the main lobby) and 0 otherwise. Addresses are cleaned and standardized using USPS.",
+    "Count": "1=12,659,9300=0",
+    "value": "7.90%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_dpv_match_code",
+    "fielddes": "Indicator that states \"Yes\" if the Establishment's  address is verified to be deliverable based on the Delivery Point Validation Process of USPS.",
+    "Count": "115,529,932",
+    "value": "63.43%"
+  },
+  {
+    "tablename": "bq_legal_entity_establishments",
+    "fieldname": "bq_establishment_address1_congressional_district",
+    "fielddes": "Congressional District Code of the Establishment's address. Addresses are cleaned and standardized using USPS.",
+    "Count": "116,299,346",
+    "value": "63.85%"
+  }
+]
