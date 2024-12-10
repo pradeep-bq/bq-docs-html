@@ -1000,6 +1000,16 @@
           </div>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
           <div class="container my-2 px-0">
+            <p><img src="https://svgshare.com/i/qZL.svg" alt="" /></p>
+            <div id="loader" style="display: none">
+              <div class="d-flex">
+                <img
+                  src="images/favicon2.png"
+                  width="auto"
+                  height="50px"
+                /><span class="loader"></span>
+              </div>
+            </div>
             <table id="demoB" class="table table-bordered">
               <thead>
                 <tr>
@@ -1022,9 +1032,9 @@
                   style="width: auto"
                   onchange="changeRowsPerPage()"
                 >
-                  <option value="10">10</option>
-                  <option value="20">20</option>
-                  <option value="40">40</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                  <option value="150">150</option>
                 </select>
               </div>
               <nav aria-label="Page navigation example" class="mt-2 mt-md-0">
@@ -1037,7 +1047,7 @@
           </div>
           <script>
             const csvUrl = "./government_offices.csv"; // Update with your CSV file path
-            let rowsPerPage = 10; // Default rows per page
+            let rowsPerPage = 50; // Default rows per page
             let currentPage = 1;
             let dataRows = [];
 
@@ -1049,6 +1059,8 @@
             };
 
             function loadCsv() {
+              const loader = document.getElementById("loader");
+              loader.style.display = "block"; // Show loader
               fetch(csvUrl)
                 .then((response) => response.text())
                 .then((csvData) => {
@@ -1060,12 +1072,14 @@
                       updateTotalRecordCount(dataRows.length);
                       setupPagination();
                       displayPage(1);
+                      loader.style.display = "none"; // Hide loader
                     },
                   });
                 })
-                .catch((error) =>
-                  console.error("Error loading CSV file:", error)
-                );
+                .catch((error) => {
+                  console.error("Error loading CSV file:", error);
+                  loader.style.display = "none"; // Hide loader on error
+                });
             }
             function updateTotalRecordCount(total) {
               const totalCountDisplay =

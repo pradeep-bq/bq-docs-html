@@ -1020,9 +1020,9 @@
                   style="width: auto"
                   onchange="changeRowsPerPage()"
                 >
-                  <option value="10">10</option>
-                  <option value="20">20</option>
-                  <option value="40">40</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                  <option value="150">150</option>
                 </select>
               </div>
               <nav aria-label="Page navigation example" class="mt-2 mt-md-0">
@@ -1035,7 +1035,7 @@
           </div>
           <script>
             const csvUrl = "./local_jurisdictions.csv"; // Update with your CSV file path
-            let rowsPerPage = 10; // Default rows per page
+            let rowsPerPage = 50; // Default rows per page
             let currentPage = 1;
             let dataRows = [];
 

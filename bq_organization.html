@@ -1047,9 +1047,9 @@
                 class="form-select w-auto d-inline"
                 onchange="changeRowsPerPage()"
               >
-                <option value="10" selected>10</option>
-                <option value="20">20</option>
-                <option value="30">30</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+                <option value="150">150</option>
               </select>
             </div>
             <nav>
@@ -1082,8 +1082,8 @@
       }
     </script>
     <script>
-      const apiUrl = "/json/bq_organization.json"; // Replace with your actual JSON URL
-      let rowsPerPage = 10; // Default number of rows per page
+      const apiUrl = "/data/bq_organization.json"; // Replace with your actual JSON URL
+      let rowsPerPage = 50; // Default number of rows per page
       let currentPage = 1; // Current active page
       let tableData = []; // Data from the API
 

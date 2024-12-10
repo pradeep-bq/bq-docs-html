@@ -206,6 +206,45 @@ a.btnSample {
   border-top: solid 1px #ccc;
   padding-top: 30px;
 }
+
+.loader {
+  border: 8px solid #f3f3f3;
+  /* Light grey */
+  border-top: 8px solid var(--primary);
+  /* Dark Green */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spinloader 2s linear infinite;
+  margin-left: 10px;
+}
+
+.loader img {
+  height: 60px;
+  width: 60px;
+  animation: spinlogo 2s linear infinite;
+}
+
+@keyframes spinloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinlogo {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /* Hamburger Button Styling */
 .hamburger-btn {
   display: none;
@@ -229,6 +268,9 @@ a.btnSample {
   font-weight: 600;
 }
 .table-striped > tbody > tr:nth-of-type(odd) > * {
+  background: #f9f9f9 !important;
+}
+.table-bordered > tbody > tr:nth-of-type(odd) > * {
   background: #f9f9f9 !important;
 }
 .nav-tabs {
