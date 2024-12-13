@@ -192,6 +192,30 @@ a.btnSample {
 .sidebar.hide {
   transform: translateX(-100%);
 }
+.accordion-item:first-of-type > .accordion-header .accordion-button {
+  border-radius: 0px !important;
+}
+.directionaries {
+  padding: 10px;
+}
+/* .directionaries .accordion-item {
+  background: #355493 !important;
+} */
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.directionaries .accordion-item .accordion-body {
+  background: #4d6aaa;
+}
+.directionaries .accordion-item .accordion-body ul {
+  padding: 0px;
+}
+.directionaries .nav_sub_links {
+  font-size: 14px;
+}
+.directionaries .accordion-button {
+  font-size: 15px;
+}
 
 /* Main content styling */
 .content {
@@ -206,42 +230,223 @@ a.btnSample {
   border-top: solid 1px #ccc;
   padding-top: 30px;
 }
+.nesterMenu_ttl {
+  padding: 20px;
+  background: #112950 !important;
+}
+
+.mainLoader {
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
 
 .loader {
-  border: 8px solid #f3f3f3;
-  /* Light grey */
-  border-top: 8px solid var(--primary);
-  /* Dark Green */
+  width: 100%;
+  height: 48px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader::before,
+.loader::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 48em;
+  height: 48em;
+  background-image: radial-gradient(
+      circle 10px,
+      var(--orange) 100%,
+      transparent 0
+    ),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0),
+    radial-gradient(circle 10px, var(--primary) 100%, transparent 0);
+  background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em, 13em -13em,
+    -13em -13em, 13em 13em, -13em 13em;
+  background-repeat: no-repeat;
+  font-size: 0.5px;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: spinloader 2s linear infinite;
-  margin-left: 10px;
+  animation: blast 1s ease-in infinite;
+}
+.loader::after {
+  font-size: 1px;
+  /* background: var(--orange); */
+  animation: bounce 1s ease-in infinite;
+  border: solid 1px var(--primary);
+  background: var(--whiteColor) url(../images/bq_logo.svg) no-repeat;
+  background-size: 70%;
+  background-position: 50%;
 }
 
-.loader img {
-  height: 60px;
-  width: 60px;
-  animation: spinlogo 2s linear infinite;
-}
-
-@keyframes spinloader {
-  0% {
-    transform: rotate(0deg);
+@keyframes bounce {
+  0%,
+  100% {
+    font-size: 0.75px;
   }
+  50% {
+    font-size: 1.5px;
+  }
+}
+@keyframes blast {
+  0%,
+  40% {
+    font-size: 0.5px;
+  }
+  70% {
+    opacity: 1;
+    font-size: 4px;
+  }
+  100% {
+    font-size: 6px;
+    opacity: 0;
+  }
+}
 
+.loader_1 {
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  transform-origin: 50% 50%;
+  transform: perspective(200px) rotateX(66deg);
+  animation: spinner-wiggle 1.2s infinite;
+  background: var(--whiteColor) url(../images/bq_logo.svg) no-repeat;
+  background-size: 70%;
+  background-position: 50%;
+}
+.loader_1:before,
+.loader_1:after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 4px solid #d9dfe9;
+  animation: spinner-spin 1.2s cubic-bezier(0.6, 0.2, 0, 0.8) infinite,
+    spinner-fade 1.2s linear infinite;
+}
+.loader_1:before {
+  border-top-color: #fff;
+}
+.loader_1:after {
+  border-top-color: var(--orange);
+  animation-delay: 0.4s;
+}
+
+@keyframes spinner-spin {
   100% {
     transform: rotate(360deg);
   }
 }
+@keyframes spinner-fade {
+  25%,
+  75% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 
-@keyframes spinlogo {
+.loader_2 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: 50%;
+  color: var(--primary);
+  background: currentColor;
+  box-shadow: 32px 0, -32px 0, 64px 0;
+  left: 48%;
+  margin-bottom: 10%;
+}
+
+.loader_2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  background: var(--orange);
+  animation: move 3s linear infinite alternate;
+}
+.loader_3 {
+  width: fit-content;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0000;
+  -webkit-text-stroke: 1px var(--primary);
+  --l: var(--primary) 35%, var(--orange) 0 55%, var(--primary) 0%;
+  --g: 0/300% 100% no-repeat text;
+  background: linear-gradient(-60deg, var(--l)) var(--g),
+    linear-gradient(60deg, var(--l)) var(--g);
+  animation: l7 4s linear infinite;
+}
+.loader_3:before {
+  content: "BQ";
+}
+@keyframes l7 {
   0% {
-    transform: rotate(360deg);
+    background-position: 100%, 0;
+  }
+  50% {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: 0, 100%;
+  }
+}
+
+@keyframes move {
+  0%,
+  5% {
+    left: -32px;
+    width: 16px;
+  }
+  15%,
+  20% {
+    left: -32px;
+    width: 48px;
+  }
+  30%,
+  35% {
+    left: 0px;
+    width: 16px;
+  }
+  45%,
+  50% {
+    left: 0px;
+    width: 48px;
+  }
+  60%,
+  65% {
+    left: 32px;
+    width: 16px;
   }
 
+  75%,
+  80% {
+    left: 32px;
+    width: 48px;
+  }
+  95%,
   100% {
-    transform: rotate(0deg);
+    left: 64px;
+    width: 16px;
   }
 }
 
