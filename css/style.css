@@ -615,4 +615,7 @@ footer a:hover {
     width: 350px;
     margin-top: 10px;
   }
+  .pagination {
+    padding-bottom: 20px !important;
+  }
 }
