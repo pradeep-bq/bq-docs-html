@@ -107,6 +107,9 @@ a.btnSample {
   font-weight: 400;
   box-shadow: 1px 3px 8px #ccc;
 }
+.searchField {
+  position: relative;
+}
 .searchField img {
   width: 32px;
   height: 32px;
@@ -618,4 +621,66 @@ footer a:hover {
   .pagination {
     padding-bottom: 20px !important;
   }
+}
+
+/* Search container styling */
+.search-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #fff;
+}
+
+.txtSearch {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Dropdown styling */
+.dropdownSearch {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 10px;
+  width: 80%;
+}
+
+.dropdownSearch li {
+  padding: 10px;
+  cursor: pointer;
+  list-style-type: none;
+  transition: background 0.3s;
+}
+
+.dropdownSearch li:hover {
+  background: #f0f0f0;
+}
+
+/* Hide dropdown initially */
+.hidden {
+  display: none;
 }

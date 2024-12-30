@@ -37,10 +37,16 @@
         <div class="col-sm-3">
           <img src="images/BQ-logo.png" class="img-fluid bqLogo" />
         </div>
-        <div class="col-sm-5 searchField">
-          <input class="txtSearch" placeholder="Search here" /><img
-            src="images/icon_search.svg"
-          />
+        <div class="col-sm-5 searchField search-container">
+          <input
+            class="txtSearch"
+            placeholder="Search here"
+            onclick="showDropdown()"
+            oninput="filterResults()"
+          /><img src="images/icon_search.svg" onclick="showDropdown()" />
+          <ul id="searchDropdown" class="dropdownSearch hidden">
+            <!-- Dropdown items will populate dynamically -->
+          </ul>
         </div>
         <div class="col-sm-4 d-flex justify-content-end">
           <!--<nav class="navbar navbar-expand-lg navbar-light">
