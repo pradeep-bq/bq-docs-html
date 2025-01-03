@@ -44,10 +44,76 @@
             onclick="showDropdown()"
             oninput="filterResults()"
           /><img src="images/icon_search.svg" onclick="showDropdown()" />
-          <ul id="searchDropdown" class="dropdownSearch hidden">
-            <!-- Dropdown items will populate dynamically -->
-          </ul>
+
+          <div id="searchResults" class="hidden">
+            <div class="d-flex">
+              <div id="category1Container" class="category-container">
+                <div class="category-header">Category 1</div>
+                <div id="category1Content" class="category-content">
+                  <!-- Category 1 items will populate dynamically -->
+                </div>
+              </div>
+              <div id="category2Container" class="category-container">
+                <div class="category-header">Category 2</div>
+                <div id="category2Content" class="category-content">
+                  <!-- Category 2 items will populate dynamically -->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+          function custom_search() {
+            query = $("#query").val();
+            var data = {
+              query: query,
+            };
+            console.log(query);
+            $.ajax({
+              url: "http://54.149.0.194:8443/search",
+              type: "POST",
+              dataType: "json",
+              data: JSON.stringify(data),
+              success: function (response) {
+                urls = Object.keys(response["data"]);
+                content = Object.values(response["data"]);
+                console.log(urls);
+                console.log(content);
+                displayResults(urls, content);
+              },
+              error: function () {
+                alert("Error occurred while fetching search results.");
+              },
+            });
+          }
+          function displayResults(urls, content) {
+            const resultsContainer = document.getElementById("searchDropdown");
+            resultsContainer.innerHTML = "";
+
+            if (urls.length === 0) {
+              resultsContainer.innerHTML = "<p>No results found.</p>";
+              return;
+            }
+
+            for (let i = 0; i < urls.length; i++) {
+              const resultItem = document.createElement("div");
+              resultItem.classList.add("result-item");
+              const resultLink = document.createElement("a");
+              resultLink.href = urls[i];
+              resultLink.textContent = urls[i];
+              resultLink.target = "_blank";
+              const resultContent = document.createElement("p");
+              resultContent.classList.add("dropdownSearch");
+              resultContent.textContent = content[i];
+              resultItem.appendChild(resultLink);
+              resultItem.appendChild(resultContent);
+              resultsContainer.appendChild(resultItem);
+            }
+          }
+        </script>
+
         <div class="col-sm-4 d-flex justify-content-end">
           <!--<nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">

@@ -63,60 +63,76 @@ function navigateToLink(event, url) {
   window.location.href = url;
 }
 
-// Sample data to populate dropdown
-const data = [
-  "Dashboard",
-  "Favorites",
-  "Files",
-  "History",
-  "Add",
-  "Settings",
-  "Profile",
-  "Logout",
-];
+// Sample data split into two categories
+const category1 = ["Dashboard", "Favorites", "Files", "History"];
+const category2 = ["Add", "Settings", "Profile", "Logout"];
 
-// Show dropdown when search icon or input is clicked
+// Show search results when input is clicked or typed
 function showDropdown() {
-  const dropdown = document.getElementById("searchDropdown");
-  dropdown.classList.remove("hidden");
-  populateDropdown(data); // Populate dropdown with all data initially
+  const resultsContainer = document.getElementById("searchResults");
+  resultsContainer.classList.remove("hidden");
+  populateCategories(category1, category2); // Populate all data initially
 }
 
-// Populate the dropdown with items
-function populateDropdown(items) {
-  const dropdown = document.getElementById("searchDropdown");
-  dropdown.innerHTML = ""; // Clear existing items
-  items.forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    li.onclick = () => handleItemClick(item); // Handle click event
-    dropdown.appendChild(li);
+// Populate the categories with items
+function populateCategories(cat1, cat2) {
+  const category1Content = document.getElementById("category1Content");
+  const category2Content = document.getElementById("category2Content");
+
+  category1Content.innerHTML = ""; // Clear existing items for Category 1
+  category2Content.innerHTML = ""; // Clear existing items for Category 2
+
+  cat1.forEach((item) => {
+    const div = document.createElement("div");
+    div.textContent = item;
+    div.classList.add("category-item");
+    div.onclick = () => handleItemClick(item); // Handle click event
+    category1Content.appendChild(div);
+  });
+
+  cat2.forEach((item) => {
+    const div = document.createElement("div");
+    div.textContent = item;
+    div.classList.add("category-item");
+    div.onclick = () => handleItemClick(item); // Handle click event
+    category2Content.appendChild(div);
   });
 }
 
 // Filter results based on input value
 function filterResults() {
   const searchInput = document.querySelector(".txtSearch").value.toLowerCase();
-  const filteredData = data.filter((item) =>
+
+  // Filter each category
+  const filteredCat1 = category1.filter((item) =>
     item.toLowerCase().includes(searchInput)
   );
-  populateDropdown(filteredData);
+  const filteredCat2 = category2.filter((item) =>
+    item.toLowerCase().includes(searchInput)
+  );
+
+  // Repopulate categories with filtered results
+  populateCategories(filteredCat1, filteredCat2);
+
+  // Show/hide category containers based on results
+  document.getElementById("category1Container").style.display =
+    filteredCat1.length > 0 ? "block" : "none";
+  document.getElementById("category2Container").style.display =
+    filteredCat2.length > 0 ? "block" : "none";
 }
 
 // Handle item click
 function handleItemClick(item) {
   alert(`You selected: ${item}`);
-  const dropdown = document.getElementById("searchDropdown");
-  dropdown.classList.add("hidden"); // Hide dropdown after selection
 }
 
 // Close dropdown when clicking outside
 document.addEventListener("click", (event) => {
   const searchContainer = document.querySelector(".search-container");
-  const dropdown = document.getElementById("searchDropdown");
+  const resultsContainer = document.getElementById("searchResults");
 
   // Check if the click occurred outside the search-container
   if (!searchContainer.contains(event.target)) {
-    dropdown.classList.add("hidden"); // Hide the dropdown
+    resultsContainer.classList.add("hidden"); // Hide the results container
   }
 });
