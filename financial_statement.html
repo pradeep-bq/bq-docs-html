@@ -8,7 +8,6 @@
     <link rel="icon" href="images/favicon1.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <script src="js/main.js"></script>
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
@@ -261,7 +260,8 @@
                     <li>
                       <a
                         href="financial_statement.html?tab=income_statement"
-                        class="nav_sub_links"
+                        class="nav_sub_links active"
+                        data-tab="income_statement"
                         >Income Statement</a
                       >
                     </li>
@@ -269,6 +269,7 @@
                       <a
                         href="financial_statement.html?tab=balance_sheet"
                         class="nav_sub_links"
+                        data-tab="balance_sheet"
                         >Balance Sheet</a
                       >
                     </li>
@@ -276,6 +277,7 @@
                       <a
                         href="financial_statement.html?tab=ratio_margins"
                         class="nav_sub_links"
+                        data-tab="ratio_margins"
                         >Ratios &amp; Margins</a
                       >
                     </li>
@@ -283,6 +285,7 @@
                       <a
                         href="financial_statement.html?tab=emp_payroll"
                         class="nav_sub_links"
+                        data-tab="emp_payroll"
                         >Employment &amp; Payroll</a
                       >
                     </li>
@@ -536,7 +539,7 @@
                 </h2>
                 <div
                   id="DictionariesMenu"
-                  class="accordion-collapse collapse "
+                  class="accordion-collapse collapse"
                   aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample"
                 >
@@ -1031,78 +1034,50 @@
           </p>
           <ul class="nav nav-tabs financialTabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button
+              <a
+                href="financial_statement.html?tab=income_statement"
                 class="nav-link active"
-                id="home-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#home"
-                type="button"
-                role="tab"
-                aria-controls="home"
-                aria-selected="true"
-                onclick="openCity(event, 'income_statement')"
+                data-tab="income_statement"
               >
                 Income Statement
-              </button>
+              </a>
             </li>
             <li class="nav-item" role="presentation">
-              <button
+              <a
+                href="financial_statement.html?tab=balance_sheet"
                 class="nav-link"
-                id="balance-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#balance"
-                type="button"
-                role="tab"
-                aria-controls="balance"
-                aria-selected="false"
-                onclick="openCity(event, 'balance_sheet')"
+                data-tab="balance_sheet"
               >
                 Balance Sheet
-              </button>
+              </a>
             </li>
             <li class="nav-item" role="presentation">
-              <button
+              <a
+                href="financial_statement.html?tab=ratio_margins"
                 class="nav-link"
-                id="ratio-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#ratio"
-                type="button"
-                role="tab"
-                aria-controls="ratio"
-                aria-selected="false"
-                onclick="openCity(event, 'ratio_margins')"
+                data-tab="ratio_margins"
               >
                 Ratios & Margins
-              </button>
+              </a>
             </li>
             <li class="nav-item" role="presentation">
-              <button
+              <a
+                href="financial_statement.html?tab=emp_payroll"
                 class="nav-link"
-                id="payroll-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#payroll"
-                type="button"
-                role="tab"
-                aria-controls="payroll"
-                aria-selected="false"
-                onclick="openCity(event, 'emp_payroll')"
+                data-tab="emp_payroll"
               >
                 Employment & Payrolls
-              </button>
+              </a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div
               class="tab-pane fade show active"
-              id="home"
+              id="income_statement"
               role="tabpanel"
               aria-labelledby="home-tab"
             >
-              <div
-                id="income_statement"
-                class="tabcontent"
-                style="display: block"
-              >
+              <div class="tabcontent" style="display: block">
                 <h3>Income Statement</h3>
                 <table class="table table-bordered row-striped">
                   <thead>
@@ -1468,11 +1443,11 @@
             </div>
             <div
               class="tab-pane fade"
-              id="balance"
+              id="balance_sheet"
               role="tabpanel"
               aria-labelledby="profile-tab"
             >
-              <div id="balance_sheet" class="tabcontent" style="display: block">
+              <div class="tabcontent" style="display: block">
                 <h3>Balance Sheet</h3>
                 <table class="table table-bordered row-striped">
                   <thead>
@@ -2882,11 +2857,11 @@
             </div>
             <div
               class="tab-pane fade"
-              id="ratio"
+              id="ratio_margins"
               role="tabpanel"
               aria-labelledby="contact-tab"
             >
-              <div id="ratio_margins" class="tabcontent" style="display: block">
+              <div class="tabcontent" style="display: block">
                 <h3>Ratios &amp; Margins</h3>
                 <table class="table table-bordered row-striped">
                   <thead>
@@ -3324,11 +3299,11 @@
             </div>
             <div
               class="tab-pane fade"
-              id="payroll"
+              id="emp_payroll"
               role="tabpanel"
               aria-labelledby="contact-tab"
             >
-              <div id="emp_payroll" class="tabcontent" style="display: block">
+              <div class="tabcontent" style="display: block">
                 <h3>Employment &amp; Payroll</h3>
 
                 <table class="table table-bordered row-striped">
@@ -3478,7 +3453,7 @@
       </div>
     </div>
     <footer>
-    <div class="row text-center text-sm-start">
+      <div class="row text-center text-sm-start">
         <div class="col-12 col-sm-6 mb-2 mb-sm-0">
           &REG; 2024 BrightQuery, Inc. All rights reserved.
         </div>
@@ -3489,7 +3464,6 @@
           or 1-888-BQDATA1
         </div>
       </div>
-      </div>
     </footer>
     <script>
       function toggleSidebar() {
@@ -3498,29 +3472,48 @@
       }
     </script>
     <script>
-      function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
+      window.onload = () => {
+        const tabName = window.location.href.split("=")[1];
+        // Deactivate all tab buttons
+        const tabs = document.querySelectorAll(".financialTabs .nav-link");
+        tabs.forEach((tab) => {
+          tab.classList.remove("active");
+          tab.setAttribute("aria-selected", "false");
+        });
+        const navtabs = document.querySelectorAll(".nav_sub_links");
+        navtabs.forEach((tab) => {
+          tab.classList.remove("active");
+          tab.setAttribute("aria-selected", "false");
+        });
 
-      function activate_tabs() {
-        const param = new URLSearchParams(window.location.search);
-        tab = param.get("tab");
-        console.log(tab);
-        document.getElementById(tab + "_btn").click();
-      }
-      // location.reload()
+        // Hide all tab content
+        const tabContents = document.querySelectorAll(
+          ".tab-content > .tab-pane"
+        );
+        tabContents.forEach((content) => {
+          content.classList.remove("active", "show");
+        });
+
+        // Activate the specified tab button
+        const targetTab = [...tabs].find(
+          (tab) => tab.getAttribute("data-tab") === tabName
+        );
+        const targetNavTab = [...navtabs].find(
+          (tab) => tab.getAttribute("data-tab") === tabName
+        );
+        if (targetTab) {
+          targetNavTab.classList.add("active");
+          targetTab.classList.add("active");
+          targetTab.setAttribute("aria-selected", "true");
+        }
+
+        // Show the specified tab content
+        const targetContent = document.querySelector(`#${tabName}`);
+        if (targetContent) {
+          targetContent.classList.add("active", "show");
+        }
+      };
     </script>
   </body>
+  <script src="js/main.js"></script>
 </html>
-
-<article></article>
