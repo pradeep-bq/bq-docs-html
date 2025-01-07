@@ -726,3 +726,63 @@ footer a:hover {
 .hidden {
   display: none;
 }
+
+.searchResultTabs .nav-tabs .nav-link.active,
+.searchResultTabs .nav-tabs .nav-item.show .nav-link {
+  border: none !important;
+  border-top: solid 5px var(--primary) !important;
+  border-radius: 0px !important;
+  background: var(--whiteColor) !important;
+}
+.searchResultTabs .nav-tabs .nav-link {
+  margin: 0px !important;
+  padding: 10px 50px !important;
+}
+.searchResultTabs .nav-link {
+  background: #ccc !important;
+  border-radius: 0px !important;
+  border-right: solid 1px var(--primary) !important;
+}
+.searchResultTabs .nav-link:last-child {
+  border-right: solid 0px !important;
+}
+.divideLine {
+  border-bottom: solid 1px #ebebeb;
+}
+.searchResultTabs h1 {
+  font-size: 25px;
+  margin: 0px 0px 30px 0px;
+}
+.searchResultTabs .nav-tabs {
+  margin-bottom: 0px !important;
+}
+.searchPage {
+  background: #f4f4f4;
+  padding: 60px !important;
+}
+.searchPage .tab-content {
+  background: var(--whiteColor);
+  padding: 30px;
+}
+.searchPage ul li {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.searchPage a {
+  font-size: 20px;
+  color: var(--primary) !important;
+  line-height: 3;
+}
+.searchPage a:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: var(--primary) !important;
+}
+.searchPage p {
+  font-size: 14px;
+  color: var(--menuBg);
+}
+.searchPage h5 {
+  font-size: 16px;
+  color: #6e6e6e;
+}
