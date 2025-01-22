@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Submenu links
     subLinks.forEach((link) => {
+      console.log("hi");
       if (link.href.split("/").pop() === currentPage) {
         link.classList.add("active");
         const parentAccordion = link.closest(".accordion-collapse");

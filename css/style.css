@@ -486,14 +486,32 @@ a.btnSample {
   margin-bottom: 30px !important;
 }
 .nav-tabs .nav-link {
-  margin: 0px 10px;
-  border-radius: 5px;
-  background: #414141;
+  margin: 0px 0px;
+  border-radius: 0px;
   color: var(--whiteColor);
   padding: 10px 20px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  color: var(--whiteColor);
+  border-bottom: 0px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(69, 114, 187, 1) 0%,
+    rgba(28, 69, 135, 1) 100%
+  );
 }
 .nav-link.active {
   border: solid 1px #414141 !important;
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  background: linear-gradient(
+    180deg,
+    rgba(69, 114, 187, 1) 0%,
+    rgba(28, 69, 135, 1) 100%
+  );
+  border-color: var(--primary) !important;
+  color: var(--orange) !important;
 }
 .nav-link:hover {
   color: #6e6e6e !important;
@@ -726,6 +744,17 @@ footer a:hover {
 .hidden {
   display: none;
 }
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border-radius: 0px !important;
+  color: var(--orange) !important;
+  background: linear-gradient(
+    180deg,
+    rgba(74, 104, 152, 1) 0%,
+    rgba(9, 37, 80, 1) 100%
+  );
+  border-bottom: none !important;
+}
 
 .searchResultTabs .nav-tabs .nav-link.active,
 .searchResultTabs .nav-tabs .nav-item.show .nav-link {
@@ -785,4 +814,41 @@ footer a:hover {
 .searchPage h5 {
   font-size: 16px;
   color: #6e6e6e;
+}
+.nav_sub_links.lh-base {
+  font-size: 15px;
+}
+.formula_layout {
+  list-style: decimal;
+}
+.formula-title {
+  font-weight: bold;
+  color: #2c3e50;
+}
+.formula {
+  color: #34495e;
+  line-height: 2;
+  margin-bottom: 20px;
+  list-style: none;
+  position: relative;
+  font-size: 16px;
+  padding: 5px 0 5px 20px;
+}
+
+.formula li {
+  position: relative;
+  font-size: 16px;
+  padding: 5px 0 5px 20px;
+}
+
+.formula li::before {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 0;
+  top: 15px;
+  content: "";
+  border-right: 2px solid #0bf;
+  border-top: 2px solid #0bf;
+  transform: rotate(45deg);
 }

@@ -14,19 +14,14 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
   </head>
@@ -303,7 +298,7 @@
                   aria-expanded="false"
                   aria-controls="collapse6"
                 >
-                  Schema
+                  Schemas
                 </button>
               </h2>
               <div
@@ -317,32 +312,32 @@
                       <a
                         href="universe_data_relationship_schema.html"
                         class="nav_sub_links"
-                        >Universe Data Relationship Schema</a
+                        >Universe Data Relationship</a
                       >
                     </li>
                     <li>
                       <a href="stock_filing_schema.html" class="nav_sub_links"
-                        >Stock Filings Schema</a
+                        >Stock Filings</a
                       >
                     </li>
                     <li>
                       <a
                         href="officers_legal_entity_id_explanation.html"
-                        class="nav_sub_links"
+                        class="nav_sub_links lh-base"
                         >Officer Legal Entity ID Explanation</a
                       >
                     </li>
                     <li>
                       <a href="franchise_schema.html" class="nav_sub_links"
-                        >Franchise Schema</a
-                      >
+                        >Franchise
+                      </a>
                     </li>
                     <li>
                       <a
                         href="address_universe_schema.html"
                         class="nav_sub_links"
-                        >Address Universe Schema</a
-                      >
+                        >Address Universe
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -1066,7 +1061,7 @@
                 class="nav-link"
                 data-tab="emp_payroll"
               >
-                Employment & Payrolls
+                Employment & Payroll
               </a>
             </li>
           </ul>
@@ -1104,7 +1099,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="2">Revenue</td>
+                      <td colspan="2" class="fw-bold">Revenue</td>
                       <td>bq_revenue</td>
                       <td class="text-center">
                         <input
@@ -1145,7 +1140,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">Cost of Revenue</td>
+                      <td colspan="2" class="ps-4">Cost of Revenue</td>
                       <td>bq_cor</td>
                       <td class="text-center">
                         <input
@@ -1186,7 +1181,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">Gross Profit</td>
+                      <td colspan="2" class="fw-bold">Gross Profit</td>
                       <td>bq_gross_profit</td>
                       <td class="text-center">
                         <input
@@ -1227,7 +1222,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">Operating Expenses</td>
+                      <td colspan="2" class="ps-4">Operating Expenses</td>
                       <td>bq_operating_expenses</td>
                       <td class="text-center">
                         <input
@@ -1268,7 +1263,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">Operating Income</td>
+                      <td colspan="2" class="fw-bold">Operating Income</td>
                       <td>bq_operating_income</td>
                       <td class="text-center">
                         <input
@@ -1309,7 +1304,9 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">Tax and Interest Expenses</td>
+                      <td colspan="2" class="ps-4">
+                        Tax and Interest Expenses
+                      </td>
                       <td>bq_tax_and_interest</td>
                       <td class="text-center">
                         <input
@@ -1350,7 +1347,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">Net Income</td>
+                      <td colspan="2" class="fw-bold">Net Income</td>
                       <td>bq_net_income</td>
                       <td class="text-center">
                         <input
@@ -1391,8 +1388,49 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
-                      <td colspan="2">EBITDA</td>
+                      <td colspan="2" class="fw-bold">EBITDA</td>
                       <td>bq_ebitda</td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckChecked"
+                          checked
+                          disabled
+                        />
+                        <label class="form-check-label" for="flexCheckChecked">
+                        </label>
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckChecked"
+                          checked
+                          disabled
+                        />
+                        <label class="form-check-label" for="flexCheckChecked">
+                        </label>
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckChecked"
+                          checked
+                          disabled
+                        />
+                        <label class="form-check-label" for="flexCheckChecked">
+                        </label>
+                      </td>
+                      <td style="text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="fw-bold">EBIT</td>
+                      <td>bq_ebit</td>
                       <td class="text-center">
                         <input
                           class="form-check-input"
@@ -1515,7 +1553,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Cash</td>
+                      <td class="ps-4">Cash</td>
                       <td>bq_cash</td>
                       <td class="text-center">
                         <input
@@ -1556,7 +1594,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Trade Notes and Accounts Receivable</td>
+                      <td class="ps-4">Trade Notes and Accounts Receivable</td>
                       <td>bq_trade_notes_and_accounts_receivable</td>
                       <td class="text-center">
                         <input
@@ -1597,7 +1635,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Less Allowance for Bad Debts</td>
+                      <td class="ps-4">Less Allowance for Bad Debts</td>
                       <td>bq_less_allowance_for_bad_debts</td>
                       <td class="text-center">
                         <input
@@ -1638,7 +1676,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Inventories</td>
+                      <td class="ps-4">Inventories</td>
                       <td>bq_inventories</td>
                       <td class="text-center">
                         <input
@@ -1679,7 +1717,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>U.S. Government Obligations</td>
+                      <td class="ps-4">U.S. Government Obligations</td>
                       <td>bq_us_government_obligations</td>
                       <td class="text-center">
                         <input
@@ -1720,7 +1758,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Tax-Exempt Securities</td>
+                      <td class="ps-4">Tax-Exempt Securities</td>
                       <td>bq_tax_exempt_securities</td>
                       <td class="text-center">
                         <input
@@ -1761,7 +1799,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Other Current Assets</td>
+                      <td class="ps-4">Other Current Assets</td>
                       <td>bq_other_current_assets</td>
                       <td class="text-center">
                         <input
@@ -1843,7 +1881,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Loans to Shareholders</td>
+                      <td class="ps-4">Loans to Shareholders</td>
                       <td>bq_loans_to_shareholders</td>
                       <td class="text-center">
                         <input
@@ -1893,7 +1931,7 @@
                     <td style="text-align: center;">&nbsp;</td>
                 </tr> -->
                     <tr class="d0">
-                      <td>Mortgage and Real Estate Loans</td>
+                      <td class="ps-4">Mortgage and Real Estate Loans</td>
                       <td>bq_mortgage_and_real_estate_loans</td>
                       <td class="text-center">
                         <input
@@ -1934,7 +1972,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Other Investments</td>
+                      <td class="ps-4">Other Investments</td>
                       <td>bq_other_investments</td>
                       <td class="text-center">
                         <input
@@ -1975,7 +2013,9 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Buildings and Other Depreciable Assets</td>
+                      <td class="ps-4">
+                        Buildings and Other Depreciable Assets
+                      </td>
                       <td>bq_buildings_and_other_depreciable_assets</td>
                       <td class="text-center">
                         <input
@@ -2016,7 +2056,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Less Accumulated Depreciation</td>
+                      <td class="ps-4">Less Accumulated Depreciation</td>
                       <td>bq_less_accumulated_depreciation</td>
                       <td class="text-center">
                         <input
@@ -2057,7 +2097,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Depletable Assets</td>
+                      <td class="ps-4">Depletable Assets</td>
                       <td>bq_depletable_assets</td>
                       <td class="text-center">
                         <input
@@ -2098,7 +2138,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Less Accumulated Depletion</td>
+                      <td class="ps-4">Less Accumulated Depletion</td>
                       <td>bq_less_accumulated_depletion</td>
                       <td class="text-center">
                         <input
@@ -2139,7 +2179,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Land (Net of Any Amortization)</td>
+                      <td class="ps-4">Land (Net of Any Amortization)</td>
                       <td>bq_land</td>
                       <td class="text-center">
                         <input
@@ -2180,7 +2220,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Intangible Assets (Amortizable Only)</td>
+                      <td class="ps-4">Intangible Assets (Amortizable Only)</td>
                       <td>bq_intangible_assets_amortizable</td>
                       <td class="text-center">
                         <input
@@ -2221,7 +2261,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Less Accumulated Amortization</td>
+                      <td class="ps-4">Less Accumulated Amortization</td>
                       <td>bq_less_accumulated_amortization</td>
                       <td class="text-center">
                         <input
@@ -2262,7 +2302,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Other Non-Current Assets</td>
+                      <td class="ps-4">Other Non-Current Assets</td>
                       <td>bq_other_non_current_assets</td>
                       <td class="text-center">
                         <input
@@ -2388,7 +2428,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Accounts Payable</td>
+                      <td class="ps-4">Accounts Payable</td>
                       <td>bq_accounts_payable</td>
                       <td class="text-center">
                         <input
@@ -2429,7 +2469,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Short-term debt</td>
+                      <td class="ps-4">Short-term debt</td>
                       <td>bq_short_term_debt</td>
                       <td class="text-center">
                         <input
@@ -2470,7 +2510,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Other Current Liabilities</td>
+                      <td class="ps-4">Other Current Liabilities</td>
                       <td>bq_other_current_liabilities</td>
                       <td class="text-center">
                         <input
@@ -2552,7 +2592,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Loans from Shareholders</td>
+                      <td class="ps-4">Loans from Shareholders</td>
                       <td>bq_loans_from_shareholders</td>
                       <td class="text-center">
                         <input
@@ -2593,7 +2633,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td>Long-term debt</td>
+                      <td class="ps-4">Long-term debt</td>
                       <td>bq_long_term_debt</td>
                       <td class="text-center">
                         <input
@@ -2634,7 +2674,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td>Other Non-Current Liabilities</td>
+                      <td class="ps-4">Other Non-Current Liabilities</td>
                       <td>bq_other_non_current_liabilities</td>
                       <td class="text-center">
                         <input
@@ -2892,8 +2932,7 @@
                       <td colspan="5">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Gross Profit Margin</td>
+                      <td class="ps-4">Gross Profit Margin</td>
                       <td>bq_gross_profit_margin</td>
                       <td class="text-center">
                         <input
@@ -2934,8 +2973,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Net Profit Margin</td>
+                      <td class="ps-4">Net Profit Margin</td>
                       <td>bq_net_profit_margin</td>
                       <td class="text-center">
                         <input
@@ -2976,8 +3014,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>EBITDA Margin</td>
+                      <td class="ps-4">EBITDA Margin</td>
                       <td>bq_ebitda_margin</td>
                       <td class="text-center">
                         <input
@@ -3025,8 +3062,7 @@
                       <td colspan="5">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Asset Turnover</td>
+                      <td class="ps-4">Asset Turnover</td>
                       <td>bq_asset_turnover</td>
                       <td class="text-center">
                         <input
@@ -3067,8 +3103,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Return on Assets</td>
+                      <td class="ps-4">Return on Assets</td>
                       <td>bq_return_on_assets</td>
                       <td class="text-center">
                         <input
@@ -3109,8 +3144,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Return on Sales</td>
+                      <td class="ps-4">Return on Sales</td>
                       <td>bq_return_on_sales</td>
                       <td class="text-center">
                         <input
@@ -3158,8 +3192,7 @@
                       <td colspan="5">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Current Ratio</td>
+                      <td class="ps-4">Current Ratio</td>
                       <td>bq_current_ratio</td>
                       <td class="text-center">
                         <input
@@ -3200,8 +3233,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d0">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Quick Ratio</td>
+                      <td class="ps-4">Quick Ratio</td>
                       <td>bq_quick_ratio</td>
                       <td class="text-center">
                         <input
@@ -3242,8 +3274,7 @@
                       <td style="text-align: center">&nbsp;</td>
                     </tr>
                     <tr class="d1">
-                      <td style="width: 5%">&nbsp;</td>
-                      <td>Debt to Equity Ratio</td>
+                      <td class="ps-4">Debt to Equity Ratio</td>
                       <td>bq_debt_to_equity_ratio</td>
                       <td class="text-center">
                         <input
@@ -3449,6 +3480,46 @@
               </div>
             </div>
           </div>
+          <div>
+            <h4 class="my-4">Accounting Formulas</h4>
+            <ul class="formula_layout">
+              <li>
+                <span class="formula-title">Gross Profit Formula:</span>
+                <ul class="formula">
+                  <li>Gross Profit = Revenue - Cost of Revenue (COR)</li>
+                  <li>bq_gross_profit = bq_revenue - bq_cor</li>
+                </ul>
+              </li>
+              <li>
+                <span class="formula-title">Operating Income Formula:</span>
+                <ul class="formula">
+                  <li>Operating Income = Gross Profit - Operating Expenses</li>
+                  <li>
+                    bq_operating_income = bq_gross_profit -
+                    bq_operating_expenses
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span class="formula-title">EBIT Formula:</span>
+                <ul class="formula">
+                  <li>
+                    EBIT(Earnings Before Interest and Taxes) = Operating Income
+                  </li>
+                  <li>bq_ebit = bq_operating_income</li>
+                </ul>
+              </li>
+              <li>
+                <span class="formula-title">Net Income Formula instead:</span>
+                <ul class="formula">
+                  <li>Tax & Interest = Operating Income - Net Income</li>
+                  <li>
+                    bq_tax_and_interest = bq_operating_income - bq_net_income
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -3465,6 +3536,7 @@
         </div>
       </div>
     </footer>
+
     <script>
       function toggleSidebar() {
         const sidebar = document.getElementById("sidebar");
