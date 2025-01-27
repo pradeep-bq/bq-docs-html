@@ -155,7 +155,7 @@ a.btnSample {
   color: var(--whiteColor);
 }
 .searchField.tableSearch {
-  width: 1000px;
+  width: 500px;
 }
 /* Sidebar styling */
 .sidebar {
