@@ -536,7 +536,16 @@ footer a:hover {
 .modal-dialog-centered {
   min-height: auto !important;
 }
-#address_universe li {
+#address_universe li,
+#transport li,
+#sba_loan li,
+#stock_filings li,
+#locations li,
+#contacts,
+#dir_officers li,
+#family_tree li,
+#financial li,
+#franchises li #firmo li {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
