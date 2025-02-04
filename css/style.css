@@ -856,8 +856,12 @@ footer a:hover {
   height: 9px;
   left: 0;
   top: 15px;
-  content: "";
+  content: " ";
   border-right: 2px solid #0bf;
   border-top: 2px solid #0bf;
   transform: rotate(45deg);
+}
+.noteColor {
+  color: var(--menuBg);
+  font-size: 14px;
 }

@@ -3487,39 +3487,118 @@
                 <span class="formula-title">Gross Profit Formula:</span>
                 <ul class="formula">
                   <li>Gross Profit = Revenue - Cost of Revenue (COR)</li>
-                  <li>bq_gross_profit = bq_revenue - bq_cor</li>
+                  <ul class="formula mb-0">
+                    <li>bq_gross_profit = bq_revenue - bq_cor</li>
+                  </ul>
                 </ul>
               </li>
               <li>
                 <span class="formula-title">Operating Income Formula:</span>
                 <ul class="formula">
                   <li>Operating Income = Gross Profit - Operating Expenses</li>
-                  <li>
-                    bq_operating_income = bq_gross_profit -
-                    bq_operating_expenses
-                  </li>
+                  <ul class="formula mb-0">
+                    <li>
+                      bq_operating_income = bq_gross_profit -
+                      bq_operating_expenses
+                    </li>
+                  </ul>
                 </ul>
               </li>
               <li>
-                <span class="formula-title">EBIT Formula:</span>
+                <span class="formula-title"
+                  >Earnings Before Interest and Taxes (EBIT) Formula:</span
+                >
                 <ul class="formula">
                   <li>
-                    EBIT(Earnings Before Interest and Taxes) = Operating Income
+                    Earnings Before Interest and Taxes (EBIT) = Operating Income
                   </li>
-                  <li>bq_ebit = bq_operating_income</li>
+                  <ul class="formula mb-0">
+                    <li>bq_ebit = bq_operating_income</li>
+                  </ul>
+                  <li>
+                    Earnings Before Interest and Taxes (EBIT) = Gross Profit -
+                    Operating Expenses
+                  </li>
+                  <ul class="formula mb-0">
+                    <li>bq_ebit = bq_gross_profit - bq_operating_expenses</li>
+                  </ul>
+                  <span class="noteColor"
+                    >Note: EBIT is the same as Operating Income. Non-operating
+                    expenses are not included.</span
+                  >
                 </ul>
               </li>
               <li>
-                <span class="formula-title">Net Income Formula instead:</span>
+                <span class="formula-title">Net Income Formula :</span>
                 <ul class="formula">
-                  <li>Tax & Interest = Operating Income - Net Income</li>
-                  <li>
-                    bq_tax_and_interest = bq_operating_income - bq_net_income
-                  </li>
+                  <li>Net Income = Operating Income - Tax & Interest</li>
+                  <ul class="formula mb-0">
+                    <li>
+                      bq_net_income = bq_operating_income - bq_tax_and_interest
+                    </li>
+                  </ul>
+                  <span class="noteColor"
+                    >Note: EBIT or Operating Income can be used interchangeably
+                    for Net Income calculation.</span
+                  >
                 </ul>
               </li>
             </ul>
           </div>
+          <!-- <table class="table table-bordered row-striped">
+            <thead>
+              <tr>
+                <th>Formula Name</th>
+                <th>Formula</th>
+                <th>BQ Equivalent</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Gross Profit</td>
+                <td>Gross Profit = Revenue - Cost of Revenue (COR)</td>
+                <td><code>bq_gross_profit = bq_revenue - bq_cor</code></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Operating Income</td>
+                <td>Operating Income = Gross Profit - Operating Expenses</td>
+                <td>
+                  <code
+                    >bq_operating_income = bq_gross_profit -
+                    bq_operating_expenses</code
+                  >
+                </td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Earnings Before Interest &amp; Taxes (EBIT)</td>
+                <td>EBIT = Gross Profit - Operating Expenses</td>
+                <td>
+                  <code>bq_ebit = bq_gross_profit - bq_operating_expenses</code>
+                </td>
+                <td>
+                  EBIT is the same as Operating Income. Non-operating expenses
+                  are not included.
+                </td>
+              </tr>
+              <tr>
+                <td>Net Income</td>
+                <td>Net Income = Operating Income - Tax &amp; Interest</td>
+                <td>
+                  <code
+                    >bq_net_income = bq_operating_income -
+                    bq_tax_and_interest</code
+                  >
+                </td>
+                <td>
+                  EBIT or Operating Income can be used interchangeably for Net
+                  Income calculation.
+                </td>
+              </tr>
+            </tbody>
+          </table> -->
         </div>
       </div>
     </div>
