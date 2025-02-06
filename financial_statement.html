@@ -1478,6 +1478,77 @@
                   </thead>
                 </table>
               </div>
+              <div class="accountingFormula1">
+                <h4 class="my-4">Accounting Formulas</h4>
+                <ul class="formula_layout">
+                  <li>
+                    <span class="formula-title">Gross Profit Formula:</span>
+                    <ul class="formula">
+                      <li>Gross Profit = Revenue - Cost of Revenue (COR)</li>
+                      <ul class="formula mb-0">
+                        <li>bq_gross_profit = bq_revenue - bq_cor</li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title">Operating Income Formula:</span>
+                    <ul class="formula">
+                      <li>
+                        Operating Income = Gross Profit - Operating Expenses
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_operating_income = bq_gross_profit -
+                          bq_operating_expenses
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title"
+                      >Earnings Before Interest and Taxes (EBIT) Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>
+                        Earnings Before Interest and Taxes (EBIT) = Operating
+                        Income
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>bq_ebit = bq_operating_income</li>
+                      </ul>
+                      <li>
+                        Earnings Before Interest and Taxes (EBIT) = Gross Profit
+                        - Operating Expenses
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_ebit = bq_gross_profit - bq_operating_expenses
+                        </li>
+                      </ul>
+                      <span class="noteColor"
+                        >Note: EBIT is the same as Operating Income.
+                        Non-operating expenses are not included.</span
+                      >
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title">Net Income Formula :</span>
+                    <ul class="formula">
+                      <li>Net Income = Operating Income - Tax & Interest</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_net_income = bq_operating_income -
+                          bq_tax_and_interest
+                        </li>
+                      </ul>
+                      <span class="noteColor"
+                        >Note: EBIT or Operating Income can be used
+                        interchangeably for Net Income calculation.</span
+                      >
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -2894,6 +2965,138 @@
                   </thead>
                 </table>
               </div>
+              <div class="accountingFormular2">
+                <h2>Accounting Formulas</h2>
+                <ul class="formula_layout">
+                  <li>
+                    <span class="formula-title">Current Assets Formula:</span>
+                    <ul class="formula">
+                      <li>
+                        Current Assets = Cash + Accounts Receivable +
+                        Inventories + US Government Obligations + Tax Exempt
+                        Securities - Allowance for Bad Debts + Other Current
+                        Assets
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_current_assets = bq_cash +
+                          bq_trade_notes_and_accounts_receivable +
+                          bq_inventories + bq_us_government_obligations +
+                          bq_tax_exempt_securities -
+                          bq_less_allowance_for_bad_debts +
+                          bq_other_current_assets
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title"
+                      >Non Current Assets Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>
+                        Non Current Assets = Loans to Shareholders + Mortgage
+                        and Real Estate Loans + Other Investments + Building and
+                        Other Depreciable Assets + Depletable Assets -
+                        Accumulated Depreciation - Accumulated Depletion + Land
+                        + Intangible Assets Amortizable - Accumulated
+                        Amortization + Other Assets
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_non_current_assets = bq_loans_to_shareholders +
+                          bq_mortgage_and_real_estate_loans +
+                          bq_other_investments +
+                          bq_buildings_and_other_depreciable_assets +
+                          bq_depletable_assets -
+                          bq_less_accumulated_depreciation -
+                          bq_less_accumulated_depletion + bq_land +
+                          bq_intangible_assets_amortizable -
+                          bq_less_accumulated_amortization + bq_other_assets
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title">Total Assets Formula:</span>
+                    <ul class="formula">
+                      <li>
+                        Total Assets = Current Assets + Non Current Assets
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_total_assets = bq_current_assets +
+                          bq_non_current_assets
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title"
+                      >Current Liabilities Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>
+                        Current Liabilities = Accounts Payable + Short Term Debt
+                        + Other Current Liabilities
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_current_liabilities = bq_accounts_payable +
+                          bq_short_term_debt + bq_other_current_liabilities
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title"
+                      >Non Current Liabilities Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>
+                        Non Current Liabilities = Loans from Shareholders + Long
+                        Term Debt + Other Liabilities
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_non_current_liabilities =
+                          bq_loans_from_shareholders + bq_long_term_debt +
+                          bq_other_liabilities
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title">Total Debt Formula:</span>
+                    <ul class="formula">
+                      <li>Total Debt = Short Term Debt + Long Term Debt</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_total_debt = bq_short_term_debt + bq_long_term_debt
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="formula-title"
+                      >Total Liabilities and Equity Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>
+                        Total Liabilities and Equity = Current Liabilities + Non
+                        Current Liabilities + Shareholders Equity
+                      </li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_total_liabilities_and_equity =
+                          bq_current_liabilities + bq_non_current_liabilities +
+                          bq_shareholders_equity
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -3327,6 +3530,84 @@
                   </thead>
                 </table>
               </div>
+              <div class="accountingFormular3">
+                <h2>Accounting Formulas</h2>
+                <ul class="formula_layout">
+                  <li>
+                    <span class="formula-title"
+                      >Gross Profit Margin Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>Gross Profit Margin = Gross Profit / Revenue</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_gross_profit_margin = bq_gross_profit / bq_revenue
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <span class="formula-title">EBITDA Margin Formula:</span>
+                    <ul class="formula">
+                      <li>EBITDA Margin = EBITDA / Revenue</li>
+                      <ul class="formula mb-0">
+                        <li>bq_ebitda_margin = bq_ebitda / bq_revenue</li>
+                      </ul>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <span class="formula-title">Assets Turnover Formula:</span>
+                    <ul class="formula">
+                      <li>Assets Turnover = Revenue / Total Assets</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_asset_turnover = bq_revenue / bq_total_assets
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <span class="formula-title"
+                      >Net Profit Margin Formula:</span
+                    >
+                    <ul class="formula">
+                      <li>Net Profit Margin = Net Income / Revenue</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_net_profit_margin = bq_net_income / bq_revenue
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <span class="formula-title">Return on Assets Formula:</span>
+                    <ul class="formula">
+                      <li>Return on Assets = Net Income / Total Assets</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_return_on_assets = bq_net_income / bq_total_assets
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <span class="formula-title">Return on Sales Formula:</span>
+                    <ul class="formula">
+                      <li>Return on Sales = Operating Income / Revenue</li>
+                      <ul class="formula mb-0">
+                        <li>
+                          bq_return_on_sales = bq_operating_income / bq_revenue
+                        </li>
+                      </ul>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -3480,125 +3761,6 @@
               </div>
             </div>
           </div>
-          <div>
-            <h4 class="my-4">Accounting Formulas</h4>
-            <ul class="formula_layout">
-              <li>
-                <span class="formula-title">Gross Profit Formula:</span>
-                <ul class="formula">
-                  <li>Gross Profit = Revenue - Cost of Revenue (COR)</li>
-                  <ul class="formula mb-0">
-                    <li>bq_gross_profit = bq_revenue - bq_cor</li>
-                  </ul>
-                </ul>
-              </li>
-              <li>
-                <span class="formula-title">Operating Income Formula:</span>
-                <ul class="formula">
-                  <li>Operating Income = Gross Profit - Operating Expenses</li>
-                  <ul class="formula mb-0">
-                    <li>
-                      bq_operating_income = bq_gross_profit -
-                      bq_operating_expenses
-                    </li>
-                  </ul>
-                </ul>
-              </li>
-              <li>
-                <span class="formula-title"
-                  >Earnings Before Interest and Taxes (EBIT) Formula:</span
-                >
-                <ul class="formula">
-                  <li>
-                    Earnings Before Interest and Taxes (EBIT) = Operating Income
-                  </li>
-                  <ul class="formula mb-0">
-                    <li>bq_ebit = bq_operating_income</li>
-                  </ul>
-                  <li>
-                    Earnings Before Interest and Taxes (EBIT) = Gross Profit -
-                    Operating Expenses
-                  </li>
-                  <ul class="formula mb-0">
-                    <li>bq_ebit = bq_gross_profit - bq_operating_expenses</li>
-                  </ul>
-                  <span class="noteColor"
-                    >Note: EBIT is the same as Operating Income. Non-operating
-                    expenses are not included.</span
-                  >
-                </ul>
-              </li>
-              <li>
-                <span class="formula-title">Net Income Formula :</span>
-                <ul class="formula">
-                  <li>Net Income = Operating Income - Tax & Interest</li>
-                  <ul class="formula mb-0">
-                    <li>
-                      bq_net_income = bq_operating_income - bq_tax_and_interest
-                    </li>
-                  </ul>
-                  <span class="noteColor"
-                    >Note: EBIT or Operating Income can be used interchangeably
-                    for Net Income calculation.</span
-                  >
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <!-- <table class="table table-bordered row-striped">
-            <thead>
-              <tr>
-                <th>Formula Name</th>
-                <th>Formula</th>
-                <th>BQ Equivalent</th>
-                <th>Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Gross Profit</td>
-                <td>Gross Profit = Revenue - Cost of Revenue (COR)</td>
-                <td><code>bq_gross_profit = bq_revenue - bq_cor</code></td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>Operating Income</td>
-                <td>Operating Income = Gross Profit - Operating Expenses</td>
-                <td>
-                  <code
-                    >bq_operating_income = bq_gross_profit -
-                    bq_operating_expenses</code
-                  >
-                </td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>Earnings Before Interest &amp; Taxes (EBIT)</td>
-                <td>EBIT = Gross Profit - Operating Expenses</td>
-                <td>
-                  <code>bq_ebit = bq_gross_profit - bq_operating_expenses</code>
-                </td>
-                <td>
-                  EBIT is the same as Operating Income. Non-operating expenses
-                  are not included.
-                </td>
-              </tr>
-              <tr>
-                <td>Net Income</td>
-                <td>Net Income = Operating Income - Tax &amp; Interest</td>
-                <td>
-                  <code
-                    >bq_net_income = bq_operating_income -
-                    bq_tax_and_interest</code
-                  >
-                </td>
-                <td>
-                  EBIT or Operating Income can be used interchangeably for Net
-                  Income calculation.
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
         </div>
       </div>
     </div>

@@ -865,3 +865,7 @@ footer a:hover {
   color: var(--menuBg);
   font-size: 14px;
 }
+#myTabContent h2 {
+  font-size: 26px;
+  margin: 30px 0px 20px;
+}
