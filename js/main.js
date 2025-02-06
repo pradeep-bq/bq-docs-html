@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Highlight active menu/submenu based on the current page
   const highlightActiveMenu = () => {
     const currentPage = window.location.href.split("/").pop();
+    const accordianShow = document.querySelector(".show");
+    accordianShow.previousElementSibling.firstElementChild.classList.remove(
+      "collapsed"
+    );
 
     // Submenu links
     subLinks.forEach((link) => {
