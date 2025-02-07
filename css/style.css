@@ -546,14 +546,21 @@ footer a:hover {
 #family_tree li,
 #financial li,
 #franchises li #firmo li {
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+  word-wrap: break-word;
+  line-height: 1.8 !important;
+  margin-bottom: 1.8px;
 }
 /* Highlight active menu item */
 .nav_sub_links.active {
   font-weight: 500;
   color: var(--orange);
+}
+
+.nav_sub_links:hover {
+  color: #b9b9b9;
 }
 
 /* Prevent accordion headers from toggling */
