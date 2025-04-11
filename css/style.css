@@ -876,3 +876,99 @@ footer a:hover {
   font-size: 26px;
   margin: 30px 0px 20px;
 }
+
+.dataDict_table thead tr th:nth-child(1) {
+  width: 20%;
+}
+.dataDict_table thead tr th:nth-child(2) {
+  width: 30%;
+}
+.dataDict_table thead tr th:nth-child(3) {
+  width: 30%;
+}
+.dataDict_table tbody tr td {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.sampleDateLayout nav {
+}
+#sampleModal .modal-header {
+  border-bottom: none;
+}
+#sampleModal .modal-header h5 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.sampleDateLayout .sidebar {
+  border: solid 1px #ccc;
+  border-radius: 10px !important;
+  box-shadow: 1px 3px 5px #ddd;
+}
+.sampleDateLayout .tablinks {
+  border: solid 1px transparent;
+  color: #000000;
+  display: flex;
+  padding: 5px 20px;
+  width: auto;
+  border-radius: 30px;
+  background: var(--whiteColor);
+}
+.sampleDateLayout .tablinks.active {
+  border: solid 1px transparent;
+  color: #fff;
+  display: flex;
+  padding: 5px 20px;
+  width: fit-content;
+  border-radius: 30px;
+  background: var(--primary);
+}
+.sampleDateLayout .sampleDateContent {
+  border: solid 1px #ccc;
+  border-radius: 10px !important;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 1px 3px 5px #ddd;
+}
+.sampleDateContent table {
+  border: solid 1px #c1c1c1;
+  width: 100% !important;
+}
+.sampleDateContent h3 {
+  font-size: 20px;
+  font-weight: 500;
+  background: var(--whiteColor);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 10px 0px;
+}
+.sampleDateContent table thead tr th {
+  background: #c1c1c1;
+  color: #000;
+  padding: 8px;
+  position: sticky;
+  top: 40px;
+  z-index: 2;
+  border-bottom: 2px solid #dee2e6;
+  font-size: 14px;
+}
+.sampleDateContent table tbody tr:nth-of-type(even) {
+  background: #f9f9f9;
+  color: #000;
+}
+.sampleDateContent table tbody tr td {
+  padding: 5px 8px;
+  font-size: 14px;
+}
+.sampleDateContent .table-wrapper {
+  max-height: 90%; /* Set your desired height */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+.sampleDateContent .tabcontent {
+  overflow: auto;
+  height: calc(100vh - 44px);
+}
