@@ -984,3 +984,16 @@ footer a:hover {
   width: 16px;
   margin-right: 0px;
 }
+#sampleModal .btn-close {
+  display: block;
+  z-index: 9999;
+  position: relative;
+  border: solid 1px var(--primary);
+  top: 15px;
+  border-radius: 30px;
+  padding: 11px;
+  opacity: 1;
+}
+#sampleModal .popupPositon {
+  position: relative;
+}

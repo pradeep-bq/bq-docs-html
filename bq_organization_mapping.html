@@ -1049,16 +1049,25 @@
             >
               <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
-                  <div class="modal-header">
+                  <div class="modal-header d-flex justify-content-between">
                     <h5 class="modal-title" id="sampleModalLabel">
                       Sample Data
                     </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
+                    <div class="d-flex">
+                      <a
+                        href="javascript:void(0);"
+                        class="btnSample popupPositon"
+                        onclick="Download('sample_data.xlsx');"
+                      >
+                        <img src="images/download.svg"
+                      /></a>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
                   </div>
                   <div class="modal-body">
                     <!-- The iframe will display the HTML page -->
