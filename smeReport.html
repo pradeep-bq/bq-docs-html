@@ -20,6 +20,11 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -27,90 +32,19 @@
     ></script>
   </head>
   <body>
+    <iframe id="my_iframe" style="display: none"></iframe>
     <div class="container-fluid">
       <header class="row">
         <div class="col-sm-3">
           <img src="images/BQ-logo.png" class="img-fluid bqLogo" />
         </div>
-        <div class="col-sm-5 searchField search-container">
-          <input
-            class="txtSearch"
-            placeholder="Search here"
-            onclick="showDropdown()"
-            oninput="filterResults()"
-          /><img src="images/icon_search.svg" onclick="showDropdown()" />
-
-          <div id="searchResults" class="hidden">
-            <div class="d-flex">
-              <div id="category1Container" class="category-container">
-                <div class="category-header">Category 1</div>
-                <div id="category1Content" class="category-content">
-                  <!-- Category 1 items will populate dynamically -->
-                </div>
-              </div>
-              <div id="category2Container" class="category-container">
-                <div class="category-header">Category 2</div>
-                <div id="category2Content" class="category-content">
-                  <!-- Category 2 items will populate dynamically -->
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-sm-5 searchField">
+          <input class="txtSearch" placeholder="Search here" /><img
+            src="images/icon_search.svg"
+          />
         </div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-          function custom_search() {
-            query = $("#query").val();
-            var data = {
-              query: query,
-            };
-            console.log(query);
-            $.ajax({
-              url: "http://54.149.0.194:8443/search",
-              type: "POST",
-              dataType: "json",
-              data: JSON.stringify(data),
-              success: function (response) {
-                urls = Object.keys(response["data"]);
-                content = Object.values(response["data"]);
-                console.log(urls);
-                console.log(content);
-                displayResults(urls, content);
-              },
-              error: function () {
-                alert("Error occurred while fetching search results.");
-              },
-            });
-          }
-          function displayResults(urls, content) {
-            const resultsContainer = document.getElementById("searchDropdown");
-            resultsContainer.innerHTML = "";
-
-            if (urls.length === 0) {
-              resultsContainer.innerHTML = "<p>No results found.</p>";
-              return;
-            }
-
-            for (let i = 0; i < urls.length; i++) {
-              const resultItem = document.createElement("div");
-              resultItem.classList.add("result-item");
-              const resultLink = document.createElement("a");
-              resultLink.href = urls[i];
-              resultLink.textContent = urls[i];
-              resultLink.target = "_blank";
-              const resultContent = document.createElement("p");
-              resultContent.classList.add("dropdownSearch");
-              resultContent.textContent = content[i];
-              resultItem.appendChild(resultLink);
-              resultItem.appendChild(resultContent);
-              resultsContainer.appendChild(resultItem);
-            }
-          }
-        </script>
-
         <div class="col-sm-4 d-flex justify-content-end">
-          <!--<nav class="navbar navbar-expand-lg navbar-light">
+          <!-- <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <button
                 class="navbar-toggler"
@@ -150,11 +84,11 @@
                 <a
                   href="index.html"
                   aria-expanded="true"
-                  class="accordion-button"
-                  aria-controls="collapseOne"
                   class="accordion-button nav_links"
-                  >Data Feeds</a
+                  aria-controls="collapseOne"
                 >
+                  Data Feeds
+                </a>
               </h2>
             </div>
             <div class="accordion-item">
@@ -279,7 +213,7 @@
               >
                 <div class="accordion-body">
                   <ul id="juri_govt_offices">
-                    <li>
+                    <li class="active">
                       <a href="government_offices.html" class="nav_sub_links"
                         >Government Offices</a
                       >
@@ -329,7 +263,6 @@
                       <a
                         href="financial_statement.html?tab=income_statement"
                         class="nav_sub_links"
-                        data-tab="income_statement"
                         >Income Statement</a
                       >
                     </li>
@@ -337,7 +270,6 @@
                       <a
                         href="financial_statement.html?tab=balance_sheet"
                         class="nav_sub_links"
-                        data-tab="balance_sheet"
                         >Balance Sheet</a
                       >
                     </li>
@@ -345,7 +277,6 @@
                       <a
                         href="financial_statement.html?tab=ratio_margins"
                         class="nav_sub_links"
-                        data-tab="ratio_margins"
                         >Ratios &amp; Margins</a
                       >
                     </li>
@@ -353,7 +284,6 @@
                       <a
                         href="financial_statement.html?tab=emp_payroll"
                         class="nav_sub_links"
-                        data-tab="emp_payroll"
                         >Employment &amp; Payroll</a
                       >
                     </li>
@@ -1094,205 +1024,163 @@
           </div>
         </nav>
         <div class="content">
-          <h4>BQ Documentation</h4>
-          <p>
-            This site provides counts and fill rates for BQ data and products.
-          </p>
-          <table class="table table-striped table-hover">
-            <thead>
-              <tr>
-                <th scope="col">Product Family</th>
-                <th scope="col">Product Description</th>
-                <th scope="col">Counts</th>
-                <th scope="col">Primary Use Case</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Organization Firmographics</td>
-                <td>
-                  This product provides the core firmographics of an
-                  Organization, including: primary company name; headquarters
-                  address (including lat-long); identifiers (EIN, CIK, LEI,
-                  state company numbers); TICKER (if public); complete set of
-                  industry classifications (NAICS, SIC, IRS, detailed
-                  categories); date founded; primary phone number; primary
-                  website; primary LinkedIn URL; legal form of organization;
-                  employment status (employer, non-employer, sole proprietor,
-                  holding company); for or non-profit status.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 74 million
-                  Organizations, almost all of which have Firmographics.
-                </td>
-                <td>
-                  Business Identification & Entity Resolution; Sales &
-                  Marketing; Underwriting & Credit Risk; Screening; Compliance,
-                  KYC & Due Diligence; Financial Analysis & Benchmarking.
-                </td>
-              </tr>
-              <tr>
-                <td>Organization Financials & Employment</td>
-                <td>
-                  This product provides current and historical financials and
-                  employment of an Organization, including: monthly, quarterly,
-                  and annual employment and payroll; quarterly and annual income
-                  statement and balance sheet line items. Income statement line
-                  items include: revenue, gross margin, operating expenses, net
-                  income, EBITDA. Balance sheet line items include: total
-                  assets, cash, short and long term debt, accounts receivable
-                  and payable. BQ Credit Scores are also available.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 74 million
-                  Organizations. Organizations with employees (“employers”) have
-                  quarterly and annual financials, and monthly employment and
-                  payroll. All other Organizations have annual financials.
-                  Employment for non-employers and sole proprietors is counted
-                  as the number of principals / officers.
-                </td>
-                <td>
-                  Underwriting & Credit Risk; Screening; Compliance, KYC & Due
-                  Diligence; Financial Analysis & Benchmarking.
-                </td>
-              </tr>
-              <tr>
-                <td>Corporate Family Tree</td>
-                <td>
-                  This product provides the corporate family tree of an
-                  Organization, including ultimate parent and children entities;
-                  the status of all member legal entities with their respective
-                  Secretary of State; compliance checks such as liens and OFAC
-                  watchlist; legal identifiers; and relationships to non-U.S.
-                  entities. This product provides the information at the Legal
-                  Entity level, which is then mapped to Organizations.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 97 million legal
-                  entities, almost all of which have their corresponding
-                  corporate hierarchy.
-                </td>
-                <td>
-                  Compliance, KYC & Due Diligence; Underwriting & Credit Risk;
-                  Business Identification & Entity Resolution.
-                </td>
-              </tr>
-              <tr>
-                <td>Legal Entity Directors & Officers</td>
-                <td>
-                  This product provides the Directors and Officers of Legal
-                  Entities, including their official legal positions (ranked in
-                  order of importance); whether they are a person, company, or
-                  registered agent; and address (sometimes residential). A
-                  director or officer is an individual or company that exerts
-                  legal control over an entity. This product provides the
-                  information at the Legal Entity level, which is then mapped to
-                  Organizations. This product does not have emails or phones.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 149 million Directors
-                  and Officers, all of which are mapped to Legal Entities.
-                </td>
-                <td>
-                  Compliance, KYC & Due Diligence; Underwriting & Credit Risk;
-                  Business Identification & Entity Resolution.
-                </td>
-              </tr>
-              <tr>
-                <td>Organization Contacts</td>
-                <td>
-                  This product provides all known Contacts associated with an
-                  Organization, including their job title and position; LinkedIn
-                  URL; phone (landline / mobile designation, direct / general);
-                  email (professional / personal); and address (business /
-                  residential). For SMBs, the address may be residential.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 229 million Contacts,
-                  all of which are mapped to Organizations.
-                </td>
-                <td>Sales & Marketing.</td>
-              </tr>
-              <tr>
-                <td>Organization Locations</td>
-                <td>
-                  This product provides all known addresses associated with an
-                  Organization. Addresses are based on legal addresses reported
-                  to Secretaries of State, official HQ addresses reported to
-                  regulatory agencies (IRS, SEC, SBA, etc.), office locations
-                  reported as having employees, and consumer-facing business
-                  locations (e.g., stores, restaurants). For SMBs, the legal
-                  and/or official address may be residential. All addresses are
-                  standardized using USPS methods.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 288 million Locations,
-                  all of which are mapped to Organizations.
-                </td>
-                <td>
-                  Business Identification & Entity Resolution; Sales &
-                  Marketing.
-                </td>
-              </tr>
-              <tr>
-                <td>Legal Entity Stock Filings</td>
-                <td>
-                  This product provides the capital structure, filing history,
-                  and corporate events tied to all private companies with an
-                  ultimate parent in Delaware, which constitutes about 2/3 of
-                  large companies. From this product, one can infer changes that
-                  have taken plan in authorized shares, and their basic
-                  characteristics.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 275 thousand legal
-                  entities actively being monitored in this fashion, all of
-                  which are mapped to Organizations having an ultimate parent in
-                  Delaware.
-                </td>
-                <td>
-                  Capital Markets; Compliance, KYC & Due Diligence; Underwriting
-                  & Credit Risk.
-                </td>
-              </tr>
-              <tr>
-                <td>Organization Executives and Officers</td>
-                <td>
-                  This product provides contact information for all Directors,
-                  Officers, and Executives associated with an Organization. It
-                  is created by combining the Contact information for all
-                  Directors & Officers associated with all Legal Entities that
-                  make up the Organization. This product includes their job
-                  title and position; LinkedIn URL; phone (landline / mobile
-                  designation, direct / general); email (professional /
-                  personal); and address (business / residential). This product
-                  includes VP-level employees, executives, and officers in
-                  general.
-                </td>
-                <td>
-                  As of Jan 2024, there are approximately 84 million Executives
-                  and Officers, all of which are mapped to Organizations.
-                </td>
-                <td>Sales & Marketing.</td>
-              </tr>
-            </tbody>
-          </table>
+          <h4>SME Report</h4>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+          <div class="container mt-3">
+            <ul class="nav nav-tabs" id="smeTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="size-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#size"
+                  type="button"
+                  role="tab"
+                  onclick="loadCsv('js/BQSMBCountsSize.csv', 'size')"
+                >
+                  Size
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="assets-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#assets"
+                  type="button"
+                  role="tab"
+                  onclick="loadCsv('js/BQSMBCountsAssets.csv', 'assets')"
+                >
+                  Assets
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="revenue-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#revenue"
+                  type="button"
+                  role="tab"
+                  onclick="loadCsv('js/BQSMBCountsRevenue.csv', 'revenue')"
+                >
+                  Revenue
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content pt-3">
+              <div class="tab-pane fade show active" id="size" role="tabpanel">
+                <div id="table-container-size"></div>
+              </div>
+              <div class="tab-pane fade" id="assets" role="tabpanel">
+                <div id="table-container-assets"></div>
+              </div>
+              <div class="tab-pane fade" id="revenue" role="tabpanel">
+                <div id="table-container-revenue"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- jQuery and DataTables -->
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+          <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+
+          <script>
+            function loadCsv(filePath, containerId) {
+              const container = document.getElementById(
+                `table-container-${containerId}`
+              );
+              container.innerHTML = "<p>Loading...</p>";
+
+              fetch(filePath)
+                .then((response) => response.text())
+                .then((csvText) => {
+                  Papa.parse(csvText, {
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: function (results) {
+                      const data = results.data;
+                      if (data.length === 0) {
+                        container.innerHTML = "<p>No data found.</p>";
+                        return;
+                      }
+
+                      const tableId = `datatable-${containerId}`;
+                      let html = `<table id="${tableId}" class="table table-bordered table-striped" style="width:100%"><thead><tr>`;
+
+                      Object.keys(data[0]).forEach((header) => {
+                        html += `<th>${header}</th>`;
+                      });
+                      html += `</tr></thead><tbody>`;
+
+                      data.forEach((row) => {
+                        html += `<tr>`;
+                        Object.values(row).forEach((value) => {
+                          html += `<td>${value}</td>`;
+                        });
+                        html += `</tr>`;
+                      });
+                      html += `</tbody></table>`;
+
+                      container.innerHTML = html;
+
+                      // Initialize DataTables
+                      $(`#${tableId}`).DataTable({
+                        paging: true,
+                        searching: true,
+                        ordering: true,
+                        destroy: true,
+                        pageLength: 20,
+                        lengthMenu: [
+                          [20, 50, 100],
+                          [20, 50, 100],
+                        ],
+                        dom: '<"top"f i>rt<"bottom"lp><"clear">', // search and info on top, length & pagination at bottom
+                        language: {
+                          search: "", // to remove label text
+                          searchPlaceholder: "Search...", // placeholder inside input
+                          info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                          lengthMenu: "Rows per page: _MENU_",
+                          paginate: {
+                            previous: '<i class="bi bi-chevron-left"></i>',
+                            next: '<i class="bi bi-chevron-right"></i>',
+                          },
+                        },
+                      });
+                    },
+                  });
+                })
+                .catch((error) => {
+                  console.error("Error loading CSV:", error);
+                  container.innerHTML = "<p>Error loading data.</p>";
+                });
+            }
+
+            // Auto-load the first tab on page load
+            window.onload = () => loadCsv("js/BQSMBCountsSize.csv", "size");
+          </script>
         </div>
       </div>
     </div>
     <footer>
       <div class="row text-center text-sm-start">
+        <!-- Left Column -->
         <div class="col-12 col-sm-6 mb-2 mb-sm-0">
           &REG; 2024 BrightQuery, Inc. All rights reserved.
         </div>
-        <div class="col-12 col-sm-6 text-end">
+
+        <!-- Right Column -->
+        <div class="col-12 col-sm-6">
           Contact us at:
           <a href="mailto:sales@brightquery.com">sales@brightquery.com</a>,
-          <a href="mailto:support@brightquery.com">support@brightquery.com</a>
+          <a href="mailto:support@brightquery.com">support@brightquery.com</a>,
           or 1-888-BQDATA1
         </div>
       </div>
     </footer>
+
     <script>
       function toggleSidebar() {
         const sidebar = document.getElementById("sidebar");

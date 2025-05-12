@@ -997,3 +997,59 @@ footer a:hover {
 #sampleModal .popupPositon {
   position: relative;
 }
+.dataTables_length {
+  margin: 10px 0px 20px;
+}
+.dataTables_filter {
+  text-align: right;
+}
+.dataTables_filter label {
+  width: 50%;
+  text-align: left;
+}
+.tab-content .form-control.form-control-sm {
+  background: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/search.svg")
+    no-repeat right 10px center;
+  background-size: 16px;
+  padding-right: 35px; /* space for icon */
+  background-size: 16px 16px;
+  padding-right: 30px; /* Make space for icon */
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 18px 15px;
+  box-shadow: 1px 3px 8px #ccc;
+  background-position: 95%;
+}
+.dataTables_wrapper .top {
+  display: flex;
+  margin: 10px 0px 20px;
+}
+.dataTables_filter {
+  width: 50%;
+  text-align: left;
+}
+.dataTables_info {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.dataTables_wrapper .bottom {
+  display: flex;
+  margin: 10px 0px 20px;
+}
+.dataTables_wrapper .bottom .dataTables_length {
+  width: 100%;
+}
+.dataTables_wrapper .bottom .dataTables_length label {
+  display: flex;
+  white-space: nowrap;
+}
+
+.dataTables_length select {
+  margin: 0px 10px;
+  width: 100px;
+}
